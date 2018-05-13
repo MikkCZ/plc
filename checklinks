@@ -1,0 +1,1 @@
+linkchecker --ignore-url=^mailto http://proc.linux.cz/

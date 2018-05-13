@@ -1,0 +1,183 @@
+h1 {
+    font-size: 2em;
+}
+
+    #podklad{
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 785px;
+      background: #ffd70f  url(img/podklad.png) 0 0 repeat-y;
+    }
+    #main_body {
+      background: url(img/gnulinux5_bck_top.png) 0 0 no-repeat;
+      color: #494949;
+    }
+    #hlavni_obsah {
+      width: 665px;
+      margin-left: 64px;
+      padding-left: 30px;
+      padding-top: 37px;
+    }
+    #hlava {
+      width: 519px;
+    }
+
+    #vnitrni_krabicka {
+      width: 600px;
+      margin-top: 10px;
+    }
+
+    #podnadpis	{
+	width: 440px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 70%;
+	padding-left: 140px;
+/*	background: url(img/dnld_trans.gif) no-repeat 0 bottom;*/
+    }
+
+    .sevsim {
+      font-size: 14px;
+      color: white;
+      font-weight: bold;
+    }
+
+    #podnadpis h1 {
+	font-size: 1em;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+    }
+
+    #baner_js_space {
+	padding-top: 10px;
+	height: 1em;
+	text-align: right;
+    }
+
+    #ikony {
+      width: 64px;
+      padding-top: 10px;
+    }
+    
+    #ubu { background-image: url(img/di_ubu.png) }
+    #ubu:hover { background-image: url(img/di_ubu_gl.png); }
+
+    #fed { background-image: url(img/di_fed.png) }
+    #fed:hover { background-image: url(img/di_fed_gl.png); }
+
+    #sus { background-image: url(img/di_sus.png) }
+    #sus:hover { background-image: url(img/di_sus_gl.png); }
+
+    #man { background-image: url(img/di_man.png) }
+    #man:hover { background-image: url(img/di_man_gl.png); }
+
+    #deb { background-image: url(img/di_deb.png) }
+    #deb:hover { background-image: url(img/di_deb_gl.png); }
+    
+    #gen { background-image: url(img/di_gen.png) }
+    #gen:hover { background-image: url(img/di_gen_gl.png); }
+
+    #text {
+      width: 500px;
+      font-family: Arial;
+      background: url(img/podklad_text_stred.png);
+      float: right;
+    }
+    #podklad_t_t {
+      font-size: 0px;
+    }
+
+    #klice a { text-decoration:none }
+    #klice a:hover { text-decoration: underline }
+
+    #klice 	{
+	padding-left:50px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	line-height: 200%;
+    }
+
+    .anecim	{
+	font-size: 14px;
+	color: black;
+        font-weight: bold;
+    }
+
+    .historie {
+	padding-left: 30px;
+	background: url(img/historie.png) 0 0 no-repeat;
+	font-size: 0.9em;
+	line-height: 170%;
+	
+    }
+	
+    #tema a[href^='http:'] {
+	padding-right: 8px;
+        background-image: url("img/http_url.png");
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+
+    #tema h2 {
+	font-size: 2em;
+    }
+
+    #cistic {
+      clear: both;
+    }
+    #konec {
+      height: 243px;
+      background: url(img/gnulinux5_bck_bottom.png) 0 0 no-repeat;    
+    }
+    #patka {
+      width: 600px;
+      margin-left: 64px;
+      padding-left: 35px;
+      padding-top: 56px;
+    }
+
+    .odkazy {
+      font-size: 1.3em;
+      color: #ac0000;
+    }
+    
+    #kredit {
+	padding-top: 15px;
+	font-size: 0.9em;
+	text-align: center;
+    }
+    
+    .credity {
+	color: black;
+	border-bottom: 1px dotted grey;
+    }
+
+    #copyleft {
+	font-size: 1em;
+	font-weight: lighter;
+	color: grey;
+    }
+
+    .right {
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
+    }
+    
+    .doprava {
+	float: right;
+	margin: 5px;
+    }
+
+    .linux {
+	font-style: italic;
+	color: black; 
+    }
+    
+    .unadpisu {
+	padding-bottom: 0.2em;
+    }

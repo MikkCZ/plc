@@ -1,0 +1,77 @@
+<!--
+Operacni system pro Vas pocitac
+
+<p>
+-&gt; Svoboda komuni(kova)t
+</p>
+<p>
+Vyhoda jmenem Linux
+</p>
+zkuste veci delat jinak
+
+Nekoukejte na svet jen pres okna
+
+-->
+
+
+
+<!-- neomezenymi moznostmi pouziti -->
+
+
+
+<!--
+<p>
+Vyberte distribuci podle vaseho vkusu<br>
+Live CD - Linux na vyzkouseni bez instalace<br>
+Operacni system pro Vas pocitac
+</p>
+-->
+
+
+
+TZ
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head> <title> </title> <meta http-equiv="Content-Type" content="text/html; 
+charset=iso-8859-2"> </head>
+
+
+<body>
+
+    <h1>Srozumitelnìj¹í web Proè pou¾ívat Linux</h1>
+    
+    <p>26.3. nebo 2.4. 2007</p>
+
+    <p>Po roce a pùl nade¹el èas pøiblí¾it propagaèní web <a href="http://proc.linux.cz/">Proè pou¾ívat Linux</a> opìt blí¾e u¾ivatelskému chápání. Úvodní
+    informace webu se tak zamìøuje pøedev¹ím na prezentaci atraktivních vlastností GNU/Linuxu jako u¾ivatelského operaèního systému.
+    Pøi vytváøení byly vzaty v potaz pøipomínky nìkterých hlasù z komunity, které volaly po vìt¹í srozumitelnosti pro spotøební
+    u¾ivatele. Pùvodní web zùstal mírnì pozmìnìný stále souèástí webu a poskytnì tak podrobnìj¹í pøehled tìm, které vlastnosti Linuxu
+    zaujmou. Web navíc obsahuje malý bonus (tzv. easter egg), jeho¾ odhalením sice nic nevyhrajete, ale dozvíte se nìco navíc.</p>
+
+    <p>Autor webu Adam Pøibyl shrnuje dosavadní pùsobení webu takto: 
+    "Bìhem ¾ivota webu proc.linux.cz jsem dostával rùzné reakce na jeho obsah. Ta která mne nejvíce potì¹ila byla zároveò ta nejkritiètìj¹í.
+    Autor v ní podrobnì rozebral ka¾dý bod uvádìný jako výhodu Linuxu a jejím závìreèným konstatováním bylo, ¾e v¹echny tyto vlastnosti má
+    ve svém MS Windows 2003 serveru té¾. Moje odpovìï znìla: Jsem rád, ¾e souhlasíte, ¾e GNU/Linux je srovnatelý s W2k3 server. Ka¾dý doma
+    toti¾ mù¾e mít Linux, ale jen málokdo Windows 2003 server."</p>
+    
+    <h2>O GNU/Linux</h2>
+    
+    <p>Linux je pokroèilý operaèní systém zalo¾ený na my¹lence otevøeného
+    softwaru, který si v&nbsp;mnoha odvìtvích ziskává stále vìt¹í popularitu.
+    V&nbsp;souèasné dobì se tì¹í popularitì ze strany velkých
+    firem jako IBM, Novell nebo Red Hat. Velým úspìchem je zapoèetí diskuse s
+    velkými distributory poèítaèové techniky jako je Dell o instalacích OS Linux
+    na novì prodávaných poèítaèích.</p>
+    
+    <h2>O CZLUG</h2>
+    
+    <p><a href="http://www.czlug.cz">CZLUG</a> je èeské sdru¾ení u¾ivatelù
+    operaèního systému GNU/Linux, které se zabývá propagací a poèe¹»ováním
+    Linuxu. Mezi dal¹í úkoly se øadí zaji¹»ování a prosazování podmínek vhodných
+    k dal¹ímu rozvoji GNU/Linuxu a otevøeného softwaru jako takového.</p>
+
+</body> </html>    
