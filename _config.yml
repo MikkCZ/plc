@@ -1,0 +1,25 @@
+title: Proč používat Linux
+description: Proč zvolit jako svůj operační systém Linux, jaké má výhody, jak si ho vyzkoušet a jakou verzi si vybrat.
+logo: /img/ico_migrate_tux.png
+author:
+    name: Adam Přibyl
+    web: http://sandbox.cz/~covex/
+    email: proc@linux.cz
+lang: cs
+keywords: Linux, GNU, operační systém, moderní, zdarma, open source, otevřený software, přechod, windows
+
+google_tag_manager: GTM-WNQ5RCL
+google_analytics: UA-1091564-2
+
+# Build settings
+markdown: kramdown
+include: [
+    '/_pages',
+]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+plugins:
+  - jekyll-seo-tag
+  - jekyll-redirect-from

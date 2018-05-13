@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ site.lang }}" lang="{{ site.lang }}">
+<head>
+    {% include head.html %}
+    <link rel="stylesheet" href="{{ '/boxed.css' | relative_url }}" type="text/css" media="screen" />
+</head>
+<body>
+    {% include google-tag-manager-noscript.html %}
+    <div id="podklad">
+
+        <div id="main_body">
+            <div id="hlavni_obsah">
+                <div id="hlava">
+                    <a href="{{ '/' | relative_url }}"><img src="{{ '/img/tuxlinux.gif' | relative_url }}" alt="GNU/Linux" /></a>
+                </div>
+                <div id="podnadpis">
+                    <h1>Operační systém</h1>
+                    <span class="sevsim">se vším, co potřebujete</span>
+                </div>
+                <div id="vnitrni_krabicka">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+
+        {% include boxed-footer.html %}
+    </div>
+</body>
+</html>

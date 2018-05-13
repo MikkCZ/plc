@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ site.lang }}" lang="{{ site.lang }}">
+<head>
+    {% include head.html %}
+</head>
+<body>
+    {% include google-tag-manager-noscript.html %}
+
+    <div id="IE5div">
+        <div id="header">
+            <img src="{{ 'img/gnulinux.png' | relative_url }}" alt="GNU/Linux" />
+            <!-- preload -->
+            <img class="hidden" src="{{ 'img/top_bckg.png' | relative_url }}" alt="" />
+            <span id="menu">
+                <a href="{{ '/' | relative_url }}">Proč</a> |
+                <a href="{% link _pages/vyhody.html %}">Výhody</a> |
+                <a href="{% link _pages/chci-vyzkouset.html %}">Chci vyzkoušet</a> |
+                <a href="{% link _pages/kde-ziskat.html %}">Kde získat</a>
+            </span>
+        </div>
+    </div>
+
+    {{ content }}
+
+    {% include wide-footer.html %}
+</body>
+</html>

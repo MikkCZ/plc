@@ -1,73 +1,38 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta http-equiv="content-language" content="cs" />
-    
-    <title>Proč používat Linux - Chci si Linux vyzkoušet</title>
-
-    <link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
-    <link rel="home" href="https://proc.linux.cz/" />
-    <link rel="icon" href="img/ico_migrate_tux.png" type="image/png" />
-
-    <meta name="keywords" content="linux GNU operační systém moderní zdarma open source otevřený software přechod windows" />
-    <meta name="description" content="Proč zvolit jako svůj operační systém Linux a jak ho mohu na svém počítači vyzkoušet." />
-    <meta name="author" content="HTML code: Adam Přibyl; e-mail: proc@linux.cz" />
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WNQ5RCL');</script>
-<!-- End Google Tag Manager -->
-</head>
-
-<body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe
-src="https://www.googletagmanager.com/ns.html?id=GTM-WNQ5RCL"
-height="0" width="0"
-style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<div id="IE5div">
-<div id="header">
-    <img src="img/gnulinux.png" alt="GNU/Linux" />
-    <!-- preload --> 
-    <img class="hidden" src="img/top_bckg.png" alt="" /> 
-    <span id="menu">
-    <a href=".">Proč</a> | <a href="vyhody.html">Výhody</a> | <a href="chci-vyzkouset.html">Chci vyzkoušet</a> | <a href="kde-ziskat.html">Kde získat</a>
-    </span>
-</div>
-</div>
-
+---
+title: Chci si Linux vyzkoušet
+description: Proč zvolit jako svůj operační systém Linux a jak ho mohu na svém počítači vyzkoušet.
+permalink: /chci-vyzkouset/
+redirect_from:
+  - chci-vyzkouset.html
+layout: wide
+---
 <div id="lcol">
 <h1>Chci si Linux vyzkoušet na svém počítači</h1>
 
 <p>
-<b>Linux</b> je svobodný a volně šiřitelný software. To jej předurčuje k mnoha 
+<b>Linux</b> je svobodný a volně šiřitelný software. To jej předurčuje k mnoha
 způsobům použití. Jedním z nich jsou tzv. live CD (live je česky "živý").
 </p>
 <p>
-<b>Live CD</b> je disk, který obsahuje kompletní operační systém Linux, který se 
-spouští právě z tohoto disku. Takový systém nevyžaduje, aby byl v počítači pevný 
+<b>Live CD</b> je disk, který obsahuje kompletní operační systém Linux, který se
+spouští právě z tohoto disku. Takový systém nevyžaduje, aby byl v počítači pevný
 disk. <b>Nic totiž na pevný disk neukládá a nemění jeho obsah.</b>
 </p>
 <p>
-Technicky je možné, abyste svá data vytvořená v live CD uložili na pevný disk, 
+Technicky je možné, abyste svá data vytvořená v live CD uložili na pevný disk,
 ale musíte to udělat vy sami, live systém sám nic takového neprovádí.
 Live CD vám dovolují vyzkoušet, zda Linux na vašem počítači funguje, zda
 vám vyhovuje a nabízí to, co potřebujete. Je nutné upozornit, že live distribuce,
 díky tomu, že se nacházejí a spouštějí z nezapisovatelného média omezené kapacity,
-neposkytují veškerý komfort a aplikace, které najdete v <a href="kde-ziskat.html">kompletních distribucích</a>.
+neposkytují veškerý komfort a aplikace, které najdete v <a href="{% link _pages/kde-ziskat.html %}">kompletních distribucích</a>.
 </p>
-<p class="note">Pozn.: Na stránkách jednotlivých projektů mohou být k 
+<p class="note">Pozn.: Na stránkách jednotlivých projektů mohou být k
 dispozici novější verze, než jsou zde uváděné.</p>
 
 <div class="ubuntu">
 <h2>Ubuntu Live CD</h2>
 <p>
-Ubuntu, kromě toho, že je to <a href="kde-ziskat.html">plnohodnotná distribuce</a>,
+Ubuntu, kromě toho, že je to <a href="{% link _pages/kde-ziskat.html %}">plnohodnotná distribuce</a>,
 vytváří i live CD, které každému umožňuje vyzkoušet si systém zcela nezávazně na svém počítači.
 Live CD je zároveň i instalační CD systému.
 </p>
@@ -91,7 +56,7 @@ Z CD je možné Fedoru jednoduše nainstalovat. Zároveň slouží jako demonstr
 
 
 
-<h2><img src="img/suse_ico.png" alt="" /> OpenSuSE</h2>
+<h2><img src="{{ 'img/suse_ico.png' | relative_url }}" alt="" /> OpenSuSE</h2>
 <p>
 I OpenSuSE nabízí zdarma ke stažení Live CD.
 </p>
@@ -100,7 +65,7 @@ I OpenSuSE nabízí zdarma ke stažení Live CD.
 </p>
 
 
-<h2><img src="img/debian_ico.png" alt="" /> Debian</h2>
+<h2><img src="{{ 'img/debian_ico.png' | relative_url }}" alt="" /> Debian</h2>
 <p>
 Debian nabízí zdarma ke stažení Live DVD.
 </p>
@@ -110,9 +75,9 @@ Debian nabízí zdarma ke stažení Live DVD.
 
 
 <!--<div class="slax">-->
-<h2><img src="img/slax_ico.png" alt="" />Slax Live CD - česky</h2>
+<h2><img src="{{ 'img/slax_ico.png' | relative_url }}" alt="" />Slax Live CD - česky</h2>
 <p>
-Slax sice není oficiálním live CD distribuce Slackware, jak by se mohlo na první pohled zdát, je na ní ale zcela založeno. Distribuci vytváří Čech 
+Slax sice není oficiálním live CD distribuce Slackware, jak by se mohlo na první pohled zdát, je na ní ale zcela založeno. Distribuci vytváří Čech
 Tomáš Matějíček a je tedy dostupná i v češtině. Nejen z tohoto důvodu ji lze vřele doporučit. Slax obsahuje
 skupinu dobře spolupracujících aplikací a kompaktní desktopové prostředí <a href="http://www.kde.org/international/czechia/">KDE</a> se základními aplikacemi pro
 dnešní domácí počítače. To vše poskytuje v pouhých 200 MB, které se vejdou i na CD malých průměrů. Slax je možné nainstalovat a používat
@@ -124,24 +89,24 @@ jako normální operační systém.
 <!--</div>-->
 
 <!--<div class="one">-->
-<!--<h2><img src="img/mandriva_one_ico.png" alt="" /> Mandriva One Live CD</h2>
+<!--<h2><img src="{{ 'img/mandriva_one_ico.png' | relative_url }}" alt="" /> Mandriva One Live CD</h2>
 <p>
 Mandriva Live CD (nebo Mandriva One) je live CD oblíbené distribuce Mandriva (dříve Mandrake) a je velmi dobře uzpůsobeno pro začínající uživatele.
 </p>
 <p class="downld">
-<a href="http://mandriva.com/">Mandriva One</a> | 
+<a href="http://mandriva.com/">Mandriva One</a> |
 <a href="ftp://mandriva.mirror.dkm.cz/pub/mandriva/official/iso/2011/Mandriva.2011.i586.1.iso">Mandriva One Live 2011 CD</a> (1.6GB)
 
 
 </p>-->
 <!--</div>-->
 
-<h2><img src="img/mageia_ico.png" alt="" /> Mageia Live CD</h2>
+<h2><img src="{{ 'img/mageia_ico.png' | relative_url }}" alt="" /> Mageia Live CD</h2>
 <p>
-Mageia (dříve Mandriva, Mandrake) Live CD je velmi dobře uzpůsobeno pro začínající uživatele. LiveCD je pro obe architektury x86 i x86_64. 
+Mageia (dříve Mandriva, Mandrake) Live CD je velmi dobře uzpůsobeno pro začínající uživatele. LiveCD je pro obe architektury x86 i x86_64.
 </p>
 <p class="downld">
-<a href="http://mageia.cz/">Mageia</a> | 
+<a href="http://mageia.cz/">Mageia</a> |
 <a href="http://mageia.supp.name/iso/5/Mageia-5-LiveDVD-GNOME-i586-DVD/Mageia-5-LiveDVD-GNOME-i586-DVD.iso">Mageia 5</a> (1.5GB)
 
 
@@ -151,7 +116,7 @@ Mageia (dříve Mandriva, Mandrake) Live CD je velmi dobře uzpůsobeno pro zač
 <h2>Danix Live DVD - česky</h2>
 <p>
 Danix je původní česká live DVD distribuce založená na Debianu.
-Po něm zdědila kvalitní autodetekci, díky českým tvůrcům pak navíc získala české stránky s dokumentací obsahující mnoho 
+Po něm zdědila kvalitní autodetekci, díky českým tvůrcům pak navíc získala české stránky s dokumentací obsahující mnoho
 užitečných rad.
 </p>
 <p class="downld">
@@ -161,7 +126,7 @@ užitečných rad.
 -->
 
 
-<h2><img src="img/gentoo_ico.png" alt="" /> gentoo</h2>
+<h2><img src="{{ 'img/gentoo_ico.png' | relative_url }}" alt="" /> gentoo</h2>
 <p>
 Live DVD gentoo není přímo určeno pro běžné použití, ale spíše jako instalační DVD. Přesto obsahuje desktopové prostředí,
 ve kterém můžete pracovat nebo z něj spustit instalaci gentoo.
@@ -174,26 +139,26 @@ ve kterém můžete pracovat nebo z něj spustit instalaci gentoo.
 &nbsp;
 </p>
 <p>
-Live už není pro mne, <a href="kde-ziskat.html">chci kompletní linuxový systém</a>.
+Live už není pro mne, <a href="{% link _pages/kde-ziskat.html %}">chci kompletní linuxový systém</a>.
 </p>
 
 </div>
 
 <div id="rcol">
 <div class="centr">
-<img src="img/ubuntu_ico.png" alt="" />
-<img src="img/slax_ico.png" alt="" />
-<img src="img/fedora_ico.png" alt="" />
-<img src="img/mageia_one_ico.png" alt="" />
-<img src="img/danix_ico.png" alt="" />
-<img src="img/suse_ico.png" alt="" />
+<img src="{{ 'img/ubuntu_ico.png' | relative_url }}" alt="" />
+<img src="{{ 'img/slax_ico.png' | relative_url }}" alt="" />
+<img src="{{ 'img/fedora_ico.png' | relative_url }}" alt="" />
+<!--<img src="{{ 'img/mageia_one_ico.png' | relative_url }}" alt="" />-->
+<img src="{{ 'img/danix_ico.png' | relative_url }}" alt="" />
+<img src="{{ 'img/suse_ico.png' | relative_url }}" alt="" />
 </div>
 <hr class="hr8" />
 <div class="centr">
 <b>Live CD</b>
 </div>
 
-<?php include "./inc/submenu.inc"; ?>
+{% include submenu.html %}
 
 <div class="block">
 <h1>Jak stáhnout Linux?</h1>
@@ -204,9 +169,9 @@ v angličtině a mohou obsahovat termíny, které nemusí být zcela zřejmé.
 </p>
 <p>
 Při stahování distribuce je nejlepší sáhnout po verzi pokud možno nejnovější. Z nabízených adresářů je tedy záhodno vybrat
-<b>verzi označenou nejvyšším číslem</b>. Další komplikace mohou nastat u <b>volby vhodné architektury</b> - to znamená specifikace typu vašeho počítače. 
+<b>verzi označenou nejvyšším číslem</b>. Další komplikace mohou nastat u <b>volby vhodné architektury</b> - to znamená specifikace typu vašeho počítače.
 (Linux je dostupný pro mnoho různých architektur - např. Intel, AMD, PowerPC (Mac) a další.) Pokud vlastníte počítač postavený
-na procesoru firmy <b>Intel nebo AMD</b>, neuděláte chybu, pokud 
+na procesoru firmy <b>Intel nebo AMD</b>, neuděláte chybu, pokud
 <b>zvolíte architekturu i386, i486, i586 (od Pentia I výš) či i686</b>, souhrnně se
 tato architektura někdy označuje <b>x86</b>. Pokud máte novější <b>64bitový procesor AMD</b>, bylo by škoda nezvolit příslušnou 64bitovou architekturu - tedy <b>AMD64 nebo x86_64</b>.
 </p>
@@ -233,9 +198,9 @@ Pokud si postupem nejste jisti, můžete CD zakoupit za velmi příznivé ceny v
 <h1>Jak spustit Live CD?</h1>
 <h2>Jak "nabootovat" Linux z Live CD</h2>
 <p>
-Pokud máte CD správně vypáleno, budete muset restartovat počítač. 
+Pokud máte CD správně vypáleno, budete muset restartovat počítač.
 Poté bude zřejmě potřeba v BIOSu nastavit, resp. povolit, startování z
-CD. Do BIOSu se zpravidla dostanete stiskem nějaké speciální klávesy 
+CD. Do BIOSu se zpravidla dostanete stiskem nějaké speciální klávesy
 při startu počítače - tato klávesa by se měla při startu vypisovat na obrazovce.
 Jestliže máte startování z CD povoleno, po restartu počítače by se měl z CD začít zavádět
 vybraný operační systém Linux.
@@ -243,8 +208,3 @@ vybraný operační systém Linux.
 </div>
 
 </div>
-
-<?php include "./inc/footer.inc"; ?>
-
-</body>
-</html>

@@ -1,43 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta http-equiv="content-language" content="cs" />
-    
-    <title>Proč používat Linux - převod profilů aplikací</title>
-
-    <link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
-    <link rel="home" href="http://proc.linux.cz/" />
-    <link rel="icon" href="img/ico_migrate_tux.png" type="image/png" />
-
-    <meta name="keywords" content="linux GNU operační systém moderní zdarma open source otevřený software přechod windows" />
-    <meta name="description" content="Proč zvolit jako svůj operační systém Linux, jak převést profily některých běžných apliací." />
-    <meta name="author" content="HTML code: Adam Přibyl; e-mail: proc@linux.cz" />
-
-</head>
-
-<body>
-
-<div id="IE5div">
-<div id="header">
-    <img src="img/gnulinux.png" alt="GNU/Linux" />
-    <!-- preload -->
-    <img class="hidden" src="img/top_bckg.png" alt="" />
-    <span id="menu">
-    <a href=".">Proč</a> | <a href="vyhody.html">Výhody</a> | <a href="chci-vyzkouset.html">Chci vyzkoušet</a> | <a href="kde-ziskat.html">Kde získat</a>
-    </span>
-</div>
-</div>
-
+---
+title: Převod profilů aplikací
+description: Proč zvolit jako svůj operační systém Linux, jak převést profily některých běžných apliací.
+permalink: /prevod-dat/
+redirect_from:
+  - prevod-dat.html
+layout: wide
+---
 <div id="lcol">
 <h1>Převod profilů některých běžných aplikací</h1>
 
 <h3>z MS Windows do Linuxu</h3>
 
 <p>
-Při přechodu na Linux můžete snadno převést data profilů některých aplikací. Převod je nejsnadnější u aplikací, které jsou 
-tzv. multiplatformí. Které to jsou můžete zjistit v <a href="ekvivalenty.html">tabulce ekvivalentních aplikací</a>.
+Při přechodu na Linux můžete snadno převést data profilů některých aplikací. Převod je nejsnadnější u aplikací, které jsou
+tzv. multiplatformí. Které to jsou můžete zjistit v <a href="{% link _pages/ekvivalenty.html %}">tabulce ekvivalentních aplikací</a>.
 
 <ul>
 <li><a href="#firefox">Mozilla Firefox</a></li>
@@ -45,7 +21,7 @@ tzv. multiplatformí. Které to jsou můžete zjistit v <a href="ekvivalenty.htm
 </ul>
 
 <a name="firefox"></a>
-<h2><img src="img/ff.png" alt="" /> Mozilla Firefox</h2>
+<h2><img src="{{ 'img/ff.png' | relative_url }}" alt="" /> Mozilla Firefox</h2>
 
 <p>
 Převést data vašeho profilu prohlížeče Mozilla Firefox je velmi snadné, není to však zcela automatické. Pokud budete postupovat
@@ -144,7 +120,7 @@ Spusťte Firefox. Vaše nastavení by měla být převedena.
 
 
 <a name="thunderbird"></a>
-<h2><img src="img/tb.png" alt="" /> Mozilla Thunderbird</h2>
+<h2><img src="{{ 'img/tb.png' | relative_url }}" alt="" /> Mozilla Thunderbird</h2>
 
 <p>
 Převést data vašeho profilu poštovního klienta Mozilla Thunderbird je v podstatě stejné jako u prohlížeče Firefox a je velmi snadné, není to však zcela automatické. Pokud budete postupovat
@@ -248,14 +224,14 @@ Spusťte Thunderbird. Vaše nastavení by měla být převedena.
 <div class="centr">
 </div>
 
-<?php include "./inc/submenu.inc"; ?>
+{% include submenu.html %}
 
 <div class="block">
 <h1>Multiplatformní</h1>
 <h2>Už vím proč používat multiplatformní aplikace</h2>
 <p>
-Zde vidíte jednu z výhod, proč používat tzv. multiplatformní aplikace. Tedy aplikace, které lze provozovat na více operačních 
-systémech a mnohdy i na více architekturách. 
+Zde vidíte jednu z výhod, proč používat tzv. multiplatformní aplikace. Tedy aplikace, které lze provozovat na více operačních
+systémech a mnohdy i na více architekturách.
 </p>
 <p>
 Ne jen, že se nemusíte zdržovat zvykáním si na nové chování jiné aplikace, ale i převod dat je velmi snadný. Krom toho většina
@@ -264,10 +240,4 @@ data jsou veřejně známy a zdokumentovány. Převod jimi vytvořených dat je 
 </p>
 </div>
 
-
 </div>
-
-<?php include "./inc/footer.inc"; ?>
-
-</body>
-</html>
