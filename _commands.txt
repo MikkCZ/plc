@@ -1,0 +1,2 @@
+# CRLF -> LF:
+$ dos2unix $(find . -type f -not -path './.git/*' -exec sh -c 'file $1 | grep CRLF | cut -d : -f 1' -- {} \;)
