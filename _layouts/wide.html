@@ -8,14 +8,14 @@
 
     <div id="IE5div">
         <div id="header">
-            <img src="{{ '/img/gnulinux.png' | prepend: site.baseurl }}" alt="GNU/Linux" />
+            <img src="{{ 'img/gnulinux.png' | relative_url }}" alt="GNU/Linux" />
             <!-- preload -->
-            <img class="hidden" src="{{ '/img/top_bckg.png' | prepend: site.baseurl }}" alt="" />
+            <img class="hidden" src="{{ 'img/top_bckg.png' | relative_url }}" alt="" />
             <span id="menu">
-                <a href="{{ '/' | prepend: site.baseurl }}">Proč</a> |
-                <a href="{{ site.baseurl }}{% link _pages/vyhody.html %}">Výhody</a> |
-                <a href="{{ site.baseurl }}{% link _pages/chci-vyzkouset.html %}">Chci vyzkoušet</a> |
-                <a href="{{ site.baseurl }}{% link _pages/kde-ziskat.html %}">Kde získat</a>
+                <a href="{{ '/' | relative_url }}">Proč</a> |
+                <a href="{% link _pages/vyhody.html %}">Výhody</a> |
+                <a href="{% link _pages/chci-vyzkouset.html %}">Chci vyzkoušet</a> |
+                <a href="{% link _pages/kde-ziskat.html %}">Kde získat</a>
             </span>
         </div>
     </div>

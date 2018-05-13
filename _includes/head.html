@@ -2,10 +2,10 @@
 <meta http-equiv="content-language" content="{{ site.lang }}" />
 {% seo %}
 <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}" />
-<link rel="home" href="{{ '/' | prepend: site.baseurl }}" />
-<link rel="icon" href="{{ '/img/ico_migrate_tux.png' | prepend: site.baseurl }}" type="image/png" />
-<link rel="stylesheet" href="{{ '/styles.css' | prepend: site.baseurl }}" type="text/css" media="screen" />
-<link rel="stylesheet" href="{{ '/print.css' | prepend: site.baseurl }}" type="text/css" media="print" />
+<link rel="home" href="{{ '/' | relative_url }}" />
+<link rel="icon" href="{{ '/img/ico_migrate_tux.png' | relative_url }}" type="image/png" />
+<link rel="stylesheet" href="{{ '/styles.css' | relative_url }}" type="text/css" media="screen" />
+<link rel="stylesheet" href="{{ '/print.css' | relative_url }}" type="text/css" media="print" />
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
