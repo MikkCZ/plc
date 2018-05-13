@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta http-equiv="content-language" content="cs" />
-    
+
     <title>Proč používat Linux</title>
 
     <link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
@@ -68,23 +68,21 @@ zkuste veci delat jinak
 
 <div id="klice">
 
-<?php 
+<?php
     $ikona_stara = "";
-    $fh = fopen("keyword.list","r") or die ("Can not open keywords");
+    $fh = fopen("keyword.list","r") or die("Can not open keywords");
     while (! feof($fh)) {
-	$fline = rtrim(fgets($fh));
-	list($klic, $velikost, $odkaz) = split("\t",$fline);
-	$color = dechex(ceil(255/7*(7-$velikost)));
-	//$klic = str_replace(" ","&nbsp;",$klic);
-	$velikost = 6+$velikost*2;
-	list(,$ikona) = split("#",$odkaz);
-		    
-	if ($ikona == $ikona_stara)
-    	    print ("<a style=\"font-size:".$velikost."px; color: #".$color.$color.$color."\" href=\"".$odkaz."\">".$klic."</a> \n");
-	else	
-    	    print ("<br /><a style=\"font-size:".$velikost."px; color: #".$color.$color.$color."\" href=\"".$odkaz."\"><img src=\"img/".$ikona.".png\">&nbsp;".$klic."</a> \n");
-
-	$ikona_stara = $ikona;
+        $fline = rtrim(fgets($fh));
+        list($klic, $velikost, $odkaz) = split("\t",$fline);
+        $color = dechex(ceil(255/7*(7-$velikost)));
+        $velikost = 6+$velikost*2;
+        list(,$ikona) = split("#",$odkaz);
+        if ($ikona == $ikona_stara) {
+            print("<a style=\"font-size:".$velikost."px; color: #".$color.$color.$color."\" href=\"".$odkaz."\">".$klic."</a> \n");
+        } else {
+            print("<br /><a style=\"font-size:".$velikost."px; color: #".$color.$color.$color."\" href=\"".$odkaz."\"><img src=\"img/".$ikona.".png\">&nbsp;".$klic."</a> \n");
+        }
+        $ikona_stara = $ikona;
     }
     fclose($fh);
 ?>

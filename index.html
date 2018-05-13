@@ -65,66 +65,55 @@ style="display:none;visibility:hidden"></iframe></noscript>
     <div id="klice">
 
 <?php
-
 if ($_SERVER['QUERY_STRING'] != "") {
-
     if (file_exists("inc/".$_SERVER['QUERY_STRING'].".inc")) {
-	print ('<div id="tema">');
-	include("inc/".$_SERVER['QUERY_STRING'].".inc");
-	print ('</div>');
-	print ("<p class=\"right\"><a href=\"/\">&lt; zpět</a></p>");
+        print('<div id="tema">');
+        include("inc/".$_SERVER['QUERY_STRING'].".inc");
+        print('</div>');
+        print("<p class=\"right\"><a href=\"/\">&lt; zpět</a></p>");
     } else {
-	print ('<div id="tema">');
-	include ("inc/ostatni");
-	print ('</div>');
+        print('<div id="tema">');
+        include ("inc/ostatni");
+        print('</div>');
     }
-}
-if ($_SERVER['QUERY_STRING'] == "") {
-
+} else {
     $ikona_stara = "";
-    $fh = fopen("keyword.list","r") or die ("Can not open keywords");
-
+    $fh = fopen("keyword.list","r") or die("Can not open keywords");
     while (! feof($fh)) {
-
-	$fline = rtrim(fgets($fh));
+        $fline = rtrim(fgets($fh));
         list($klic, $velikost, $odkaz) = split("\t",$fline);
         $color = dechex(ceil(255/7*(7-$velikost)));
-        $velikostf = 14+$velikost*2;
+        $velikost = 14+$velikost*2;
         list(,$ikona) = split("\?",$odkaz);
-
-	if ($odkaz != "") {
-            if ($ikona_stara == "")
-		print ("<p style=\"text-indent: -30px; padding:0;margin:0;\"><img style=\"margin-right: 8px;\" src=\"img/".$ikona.".png\" alt=\"* \" />");
-	    else
-        	if ($ikona != $ikona_stara)
-        	    print ("</p><p style=\"text-indent: -30px; padding:0; margin: 0;\"><img style=\"margin-right: 8px;\" src=\"img/".$ikona.".png\" alt=\"* \" />");
-	}
-	else
-	    print ("</p>");
-
-	if  ($velikostf > 20 )
+        if  ($velikost > 20 ) {
             $weight = "bold";
-    	else
+        } else {
             $weight = "normal";
-
-	if ($odkaz != "")
-    	    print  ("<a style=\"font-size:".$velikostf."px; font-weight:".$weight."; color: #".$color.$color.$color."\" href=\"".$odkaz."\">".$klic."</a> \n");
-    	else
-    	    print  ("<span style=\"font-size:".$velikostf."px; font-weight:".$weight."; color: #000; \">".$klic."</span> \n");
-
-
-	$ikona_stara = $ikona;
+        }
+        if ($odkaz != "") {
+            if ($ikona_stara == "") {
+                print("<p style=\"text-indent: -30px; padding:0;margin:0;\"><img style=\"margin-right: 8px;\" src=\"img/".$ikona.".png\" alt=\"* \" />");
+            } else if ($ikona != $ikona_stara) {
+                print("</p><p style=\"text-indent: -30px; padding:0; margin: 0;\"><img style=\"margin-right: 8px;\" src=\"img/".$ikona.".png\" alt=\"* \" />");
+            }
+            print("<a style=\"font-size:".$velikost."px; font-weight:".$weight."; color: #".$color.$color.$color."\" href=\"".$odkaz."\">".$klic."</a> \n");
+        } else {
+            print("</p>");
+            print("<span style=\"font-size:".$velikost."px; font-weight:".$weight."; color: #000; \">".$klic."</span> \n");
+        }
+        $ikona_stara = $ikona;
     }
     fclose($fh);
-    print ("</p>");
+    print("</p>");
 }
 ?>
+
     </div>
     <div>
 	<img src="img/podklad_text_bottom.png" alt="-" />
     </div>
     </div>
-    
+
     <div id="ikony">
       <div id="ubu"><a href="https://proc.linux.cz/kde-ziskat.html#ubuntu"><img src="img/di.gif" alt="ubuntu" title="ubuntu" /></a></div>
       <div id="fed"><a href="https://proc.linux.cz/kde-ziskat.html#fedora"><img src="img/di.gif" alt="fedora" title="fedora" /></a></div>
