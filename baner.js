@@ -1,6 +1,6 @@
 <!-- Begin
-//var baner_js_text = new Array ("Nekoukejte na svìt jen skrz wokna...", "...zkuste Linux", "");
-var baner_js_text = new Array ("Je tu opìt... Linuxový víkend", "...24.5.v posluchárnì 209, ÈVUT FEL Praha", "...mo¾ná pøijde i Shuttleworth!", "");
+//var baner_js_text = new Array ("Nekoukejte na svÄ›t jen skrz wokna...", "...zkuste Linux", "");
+var baner_js_text = new Array ("Je tu opÄ›t... LinuxovÃ½ vÃ­kend", "...24.5.v posluchÃ¡rnÄ› 209, ÄŒVUT FEL Praha", "...moÅ¾nÃ¡ pÅ™ijde i Shuttleworth!", "");
 
 document.write('<div id="baner_js_space">');
 document.write('</div>');

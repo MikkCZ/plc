@@ -1,2 +1,6 @@
 # CRLF -> LF:
 $ dos2unix $(find . -type f -not -path './.git/*' -exec sh -c 'file $1 | grep CRLF | cut -d : -f 1' -- {} \;)
+
+# ISO-8859-2 -> UTF-8
+$ for file in $(git grep -il 8859-2); do iconv -f iso-8859-2 -t utf-8 -o converted "$file" && mv converted "$file" && sed -i s/iso-8859-2/utf-8/g "$file"; done;
+$ for file in $(find . -type f -not -path './.git/*' -exec sh -c 'file $1 | grep 8859 | cut -d : -f 1' -- {} \;); do iconv -f iso-8859-2 -t utf-8 -o converted "$file" && mv converted "$file"; done;

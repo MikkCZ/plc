@@ -5,23 +5,23 @@
 <div class="popisek">Audio knihovna Listen</div>
 </div>
 
-<h1><img class="unadpisu" src="img/multimedia.png" alt="" />&nbsp;Multimédia</h1>
+<h1><img class="unadpisu" src="img/multimedia.png" alt="" />&nbsp;MultimÃ©dia</h1>
 
 
 <p>
-Mìli jste nìkdy problémy s pøehráváním nìjakého filmu? Chybìl vám kodek, nebo prostì pøehrávaè
-odmítl danı formát pøehrát? Pak byste mìli zkusit linuxovı <a href="http://www.mplayerhq.hu/design7/news.html">MPlayer</a> (The Movie Player).
+MÄ›li jste nÄ›kdy problÃ©my s pÅ™ehrÃ¡vÃ¡nÃ­m nÄ›jakÃ©ho filmu? ChybÄ›l vÃ¡m kodek, nebo prostÄ› pÅ™ehrÃ¡vaÄ
+odmÃ­tl danÃ½ formÃ¡t pÅ™ehrÃ¡t? Pak byste mÄ›li zkusit linuxovÃ½ <a href="http://www.mplayerhq.hu/design7/news.html">MPlayer</a> (The Movie Player).
 </p>
 <p>
-Organizaci své sbírky hudby (a» u¾ v <b>mp3</b> nebo jinıch formátech) pøenechte nìkterému z linuxovıch programù. Stejnì tak byste mìli zkusit, jak
-snadno dáte øád v¹em svım fotografiím.
+Organizaci svÃ© sbÃ­rky hudby (aÅ¥ uÅ¾ v <b>mp3</b> nebo jinÃ½ch formÃ¡tech) pÅ™enechte nÄ›kterÃ©mu z linuxovÃ½ch programÅ¯. StejnÄ› tak byste mÄ›li zkusit, jak
+snadno dÃ¡te Å™Ã¡d vÅ¡em svÃ½m fotografiÃ­m.
 </p>
 <p>
-Staèí jen vybrat nìkterı z dostupnıch programù, kterı vám vyhovuje, a nainstalovat. Nebo prostì pou¾ijte to, co pro
-vás distributoøi peèlivì vybrali. <u>®ádné zdlouhavé pøebírání shareware, ¾ádné trial verze.</u>
+StaÄÃ­ jen vybrat nÄ›kterÃ½ z dostupnÃ½ch programÅ¯, kterÃ½ vÃ¡m vyhovuje, a nainstalovat. Nebo prostÄ› pouÅ¾ijte to, co pro
+vÃ¡s distributoÅ™i peÄlivÄ› vybrali. <u>Å½Ã¡dnÃ© zdlouhavÃ© pÅ™ebÃ­rÃ¡nÃ­ shareware, Å¾Ã¡dnÃ© trial verze.</u>
 </p>
 
 <p class="historie">
-<span class="linux">Linux</span> nevyrostl jako multimediální systém, dnes v¹ak bez problému zvládá v¹echny oblasti
-multimediální zábavy, ale i mnohem víc. A tak je pou¾íván i ve filmovıch studiích.
+<span class="linux">Linux</span> nevyrostl jako multimediÃ¡lnÃ­ systÃ©m, dnes vÅ¡ak bez problÃ©mu zvlÃ¡dÃ¡ vÅ¡echny oblasti
+multimediÃ¡lnÃ­ zÃ¡bavy, ale i mnohem vÃ­c. A tak je pouÅ¾Ã­vÃ¡n i ve filmovÃ½ch studiÃ­ch.
 </p>

@@ -1,10 +1,10 @@
 <div id="footer">
 <hr />
-<a href=".">Pro�</a> | <a href="http://proc.linux.cz/vyhody.html">Vyhody</a> | <a href="chci-vyzkouset.html">Chci vyzkou�et</a> | <a href="kde-ziskat.html">Kde z�skat</a>
+<a href=".">Proč</a> | <a href="http://proc.linux.cz/vyhody.html">Vyhody</a> | <a href="chci-vyzkouset.html">Chci vyzkoušet</a> | <a href="kde-ziskat.html">Kde získat</a>
 <hr />
 (c) 2005 -
 <?php echo date('Y') ?>&nbsp;
-<a href="http://sandbox.cz/~covex/">Adam P�ibyl</a>, <a href="mailto:proc@linux.cz">e-mail</a> - <a href="http://www.linux.cz/">pod z�titou CZLUG</a>
+<a href="http://sandbox.cz/~covex/">Adam Přibyl</a>, <a href="mailto:proc@linux.cz">e-mail</a> - <a href="http://www.linux.cz/">pod záštitou CZLUG</a>
 </div>
 <!-- Google Code for PAGEVIEW Conversion Page -->
 <script language="JavaScript" type="text/javascript">

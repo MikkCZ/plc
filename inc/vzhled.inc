@@ -1,23 +1,23 @@
 <div class="doprava">
-<a href="img/beryl.jpg"><img width="220" height="171" src="img/beryl_t.png" title="3D pøepínání desktopù" alt="" /></a> 
-<div class="popisek">3D pøepínání desktopu</div>
+<a href="img/beryl.jpg"><img width="220" height="171" src="img/beryl_t.png" title="3D pÅ™epÃ­nÃ¡nÃ­ desktopÅ¯" alt="" /></a> 
+<div class="popisek">3D pÅ™epÃ­nÃ¡nÃ­ desktopu</div>
 </div>
 
 <h1><img class="unadpisu" src="img/vzhled.png" alt="" />&nbsp;Vzhled</h1>
 <ul>
-<li>prùhlednost</li>
-<li>grafické efekty</li>
+<li>prÅ¯hlednost</li>
+<li>grafickÃ© efekty</li>
 <li>okna ve 3D prostoru</li>
-<li>¾ivé náhledy</li> 
+<li>Å¾ivÃ© nÃ¡hledy</li> 
 </ul>
 <p>
-- to je jen vıbìr z toho, co <span class="linux">Linux</span> u¾ nejakı ten pátek umí. Stále se zlep¹uje a nepotøebujete k tomu supermoderní poèítaè.
+- to je jen vÃ½bÄ›r z toho, co <span class="linux">Linux</span> uÅ¾ nejakÃ½ ten pÃ¡tek umÃ­. StÃ¡le se zlepÅ¡uje a nepotÅ™ebujete k tomu supermodernÃ­ poÄÃ­taÄ.
 </p>
 <p>
-<a href="http://youtube.com/results?search_query=xgl+OR+aiglx&search=Search">Podívejte se</a> sami, jak <span class="linux">Linux</span> dnes vypadá a co doká¾í jeho okna ovládaná <a href="http://www.compiz.org/">Compizem</a>.
+<a href="http://youtube.com/results?search_query=xgl+OR+aiglx&search=Search">PodÃ­vejte se</a> sami, jak <span class="linux">Linux</span> dnes vypadÃ¡ a co dokÃ¡Å¾Ã­ jeho okna ovlÃ¡danÃ¡ <a href="http://www.compiz.org/">Compizem</a>.
 </p>
 
 <p class="historie">
-Jako je mo¾né mìnit celı <span class="linux">Linux</span>, je mo¾né mìnit i jeho vzhled. A je tomu tak u¾ mnoho let. <span class="linux">Linux</span> má nespoèetnì podob a barev pleti. Stejnì jako lidé, kteøí ho pou¾ívají. 
-Pøeneste si vzhled svého pokoje i na monitor.
+Jako je moÅ¾nÃ© mÄ›nit celÃ½ <span class="linux">Linux</span>, je moÅ¾nÃ© mÄ›nit i jeho vzhled. A je tomu tak uÅ¾ mnoho let. <span class="linux">Linux</span> mÃ¡ nespoÄetnÄ› podob a barev pleti. StejnÄ› jako lidÃ©, kteÅ™Ã­ ho pouÅ¾Ã­vajÃ­. 
+PÅ™eneste si vzhled svÃ©ho pokoje i na monitor.
 </p>

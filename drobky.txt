@@ -37,41 +37,41 @@ TZ
 <html>
 
 <head> <title> </title> <meta http-equiv="Content-Type" content="text/html; 
-charset=iso-8859-2"> </head>
+charset=utf-8"> </head>
 
 
 <body>
 
-    <h1>Srozumitelnìj¹í web Proè pou¾ívat Linux</h1>
+    <h1>SrozumitelnÄ›jÅ¡Ã­ web ProÄ pouÅ¾Ã­vat Linux</h1>
     
     <p>26.3. nebo 2.4. 2007</p>
 
-    <p>Po roce a pùl nade¹el èas pøiblí¾it propagaèní web <a href="http://proc.linux.cz/">Proè pou¾ívat Linux</a> opìt blí¾e u¾ivatelskému chápání. Úvodní
-    informace webu se tak zamìøuje pøedev¹ím na prezentaci atraktivních vlastností GNU/Linuxu jako u¾ivatelského operaèního systému.
-    Pøi vytváøení byly vzaty v potaz pøipomínky nìkterıch hlasù z komunity, které volaly po vìt¹í srozumitelnosti pro spotøební
-    u¾ivatele. Pùvodní web zùstal mírnì pozmìnìnı stále souèástí webu a poskytnì tak podrobnìj¹í pøehled tìm, které vlastnosti Linuxu
-    zaujmou. Web navíc obsahuje malı bonus (tzv. easter egg), jeho¾ odhalením sice nic nevyhrajete, ale dozvíte se nìco navíc.</p>
+    <p>Po roce a pÅ¯l nadeÅ¡el Äas pÅ™iblÃ­Å¾it propagaÄnÃ­ web <a href="http://proc.linux.cz/">ProÄ pouÅ¾Ã­vat Linux</a> opÄ›t blÃ­Å¾e uÅ¾ivatelskÃ©mu chÃ¡pÃ¡nÃ­. ÃšvodnÃ­
+    informace webu se tak zamÄ›Å™uje pÅ™edevÅ¡Ã­m na prezentaci atraktivnÃ­ch vlastnostÃ­ GNU/Linuxu jako uÅ¾ivatelskÃ©ho operaÄnÃ­ho systÃ©mu.
+    PÅ™i vytvÃ¡Å™enÃ­ byly vzaty v potaz pÅ™ipomÃ­nky nÄ›kterÃ½ch hlasÅ¯ z komunity, kterÃ© volaly po vÄ›tÅ¡Ã­ srozumitelnosti pro spotÅ™ebnÃ­
+    uÅ¾ivatele. PÅ¯vodnÃ­ web zÅ¯stal mÃ­rnÄ› pozmÄ›nÄ›nÃ½ stÃ¡le souÄÃ¡stÃ­ webu a poskytnÄ› tak podrobnÄ›jÅ¡Ã­ pÅ™ehled tÄ›m, kterÃ© vlastnosti Linuxu
+    zaujmou. Web navÃ­c obsahuje malÃ½ bonus (tzv. easter egg), jehoÅ¾ odhalenÃ­m sice nic nevyhrajete, ale dozvÃ­te se nÄ›co navÃ­c.</p>
 
-    <p>Autor webu Adam Pøibyl shrnuje dosavadní pùsobení webu takto: 
-    "Bìhem ¾ivota webu proc.linux.cz jsem dostával rùzné reakce na jeho obsah. Ta která mne nejvíce potì¹ila byla zároveò ta nejkritiètìj¹í.
-    Autor v ní podrobnì rozebral ka¾dı bod uvádìnı jako vıhodu Linuxu a jejím závìreènım konstatováním bylo, ¾e v¹echny tyto vlastnosti má
-    ve svém MS Windows 2003 serveru té¾. Moje odpovìï znìla: Jsem rád, ¾e souhlasíte, ¾e GNU/Linux je srovnatelı s W2k3 server. Ka¾dı doma
-    toti¾ mù¾e mít Linux, ale jen málokdo Windows 2003 server."</p>
+    <p>Autor webu Adam PÅ™ibyl shrnuje dosavadnÃ­ pÅ¯sobenÃ­ webu takto: 
+    "BÄ›hem Å¾ivota webu proc.linux.cz jsem dostÃ¡val rÅ¯znÃ© reakce na jeho obsah. Ta kterÃ¡ mne nejvÃ­ce potÄ›Å¡ila byla zÃ¡roveÅˆ ta nejkritiÄtÄ›jÅ¡Ã­.
+    Autor v nÃ­ podrobnÄ› rozebral kaÅ¾dÃ½ bod uvÃ¡dÄ›nÃ½ jako vÃ½hodu Linuxu a jejÃ­m zÃ¡vÄ›reÄnÃ½m konstatovÃ¡nÃ­m bylo, Å¾e vÅ¡echny tyto vlastnosti mÃ¡
+    ve svÃ©m MS Windows 2003 serveru tÃ©Å¾. Moje odpovÄ›Ä znÄ›la: Jsem rÃ¡d, Å¾e souhlasÃ­te, Å¾e GNU/Linux je srovnatelÃ½ s W2k3 server. KaÅ¾dÃ½ doma
+    totiÅ¾ mÅ¯Å¾e mÃ­t Linux, ale jen mÃ¡lokdo Windows 2003 server."</p>
     
     <h2>O GNU/Linux</h2>
     
-    <p>Linux je pokroèilı operaèní systém zalo¾enı na my¹lence otevøeného
-    softwaru, kterı si v&nbsp;mnoha odvìtvích ziskává stále vìt¹í popularitu.
-    V&nbsp;souèasné dobì se tì¹í popularitì ze strany velkıch
-    firem jako IBM, Novell nebo Red Hat. Velım úspìchem je zapoèetí diskuse s
-    velkımi distributory poèítaèové techniky jako je Dell o instalacích OS Linux
-    na novì prodávanıch poèítaèích.</p>
+    <p>Linux je pokroÄilÃ½ operaÄnÃ­ systÃ©m zaloÅ¾enÃ½ na myÅ¡lence otevÅ™enÃ©ho
+    softwaru, kterÃ½ si v&nbsp;mnoha odvÄ›tvÃ­ch ziskÃ¡vÃ¡ stÃ¡le vÄ›tÅ¡Ã­ popularitu.
+    V&nbsp;souÄasnÃ© dobÄ› se tÄ›Å¡Ã­ popularitÄ› ze strany velkÃ½ch
+    firem jako IBM, Novell nebo Red Hat. VelÃ½m ÃºspÄ›chem je zapoÄetÃ­ diskuse s
+    velkÃ½mi distributory poÄÃ­taÄovÃ© techniky jako je Dell o instalacÃ­ch OS Linux
+    na novÄ› prodÃ¡vanÃ½ch poÄÃ­taÄÃ­ch.</p>
     
     <h2>O CZLUG</h2>
     
-    <p><a href="http://www.czlug.cz">CZLUG</a> je èeské sdru¾ení u¾ivatelù
-    operaèního systému GNU/Linux, které se zabıvá propagací a poèe¹»ováním
-    Linuxu. Mezi dal¹í úkoly se øadí zaji¹»ování a prosazování podmínek vhodnıch
-    k dal¹ímu rozvoji GNU/Linuxu a otevøeného softwaru jako takového.</p>
+    <p><a href="http://www.czlug.cz">CZLUG</a> je ÄeskÃ© sdruÅ¾enÃ­ uÅ¾ivatelÅ¯
+    operaÄnÃ­ho systÃ©mu GNU/Linux, kterÃ© se zabÃ½vÃ¡ propagacÃ­ a poÄeÅ¡Å¥ovÃ¡nÃ­m
+    Linuxu. Mezi dalÅ¡Ã­ Ãºkoly se Å™adÃ­ zajiÅ¡Å¥ovÃ¡nÃ­ a prosazovÃ¡nÃ­ podmÃ­nek vhodnÃ½ch
+    k dalÅ¡Ã­mu rozvoji GNU/Linuxu a otevÅ™enÃ©ho softwaru jako takovÃ©ho.</p>
 
 </body> </html>    

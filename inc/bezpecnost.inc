@@ -1,16 +1,16 @@
 <img class="doprava" src="img/stit.png" title="" alt="" />
 
-<h1><img class="unadpisu" src="img/bezpecnost.png" alt="" />&nbsp;Bezpeènost</h1>
+<h1><img class="unadpisu" src="img/bezpecnost.png" alt="" />&nbsp;BezpeÄnost</h1>
 
 <p>
-Doby, kdy jste se museli bát o svá data, jsou pryè. Do va¹eho <span class="linux">Linuxu</span> se jen tak nìkdo nepovolanı nedostane. ®ádnı vir ani spyware vám nebude probírat po¹tu a nìkomu ji posílat, kdy¾ nechcete. Budete mnohem bezpeènìj¹í pøed
-útoky na vá¹ bankovní úèet i bez ¹íleného firewallu - i kdy¾ i <b>firewall</b> <span class="linux">Linux</span> má, ale v podstatì ho neuvidíte. Pracuje samostatnì a bez obtì¾ování. To v¹echno máte v <b>plné verzi a bez registrace</b>. Nikdo nemusí vìdìt, ¾e pou¾ívate
-<span class="linux">Linux</span>, pokud se nebudete sami chtít pochlubit. <a href="?vzhled">A ¾e je èím</a>.
+Doby, kdy jste se museli bÃ¡t o svÃ¡ data, jsou pryÄ. Do vaÅ¡eho <span class="linux">Linuxu</span> se jen tak nÄ›kdo nepovolanÃ½ nedostane. Å½Ã¡dnÃ½ vir ani spyware vÃ¡m nebude probÃ­rat poÅ¡tu a nÄ›komu ji posÃ­lat, kdyÅ¾ nechcete. Budete mnohem bezpeÄnÄ›jÅ¡Ã­ pÅ™ed
+Ãºtoky na vÃ¡Å¡ bankovnÃ­ ÃºÄet i bez Å¡Ã­lenÃ©ho firewallu - i kdyÅ¾ i <b>firewall</b> <span class="linux">Linux</span> mÃ¡, ale v podstatÄ› ho neuvidÃ­te. Pracuje samostatnÄ› a bez obtÄ›Å¾ovÃ¡nÃ­. To vÅ¡echno mÃ¡te v <b>plnÃ© verzi a bez registrace</b>. Nikdo nemusÃ­ vÄ›dÄ›t, Å¾e pouÅ¾Ã­vate
+<span class="linux">Linux</span>, pokud se nebudete sami chtÃ­t pochlubit. <a href="?vzhled">A Å¾e je ÄÃ­m</a>.
 </p>
 <p>
-Va¹e dokumenty, fotografie i hudba jsou na disku pod dohledem <span class="linux">Linuxu</span> v bezpeèí a nepo¹kodí je ani bì¾né problémy jako je vıpadek proudu.
+VaÅ¡e dokumenty, fotografie i hudba jsou na disku pod dohledem <span class="linux">Linuxu</span> v bezpeÄÃ­ a nepoÅ¡kodÃ­ je ani bÄ›Å¾nÃ© problÃ©my jako je vÃ½padek proudu.
 </p>
 <p class="historie">
-Bezpeèí systému se dá dìlat dvìma cestami. Z principu nebo omalovánkami. Krabice ale va¹e data neochrání. <span class="linux">Linux</span> na bezpeènosti stojí od základu a vyvinul se proto, aby byl bezpeènı. Obsahoval firewall ji¾ 
-v dobì, kdy o nìm jiní je¹tì nezaèali ani uva¾ovat.
+BezpeÄÃ­ systÃ©mu se dÃ¡ dÄ›lat dvÄ›ma cestami. Z principu nebo omalovÃ¡nkami. Krabice ale vaÅ¡e data neochrÃ¡nÃ­. <span class="linux">Linux</span> na bezpeÄnosti stojÃ­ od zÃ¡kladu a vyvinul se proto, aby byl bezpeÄnÃ½. Obsahoval firewall jiÅ¾ 
+v dobÄ›, kdy o nÄ›m jinÃ­ jeÅ¡tÄ› nezaÄali ani uvaÅ¾ovat.
 </p>

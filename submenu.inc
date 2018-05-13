@@ -1,9 +1,9 @@
 <div class="sme">
-<a class="smm" href="odkazy.html">U¾iteèné odkazy</a><br />
+<a class="smm" href="odkazy.html">UÅ¾iteÄnÃ© odkazy</a><br />
 </div>
 
 <div class="sme">
-<a class="smm" href="odpovedi.html">Odpovìdi na èasté otázky</a>
+<a class="smm" href="odpovedi.html">OdpovÄ›di na ÄastÃ© otÃ¡zky</a>
 </div>
 
 <div class="sme"> 

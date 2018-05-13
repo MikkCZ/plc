@@ -1,13 +1,13 @@
 <h1><img class="unadpisu" src="img/svoboda.png" alt="" />&nbsp;Svoboda</h1>
 <p>
-Do nedávna jste si svùj operaèní systém vybrat nemohli. Museli jste pou¾ívat buï Windows a nebo... Windows. Dnes máte na vıbìr <span class="linux">Linux</span>. Vyzkou¹ejte si svobodu
-prostøedí, které vám nic nediktuje a nikde nepøeká¾í. Dìlá to, co potøebujete, a vy mù¾ete dìlat to, co chcete.
+Do nedÃ¡vna jste si svÅ¯j operaÄnÃ­ systÃ©m vybrat nemohli. Museli jste pouÅ¾Ã­vat buÄ Windows a nebo... Windows. Dnes mÃ¡te na vÃ½bÄ›r <span class="linux">Linux</span>. VyzkouÅ¡ejte si svobodu
+prostÅ™edÃ­, kterÃ© vÃ¡m nic nediktuje a nikde nepÅ™ekÃ¡Å¾Ã­. DÄ›lÃ¡ to, co potÅ™ebujete, a vy mÅ¯Å¾ete dÄ›lat to, co chcete.
 </p>
 <p>
-Za v¹echno se ale "platí". V pøípadì <span class="linux">Linuxu</span> ale jen va¹í chutí uèit se a poznávat netu¹ené mo¾nosti. <a href="/kde-ziskat.html">Tak do toho</a>.
+Za vÅ¡echno se ale "platÃ­". V pÅ™Ã­padÄ› <span class="linux">Linuxu</span> ale jen vaÅ¡Ã­ chutÃ­ uÄit se a poznÃ¡vat netuÅ¡enÃ© moÅ¾nosti. <a href="/kde-ziskat.html">Tak do toho</a>.
 </p>
 
 <p class="historie">
-<span class="linux">Linux</span> se zaèal vyvíjet v roce 1991 jako jádro systému Unixového typu. Posléze byl pou¾it jako základ kompletního OS
-tvoøeného linuxovım jádrem a programy projektu GNU. Od té doby je <span class="linux">Linux</span> svobodnım volnì dostupnım operaèním systémem.
+<span class="linux">Linux</span> se zaÄal vyvÃ­jet v roce 1991 jako jÃ¡dro systÃ©mu UnixovÃ©ho typu. PoslÃ©ze byl pouÅ¾it jako zÃ¡klad kompletnÃ­ho OS
+tvoÅ™enÃ©ho linuxovÃ½m jÃ¡drem a programy projektu GNU. Od tÃ© doby je <span class="linux">Linux</span> svobodnÃ½m volnÄ› dostupnÃ½m operaÄnÃ­m systÃ©mem.
 </p>

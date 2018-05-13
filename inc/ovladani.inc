@@ -3,16 +3,16 @@
 <div class="popisek">Menu GNOME</div>
 </div>
 
-<h1><img class="unadpisu" src="img/ovladani.png" alt="" />&nbsp;Ovládání</h1>
+<h1><img class="unadpisu" src="img/ovladani.png" alt="" />&nbsp;OvlÃ¡dÃ¡nÃ­</h1>
 <p>
-Pøistupujte k ovládání <span class="linux">Linuxu</span> s intuicí a ne návyky. Brzy pochopíte, ¾e ovládat vá¹ systém mù¾e bıt mnohem jednodu¹¹í.
-Navíc v <span class="linux">Linuxu</span> máte nespoèet mo¾ností, jak si chování svého systému nastavit.
+PÅ™istupujte k ovlÃ¡dÃ¡nÃ­ <span class="linux">Linuxu</span> s intuicÃ­ a ne nÃ¡vyky. Brzy pochopÃ­te, Å¾e ovlÃ¡dat vÃ¡Å¡ systÃ©m mÅ¯Å¾e bÃ½t mnohem jednoduÅ¡Å¡Ã­.
+NavÃ­c v <span class="linux">Linuxu</span> mÃ¡te nespoÄet moÅ¾nostÃ­, jak si chovÃ¡nÃ­ svÃ©ho systÃ©mu nastavit.
 </p>
 <p>
-A kanceláøské aplikace? Ty jsou dnes u¾ bì¾nou souèástí <span class="linux">Linuxu</span>. Tøeba v podobì <a href="http://www.libreoffice.cz/">LibreOffice</a>.
+A kancelÃ¡Å™skÃ© aplikace? Ty jsou dnes uÅ¾ bÄ›Å¾nou souÄÃ¡stÃ­ <span class="linux">Linuxu</span>. TÅ™eba v podobÄ› <a href="http://www.libreoffice.cz/">LibreOffice</a>.
 </p>
 
-<p class="historie">Linuxové vyhledávání a indexování fungovalo ji¾ v dobách, kdy se <span class="linux">Linux</span> pou¾íval nejèastìji s textovım
-vıstupem, a pod nánosem moderních prvkù ho mù¾ete nalézt jako pøíkaz <tt>locate</tt>. Dnes ale mù¾ete vyzkou¹et i moderní nástroje jako
+<p class="historie">LinuxovÃ© vyhledÃ¡vÃ¡nÃ­ a indexovÃ¡nÃ­ fungovalo jiÅ¾ v dobÃ¡ch, kdy se <span class="linux">Linux</span> pouÅ¾Ã­val nejÄastÄ›ji s textovÃ½m
+vÃ½stupem, a pod nÃ¡nosem modernÃ­ch prvkÅ¯ ho mÅ¯Å¾ete nalÃ©zt jako pÅ™Ã­kaz <tt>locate</tt>. Dnes ale mÅ¯Å¾ete vyzkouÅ¡et i modernÃ­ nÃ¡stroje jako
 <a href="http://projects.gnome.org/tracker/index.html">Gnome Tracker</a>.
 </p>
