@@ -1,9 +1,9 @@
 <div id="footer">
     <hr />
     <a href="{{ '/' | relative_url }}">Proč</a> |
-    <a href="{% link _pages/vyhody.html %}">Vyhody</a> |
-    <a href="{% link _pages/chci-vyzkouset.html %}">Chci vyzkoušet</a> |
-    <a href="{% link _pages/kde-ziskat.html %}">Kde získat</a>
+    <a href="{{ site.baseurl }}{% link _pages/vyhody.html %}">Vyhody</a> |
+    <a href="{{ site.baseurl }}{% link _pages/chci-vyzkouset.html %}">Chci vyzkoušet</a> |
+    <a href="{{ site.baseurl }}{% link _pages/kde-ziskat.html %}">Kde získat</a>
     <hr />
     &copy; {{ site.time | date: '%Y' }} <a href="{{ site.author.web }}">{{ site.author.name }}</a>, <a href="mailto:{{ site.author.email }}">e-mail</a> - pod záštitou CZLUG
 </div>

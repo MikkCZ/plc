@@ -5,15 +5,15 @@ install:
  - gem install html-proofer -v '~> 3.8'
 
 script:
- - bundle exec jekyll build
+ - bundle exec jekyll build --baseurl /plc --destination _site/plc
  - cd _site
- - htmlproofer . --disable-external --empty-alt-ignore --file-ignore ./server.html
+ - htmlproofer . --disable-external --empty-alt-ignore --file-ignore ./plc/server.html
  - cd -
 
 deploy:
 - provider: pages
   skip-cleanup: true
-  local-dir: _site
+  local-dir: _site/plc
   github-token: $GITHUB_TOKEN
   on:
     branch: master
