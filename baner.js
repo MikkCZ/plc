@@ -13,42 +13,42 @@ var div_count=0;
 var timeOutVal=150;
 
 function baner_fade_desat(getColorIntVal) {
-	if(getColorIntVal>=10) {
-		for(var i=min_colorVal; i<=max_colorVal; i++) {
-			if(getColorIntVal==i) {
-				return(eval('def_' + i));
-			}
-		}
-	} else { return(getColorIntVal);	}
+    if(getColorIntVal>=10) {
+        for(var i=min_colorVal; i<=max_colorVal; i++) {
+            if(getColorIntVal==i) {
+                return(eval('def_' + i));
+            }
+        }
+    } else { return(getColorIntVal);    }
 }
 
 function writeDiv() {
     document.getElementById("baner_js_space").innerHTML = '<font style="color: #' + joinColor(baner_fade_desat(colorVal)) + '; font-size: 0.6em"><b>' + baner_js_text[div_count] + '</span></b></font>';
 
     if((colorVal>min_colorVal) && (colorVal!=min_colorVal)) {
-	colorVal--;
+    colorVal--;
     } else {
-	colorVal=max_colorVal;
-	if(div_count<baner_js_text.length) {
-	    div_count++;
-	}
-	if(div_count==baner_js_text.length) {
-	    div_count = 0;
-	    colorVal = max_colorVal;
-	}
+    colorVal=max_colorVal;
+    if(div_count<baner_js_text.length) {
+        div_count++;
+    }
+    if(div_count==baner_js_text.length) {
+        div_count = 0;
+        colorVal = max_colorVal;
+    }
     }
     
     if(baner_js_text[div_count]=="") {
-	setTimeout("writeDiv()",300);
+    setTimeout("writeDiv()",300);
     } else {
-	if(div_count<baner_js_text.length) {
-	    setTimeout("writeDiv()",timeOutVal);
-	}
+    if(div_count<baner_js_text.length) {
+        setTimeout("writeDiv()",timeOutVal);
+    }
     }
 }
 
 function joinColor(getColor) {
-	return (getColor + '0' + getColor + '0' + getColor + '0');
+    return (getColor + '0' + getColor + '0' + getColor + '0');
 }
 
 
