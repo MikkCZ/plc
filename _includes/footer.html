@@ -1,0 +1,37 @@
+<div id="footer">
+    <ul>
+        <li><a href="{{ '/' | relative_url }}">Proč</a></li>
+        <li><a href="{{ site.baseurl }}{% link _pages/vyhody.html %}">Výhody Linuxu</a></li>
+        <li><a href="{{ site.baseurl }}{% link _pages/chci-vyzkouset.html %}">Chci vyzkoušet</a></li>
+        <li><a href="{{ site.baseurl }}{% link _pages/kde-ziskat.html %}">Stáhnout Linux</a></li>
+    </ul>
+    <p class="copyleft">
+        <em><a href="https://www.linuxmark.org/">Linux&reg;</a></em> je ochranná známka, kterou vlastní Linus Torvalds.<br />
+        <em><a href="https://gnu.cz/">GNU</a></em> je rekurzivní zkratka <em>GNU is Not Unix</em> projektu na podporu vývoje svobodného software.<br />
+        Jako <em><a href="https://cs.wikipedia.org/wiki/Linux">GNU/Linux</a></em> je označován svobodný operační systém tvořený velkým množstvím svobodných programů, výkonostně a funkčně srovnatelný s jinými operačními systémy.
+    </p>
+    <p class="copy">
+        &copy; {{ site.time | date: '%Y' }} <a href="{{ site.author.web }}">{{ site.author.name }}</a>, <a href="mailto:{{ site.author.email }}">e-mail</a> - pod záštitou CZLUG
+    </p>
+</div>
+
+<!-- Google Code for PAGEVIEW Conversion Page -->
+<script language="JavaScript" type="text/javascript">
+<!--
+var google_conversion_id = 1069089218;
+var google_conversion_language = "cs";
+var google_conversion_format = "1";
+var google_conversion_color = "FFFFFF";
+if (1) {
+  var google_conversion_value = 1;
+}
+var google_conversion_label = "PAGEVIEW";
+//-->
+</script>
+<script language="JavaScript" src="https://www.googleadservices.com/pagead/conversion.js"></script>
+<noscript><img height=1 width=1 border=0 src="https://www.googleadservices.com/pagead/conversion/1069089218/?value=1&label=PAGEVIEW&script=0"></noscript>
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+_uacct = "{{ site.google_analytics }}";
+urchinTracker();
+</script>

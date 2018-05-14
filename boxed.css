@@ -129,38 +129,42 @@ h1 {
     #cistic {
       clear: both;
     }
-    #konec {
-      height: 243px;
-      background: url(img/gnulinux5_bck_bottom.png) 0 0 no-repeat;
-    }
-    #patka {
-      width: 600px;
-      margin-left: 64px;
-      padding-left: 35px;
-      padding-top: 56px;
-    }
 
-    .odkazy {
-      font-size: 1.3em;
-      color: #ac0000;
-    }
-
-    #kredit {
+#footer {
+    height: 185px;
+    background: url(img/gnulinux5_bck_bottom.png) 0 0 no-repeat;
+    padding: 60px 100px 0 100px;
+    font-size: inherit;
+}
+#footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.3em;
+    color: #ac0000;
+    border: none;
+}
+#footer ul li {
+    display: inline;
+}
+#footer ul li:not(:last-child)::after {
+    display: inline-block;
+    content: '|';
+    padding-left: 0.25em;
+}
+#footer .copyleft {
+    display: block;
+}
+#footer .copyleft,
+#footer .copy,
+#footer .copy a {
+    color: grey;
+}
+#footer .copy {
     padding-top: 15px;
     font-size: 0.9em;
     text-align: center;
-    }
-
-    .credity {
-    color: black;
-    border-bottom: 1px dotted grey;
-    }
-
-    #copyleft {
-    font-size: 1em;
-    font-weight: lighter;
-    color: grey;
-    }
+}
 
     .right {
     text-align: right;

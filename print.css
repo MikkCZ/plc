@@ -296,13 +296,26 @@ hr {
     background-repeat: no-repeat;
 }
 
-
 #footer {
-    clear: both;
-    font-size: smaller;
     padding: 20px;
-    }
-
-#footer a[href^='mailto:'] {
-    color: #6890ec;
-    }
+    font-size: smaller;
+    clear: both;
+}
+#footer ul {
+    list-style-type: none;
+    padding: 5px 0;
+    margin: 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#footer ul li {
+    display: inline;
+}
+#footer ul li:not(:last-child)::after {
+    display: inline-block;
+    content: '|';
+    padding-left: 0.25em;
+}
+#footer .copyleft {
+    display: none;
+}
