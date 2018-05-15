@@ -57,49 +57,85 @@ h1 {
     text-align: right;
     }
 
-    #ikony {
-      width: 64px;
-      padding-top: 10px;
-    }
+#ikony {
+    list-style-type: none;
+    padding: 10px 0 0 0;
+}
+#ikony li,
+#ikony li a {
+    display: block;
+    width: 64px;
+    height: 64px;
+}
+#ikony li {
+    opacity: 1;
+}
+#ikony li:hover {
+    opacity: 0.6;
+}
 
-    #ubu { background-image: url(img/di_ubu.png) }
-    #ubu:hover { background-image: url(img/di_ubu_gl.png); }
-
-    #fed { background-image: url(img/di_fed.png) }
-    #fed:hover { background-image: url(img/di_fed_gl.png); }
-
-    #sus { background-image: url(img/di_sus.png) }
-    #sus:hover { background-image: url(img/di_sus_gl.png); }
-
-    #man { background-image: url(img/di_man.png) }
-    #man:hover { background-image: url(img/di_man_gl.png); }
-
-    #deb { background-image: url(img/di_deb.png) }
-    #deb:hover { background-image: url(img/di_deb_gl.png); }
-
-    #gen { background-image: url(img/di_gen.png) }
-    #gen:hover { background-image: url(img/di_gen_gl.png); }
-
-    #text {
-      width: 500px;
-      font-family: Arial;
-      background: url(img/podklad_text_stred.png);
-      float: right;
-    }
-    #podklad_t_t {
-      font-size: 0px;
-    }
-
-    #klice a { text-decoration:none }
-    #klice a:hover { text-decoration: underline }
-
-    #klice  {
-    padding-left:50px;
-    padding-right:20px;
-    padding-top:10px;
-    padding-bottom:10px;
+#text {
+    width: 500px;
+    font-family: Arial;
+    background: url(img/podklad_text_stred.png);
+    float: right;
+}
+#text a {
+    text-decoration:none;
+}
+#text a:hover {
+    text-decoration: underline;
+}
+#text .text-content {
+    padding: 10px 20px 10px 50px;
     line-height: 200%;
-    }
+}
+#text h1 {
+    padding-bottom: 0.2em;
+}
+#text h1 img {
+    margin-right: 0.25em;
+    vertical-align: middle;
+}
+#text .keywords {
+    list-style-type: none;
+    padding: 0;
+}
+#text .keywords li {
+    text-indent: -30px;
+    padding: 0;
+    margin: 0;
+    font-size:14px;
+    color:black;
+}
+#text .keywords img {
+    margin-right: 8px;
+}
+#text .keywords .key18 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #b7b7b7;
+}
+#text .keywords .key20 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #929292;
+}
+#text .keywords .key22 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #6e6e6e;
+}
+#text .keywords .key24 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #494949;
+}
+#text .keywords .key26 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #252525;
+}
 
     .anecim {
     font-size: 14px;
@@ -124,10 +160,6 @@ h1 {
 
     #tema h2 {
     font-size: 2em;
-    }
-
-    #cistic {
-      clear: both;
     }
 
 #footer {
@@ -175,13 +207,4 @@ h1 {
     .doprava {
     float: right;
     margin: 5px;
-    }
-
-    .linux {
-    font-style: italic;
-    color: black;
-    }
-
-    .unadpisu {
-    padding-bottom: 0.2em;
     }
