@@ -2,27 +2,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ site.lang }}" lang="{{ site.lang }}">
 <head>
     {% include head.html %}
-    <link rel="stylesheet" href="{{ '/boxed.css' | relative_url }}" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{{ '/css/boxed.css' | relative_url }}" type="text/css" media="screen" />
 </head>
 <body>
     {% include google-tag-manager-noscript.html %}
-    <div id="podklad">
-
-        <div id="main_body">
-            <div id="hlavni_obsah">
-                <div id="hlava">
-                    <a href="{{ '/' | relative_url }}"><img src="{{ '/img/tuxlinux.gif' | relative_url }}" alt="GNU/Linux" /></a>
-                </div>
-                <div id="podnadpis">
-                    <h1>Operační systém</h1>
-                    <span class="sevsim">se vším, co potřebujete</span>
-                </div>
-                <div id="vnitrni_krabicka">
-                    {{ content }}
-                </div>
+    <div id="body">
+        <div id="main">
+            <div id="header">
+                <a href="{{ '/' | relative_url }}"><img src="{{ '/img/gnulinux5_bck_top.png' | relative_url }}" alt="GNU/Linux" /></a>
+                <h1>Operační systém</h1>
+                <span>se vším, co potřebujete</span>
+            </div>
+            <div id="content">
+                {{ content }}
             </div>
         </div>
-
         {% include footer.html %}
     </div>
 </body>

@@ -2,26 +2,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ site.lang }}" lang="{{ site.lang }}">
 <head>
     {% include head.html %}
+    <link rel="stylesheet" href="{{ '/css/wide.css' | relative_url }}" type="text/css" media="screen" />
 </head>
 <body>
     {% include google-tag-manager-noscript.html %}
-
-    <div id="IE5div">
-        <div id="header">
-            <img src="{{ 'img/gnulinux.png' | relative_url }}" alt="GNU/Linux" />
-            <!-- preload -->
-            <img class="hidden" src="{{ 'img/top_bckg.png' | relative_url }}" alt="" />
-            <span id="menu">
-                <a href="{{ '/' | relative_url }}">Proč</a> |
-                <a href="{{ site.baseurl }}{% link _pages/vyhody.html %}">Výhody</a> |
-                <a href="{{ site.baseurl }}{% link _pages/chci-vyzkouset.html %}">Chci vyzkoušet</a> |
-                <a href="{{ site.baseurl }}{% link _pages/kde-ziskat.html %}">Kde získat</a>
-            </span>
-        </div>
+    <div id="header">
+        <img src="{{ 'img/gnulinux.png' | relative_url }}" alt="GNU/Linux">
+        <ul id="menu">
+            <li><a href="{{ '/' | relative_url }}">Proč</a></li>
+            <li><a href="{{ site.baseurl }}{% link _pages/vyhody.html %}">Výhody</a></li>
+            <li><a href="{{ site.baseurl }}{% link _pages/chci-vyzkouset.html %}">Chci vyzkoušet</a></li>
+            <li><a href="{{ site.baseurl }}{% link _pages/kde-ziskat.html %}">Kde získat</a></li>
+        </ul>
     </div>
-
     {{ content }}
-
     {% include footer.html %}
 </body>
 </html>
