@@ -6,205 +6,127 @@ redirect_from:
   - chci-vyzkouset.html
 layout: wide
 ---
-<div id="lcol">
-<h1>Chci si Linux vyzkoušet na svém počítači</h1>
+<div class="lcol">
+    <h1>Chci si Linux vyzkoušet na svém počítači</h1>
 
-<p>
-<b>Linux</b> je svobodný a volně šiřitelný software. To jej předurčuje k mnoha
-způsobům použití. Jedním z nich jsou tzv. live CD (live je česky "živý").
-</p>
-<p>
-<b>Live CD</b> je disk, který obsahuje kompletní operační systém Linux, který se
-spouští právě z tohoto disku. Takový systém nevyžaduje, aby byl v počítači pevný
-disk. <b>Nic totiž na pevný disk neukládá a nemění jeho obsah.</b>
-</p>
-<p>
-Technicky je možné, abyste svá data vytvořená v live CD uložili na pevný disk,
-ale musíte to udělat vy sami, live systém sám nic takového neprovádí.
-Live CD vám dovolují vyzkoušet, zda Linux na vašem počítači funguje, zda
-vám vyhovuje a nabízí to, co potřebujete. Je nutné upozornit, že live distribuce,
-díky tomu, že se nacházejí a spouštějí z nezapisovatelného média omezené kapacity,
-neposkytují veškerý komfort a aplikace, které najdete v <a href="{{ site.baseurl }}{% link _pages/kde-ziskat.html %}">kompletních distribucích</a>.
-</p>
-<p class="note">Pozn.: Na stránkách jednotlivých projektů mohou být k
-dispozici novější verze, než jsou zde uváděné.</p>
+    <p>
+        <b>Linux</b> je svobodný a volně šiřitelný software. To jej předurčuje k mnoha způsobům použití. Jedním z nich jsou tzv. live CD (live je česky "živý").
+    </p>
+    <p>
+        <b>Live CD</b> je disk, který obsahuje kompletní operační systém Linux, který se spouští právě z tohoto disku. Takový systém nevyžaduje, aby byl v počítači pevný disk. <b>Nic totiž na pevný disk neukládá a nemění jeho obsah.</b>
+    </p>
+    <p>
+        Technicky je možné, abyste svá data vytvořená v live CD uložili na pevný disk, ale musíte to udělat vy sami, live systém sám nic takového neprovádí. Live CD vám dovolují vyzkoušet, zda Linux na vašem počítači funguje, zda vám vyhovuje a nabízí to, co potřebujete. Je nutné upozornit, že live distribuce, díky tomu, že se nacházejí a spouštějí z nezapisovatelného média omezené kapacity, neposkytují veškerý komfort a aplikace, které najdete v <a href="{{ site.baseurl }}{% link _pages/kde-ziskat.html %}">kompletních distribucích</a>.
+    </p>
+    <p>
+        <small>Pozn.: Na stránkách jednotlivých projektů mohou být k dispozici novější verze, než jsou zde uváděné.</small>
+    </p>
 
-<div class="ubuntu">
-<h2>Ubuntu Live CD</h2>
-<p>
-Ubuntu, kromě toho, že je to <a href="{{ site.baseurl }}{% link _pages/kde-ziskat.html %}">plnohodnotná distribuce</a>,
-vytváří i live CD, které každému umožňuje vyzkoušet si systém zcela nezávazně na svém počítači.
-Live CD je zároveň i instalační CD systému.
-</p>
+    <h2><img src="{{ 'img/ubuntu_ico.png' | relative_url }}" alt=""> Ubuntu Live CD</h2>
+    <p>
+        Ubuntu, kromě toho, že je to <a href="{{ site.baseurl }}{% link _pages/kde-ziskat.html %}">plnohodnotná distribuce</a>, vytváří i live CD, které každému umožňuje vyzkoušet si systém zcela nezávazně na svém počítači. Live CD je zároveň i instalační CD systému.
+    </p>
+    <ul class="download">
+        <li><a href="http://www.ubuntu.cz/">Ubuntu CZ</a></li>
+        <li><a href="http://releases.ubuntu.com/vivid/ubuntu-15.04-desktop-i386.iso">Stáhnout Ubuntu desktop 15.04</a> (1.1GB)</li>
+    </ul>
 
-<p class="downld">
-<a href="http://www.ubuntu.cz/">Ubuntu CZ</a> | <a href="http://releases.ubuntu.com/vivid/ubuntu-15.04-desktop-i386.iso">Stáhnout Ubuntu desktop 15.04</a> (1.1GB)
-</p>
+    <h2><img src="{{ 'img/fedora_ico.png' | relative_url }}" alt=""> Fedora Live CD</h2>
+    <p>
+        Fedora Live CD vzniklo v rámci <a href="http://fedoraproject.org/wiki/FedoraLiveCD">Fedora projektu</a> a je aplikačním Live CD vzniklým z distribuce Fedora. Z CD je možné Fedoru jednoduše nainstalovat. Zároveň slouží jako demonstrační CD možností Fedory.
+    </p>
+    <ul class="download">
+        <li><a href="http://fedoraproject.org/wiki/FedoraLiveCD">Fedora Live CD</a></li>
+        <li><a href="http://ftp.linux.cz/pub/linux/fedora/linux/releases/22/Workstation/i386/iso/Fedora-Live-Workstation-i686-22-3.iso">Stáhnout Fedora Workstation 22 Live CD</a> (cca 900MB)</li>
+    </ul>
+
+    <h2><img src="{{ 'img/suse_ico.png' | relative_url }}" alt=""> OpenSuSE</h2>
+    <p>I OpenSuSE nabízí zdarma ke stažení Live CD.</p>
+    <ul class="download">
+        <li><a href="http://suseportal.cz/">SuSE portal</a></li>
+        <li><a href="http://mirror.karneval.cz/pub/opensuse/openSUSE-current/iso/openSUSE-13.2-KDE-Live-i686.iso">Stáhnout OpenSuSE LiveCD 13.2</a> (900MB)</li>
+    </ul>
+
+    <h2><img src="{{ 'img/debian_ico.png' | relative_url }}" alt=""> Debian</h2>
+    <p>Debian nabízí zdarma ke stažení Live DVD.</p>
+    <ul class="download">
+        <li><a href="http://live.debian.net/">Live Debian</a></li>
+        <li><a href="http://live.debian.net/cdimage/release/stable/i386/iso-hybrid/debian-live-7.6.0-i386-gnome-desktop.iso">Debian 7.6</a> (1.3GB)</li>
+    </ul>
+
+    <h2><img src="{{ 'img/slax_ico.png' | relative_url }}" alt=""> Slax Live CD - česky</h2>
+    <p>
+        Slax sice není oficiálním live CD distribuce Slackware, jak by se mohlo na první pohled zdát, je na ní ale zcela založeno. Distribuci vytváří Čech Tomáš Matějíček a je tedy dostupná i v češtině. Nejen z tohoto důvodu ji lze vřele doporučit. Slax obsahuje skupinu dobře spolupracujících aplikací a kompaktní desktopové prostředí <a href="http://www.kde.org/international/czechia/">KDE</a> se základními aplikacemi pro dnešní domácí počítače. To vše poskytuje v pouhých 200 MB, které se vejdou i na CD malých průměrů. Slax je možné nainstalovat a používat jako normální operační systém.
+    </p>
+    <ul class="download">
+        <li><a href="http://www.slax.cz/">Slax</a></li>
+        <li><a href="http://www.slax.org/get_slax.php?lang=cs">Stránky stáhnutí</a></li>
+    </ul>
+
+    <h2><img src="{{ 'img/mageia_ico.png' | relative_url }}" alt=""> Mageia Live CD</h2>
+    <p>
+        Mageia (dříve Mandriva, Mandrake) Live CD je velmi dobře uzpůsobeno pro začínající uživatele. LiveCD je pro obe architektury x86 i x86_64.
+    </p>
+    <ul class="download">
+        <li><a href="http://mageia.cz/">Mageia</a></li>
+        <li><a href="http://mageia.supp.name/iso/5/Mageia-5-LiveDVD-GNOME-i586-DVD/Mageia-5-LiveDVD-GNOME-i586-DVD.iso">Mageia 5</a> (1.5GB)</li>
+    </ul>
+
+    <h2><img src="{{ 'img/gentoo_ico.png' | relative_url }}" alt=""> gentoo</h2>
+    <p>
+        Live DVD gentoo není přímo určeno pro běžné použití, ale spíše jako instalační DVD. Přesto obsahuje desktopové prostředí, ve kterém můžete pracovat nebo z něj spustit instalaci gentoo.
+    </p>
+    <ul class="download">
+        <li><a href="http://www.gentoo.org/">gentoo linux</a></li>
+        <li><a href="http://gentoo.osuosl.org//releases/x86/20140826/livedvd-x86-amd64-32ul-20140826.iso">Stáhnout gentoo Live DVD 2014.8</a></li>
+    </ul>
+
+    <p>
+        Live už není pro mne, <a href="{{ site.baseurl }}{% link _pages/kde-ziskat.html %}">chci kompletní linuxový systém</a>.
+    </p>
 </div>
 
-
-<div class="fedora">
-<h2>Fedora Live CD</h2>
-<p>
-Fedora Live CD vzniklo v rámci <a href="http://fedoraproject.org/wiki/FedoraLiveCD">Fedora projektu</a> a je aplikačním Live CD vzniklým z distribuce Fedora.
-Z CD je možné Fedoru jednoduše nainstalovat. Zároveň slouží jako demonstrační CD možností Fedory.
-</p>
-<p class="downld">
-<a href="http://fedoraproject.org/wiki/FedoraLiveCD">Fedora Live CD</a> | <a href="http://ftp.linux.cz/pub/linux/fedora/linux/releases/22/Workstation/i386/iso/Fedora-Live-Workstation-i686-22-3.iso">Stáhnout Fedora Workstation 22 Live CD</a> (cca 900MB)
-</p>
-</div>
-
-
-
-<h2><img src="{{ 'img/suse_ico.png' | relative_url }}" alt="" /> OpenSuSE</h2>
-<p>
-I OpenSuSE nabízí zdarma ke stažení Live CD.
-</p>
-<p class="downld">
-<a href="http://suseportal.cz/">SuSE portal</a> | <a href="http://mirror.karneval.cz/pub/opensuse/openSUSE-current/iso/openSUSE-13.2-KDE-Live-i686.iso">Stáhnout OpenSuSE LiveCD 13.2</a> (900MB)
-</p>
-
-
-<h2><img src="{{ 'img/debian_ico.png' | relative_url }}" alt="" /> Debian</h2>
-<p>
-Debian nabízí zdarma ke stažení Live DVD.
-</p>
-<p class="downld">
-<a href="http://live.debian.net/">Live Debian</a> | <a href="http://live.debian.net/cdimage/release/stable/i386/iso-hybrid/debian-live-7.6.0-i386-gnome-desktop.iso">Debian 7.6</a> (1.3GB)
-</p>
-
-
-<!--<div class="slax">-->
-<h2><img src="{{ 'img/slax_ico.png' | relative_url }}" alt="" />Slax Live CD - česky</h2>
-<p>
-Slax sice není oficiálním live CD distribuce Slackware, jak by se mohlo na první pohled zdát, je na ní ale zcela založeno. Distribuci vytváří Čech
-Tomáš Matějíček a je tedy dostupná i v češtině. Nejen z tohoto důvodu ji lze vřele doporučit. Slax obsahuje
-skupinu dobře spolupracujících aplikací a kompaktní desktopové prostředí <a href="http://www.kde.org/international/czechia/">KDE</a> se základními aplikacemi pro
-dnešní domácí počítače. To vše poskytuje v pouhých 200 MB, které se vejdou i na CD malých průměrů. Slax je možné nainstalovat a používat
-jako normální operační systém.
-</p>
-<p class="downld">
-<a href="http://www.slax.cz/">Slax</a> | <a href="http://www.slax.org/get_slax.php?lang=cs">Stránky stáhnutí</a>
-</p>
-<!--</div>-->
-
-<!--<div class="one">-->
-<!--<h2><img src="{{ 'img/mandriva_one_ico.png' | relative_url }}" alt="" /> Mandriva One Live CD</h2>
-<p>
-Mandriva Live CD (nebo Mandriva One) je live CD oblíbené distribuce Mandriva (dříve Mandrake) a je velmi dobře uzpůsobeno pro začínající uživatele.
-</p>
-<p class="downld">
-<a href="http://mandriva.com/">Mandriva One</a> |
-<a href="ftp://mandriva.mirror.dkm.cz/pub/mandriva/official/iso/2011/Mandriva.2011.i586.1.iso">Mandriva One Live 2011 CD</a> (1.6GB)
-
-
-</p>-->
-<!--</div>-->
-
-<h2><img src="{{ 'img/mageia_ico.png' | relative_url }}" alt="" /> Mageia Live CD</h2>
-<p>
-Mageia (dříve Mandriva, Mandrake) Live CD je velmi dobře uzpůsobeno pro začínající uživatele. LiveCD je pro obe architektury x86 i x86_64.
-</p>
-<p class="downld">
-<a href="http://mageia.cz/">Mageia</a> |
-<a href="http://mageia.supp.name/iso/5/Mageia-5-LiveDVD-GNOME-i586-DVD/Mageia-5-LiveDVD-GNOME-i586-DVD.iso">Mageia 5</a> (1.5GB)
-
-
-</p>
-<!--
-<div class="danix">
-<h2>Danix Live DVD - česky</h2>
-<p>
-Danix je původní česká live DVD distribuce založená na Debianu.
-Po něm zdědila kvalitní autodetekci, díky českým tvůrcům pak navíc získala české stránky s dokumentací obsahující mnoho
-užitečných rad.
-</p>
-<p class="downld">
-<a href="http://www.danix.cz/">Danix</a> | <a href="http://ftp.edunix.cz/pub/danix/Evolution2/dvd/DANIX-evol2-dvd-2007-11-04.iso">Stáhnout Danix 2007-11-04</a> (2.9GB)
-</p>
-</div>
--->
-
-
-<h2><img src="{{ 'img/gentoo_ico.png' | relative_url }}" alt="" /> gentoo</h2>
-<p>
-Live DVD gentoo není přímo určeno pro běžné použití, ale spíše jako instalační DVD. Přesto obsahuje desktopové prostředí,
-ve kterém můžete pracovat nebo z něj spustit instalaci gentoo.
-</p>
-<p class="downld">
-<a href="http://www.gentoo.org/">gentoo linux</a> | <a href="http://gentoo.osuosl.org//releases/x86/20140826/livedvd-x86-amd64-32ul-20140826.iso">Stáhnout gentoo Live DVD 2014.8</a>
-</p>
-
-<p>
-&nbsp;
-</p>
-<p>
-Live už není pro mne, <a href="{{ site.baseurl }}{% link _pages/kde-ziskat.html %}">chci kompletní linuxový systém</a>.
-</p>
-
-</div>
-
-<div id="rcol">
-<div class="centr">
-<img src="{{ 'img/ubuntu_ico.png' | relative_url }}" alt="" />
-<img src="{{ 'img/slax_ico.png' | relative_url }}" alt="" />
-<img src="{{ 'img/fedora_ico.png' | relative_url }}" alt="" />
-<!--<img src="{{ 'img/mageia_one_ico.png' | relative_url }}" alt="" />-->
-<img src="{{ 'img/danix_ico.png' | relative_url }}" alt="" />
-<img src="{{ 'img/suse_ico.png' | relative_url }}" alt="" />
-</div>
-<hr class="hr8" />
-<div class="centr">
-<b>Live CD</b>
-</div>
-
-{% include submenu.html %}
-
-<div class="block">
-<h1>Jak stáhnout Linux?</h1>
-<h2>Jak postupovat při stahování Linuxu</h2>
-<p>
-U každé distribuce na této stránce je odkaz na stránku popisující, jak a kde můžete příslušnou distribuci stáhnout. Některé stránky jsou však
-v angličtině a mohou obsahovat termíny, které nemusí být zcela zřejmé.
-</p>
-<p>
-Při stahování distribuce je nejlepší sáhnout po verzi pokud možno nejnovější. Z nabízených adresářů je tedy záhodno vybrat
-<b>verzi označenou nejvyšším číslem</b>. Další komplikace mohou nastat u <b>volby vhodné architektury</b> - to znamená specifikace typu vašeho počítače.
-(Linux je dostupný pro mnoho různých architektur - např. Intel, AMD, PowerPC (Mac) a další.) Pokud vlastníte počítač postavený
-na procesoru firmy <b>Intel nebo AMD</b>, neuděláte chybu, pokud
-<b>zvolíte architekturu i386, i486, i586 (od Pentia I výš) či i686</b>, souhrnně se
-tato architektura někdy označuje <b>x86</b>. Pokud máte novější <b>64bitový procesor AMD</b>, bylo by škoda nezvolit příslušnou 64bitovou architekturu - tedy <b>AMD64 nebo x86_64</b>.
-</p>
-<p>
-Z nabízených adresářů a souborů je pak potřeba <b>stáhnout soubory s příponou .iso</b>, což jsou CD případně DVD obrazy.
-</p>
-</div>
-
-<div class="block">
-<h1>Co s .iso soubory?</h1>
-<h2>Jak přenést .iso soubory na CD</h2>
-<p>
-<b>.iso</b> soubory jsou obrazy instalačních CD resp. DVD a je potřeba je správným způsobem přenést, vypálit na CD.
-<b>Tyto soubory se nevypalují jako běžný soubor</b>, ale ve vašem vypalovacím programu je potřeba zvolit vypalování
-obrazu (image) CD. Příslušné volby jsou závislé na vašem vypalovacím softwaru.
-</p>
-<p>
-Pokud si postupem nejste jisti, můžete CD zakoupit za velmi příznivé ceny v
-<a href="http://www.linuxsoft.cz/shop/?kategorie=109">Linux CD shopu</a>.
-</p>
-</div>
-
-<div class="block">
-<h1>Jak spustit Live CD?</h1>
-<h2>Jak "nabootovat" Linux z Live CD</h2>
-<p>
-Pokud máte CD správně vypáleno, budete muset restartovat počítač.
-Poté bude zřejmě potřeba v BIOSu nastavit, resp. povolit, startování z
-CD. Do BIOSu se zpravidla dostanete stiskem nějaké speciální klávesy
-při startu počítače - tato klávesa by se měla při startu vypisovat na obrazovce.
-Jestliže máte startování z CD povoleno, po restartu počítače by se měl z CD začít zavádět
-vybraný operační systém Linux.
-</p>
-</div>
-
+<div class="rcol">
+    <div class="centr">
+        <img src="{{ 'img/ubuntu_ico.png' | relative_url }}" alt="">
+        <img src="{{ 'img/slax_ico.png' | relative_url }}" alt="">
+        <img src="{{ 'img/fedora_ico.png' | relative_url }}" alt="">
+        <!--<img src="{{ 'img/mageia_one_ico.png' | relative_url }}" alt="">-->
+        <img src="{{ 'img/danix_ico.png' | relative_url }}" alt="">
+        <img src="{{ 'img/suse_ico.png' | relative_url }}" alt="">
+        <div>
+            <strong>Live CD</strong>
+        </div>
+    </div>
+    {% include submenu.html %}
+    <div>
+        <h1>Jak stáhnout Linux?</h1>
+        <h2>Jak postupovat při stahování Linuxu</h2>
+        <p>
+            U každé distribuce na této stránce je odkaz na stránku popisující, jak a kde můžete příslušnou distribuci stáhnout. Některé stránky jsou však v angličtině a mohou obsahovat termíny, které nemusí být zcela zřejmé.
+        </p>
+        <p>
+            Při stahování distribuce je nejlepší sáhnout po verzi pokud možno nejnovější. Z nabízených adresářů je tedy záhodno vybrat <b>verzi označenou nejvyšším číslem</b>. Další komplikace mohou nastat u <b>volby vhodné architektury</b> - to znamená specifikace typu vašeho počítače. (Linux je dostupný pro mnoho různých architektur - např. Intel, AMD, PowerPC (Mac) a další.) Pokud vlastníte počítač postavený na procesoru firmy <b>Intel nebo AMD</b>, neuděláte chybu, pokud <b>zvolíte architekturu i386, i486, i586 (od Pentia I výš) či i686</b>, souhrnně se tato architektura někdy označuje <b>x86</b>. Pokud máte novější <b>64bitový procesor AMD</b>, bylo by škoda nezvolit příslušnou 64bitovou architekturu - tedy <b>AMD64 nebo x86_64</b>.
+        </p>
+        <p>
+            Z nabízených adresářů a souborů je pak potřeba <b>stáhnout soubory s příponou .iso</b>, což jsou CD případně DVD obrazy.
+        </p>
+    </div>
+    <div>
+        <h1>Co s .iso soubory?</h1>
+        <h2>Jak přenést .iso soubory na CD</h2>
+        <p>
+            <b>.iso</b> soubory jsou obrazy instalačních CD resp. DVD a je potřeba je správným způsobem přenést, vypálit na CD. <b>Tyto soubory se nevypalují jako běžný soubor</b>, ale ve vašem vypalovacím programu je potřeba zvolit vypalování obrazu (image) CD. Příslušné volby jsou závislé na vašem vypalovacím softwaru.
+        </p>
+        <p>
+            Pokud si postupem nejste jisti, můžete CD zakoupit za velmi příznivé ceny v <a href="http://www.linuxsoft.cz/shop/?kategorie=109">Linux CD shopu</a>.
+        </p>
+    </div>
+    <div>
+        <h1>Jak spustit Live CD?</h1>
+        <h2>Jak "nabootovat" Linux z Live CD</h2>
+        <p>
+            Pokud máte CD správně vypáleno, budete muset restartovat počítač. Poté bude zřejmě potřeba v BIOSu nastavit, resp. povolit, startování z CD. Do BIOSu se zpravidla dostanete stiskem nějaké speciální klávesy při startu počítače - tato klávesa by se měla při startu vypisovat na obrazovce. Jestliže máte startování z CD povoleno, po restartu počítače by se měl z CD začít zavádět vybraný operační systém Linux.
+        </p>
+    </div>
 </div>

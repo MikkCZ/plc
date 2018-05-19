@@ -6,238 +6,131 @@ redirect_from:
   - prevod-dat.html
 layout: wide
 ---
-<div id="lcol">
-<h1>Převod profilů některých běžných aplikací</h1>
+<div class="lcol">
+    <h1>Převod profilů některých běžných aplikací</h1>
 
-<h3>z MS Windows do Linuxu</h3>
+    <h3>z MS Windows do Linuxu</h3>
 
-<p>
-Při přechodu na Linux můžete snadno převést data profilů některých aplikací. Převod je nejsnadnější u aplikací, které jsou
-tzv. multiplatformí. Které to jsou můžete zjistit v <a href="{{ site.baseurl }}{% link _pages/ekvivalenty.html %}">tabulce ekvivalentních aplikací</a>.
+    <p>
+        Při přechodu na Linux můžete snadno převést data profilů některých aplikací. Převod je nejsnadnější u aplikací, které jsou tzv. multiplatformí. Které to jsou můžete zjistit v <a href="{{ site.baseurl }}{% link _pages/ekvivalenty.html %}">tabulce ekvivalentních aplikací</a>.
+    </p>
 
-<ul>
-<li><a href="#firefox">Mozilla Firefox</a></li>
-<li><a href="#thunderbird">Mozilla Thunderbird</a></li>
-</ul>
+    <ul>
+        <li><a href="#firefox">Mozilla Firefox</a></li>
+        <li><a href="#thunderbird">Mozilla Thunderbird</a></li>
+    </ul>
 
-<a name="firefox"></a>
-<h2><img src="{{ 'img/ff.png' | relative_url }}" alt="" /> Mozilla Firefox</h2>
+    <h2 id="firefox"><img src="{{ 'img/ff.png' | relative_url }}" alt=""> Mozilla Firefox</h2>
+    <p>
+        Převést data vašeho profilu prohlížeče Mozilla Firefox je velmi snadné, není to však zcela automatické. Pokud budete postupovat podle následujícího jednoduché návodu, měl by se převod povést.
+    </p>
+    <ol>
+        <li>
+            <p>
+                Na stránkách o aplikaci Firefox si můžete nalézt <a href="http://firefox.czilla.cz/otazky/#otazka-6">kde se se nachází profil této aplikace</a> pod MS Windows. Většinou by se mělo jednat o adresář <i>Application Data</i>, např.:
+            </p>
+            <pre>C:\WINDOWS\Application Data\Mozilla\Firefox\Profiles\</pre>
+            <p>
+                Tento adresář obsahuje podadresář s vlastnímy daty profilu. Tento podadresář má jméno složené s náhodných písmen a číslic a přípony <i>.default</i>. Např.:
+            </p>
+            <pre>da0z37ev.default</pre>
+            <p>Pokud máte více profilů bude se přípona lišit.</p>
+        </li>
+        <li>
+            <p>
+                Po nastartování Linuxu byste měli mít připojeny a dostupny soubory z operačního systému MS Windows. Jejich umístění se však může lišit, ať již podle toho, jak jste si jejich připojení sami nastavili, nebo jak vám je prezentuje váš oblíbený správce souborů.
+            </p>
+            <p>
+                Pokud nejste schopni z Linuxu váš profil z MS Windows najít vypalte si jej v MS Windows na CD a následně postupujte stejně.
+            </p>
+        </li>
+        <li>
+            <p>
+                Spusťte a poté ukončete kompletně v Linuxu aplikaci Firefox. Data profilu Firefoxu by se v Linuxu měla nacházet ve vašem domovském adresáři v podadresáři
+            </p>
+            <pre>~/.mozilla/firefox/</pre>
+            <p>
+                Tento adresář nemusí být běžně vidět a je potřeba povolit zobrazování skrytých souborů. I v tomto adresáři najdete podadresář jehož název je složen z náhodných znaků a číslic, bude však jiné než to jaké máte na MS Windows. Např.:
+            </p>
+            <pre>n85ie7kc.default</pre>
+            <p>Kromě něj se v adresáři nachází i další dva soubory</p>
+            <pre>pluginreg.dat</pre>
+            <pre>profiles.ini</pre>
+        </li>
+        <li>Pokud si jste jisti, že tento profil neobsahuje zatím žádná důležitá data, smažte tento (např.: n85ie7kc.default) podadresář.</li>
+        <li>Místo něj nakopírujte adresář s podobným označením z MS Windows. (Např. místo n85ie7kc.default nakopírujte da0z37ev.default)</li>
+        <li>
+            <p>
+                Otevřte textovým editorem (kate, gedit) soubor <i>profiles.ini</i> a změňte v něm řádek:
+            </p>
+            <pre>Path=n85ie7kc.default</pre>
+            <p>na</p>
+            <pre>Path=da0z37ev.default</pre>
+        </li>
+        <li>Spusťte Firefox. Vaše nastavení by měla být převedena.</li>
+    </ol>
 
-<p>
-Převést data vašeho profilu prohlížeče Mozilla Firefox je velmi snadné, není to však zcela automatické. Pokud budete postupovat
-podle následujícího jednoduché návodu, měl by se převod povést.
-</p>
-
-<ol>
-<li>
-<p>
-Na stránkách o aplikaci Firefox si můžete nalézt <a href="http://firefox.czilla.cz/otazky/#otazka-6">kde se se nachází profil této aplikace</a> pod MS Windows.
-Většinou by se mělo jednat o adresář <i>Application Data</i>, např.:</p>
-<pre>
-C:\WINDOWS\Application Data\Mozilla\Firefox\Profiles\
-</pre>
-<p>
-Tento adresář obsahuje podadresář s vlastnímy daty profilu. Tento podadresář má jméno složené s náhodných písmen a číslic
-a přípony <i>.default</i>. Např.:
-</p>
-<pre>
-da0z37ev.default
-</pre>
-<p>
-Pokud máte více profilů bude se přípona lišit.
-</p>
-
-</li>
-
-<li>
-<p>
-Po nastartování Linuxu byste měli mít připojeny a dostupny soubory z operačního systému MS Windows. Jejich umístění se však
-může lišit, ať již podle toho, jak jste si jejich připojení sami nastavili, nebo jak vám je prezentuje váš oblíbený správce souborů.
-</p>
-<p>
-Pokud nejste schopni z Linuxu váš profil z MS Windows najít vypalte si jej v MS Windows na CD a následně postupujte stejně.
-</p>
-</li>
-
-<li>
-<p>
-Spusťte a poté ukončete kompletně v Linuxu aplikaci Firefox. Data profilu Firefoxu by se v Linuxu měla nacházet ve vašem domovském adresáři v podadresáři
-</p>
-<pre>
-~/.mozilla/firefox/
-</pre>
-<p>
-Tento adresář nemusí být běžně vidět a je potřeba povolit zobrazování skrytých souborů.
-I v tomto adresáři najdete podadresář jehož název je složen z náhodných znaků a číslic, bude však jiné než to jaké máte na MS Windows. Např.:
-</p>
-<pre>
-n85ie7kc.default
-</pre>
-<p>
-Kromě něj se v adresáři nachází i další dva soubory
-</p>
-<pre>
-pluginreg.dat
-profiles.ini
-</pre>
-</li>
-
-<li>
-<p>
-Pokud si jste jisti, že tento profil neobsahuje zatím žádná důležitá data, smažte tento (např.: n85ie7kc.default) podadresář.
-</p>
-</li>
-
-<li>
-<p>
-Místo něj nakopírujte adresář s podobným označením z MS Windows. (Např. místo n85ie7kc.default nakopírujte da0z37ev.default)
-</p>
-</li>
-
-<li>
-<p>
-Otevřte textovým editorem (kate, gedit) soubor <i>profiles.ini</i> a změňte v něm řádek:
-</p>
-<pre>
-Path=n85ie7kc.default
-</pre>
-<p>
-na
-</p>
-<pre>
-Path=da0z37ev.default
-</pre>
-</li>
-
-<li>
-<p>
-Spusťte Firefox. Vaše nastavení by měla být převedena.
-</p>
-</li>
-
-</ol>
-
-
-
-<a name="thunderbird"></a>
-<h2><img src="{{ 'img/tb.png' | relative_url }}" alt="" /> Mozilla Thunderbird</h2>
-
-<p>
-Převést data vašeho profilu poštovního klienta Mozilla Thunderbird je v podstatě stejné jako u prohlížeče Firefox a je velmi snadné, není to však zcela automatické. Pokud budete postupovat
-podle následujícího jednoduché návodu, měl by se převod povést.
-</p>
-
-<ol>
-<li>
-<p>
-Na stránkách o aplikaci Thunderbird si můžete nalézt <a href="http://thunderbird.czilla.cz/otazky/#otazka-prechod-kde-jsou-ulozena-data">kde se se nachází profil této aplikace</a> pod MS Windows.
-Většinou by se mělo jednat o adresář <i>Application Data</i>, např.:</p>
-<pre>
-C:\WINDOWS\Application Data\Thunderbird\Profiles\
-</pre>
-<p>
-Tento adresář obsahuje podadresář s vlastnímy daty profilu. Tento podadresář má jméno složené s náhodných písmen a číslic
-a přípony <i>.default</i>. Např.:
-</p>
-<pre>
-da0z37ev.default
-</pre>
-<p>
-Pokud máte více profilů bude se přípona lišit.
-</p>
-
-</li>
-
-<li>
-<p>
-Po nastartování Linuxu byste měli mít připojeny a dostupny soubory z operačního systému MS Windows. Jejich umístění se však
-může lišit, ať již podle toho, jak jste si jejich připojení sami nastavili, nebo jak vám je prezentuje váš oblíbený správce souborů.
-</p>
-<p>
-Pokud nejste schopni z Linuxu váš profil z MS Windows najít vypalte si jej v MS Windows na CD a následně postupujte stejně.
-</p>
-</li>
-
-<li>
-<p>
-Spusťte a poté ukončete kompletně v Linuxu aplikaci Firefox. Data profilu Firefoxu by se v Linuxu měla nacházet ve vašem domovském adresáři v podadresáři
-</p>
-<pre>
-~/.thunderbird/
-</pre>
-<p>
-Tento adresář nemusí být běžně vidět a je potřeba povolit zobrazování skrytých souborů.
-I v tomto adresáři najdete podadresář jehož název je složen z náhodných znaků a číslic, bude však jiné než to jaké máte na MS Windows. Např.:
-</p>
-<pre>
-n85ie7kc.default
-</pre>
-<p>
-Kromě něj se v adresáři nachází i další dva soubory
-</p>
-<pre>
-appreg
-profiles.ini
-</pre>
-</li>
-
-<li>
-<p>
-Pokud si jste jisti, že tento profil neobsahuje zatím žádná důležitá data, smažte tento (např.: n85ie7kc.default) podadresář.
-</p>
-</li>
-
-<li>
-<p>
-Místo něj nakopírujte adresář s podobným označením z MS Windows. (Např. místo n85ie7kc.default nakopírujte da0z37ev.default)
-</p>
-</li>
-
-<li>
-<p>
-Otevřte textovým editorem (kate, gedit) soubor <i>profiles.ini</i> a změňte v něm řádek:
-</p>
-<pre>
-Path=n85ie7kc.default
-</pre>
-<p>
-na
-</p>
-<pre>
-Path=da0z37ev.default
-</pre>
-</li>
-
-<li>
-<p>
-Spusťte Thunderbird. Vaše nastavení by měla být převedena.
-</p>
-</li>
-
-</ol>
-
-
-
+    <h2 id="thunderbird"><img src="{{ 'img/tb.png' | relative_url }}" alt=""> Mozilla Thunderbird</h2>
+    <p>
+        Převést data vašeho profilu poštovního klienta Mozilla Thunderbird je v podstatě stejné jako u prohlížeče Firefox a je velmi snadné, není to však zcela automatické. Pokud budete postupovat podle následujícího jednoduché návodu, měl by se převod povést.
+    </p>
+    <ol>
+        <li>
+            <p>
+                Na stránkách o aplikaci Thunderbird si můžete nalézt <a href="http://thunderbird.czilla.cz/otazky/#otazka-prechod-kde-jsou-ulozena-data">kde se se nachází profil této aplikace</a> pod MS Windows. Většinou by se mělo jednat o adresář <i>Application Data</i>, např.:
+            </p>
+            <pre>C:\WINDOWS\Application Data\Thunderbird\Profiles\</pre>
+            <p>
+                Tento adresář obsahuje podadresář s vlastnímy daty profilu. Tento podadresář má jméno složené s náhodných písmen a číslic a přípony <i>.default</i>. Např.:
+            </p>
+            <pre>da0z37ev.default</pre>
+            <p>Pokud máte více profilů bude se přípona lišit.</p>
+        </li>
+        <li>
+            <p>
+                Po nastartování Linuxu byste měli mít připojeny a dostupny soubory z operačního systému MS Windows. Jejich umístění se však může lišit, ať již podle toho, jak jste si jejich připojení sami nastavili, nebo jak vám je prezentuje váš oblíbený správce souborů.
+            </p>
+            <p>
+                Pokud nejste schopni z Linuxu váš profil z MS Windows najít vypalte si jej v MS Windows na CD a následně postupujte stejně.
+            </p>
+        </li>
+        <li>
+            <p>
+                Spusťte a poté ukončete kompletně v Linuxu aplikaci Firefox. Data profilu Firefoxu by se v Linuxu měla nacházet ve vašem domovském adresáři v podadresáři
+            </p>
+            <pre>~/.thunderbird/</pre>
+            <p>
+                Tento adresář nemusí být běžně vidět a je potřeba povolit zobrazování skrytých souborů. I v tomto adresáři najdete podadresář jehož název je složen z náhodných znaků a číslic, bude však jiné než to jaké máte na MS Windows. Např.:
+            </p>
+            <pre>n85ie7kc.default</pre>
+            <p>Kromě něj se v adresáři nachází i další dva soubory</p>
+            <pre>appreg</pre>
+            <pre>profiles.ini</pre>
+        </li>
+        <li>Pokud si jste jisti, že tento profil neobsahuje zatím žádná důležitá data, smažte tento (např.: n85ie7kc.default) podadresář.</li>
+        <li>Místo něj nakopírujte adresář s podobným označením z MS Windows. (Např. místo n85ie7kc.default nakopírujte da0z37ev.default)</li>
+        <li>
+            <p>
+                Otevřte textovým editorem (kate, gedit) soubor <i>profiles.ini</i> a změňte v něm řádek:
+            </p>
+            <pre>Path=n85ie7kc.default</pre>
+            <p>na</p>
+            <pre>Path=da0z37ev.default</pre>
+        </li>
+        <li>Spusťte Thunderbird. Vaše nastavení by měla být převedena.</li>
+    </ol>
 </div>
 
-<div id="rcol">
-<div class="centr">
-</div>
-
-{% include submenu.html %}
-
-<div class="block">
-<h1>Multiplatformní</h1>
-<h2>Už vím proč používat multiplatformní aplikace</h2>
-<p>
-Zde vidíte jednu z výhod, proč používat tzv. multiplatformní aplikace. Tedy aplikace, které lze provozovat na více operačních
-systémech a mnohdy i na více architekturách.
-</p>
-<p>
-Ne jen, že se nemusíte zdržovat zvykáním si na nové chování jiné aplikace, ale i převod dat je velmi snadný. Krom toho většina
-aplikací s otevřeným zdrojovým kódem využívá i tzv. otevřených formátů - tedy struktury ve kterých jsou uloženy jejich
-data jsou veřejně známy a zdokumentovány. Převod jimi vytvořených dat je pak mnohem snadnější.
-</p>
-</div>
-
+<div class="rcol">
+    {% include submenu.html %}
+    <div>
+        <h1>Multiplatformní</h1>
+        <h2>Už vím proč používat multiplatformní aplikace</h2>
+        <p>
+            Zde vidíte jednu z výhod, proč používat tzv. multiplatformní aplikace. Tedy aplikace, které lze provozovat na více operačních systémech a mnohdy i na více architekturách.
+        </p>
+        <p>
+            Ne jen, že se nemusíte zdržovat zvykáním si na nové chování jiné aplikace, ale i převod dat je velmi snadný. Krom toho většina aplikací s otevřeným zdrojovým kódem využívá i tzv. otevřených formátů - tedy struktury ve kterých jsou uloženy jejich data jsou veřejně známy a zdokumentovány. Převod jimi vytvořených dat je pak mnohem snadnější.
+        </p>
+    </div>
 </div>

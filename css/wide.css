@@ -27,7 +27,7 @@
 
 /************* left column *************/
 
-#lcol  {
+.lcol {
     float: left;
     padding-left: 20px;
     margin-top: 100px;
@@ -35,65 +35,7 @@
     color: #494949;
 }
 
-#lcol a {
-    font-weight: bold;
-    letter-spacing: 0.04em;
-    text-decoration: underline;
-}
-
-#lcol b {
-    color: #292929;
-}
-
-#lcol pre {
-    margin-left: 1em;
-    padding: 0.5em;
-    border: 1px solid grey;
-    background-color: #eee;
-}
-
-#lcol .ico {
-    padding: 1px;
-    margin: 1px;
-}
-
-#lcol .border {
-    border: 1px solid black;
-    margin: 20px;
-    background-image: url("../img/vyhody_bck.png");
-    background-position: right top;
-    background-repeat: no-repeat;
-}
-
-#lcol .img_shot {
-    float: right;
-    margin: 5%;
-    padding: 0px;
-    padding-right: 5%;
-}
-
-#lcol .t_sc {
-    float: right;
-    margin: 5px;
-}
-
-#lcol .vyhody {
-    padding: 2em 2em 2em 10%;
-    margin: 0px;
-}
-
-#lcol .vyhody li {
-    padding-top: 5px;
-}
-
-#lcol .vyhody a {
-    color: #b77200;
-    font-weight: bold;
-    text-decoration: none;
-    letter-spacing: 0;
-}
-
-#lcol h2 {
+.lcol h2 {
     border-bottom: 1px solid black;
     color: #000;
     font-size: 1.2em;
@@ -101,79 +43,139 @@
     margin: 0px;
 }
 
-#lcol p {
+.lcol p {
     font-size: 1em;
     margin-bottom: 1em;
 }
 
-#lcol .subvyhoda {
-    margin-top: 0em;
-    margin-bottom: 1em;
+.lcol a {
+    text-decoration: underline;
+}
+
+.lcol b {
+    color: #292929;
+}
+
+.lcol pre,
+.lcol code {
+    display: block;
+    margin-left: 1em;
+    padding: 0.5em;
+    border: 1px solid grey;
+    background-color: #eee;
+}
+
+.lcol .download {
+    text-align: right;
+    list-style-type: none;
+}
+
+.lcol .download li {
+    display: inline;
+}
+
+.lcol .download li:not(:last-child)::after {
+    display: inline-block;
+    content: '|';
+    padding-left: 0.25em;
+}
+
+.lcol .download img {
+    padding: 1px;
+    margin: 1px;
+}
+
+.vyhody {
+    border: 1px solid black;
+    margin: 20px;
+    background-image: url("../img/vyhody_bck.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.vyhody img {
+    float: right;
+    margin: 5%;
+    padding: 0px;
+    padding-right: 5%;
+}
+
+.vyhody ul {
+    padding: 2em 2em 2em 10%;
+    margin: 0px;
+}
+
+.vyhody li {
+    padding-top: 5px;
+}
+
+.vyhody a {
+    color: #b77200;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 0;
+}
+
+.subvyhoda {
     padding-left: 3em;
     font-size: 0.9em;
 }
 
+.lcol .t_sc {
+    float: right;
+    margin: 5px;
+}
 
-#lcol .subdist {
+.lcol .subdist {
     padding-left: 15em;
 }
 
-#lcol .downld {
-    clear: both;
-        text-align: right;
+table {
+    background-color: #aaa;
+    width: 100%;
 }
 
-#lcol .ubuntu {
-    padding-left: 140px;
-    background-image: url("../img/ubuntu_logo.png");
-    background-position: left top;
-    background-repeat: no-repeat;
+td {
+    background-color: #fff;
+    padding: 3px;
 }
 
-#lcol .slax {
-    padding-left: 140px;
-    background-image: url("../img/slax_logo.png");
-    background-position: left top;
-    background-repeat: no-repeat;
+.lcol .mp {
+    background-color: #ccc;
 }
 
-#lcol .move {
-    padding-left: 140px;
-    background-image: url("../img/mandriva_move_logo.png");
-    background-position: left top;
-    background-repeat: no-repeat;
+th {
+    text-align: left;
+    background-image: url("../img/top_bckg.png");
+    background-repeat: repeat-x;
+    background-color: yellow;
 }
 
-#lcol .one {
-    padding-left: 140px;
-    background-image: url("../img/mandriva_one_logo.png");
-    background-position: left top;
-    background-repeat: no-repeat;
+th,
+table h4 {
+    font-size: 1.2em;
+    margin: 0;
 }
 
-#lcol .danix {
-    padding-left: 140px;
-    background-image: url("../img/danix_logo.png");
-    background-position: left top;
-    background-repeat: no-repeat;
+.inline-nav {
+    list-style-type: none;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    background-image: url("../img/top_bckg.png");
+    background-repeat: repeat-x;
+    background-color: yellow;
+    border: 2px solid #aaa;
 }
 
-#lcol .fedora {
-    padding-left: 140px;
-    background-image: url("../img/fedora_logo.png");
-    background-position: left top;
-    background-repeat: no-repeat;
-}
-
-
-#lcol .note {
-    font-size: 0.85em;
+.inline-nav li {
+    display: inline;
+    margin: 0 0.7em;
 }
 
 /************* right collum *************/
 
 
-#rcol   {
+.rcol {
     float: right;
     width: 25%;
     margin-top: 100px;
@@ -181,42 +183,26 @@
     font-size: 0.9em;
 }
 
-#rcol .block {
-    position: relative;
+.rcol .centr {
+    text-align: center;
+}
+
+.rcol .centr strong {
+    color: #888;
+    font-size: 1.2em;
+}
+
+.rcol > div:not([class="centr"]) {
     margin: 10px;
     border: 1px solid #f2dc00;
 }
 
-#rcol .blockg {
-    position: relative;
-    margin: 10px;
-    border: 1px solid #208813;
-    color: #208813;
-}
-
-#rcol .c800 {
+.rcol .c800 {
     font-size: 1.3em;
     font-weight: bold;
 }
 
-#rcol .zlsm {
-    font-size: 0.8em;
-}
-
-#rcol .blimg {
-        display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 4em;
-    padding-right: 4em;
-    border-bottom: 1px solid black;
-}
-
-#rcol .blimg2 {
-}
-
-
-#rcol h1 {
+.rcol h1 {
     font-size: 1.2em;
     color: white;
     background-image: url("../img/top_bckg.png");
@@ -228,70 +214,41 @@
     border-bottom: 1px solid #a2ac00;
 }
 
-#rcol h2 {
+.rcol h1 a {
+    text-decoration: none;
+    color: #ac0000;
+}
+
+.rcol h2 {
     font-size: 1em;
-    font-weight: bold;
     padding: 10px 5px 0px 5px;
     margin: 1px;
     color: #292929;
-    border: 0px;
 }
 
-#rcol p {
-    font-size: 1em;
+.rcol p {
     padding: 5px;
     margin: 1px;
     line-height:1.5em;
-    border: 0px;
 }
 
-#rcol a {
+.rcol a {
     text-decoration: underline;
 }
 
-#rcol dl {
-    margin: 1px;
+.rcol dl {
+    margin: 0;
     padding: 6px;
 }
 
-#rcol dt {
-    padding-bottom: 2px;
-    padding-top: 2px;
+.rcol dt {
+    padding: 2px;
     font-weight: bold;
 }
 
-#rcol dd {
+.rcol dd {
     margin-left: 5%;
     padding: 2px;
-}
-
-#rcol .centr {
-    text-align: center;
-}
-
-#rcol .nechtevst {
-    font-weight: bold;
-    color: #888;
-    font-size: 1.2em;
-    padding: 3px;
-    line-height:1.2em;
-}
-
-#rcol .sme {
-    background-image: url("../img/top_bckg.png");
-    background-repeat: repeat-x;
-    position: relative;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 0.5em;
-    background-color: #f2dc00;
-    border: 1px solid #fff;
-}
-
-#rcol .smm {
-    text-decoration: none;
-        font-size:1em;
-    color: #ac0000;
 }
 
 #footer {
