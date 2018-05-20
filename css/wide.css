@@ -1,11 +1,16 @@
-#header {
+header {
     position: absolute; left: 0px; top: 0px;
     width: 100%;
     background-image: url("../img/top_bckg.png");
     background-repeat: repeat-x;
 }
 
-#menu {
+header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+header ul {
     list-style-type: none;
     position: absolute; right: 10px; bottom: 15px;
     margin: 0;
@@ -13,13 +18,13 @@
     color: #ac0000;
 }
 
-#menu li,
-#menu a {
+header li,
+header a {
     display: inline;
     color: #ac0000;
 }
 
-#menu li:not(:last-child)::after {
+header li:not(:last-child)::after {
     display: inline-block;
     content: '|';
     padding-left: 0.25em;
@@ -236,17 +241,17 @@ table h4 {
     text-decoration: underline;
 }
 
-#footer {
+footer {
     padding: 20px;
     font-size: smaller;
 }
 
-#footer ul {
+footer ul {
     padding: 5px 0;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
-#footer .copyleft {
+footer .copyleft {
     display: none;
 }

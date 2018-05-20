@@ -160,7 +160,7 @@ Pokud hledáte šikovného dodavatele na instalaci Linuxu na běžný desktopov�
 {{ submenu | markdownify }}
 
 <div markdown="1">
-# Zdarma?
+# Opravdu zdarma
 
 ## Jak to, že může být Linux zdarma?
 Na vývoji komponent Linuxu se podílí nesmírné množství lidí z celého světa často ve svém volném čase a proto, že je to baví. Svou práci dávají k dispozici zdarma a očekávají, že jim bude opláceno stejným způsobem. Můžete si ale zvolit i jiný způsob jak jim jejich práci oplatit a to zakoupit si Linux a podpořit tak jeho vývoj. Nikdo vás však nenutí komukoli cokoli vracet či platit. Je na vás, zda se zapojíte do zlepšování toho, co jste se rozhodli používat, a oplatíte tak ostatním jejich snahu. Zapojit se lze nejrůznějšími způsoby - od pomoci při ohlašování chyb, přes programování a poskytnutí hardwaru až po peněžité příspěvky na zcela konkrétní věci, které považujete za důležité.
