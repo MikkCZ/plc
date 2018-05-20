@@ -1,8 +1,8 @@
 <div id="footer" markdown="1">
 - [Proč]({{ '/' | relative_url }})
-- [Výhody Linuxu]({{ site.baseurl }}{% link _pages/vyhody.html %})
-- [Chci vyzkoušet]({{ site.baseurl }}{% link _pages/chci-vyzkouset.html %})
-- [Stáhnout Linux]({{ site.baseurl }}{% link _pages/kde-ziskat.html %})
+- [Výhody Linuxu]({{ site.baseurl }}{% link _pages/vyhody.md %})
+- [Chci vyzkoušet]({{ site.baseurl }}{% link _pages/chci-vyzkouset.md %})
+- [Stáhnout Linux]({{ site.baseurl }}{% link _pages/kde-ziskat.md %})
 
 
 *[Linux&reg;](https://www.linuxmark.org/)* je ochranná známka, kterou vlastní Linus Torvalds.<br>

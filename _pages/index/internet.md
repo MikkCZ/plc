@@ -6,7 +6,7 @@ layout: boxed
 
 # ![]({{ 'img/internet.png' | relative_url }}) Internet
 
-Myslíte si, že znáte Internet? Vyzkoušejte jak vypadá v *Linuxu*. S [Firefoxem](http://www.mozilla.cz/produkty/firefox/). A pokud Firefox už znáte, není nic jednoduššího než si svá nastavení, hesla a záložky [převést do *Linuxu*]({{ site.baseurl }}{% link _pages/prevod-dat.html %}).
+Myslíte si, že znáte Internet? Vyzkoušejte jak vypadá v *Linuxu*. S [Firefoxem](http://www.mozilla.cz/produkty/firefox/). A pokud Firefox už znáte, není nic jednoduššího než si svá nastavení, hesla a záložky [převést do *Linuxu*]({{ site.baseurl }}{% link _pages/prevod-dat.md %}).
 
 Všechny novinky můžete mít na dosah s RSS stejně jako dříve včetně svojí pošty z [Thunderbirdu](http://www.mozilla.cz/produkty/thunderbird). Své přátele opět najdete pomocí kecálka [Pidgin](http://www.pidgin.im/) nebo [Skype](http://skype.com/intl/en/download/skype/linux/). A jako bonus dostanete [bezpečí]({{ site.baseurl }}{% link _pages/index/bezpecnost.md %}) a [jedinečný vzhled]({{ site.baseurl }}{% link _pages/index/vzhled.md %}).
 

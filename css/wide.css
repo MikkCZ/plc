@@ -236,21 +236,6 @@ table h4 {
     text-decoration: underline;
 }
 
-.rcol dl {
-    margin: 0;
-    padding: 6px;
-}
-
-.rcol dt {
-    padding: 2px;
-    font-weight: bold;
-}
-
-.rcol dd {
-    margin-left: 5%;
-    padding: 2px;
-}
-
 #footer {
     padding: 20px;
     font-size: smaller;
