@@ -12,7 +12,7 @@ layout: wide
 
 ### z MS Windows do Linuxu
 
-Při přechodu na Linux můžete snadno převést data profilů některých aplikací. Převod je nejsnadnější u aplikací, které jsou tzv. multiplatformí. Které to jsou můžete zjistit v [tabulce ekvivalentních aplikací]({{ site.baseurl }}{% link _pages/ekvivalenty.html %}).
+Při přechodu na Linux můžete snadno převést data profilů některých aplikací. Převod je nejsnadnější u aplikací, které jsou tzv. multiplatformí. Které to jsou můžete zjistit v [tabulce ekvivalentních aplikací]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}).
 
 - [Mozilla Firefox](#firefox)
 - [Mozilla Thunderbird](#thunderbird)

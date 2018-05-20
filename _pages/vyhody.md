@@ -77,7 +77,7 @@ V každé linuxové distribuci naleznete **velké množství nejrůznějších a
 [Prohlížeče internetu](http://www.mozilla.cz/), [přehrávače multimédií](http://www.mplayerhq.hu/), kancelářský software, [poštovní klienty](http://www.mozilla.cz/), nejrůznější editory (včetně [grafických](http://www.gimp.cz/) i [3D](http://www.blender.org/)), programovací nástroje (IDE, kompilátory), komunikační nástroje ([ICQ, Jabber](http://psi-im.org/) apod.), hry a další - které jsou schopny uspokojit všechny běžné potřeby při práci s počítačem. Přesto vás ale neomezuje pouze na tyto jako jediné možné, ale umožňuje vám vybrat si ty, které vám nejvíce vyhovují. Naprostá většina těchto aplikací je k dispozici zcela **zdarma**.
 {:.subvyhoda}
 
-Pokud hledáte vhodnou náhradu aplikací zkuste se podívat do naší [tabulky ekvivalentních aplikací]({{ site.baseurl }}{% link _pages/ekvivalenty.html %}).
+Pokud hledáte vhodnou náhradu aplikací zkuste se podívat do naší [tabulky ekvivalentních aplikací]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}).
 {:.subvyhoda}
 
 ![Firefox]({{ 'img/ff.png' | relative_url }} "Firefox")

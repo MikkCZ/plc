@@ -9,9 +9,9 @@ layout: wide
 <div class="lcol">
 
 <h1>Tabulka ekvivalentních aplikací</h1>
+
 <h3>Přesvědčte se, že svobodné multiplatformní softwarové nástroje vám poskytnout to, co potřebujete, a zdarma!</h3>
 <p>Zajímavé aplikace, které jsou multiplatformní (lze je použít jak na MS Windows tak na GNU/Linuxu), jsou <span class="mp">označeny takto</span>.</p>
-
 
 <table>
 <tr><th colspan="2">Zkrácený seznam nejběžnějších aplikací</th></tr>
@@ -39,7 +39,6 @@ layout: wide
 </table>
 
 <h3>Rozšířený seznam ekvivalentů</h3>
-
 <ul class="inline-nav">
     <li><a href="#internet">Internet</a></li>
     <li><a href="#kancelar">Kancelář</a></li>
@@ -57,7 +56,6 @@ layout: wide
 </ul>
 
 <table class="tablemain">
-
 <tr>
 <td><h4>Popis programu, úlohy</h4></td>
 <td><h4>MS Windows</h4></td>
@@ -65,11 +63,10 @@ layout: wide
 </tr>
 
 <tr>
-
 <th colspan="3" id="internet">Internet</th>
 </tr>
-<tr>
 
+<tr>
 <td>Webový prohlížeč</td>
 <td>Internet Explorer<br />
 <a class="mp" href="https://www.mozilla.org/cs/firefox/new/">Mozilla Firefox</a><br />
@@ -148,7 +145,6 @@ layout: wide
  Getright<br />
  DAP<br />
  <a class="mp" href="http://unxutils.sourceforge.net/">Wget</a><br />
-
 <a href="http://www.geocities.com/SiliconValley/Vista/2865/md.htm">Mass Downloader</a><br />
 </td>
 <td>DownThemAll<br />
@@ -175,7 +171,6 @@ layout: wide
  <a class="mp" href="http://unxutils.sourceforge.net/">Wget</a><br />
 </td>
 <td>
-
 <a href="http://www.httrack.com/">Httrack</a><br />
 <a class="mp" href="http://www.gnu.org/software/wget/">Wget</a> (konsole, standard)<br />
  WWW Offline Explorer<br />
@@ -183,7 +178,6 @@ layout: wide
 <a href="http://sourceforge.net/projects/getleftdown/">GetLeft</a><br />
 <a href="http://curl.haxx.se/">Curl</a> (konsole)<br />
 <a href="http://www.nongnu.org/khttrack/">Khttrack</a>
-
 </td>
 </tr>
 
@@ -330,12 +324,9 @@ Skype<br />
  ATGuard<br />
  ZoneAlarm<br />
  Agnitum Outpost Firewall<br />
-
  WinRoute Pro<br />
  Norton Internet Security<br />
-
  Sygate Personal Firewall PRO<br />
-
 Sunbelt Personal Firewall<br />
 </td>
 <td>iptables (konsole, standard)
@@ -511,7 +502,6 @@ Windows Terminal Server [Prop]<br />
 TeamViewer<br />
 </td>
 <td>
-
 <a class="mp" href="http://www.realvnc.com/">VNC Virtual Network Computing</a><br />
 <a href="http://www.ssh.com/">ssh</a><br />
 Vzdálená správa je zabudována v <a href="http://www.xfree86.org/">XFree86</a><br />
@@ -670,13 +660,11 @@ TeX<br />
 </tr>
 
 <tr>
-
 <td>Tabulkové procesory</td>
 <td>MS Excel<br />
  <a class="mp" href="http://www.openoffice.org/">OpenOffice.org</a> Calc<br />
  602Tab</td>
 <td>
-
 <a class="mp" href="https://www.libreoffice.org/discover/calc/">LibreOffice</a> Calc<br />
 <a class="mp" href="http://www.openoffice.org/">OpenOffice.org</a> Calc<br />
 <a class="mp" href="http://www.calligra.org/sheets/">Calligra Sheets</a><br />
@@ -686,7 +674,6 @@ Abacus<br />
 </tr>
 
 <tr>
-
 <td>Grafická prezentace dat</td>
 <td>MS Visio<br />
  MicroCall Origin<br />
@@ -699,12 +686,10 @@ KChart<br />
 GtkGraph<br />
 <a href="http://www.gnu.org/software/plotutils/">GNU Plotutils</a><br />
 <a href="http://ploticus.sf.net/">Ploticus</a>
-
 </td>
 </tr>
 
 <tr>
-
 <td>Vytváření prezentací</td>
 <td>MS PowerPoint<br />
  <a class="mp" href="http://www.openoffice.org/">OpenOffice.org</a> Impress</td>
@@ -718,7 +703,6 @@ Kuickshow &amp; gimp  :)
 </tr>
 
 <tr>
-
 <td>Lokální databáze</td>
 <td>MS Access<br />
  InterBase<br />
@@ -743,28 +727,24 @@ Quicken<br />
 <a href="http://kmymoney2.sourceforge.net/">Kmymoney</a><br />
 <a href="http://www.grisbi.org/">Grisbi</a><br />
 <a href="http://www.moneydance.com/">Moneydance</a> [Prop]
-
 </td>
 </tr>
-<tr>
 
+<tr>
 <td>Správa projektů</td>
 <td>MS Project<br />
  Project Expert 7</td>
 <td>
 <a href="http://live.gnome.org/Planner">GNOME Planner</a><br />
 <a href="http://outreach.sourceforge.net/">Outreach</a>
-
 </td>
 </tr>
 
 <tr>
-
 <td>Malé DTP nástroje</td>
 <td>MS Publisher</td>
 <td><a class="mp" href="http://www.scribus.net/">Scribus</a><br /></td>
 </tr>
-
 
 <tr>
 <th colspan="3" id="ssouboru">Správa souborů</th>
@@ -776,7 +756,6 @@ Quicken<br />
  Norton Commander<br />
  Disco Commander<br />
  Volcov Commander<br />
-
 etc</td>
 <td>
 <a href="http://www.ibiblio.org/mc/">Midnight Commander</a><br />
@@ -815,7 +794,6 @@ WinACE<br />
 UltimateZip
 </td>
 <td>
-
 <a class="mp" href="http://www.7-zip.org/">p7zip</a><br />
 <a href="https://www.kde.org/applications/utilities/ark/">Ark</a> (KDE)<br />
 <a href="https://wiki.gnome.org/Apps/FileRoller">FileRoller</a> (GNOME)<br />
@@ -901,7 +879,6 @@ bsdiff
 <a href="http://gnotepad.sourceforge.net/">Gnotepad</a><br />
 KWrite (KDE)<br />
 Nedit<br />
-
 </td>
 </tr>
 
@@ -932,7 +909,6 @@ CoolEdit
  <a href="http://www.jedit.org/">jEdit</a>
 </td>
 <td>
-
 <a class="mp" href="http://bluefish.openoffice.nl/">Bluefish</a><br />
 <a class="mp" href="http://www.geany.org/">Geany</a><br />
 <a href="http://kdewebdev.org/quanta/">Quanta Plus</a><br />
@@ -943,13 +919,11 @@ CoolEdit
 <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a> (GNOME)<br />
 Nedit<br />
 <a href="http://codecommander.sourceforge.net/">CodeCommander</a><br />
-
 Mcedit (z <a href="http://www.ibiblio.org/mc/">mc</a>)<br />
 <a href="http://www.jedit.org/">jEdit</a>
 <a href="http://www.jedsoft.org/jed/">JED</a><br />
 <a href="http://setedit.sourceforge.net/">Setedit</a> (ve stylu Turbo Vision)<br />
 <a href="http://hte.sourceforge.net/">HT editor</a><br />
-
 </td>
 </tr>
 
@@ -1000,11 +974,9 @@ Kghostview<br />
 </td>
 </tr>
 
-
 <tr>
 <th colspan="3" id="hudba">Hudba, CD a mp3</th>
 </tr>
-
 
 <tr>
 <td>Přehrávač hudby / mp3 / ogg </td>
@@ -1013,7 +985,6 @@ Kghostview<br />
  Windows Media Player<br />
 <a href="http://www.winamp.com/">Winamp</a><br />
 <a href="http://www.zinf.org/">Zinf</a><br />
-
 <a href="http://snackamp.sourceforge.net/">SnackAmp</a><br />
 <a href="http://www.e-soft.co.uk/">Media Box Audio / Video </a><br />
 <a href="http://www.e-soft.co.uk/">Workstation 5</a><br />
@@ -1125,7 +1096,6 @@ VirtualCD<br />
 <a href="http://www.xiph.org/paranoia">Cdparanoia</a><br />
  SimpleCDR-X<br />
 <a href="http://sourceforge.net/projects/autorip/">AutoRip</a><br />
-
 </td>
 </tr>
 
@@ -1237,7 +1207,6 @@ Noteedit<br />
 <tr>
 <td></td>
 <td>Midi-sequencer<br />
-
 Cakewalk</td>
 <td>
 <a href="http://www.rosegardenmusic.com/">RoseGarden</a><br />
@@ -1662,14 +1631,11 @@ Moovida<br />
 </td>
 </tr>
 
-
-
 <tr>
 <th colspan="3" id="programovani">Programování a vývoj</th>
 </tr>
 
 <tr>
-
 <td>IDE</td>
 <td>
 <a class="mp" href="http://www.eclipse.org/">Eclipse</a><br />
@@ -1721,7 +1687,6 @@ wxDesigner<br />
 </tr>
 
 <tr>
-
 <td>C++ IDE</td>
 <td>Borland Turbo C++ 3.0 for DOS<br />
  <br />
@@ -1736,13 +1701,10 @@ wxDesigner<br />
 <a href="http://wxstudio.sourceforge.net/">Wxstudio</a>
 <br />
 <a href="http://www.eclipse.org/">Eclipse</a>
-
-
 </td>
 </tr>
 
 <tr>
-
 <td>Object Pascal IDE</td>
 <td>Delphi</td>
 <td><a href="http://www.borland.com/">Kylix</a> [Prop] (Kylix Personal Edition je zdarma)<br />
@@ -1750,7 +1712,6 @@ wxDesigner<br />
 </tr>
 
 <tr>
-
 <td>Pascal</td>
 <td>Pascal<br />
  BP</td>
@@ -1761,7 +1722,6 @@ RShell (ve stylu Borland Pascal 7.0)
 </tr>
 
 <tr>
-
 <td>Basic</td>
 <td>Basic</td>
 <td><a href="http://hbasic.sourceforge.net/">Hbasic</a><br />
@@ -1771,7 +1731,6 @@ X-basic<br />
 </tr>
 
 <tr>
-
 <td>Prolog</td>
 <td>VisualProlog<br />
  <a href="http://www.cs.mu.oz.au/research/mercury/">Mercury</a><br />
@@ -1786,7 +1745,6 @@ CIAO Prolog</td>
 </tr>
 
 <tr>
-
 <td>Assembler</td>
 <td>TASM<br />
  MASM<br />
@@ -1797,8 +1755,8 @@ CIAO Prolog</td>
 gas (AT&amp;T syntax<br />
  je součástí binutils)</td>
 </tr>
-<tr>
 
+<tr>
 <td>Disassembler<br />
  Reverse engineering</td>
 <td>SoftIce</td>
@@ -1806,8 +1764,8 @@ gas (AT&amp;T syntax<br />
 <a href="http://www.feedface.com/projects/ldasm.html">ldasm</a>
 </td>
 </tr>
-<tr>
 
+<tr>
 <td>Debugger</td>
 <td>
 WinDbg<br />
@@ -1826,7 +1784,6 @@ WinDbg<br />
 </tr>
 
 <tr>
-
 <td>WYSIWYG html editor</td>
 <td>
 <a class="mp" href="http://www.kompozer.net/">KompoZer</a><br />
@@ -1846,12 +1803,10 @@ MS Frontpage<br />
 </a><br />
 <a href="http://www-3.ibm.com/software/webservers/hpbuilder/linux/">IBM WebSphere Homepage Builder</a> [Prop]<br />
 <a href="http://www.tecnick.com/public/code/cp_dpage.php?aiocp_dp=jxhtmledit">JXHTMLEDIT</a> (Java)
-
 </td>
 </tr>
 
 <tr>
-
 <td>HTML / DHTML editor</td>
 <td>HomeSite<br />
 <a href="http://www.pspad.com/cz/">PSPad</a><br />
@@ -1870,38 +1825,33 @@ WebMaker<br />
 <br />
 <a class="mp" href="http://www.coffeecup.com/linux/">Coffeecup / Linux</a><br />
 <a href="http://freshmeat.net/projects/fckeditor/">FCKeditor</a>
-
 </td>
 </tr>
 
 <tr>
-
 <td>HTML / DHTML editor</td>
 <td><a class="mp" href="http://www.arachnoid.com/">Arachnofilia</a> [Prop]</td>
 <td><a class="mp" href="http://www.arachnoid.com/">Arachnofilia</a> [Prop]</td>
 </tr>
-<tr>
 
+<tr>
 <td>XML Editor</td>
 <td>XML Spy [Prop]</td>
 <td><a href="http://www.xmlmind.com/">XMLMind XML Editor</a><br />
 <a class="mp" href="http://www.vim.org/">Vim</a><br />
-
 <a class="mp" href="http://www.gnu.org/software/emacs/">Emacs</a></td>
 </tr>
-<tr>
 
+<tr>
 <td>Perl/Python/Tcl IDE</td>
 <td>???</td>
 <td>
 <a href="http://www.activestate.com/Products/Komodo/">Komodo</a> [Prop]<br />
 <a href="http://icewalkers.com/jump.php?AID=1612&amp;src=home">Perl Dev Kit</a>
-
 </td>
 </tr>
 
 <tr>
-
 <td>Java IDE</td>
 <td>JBuilder<br />
  IDEA</td>
@@ -1915,7 +1865,6 @@ WebMaker<br />
 </tr>
 
 <tr>
-
 <td>CASE pro UML</td>
 <td><a href="http://www.argouml.org/">ArgoUML</a><br /></td>
 <td><a href="http://uml.sourceforge.net/">Umbrello UML Modeller</a><br />
@@ -1927,7 +1876,6 @@ WebMaker<br />
 </tr>
 
 <tr>
-
 <td>HEX-editor</td>
 <td><a href="http://www.chmaas.handshake.de/delphi/freeware/xvi32/xvi32.htm">Hex Editor</a></td>
 <td><a href="http://biew.sourceforge.net/">Biew</a><br />
@@ -1937,7 +1885,6 @@ WebMaker<br />
 </tr>
 
 <tr>
-
 <td>Clipper compilátor a preprocessor</td>
 <td>CA-Clipper<br />
  <a href="http://www.harbour-project.org/">The Harbour Project</a></td>
@@ -1948,15 +1895,14 @@ WebMaker<br />
 </tr>
 
 <tr>
-
 <td>Platforma  dot-NET</td>
 <td>M$ .Net</td>
 <td><a href="http://www.go-mono.com/">Mono</a><br />
 <a href="http://www.gnu.org/projects/dotgnu/">DotGNU/Portable.NET</a>
 </td>
 </tr>
-<tr>
 
+<tr>
 <td>Práce s verzovacími systémy </td>
 <td>WinCVS<br />
  TortoiseCVS<br />
@@ -1988,8 +1934,8 @@ Lincvs (grafické prostředí pro CVS)<br />
 <a href="http://gambas.sourceforge.net/">Gambas</a>
 </td>
 </tr>
-<tr>
 
+<tr>
 <td>Grafické knihovny</td>
 <td>WinAPI<br />
  MFC<br />
@@ -2031,16 +1977,15 @@ AWT<br />
 <a href="http://www.winehq.com/">WinAPI a MFC přes wine</a> (C)
 </td>
 </tr>
-<tr>
 
+<tr>
 <td> Systémy dokumentace zdrojových kódů</td>
 <td><a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a></td>
 <td><a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a><br />
 <a href="http://www.literateprogramming.com/">CWEB</a></td>
 </tr>
+
 <tr>
-
-
 <td> Programování her</td>
 <td><a href="http://www.microsoft.com/directx">DirectX</a><br />
  <a href="http://www.libsdl.org/">libSDL</a><br />
@@ -2050,13 +1995,12 @@ AWT<br />
 </tr>
 
 <tr>
-
 <td> Převod zdrojového kódu do hypertextovaného HTML</td>
 <td>???</td>
 <td><a href="http://webcpp.sourceforge.net/">Webcpp</a></td>
 </tr>
-<tr>
 
+<tr>
 <td> Systém správy chyb<br />
 </td>
 <td>???<br />
@@ -2064,10 +2008,7 @@ AWT<br />
 <td><a href="http://www.mozilla.org/projects/bugzilla/">Bugzilla</a></td>
 </tr>
 
-
-
 <tr>
-
 <td>Vytváření grafů a diagramů</td>
 <td>Microsoft Visio</td>
 <td><a class="mp" href="http://www.calligra.org/flow/">Calligra Flow</a><br />
@@ -2079,7 +2020,6 @@ Tulip<br />
 <a href="http://www.gentleware.com/">Poseidon for UML</a> [Prop &amp; svobodná verze]<br />
 <a href="http://sourceforge.net/projects/jgraph/">JGraph + JGraphPad</a> (Java)</td>
 </tr>
-
 
 <tr>
 <th colspan="3" id="nastroje">Různé nástroje</th>
@@ -2093,7 +2033,6 @@ Tulip<br />
  <a href="http://devel-home.kde.org/~kgpg/">KGpg</a><br />
 <a href="http://www.pgp.com/">PGP</a> [Prop]</td>
 </tr>
-
 
 <tr>
 <td>Plánovač systémových úloh</td>
@@ -2112,7 +2051,6 @@ Tulip<br />
 <a href="http://kooka.kde.org/">Kooka</a>
 </td>
 </tr>
-
 
 <tr>
 <td>Scanování (snímání předloh)</td>
@@ -2202,7 +2140,6 @@ Ksysguard<br />
 </td>
 </tr>
 
-
 <tr>
 <td>Konverze textu na řeč</td>
 <td>MS text to speech</td>
@@ -2254,9 +2191,6 @@ ViaVoice (téměř mrtvé...)
 <a href="http://jpilot.org/">Jpilot</a></td>
 </tr>
 
-
-
-
 <tr>
 <th colspan="3" id="monitory">Monitory systému</th>
 </tr>
@@ -2276,7 +2210,6 @@ ViaVoice (téměř mrtvé...)
 </tr>
 
 <tr>
-
 <td>S.M.A.R.T-atributy a teplota HDD</td>
 <td>Většinou s CD k motherboardu<br />
  <a href="http://www.ariolic.ru/activesmart/index.html">Active SMART</a></td>
@@ -2288,8 +2221,8 @@ ViaVoice (téměř mrtvé...)
 <a href="http://lightside.eresmas.com/">Ide-smart</a><br />
 <a href="http://sourceforge.net/projects/smartsuite/">Smartsuite</a></td>
 </tr>
-<tr>
 
+<tr>
 <td>Testování pamětí</td>
 <td>SiSoft SANDRA</td>
 <td><a href="http://www.memtest86.com/">Memtest86</a></td>
@@ -2331,6 +2264,7 @@ Connectix Virtual PC [Prop]</td>
 <a href="http://savannah.nongnu.org/projects/plex86">Plex86</a><br />
 <a href="http://user-mode-linux.sourceforge.net/">User Mode Linux</a></td>
 </tr>
+
 <tr>
 <td>Linux  emulátor</td>
 <td>
@@ -2356,15 +2290,14 @@ Bash for Windows<br />
 <td><a href="http://sourceforge.net/projects/dosbox/">DOSBox</a><br />
 <a href="http://www.dosemu.org/">Dosemu</a></td>
 </tr>
-<tr>
 
+<tr>
 <td> Sony PlayStation emulátor</td>
 <td>ePSXe<br />
 </td>
 <td>
 <a href="http://www.epsxe.com/">ePSXe</a><br />
 <a href="http://www.pcsx.net/">Pcsx</a>
-
 </td>
 </tr>
 
@@ -2432,14 +2365,13 @@ Frontends:<br />
 </td>
 </tr>
 
-
 <tr>
 <td> Mac 68k emulátor</td>
 <td>???</td>
 <td>Basilisk II</td>
 </tr>
-<tr>
 
+<tr>
 <td> Game boy emulátor</td>
 <td><a href="http://vba.ngemu.com/">Visual Boy Advance</a><br />
 </td>
@@ -2447,8 +2379,8 @@ Frontends:<br />
 <a href="http://fms.komkon.org/VGBA/">VGBA</a>
 </td>
 </tr>
-<tr>
 
+<tr>
 <td>Atari 2600 Video Computer System emulátor</td>
 <td>
 <a href="http://stella.sourceforge.net/">Stella</a>
@@ -2456,8 +2388,8 @@ Frontends:<br />
 <td><a href="http://stella.sourceforge.net/">Stella</a><br />
 </td>
 </tr>
-<tr>
 
+<tr>
 <td> NES / SNES emulátor</td>
 <td><a href="http://www.zsnes.com/">Zsnes</a><br />
 <a href="http://www.snes9x.com/">Snes9x</a>
@@ -2469,15 +2401,14 @@ Frontends:<br />
 FWNes<br />
 GTuxNes</td>
 </tr>
-<tr>
 
+<tr>
 <td> M680x0 Arcade emulátor</td>
 <td><a href="http://www.rainemu.com/">Rainemu</a></td>
 <td><a href="http://www.rainemu.com/">Rainemu</a></td>
 </tr>
 
 <tr>
-
 <td> Další emulátor</td>
 <td>???<br />
 </td>
@@ -2527,13 +2458,14 @@ např. Leutnant Skat (síťová karetní hra)<br />
 
 </table>
 
-<pre>[Prop]        ... proprietární
+<pre>
+[Prop]      ... proprietární
 [NF]        ... není svobodný software
-(GUI)        ... grafické rozhraní k programu
-(KDE)        ... vhodné pro prostředí KDE
-(GNOME)        ... vhodné pro prostředí GNOME
-(konsole)    ... textové rozranní
-(standard)      ... nachází se standardně v systému
+(GUI)       ... grafické rozhraní k programu
+(KDE)       ... vhodné pro prostředí KDE
+(GNOME)     ... vhodné pro prostředí GNOME
+(konsole)   ... textové rozranní
+(standard)  ... nachází se standardně v systému
 </pre>
 
 </div>
@@ -2543,48 +2475,26 @@ např. Leutnant Skat (síťová karetní hra)<br />
 {% capture submenu %}{% include submenu.md %}{% endcapture %}
 {{ submenu | markdownify }}
 
-<div>
-<h1>Rozdíly ve filosofii</h1>
-<h2>Proč jsou Linuxové aplikace jaké jsou</h2>
-<p>
+<div markdown="1">
+# Rozdíly ve filosofii
+
+## Proč jsou Linuxové aplikace jaké jsou
 Důležitý ideologický rozdíl mezi MS Windows a Linuxem je tento:
-</p>
-<p>
-<b>Většina programů pro MS Windows se snaží vycházet z principu "vše v
-jednom"</b>
-- tedy každý vývojář přidává všechny vlastnosti do jeho vlastního produktu.
-</p>
-<p>
-<b>Ideou Linuxu je mít pouze jednu komponentu nebo program, který dělá danou
-věc, ale dělá ji dobře.</b> Proto se dají programy v Linuxu přirovnat spíše k
-Legu - např. kontrola pravopisu je použita stejná ne jen v textovém editoru,
-ale i v poštovním programu atd. Typické je také to, že pokud existuje
-kvalitní aplikace pracující z příkazové řádky, zpravidla existuje pouze
-grafická nadstavba, která tento program využívá a poskytuje tak pouze
-uživatelsky přítulnější rozhraní.
-</p>
-<p>
+
+**Většina programů pro MS Windows se snaží vycházet z principu "vše v jednom"** - tedy každý vývojář přidává všechny vlastnosti do jeho vlastního produktu.
+
+**Ideou Linuxu je mít pouze jednu komponentu nebo program, který dělá danou věc, ale dělá ji dobře.** Proto se dají programy v Linuxu přirovnat spíše k Legu - např. kontrola pravopisu je použita stejná ne jen v textovém editoru, ale i v poštovním programu atd. Typické je také to, že pokud existuje kvalitní aplikace pracující z příkazové řádky, zpravidla existuje pouze grafická nadstavba, která tento program využívá a poskytuje tak pouze uživatelsky přítulnější rozhraní.
+
 Tento princip je potřeba mít vždy na paměti při hledání ekvivalentů.
-</p>
 </div>
 
-<div>
-<h1>Další aplikace</h1>
-<h2>Kde hledat další aplikace</h2>
-<p>
-Kromě využití běžného vyhledávače lze použít i specializované katalogy programů pro GNU/Linux. Např.
-<a href="https://directory.fsf.org/">FSF/UNESCO Free software directory</a>,
-<a href="https://github.com/">GitHub</a>,
-<a href="http://freecode.com/">Freecode</a>,
-<a href="https://launchpad.net/">Launchpad</a>,
-<a href="http://sourceforge.net/">SourceForge</a>,
-<a href="http://linuxappfinder.com/">Linux App Finder</a>,
-<a href="http://gtk-apps.org/">GTK+ Applications Repository</a>, <a href="http://qt-apps.org/">Free Qt Applications</a>, <a href="http://www.osalt.com/">Open Source Alternatives</a> nebo <a href="https://alternativeto.net/">AlternativeTo</a>, případně samozřejmě české <a href="https://www.abclinuxu.cz/software">AbcLinuxu</a> nebo <a href="http://www.linuxsoft.cz/">Linuxsoft</a>.
-</p>
-<p>
-Než začnete vyhledávat aplikaci přímo na jejích stránkách, přesvědčte se pomocí instalačních nástrojů (apt, yum, urpmi, yast), že již není připravena
-přímo ve vaší distribuci.
-</p>
+<div markdown="1">
+# Další aplikace
+
+## Kde hledat další aplikace
+Kromě využití běžného vyhledávače lze použít i specializované katalogy programů pro GNU/Linux. Např. [FSF/UNESCO Free software directory](https://directory.fsf.org/), [GitHub](https://github.com/), [Freecode](http://freecode.com/), [Launchpad](https://launchpad.net/), [SourceForge](http://sourceforge.net/), [Linux App Finder](http://linuxappfinder.com/), [GTK+ Applications Repository](http://gtk-apps.org/), [Free Qt Applications](http://qt-apps.org/), [Open Source Alternatives](http://www.osalt.com/) nebo [AlternativeTo](https://alternativeto.net/), případně samozřejmě české [AbcLinuxu](https://www.abclinuxu.cz/software) nebo [Linuxsoft](http://www.linuxsoft.cz/).
+
+Než začnete vyhledávat aplikaci přímo na jejích stránkách, přesvědčte se pomocí instalačních nástrojů (apt, yum, urpmi, yast), že již není připravena přímo ve vaší distribuci.
 </div>
 
 </div>

@@ -39,7 +39,7 @@ Podrobnější dokumentace a česky vydané knihy s Linuxovou tématikou jsou sh
 ## ![]({{ 'img/ico_migrate_tux.png' | relative_url }}) Tabulka ekvivalentních aplikací
 V této tabulce najdete obsáhlý přehled podobných aplikací, případně aplikací stejných, ale použitelných jak na OS MS Windows tak na Linuxu.
 
-- [Tabulka ekvivalentních aplikací]({{ site.baseurl }}{% link _pages/ekvivalenty.html %})
+- [Tabulka ekvivalentních aplikací]({{ site.baseurl }}{% link _pages/ekvivalenty.md %})
 {:.download}
 
 ## ![]({{ 'img/ico_migrate_tux.png' | relative_url }}) Převod profilů vybraných aplikací
