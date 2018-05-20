@@ -2540,7 +2540,8 @@ např. Leutnant Skat (síťová karetní hra)<br />
 
 <div class="rcol">
 
-{% include submenu.html %}
+{% capture submenu %}{% include submenu.md %}{% endcapture %}
+{{ submenu | markdownify }}
 
 <div>
 <h1>Rozdíly ve filosofii</h1>

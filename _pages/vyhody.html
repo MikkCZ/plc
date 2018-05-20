@@ -175,7 +175,8 @@ layout: wide
         </p>
     </div>
 
-    {% include submenu.html %}
+    {% capture submenu %}{% include submenu.md %}{% endcapture %}
+    {{ submenu | markdownify }}
 
     <div>
         <h1>Zdarma?</h1>

@@ -63,7 +63,8 @@ weburl: http://proc.linux.cz
 </div>
 
 <div class="rcol">
-    {% include submenu.html %}
+    {% capture submenu %}{% include submenu.md %}{% endcapture %}
+    {{ submenu | markdownify }}
     <div>
         <h1>Propagace Linuxu</h1>
         <p>

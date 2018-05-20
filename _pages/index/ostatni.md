@@ -1,6 +1,6 @@
 ---
 permalink: /ostatni/
-layout: index
+layout: boxed
 ---
 ![Vista je bublina]({{ 'img/bublina_wv_anim.gif' | relative_url }}){:.doprava style="border: 1px solid black"}
 

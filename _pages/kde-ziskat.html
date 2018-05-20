@@ -155,7 +155,8 @@ layout: wide
             <strong>Plné distribuce</strong>
         </div>
     </div>
-    {% include submenu.html %}
+    {% capture submenu %}{% include submenu.md %}{% endcapture %}
+    {{ submenu | markdownify }}
     <div>
         <h1>Jak stáhnout Linux?</h1>
         <h2>Jak postupovat při stahování Linuxu</h2>

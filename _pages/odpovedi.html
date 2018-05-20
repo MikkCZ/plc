@@ -64,5 +64,6 @@ layout: wide
 </div>
 
 <div class="rcol">
-    {% include submenu.html %}
+    {% capture submenu %}{% include submenu.md %}{% endcapture %}
+    {{ submenu | markdownify }}
 </div>

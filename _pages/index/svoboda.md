@@ -1,6 +1,6 @@
 ---
 permalink: /svoboda/
-layout: index
+layout: boxed
 ---
 # ![]({{ 'img/svoboda.png' | relative_url }}) Svoboda
 

@@ -1,6 +1,6 @@
 ---
 permalink: /internet/
-layout: index
+layout: boxed
 ---
 [![Webový prohlížeč Firefox]({{ 'img/ff2_t.png' | relative_url }} "Webový prohlížeč Firefox")]({{ 'img/ff2.png' | relative_url }}){:.doprava}
 

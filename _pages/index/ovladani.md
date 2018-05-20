@@ -1,6 +1,6 @@
 ---
 permalink: /ovladani/
-layout: index
+layout: boxed
 ---
 [![Menu GNOME]({{ 'img/gmenu_t.png' | relative_url }} "Menu GNOME")]({{ 'img/gmenu.png' | relative_url }}){:.doprava}
 

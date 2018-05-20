@@ -1,6 +1,6 @@
 ---
 permalink: /bezpecnost/
-layout: index
+layout: boxed
 ---
 ![štít]({{ 'img/stit.png' | relative_url }}){:.doprava}
 

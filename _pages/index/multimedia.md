@@ -1,6 +1,6 @@
 ---
 permalink: /multimedia/
-layout: index
+layout: boxed
 ---
 [![Audio knihovna Listen]({{ 'img/listen_t.png' | relative_url }} "Audio knihovna Listen")]({{ 'img/listen.png' | relative_url }}){:.doprava}
 

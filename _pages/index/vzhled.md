@@ -1,6 +1,6 @@
 ---
 permalink: /vzhled/
-layout: index
+layout: boxed
 ---
 [![3D přepínání desktopů]({{ 'img/beryl_t.png' | relative_url }} "3D přepínání desktopů")]({{ 'img/beryl.jpg' | relative_url }}){:.doprava}
 

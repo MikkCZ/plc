@@ -2,7 +2,7 @@
 title: Proč používat operační systém Linux
 redirect_from:
   - keyw.html
-layout: index
+layout: boxed
 ---
 - ![*]({{ 'img/internet.png' | relative_url }})
   [komunikace]({{ site.baseurl }}{% link _pages/index/internet.md %}){:.key18}
