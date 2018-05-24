@@ -1,6 +1,6 @@
 - [Proč]({{ '/' | relative_url }})
 - [Výhody Linuxu]({{ site.baseurl }}{% link _pages/vyhody.md %})
-- [Chci vyzkoušet]({{ site.baseurl }}{% link _pages/chci-vyzkouset.md %})
+- [Chci vyzkoušet]({{ site.baseurl }}{% link _pages/kde-ziskat.md %})
 - [Stáhnout Linux]({{ site.baseurl }}{% link _pages/kde-ziskat.md %})
 
 *[Linux&reg;](https://www.linuxmark.org/)* je ochranná známka, kterou vlastní Linus Torvalds, který zahájil jeho vývoj.<br>

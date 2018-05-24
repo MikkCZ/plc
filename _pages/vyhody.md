@@ -136,7 +136,7 @@ V podstatě **všechny linuxové distribuce jsou k dispozici zdarma**, protože 
 Nejsnadněji dostupné jsou ve formě <abbr title="Compact Disk">CD</abbr> nebo <abbr title="Digital Versatile Disc">DVD</abbr> obrazů, které lze stáhnout z internetu. Mnohdy si však můžete objednat dodání až domů, a to za cenu poštovného a cenu média. Nebo si můžete koupit krabicové verze, které za mírně vyšší cenu přidávají k samotnému systému různé bonusy, jako jsou tištěné příručky, podporu apod. Pokud chcete, je možné Linux, s cílenou podporou a doplňky, zakoupit u specializovaných distributorů. Je však na vás, zda hodláte za podporu platit. Systém samotný je vždy, jakožto [svobodný software](http://cs.wikipedia.org/wiki/Svobodný_software), zdarma. Už nebudete muset přemýšlet nad legálností softwaru nebo výhrůžkami od <abbr title="Business Software Alliance - zástupce nadnárodních softwarových společností">BSA</abbr>. Nebudete potřebovat registrační klíč ani ověřování pravosti. Budete moci využívat výhody legálního <abbr title="Operační systém">OS</abbr> bez jakýchkoli obtěžujících omezení.
 {:.subvyhoda}
 
-Linux mne zaujal a [chci ho vyzkoušet]({{ site.baseurl }}{% link _pages/chci-vyzkouset.md %}).
+Linux mne zaujal a [chci ho vyzkoušet]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
 
 </article>
 

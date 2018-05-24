@@ -95,7 +95,7 @@ Propagační ikonky a bannery najdete na samostatné stránce [Propagujte Linux]
 # Nebojte se změny
 
 ## Jak postupně přejít na Linux
-Při přechodu na Linux není třeba za sebou pálit mosty. Zkuste si Linux nainstalovat na volný disk, nebo prostě pro jistotu zkuste jen [verzi spustitelnou z CD]({{ site.baseurl }}{% link _pages/chci-vyzkouset.md %}). Vyzkoušejte si, zda vám aplikace v Linuxu vyhovují, zda v nich jste schopni dělat to, co potřebujete. Najděte si v Linuxu aplikaci, která vám vyhovuje, je v Linuxu zdarma, a kterou potřebujete a třeba ji nemáte k dispozici na vašem stávajícím systému. Vracejte se k ní. Tak se naučíte chápat základní vlastnosti Linuxu.
+Při přechodu na Linux není třeba za sebou pálit mosty. Zkuste si Linux nainstalovat na volný disk, nebo prostě pro jistotu zkuste jen [verzi spustitelnou z CD]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}). Vyzkoušejte si, zda vám aplikace v Linuxu vyhovují, zda v nich jste schopni dělat to, co potřebujete. Najděte si v Linuxu aplikaci, která vám vyhovuje, je v Linuxu zdarma, a kterou potřebujete a třeba ji nemáte k dispozici na vašem stávajícím systému. Vracejte se k ní. Tak se naučíte chápat základní vlastnosti Linuxu.
 
 Pokud postrádáte v Linuxu některé aplikace z vašeho stávajícího systému, a ještě jste nenašli odpovídající náhradu, můžete zkusit použít **emulaci**. V případě MS Windows existuje program [Wine](http://www.winehq.com/), který umožňuje **spouštět aplikace z prostředí MS Windows pod Linuxem** stejně tak, jak je znáte z MS Windows.
 

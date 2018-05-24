@@ -1,21 +1,23 @@
 ---
-title: Kde získat Linux
+title: Jak Linux získat a vyzkoušet
 description: Proč zvolit jako svůj operační systém Linux, jaký si vybrat a jak se instaluje.
 permalink: /kde-ziskat/
 redirect_from:
   - kde-ziskat.html
+  - chci-vyzkouset.html
 layout: wide
 ---
 <article markdown="1">
 
-# Kde získat Linux a jaký si vybrat
-Operační systém Linux lze získat v tzv. **distribucích** - to je souhrn nejrůznějších aplikací sloužících k práci s počítačem. Níže je uveden seznam několika distribucí určených široké veřejnosti.
+# Kde Linux  získat a jaký si vybrat
+Operační systém Linux lze získat v tzv. distribucích. **Distribuce** jsou předem připravené balíky kombinující linuxové jádro a grafické prostředí s nejrůznějšími aplikacemi pro práci na počítači. Typicky obsahují nástroje pro správu počítače, přístup k internetu, práci s dokumenty nebo multimédii. Níže je uveden seznam několika distribucí určených široké veřejnosti.
 
-Vyberte si distribuci, která se vám líbí.
+# Jak si mohu Linux vyzkoušet
+Linuxové distribuce si můžete před instalací vyzkoušet i bez jejich instalace. Většina z nich nabízí tzv. **live (živou) variantu** pro vyzkoušení systému bez instalace. Bývá součástí instalačního média nebo dokonce první krok před začátkem instalačního procesu a celý systém spustí z USB disku nebo DVD. Po vyzkoušení, jak se systém chová, se můžete rozhodnout, jestli ho nainstalovat, nebo počítač restartujete a vrátíte se zpět k Windows. Pokud se rozhodnete pro instalaci, nezapomeňte si předem **zazálohovat svá data a nainstalované programy**!
 
 ## ![]({{ 'img/ubuntu_ico.png' | relative_url }}) Ubuntu
 {:id="ubuntu"}
-[![]({{ 'img/ubuntu_t.png' | relative_url }}){:.t_sc}]({{ 'img/ubuntu.png' | relative_url }}) **Ubuntu** je poměrně mladá distribuce vyvíjená komunitou za podpory firmy Canonical. Ubuntu je ovšem postaveno na velmi spolehlivém základě již mnoho let vyvíjené distribuce [Debian GNU/Linux](http://www.debian.org). Zatímco Debian se snaží být distribucí značně univerzální, jasným cílem Ubuntu je přiblížit Linux uživatelům pro použití na osobních počítačích jako tzv. desktopové prostředí. Grafické prostředí Ubuntu je založeno na [Unity](https://unity.ubuntu.com/), někteří lidé ale více preferují grafické prostředí [KDE](http://www.kde.org/). Proto vznikla varianta Ubuntu zvaná [Kubuntu](http://www.kubuntu.org/). Odlehčená verze s [Xfce](http://www.xfce.org/) neboli [Xubuntu](http://www.xubuntu.org/) je vhodná např. pro starší počítače. Ve většině případů je nejlepší sáhnout přímo po Ubuntu. Instalační CD je i tzv. live CD (viz [Chci vyzkoušet]({{ site.baseurl }}{% link _pages/chci-vyzkouset.md %})) a a najdete ho pod odkazem "Stáhnout Ubuntu" níže.
+[![]({{ 'img/ubuntu_t.png' | relative_url }}){:.t_sc}]({{ 'img/ubuntu.png' | relative_url }}) **Ubuntu** je poměrně mladá distribuce vyvíjená komunitou za podpory firmy Canonical. Ubuntu je ovšem postaveno na velmi spolehlivém základě již mnoho let vyvíjené distribuce [Debian GNU/Linux](http://www.debian.org). Zatímco Debian se snaží být distribucí značně univerzální, jasným cílem Ubuntu je přiblížit Linux uživatelům pro použití na osobních počítačích jako tzv. desktopové prostředí. Grafické prostředí Ubuntu je založeno na [Unity](https://unity.ubuntu.com/), někteří lidé ale více preferují grafické prostředí [KDE](http://www.kde.org/). Proto vznikla varianta Ubuntu zvaná [Kubuntu](http://www.kubuntu.org/). Odlehčená verze s [Xfce](http://www.xfce.org/) neboli [Xubuntu](http://www.xubuntu.org/) je vhodná např. pro starší počítače. Ve většině případů je nejlepší sáhnout přímo po Ubuntu. Instalační CD je i tzv. live CD, takže si Ubuntu můžete předem zkusit.
 
 **Debian** je komunitní distribucí. To znamená, že ho vyvíjejí dobrovolníci. U Debianu existuje záruka, že vždy a za všech okolností zůstane tím, čím je - to je svobodným softwarem.
 {:.subdist}
@@ -28,6 +30,7 @@ Vyberte si distribuci, která se vám líbí.
 - [Dokumentace](http://wiki.ubuntu.cz/)
 - [Ubuntu - projekt](http://www.ubuntulinux.org/)
 - [Poslat CD zdarma](http://www.ubuntu.cz/poslat-cd-zdarma)
+- [Jak na Live USB](http://wiki.ubuntu.cz/LiveCD)
 - [Stáhnout Ubuntu](http://releases.ubuntu.cz/)
 {:.download}
 
@@ -42,6 +45,7 @@ Vyberte si distribuci, která se vám líbí.
 - [Podpora](http://forum.mojefedora.cz/)
 - [Příručka uživatele](http://wiki.mojefedora.cz/doku.php?id=navody:prirucka:obsah)
 - [Fedora - projekt](http://www.fedoraproject.org/)
+- [Jak na Live USB](https://getfedora.org/cs/workstation/download/)
 - [Stáhnout Fedoru](http://mojefedora.cz/jak-stahnout)
 {:.download}
 
@@ -57,6 +61,7 @@ Vyberte si distribuci, která se vám líbí.
 - [Objednat SuSE](http://www.suseshop.cz/)
 - [Podpora](http://www.suseportal.cz/forum)
 - [SuSE](http://www.suse.com/)
+- [Jak na Live USB](https://en.opensuse.org/SDB:Live_USB_stick)
 - [Stáhnout SuSE](http://opensuse.org/cs/)
 {:.download}
 
@@ -90,6 +95,7 @@ Pokročilejšími uživateli jsou ti, kdo zvládají administraci Linuxu z pří
 {:.subdist}
 
 - [Gentoo linux](http://www.gentoo.org/)
+- [Jak na Live USB](https://wiki.gentoo.org/wiki/LiveUSB)
 - [Stažení Gentoo](http://www.gentoo.org/main/en/where.xml)
 {:.download}
 
@@ -105,12 +111,21 @@ Pokročilejšími uživateli jsou ti, kdo zvládají administraci Linuxu z pří
 - [Stažení Slackware](http://www.slackware.com/getslack/list.php?country=Czech%20Republic)
 {:.download}
 
+## ![]({{ 'img/slax_ico.png' | relative_url }}) Slax
+{:id="slax"}
+Slax není oficiálním live CD distribuce Slackware, jak by se mohlo na první pohled zdát, je na ní ale zcela založeno. Distribuci vytváří Čech Tomáš Matějíček a je tedy dostupná i v češtině. Nejen z tohoto důvodu ji lze vřele doporučit. Slax obsahuje skupinu dobře spolupracujících aplikací a kompaktní desktopové prostředí [KDE](http://www.kde.org/international/czechia/) se základními aplikacemi pro dnešní domácí počítače. To vše poskytuje v pouhých 200 MB, které se vejdou i na CD malých průměrů. Slax je možné nainstalovat a používat jako normální operační systém.
+
+- [Slax](http://www.slax.cz/)
+- [Stránky stáhnutí](http://www.slax.org/get_slax.php?lang=cs)
+{:.download}
+
 ## ![]({{ 'img/debian_ico.png' | relative_url }}) Debian GNU/Linux
 {:id="debian"}
 **Debian** je jedna z velmi dlouho vyvíjených distribucí, zcela vycházejících z myšlenky <abbr title="GNU is Not Unix">GNU</abbr> resp. open source. Kompletní distribuce Debian je velmi rozsáhlý a komplexní celek s univerzálním použitím, bez dalších znalostí je ale nevhodný pro úplné začátečníky - právě kvůli své rozsáhlosti. Projekt Debian vydává tři větve své distribuce - *stable (stabilní), testing (testovací), unstable (nestabilní)*. Nestabilní obsahuje zcela nové věci a její konzistence není zaručena, testovací větev je určena pro programy, které prošly základním testováním a jsou kandidáty na zařazení do stabilní větve. Stabilní větev pak obsahuje jen stabilnější a odladěné aplikace (mnohdy pak ale neobsahuje největší novinky).
 
 - [Debian GNU/Linux](http://www.debian.org/)
 - [Český Debian GNU/Linux](http://www.debian.cz/)
+- [Jak na Live USB](https://www.debian.org/CD/live/)
 - [Stažení Debianu](http://www.debian.org/distrib/)
 {:.download}
 
@@ -122,6 +137,7 @@ Pokročilejšími uživateli jsou ti, kdo zvládají administraci Linuxu z pří
 - [Podpora](http://forum.mageia.cz/)
 - [Dokumentace](http://wiki.mageia.cz/)
 - [Mageia](http://www.mageia.org/)
+- [Jak na Live USB](https://wiki.mageia.cz/instalace-live_usb)
 - [Stáhnout Mageiu](http://mageia.cz/stahnout-mageia/)
 {:.download}
 
@@ -151,8 +167,6 @@ Pokročilejšími uživateli jsou ti, kdo zvládají administraci Linuxu z pří
 ![]({{ 'img/gentoo_ico.png' | relative_url }})
 ![]({{ 'img/slack_ico.png' | relative_url }})
 ![]({{ 'img/debian_ico.png' | relative_url }})
-
-**Plné distribuce**
 </section>
 
 {% capture submenu %}{% include submenu.md %}{% endcapture %}
@@ -174,6 +188,14 @@ Z nabízených adresářů a souborů je pak potřeba **stáhnout soubory s př�
 
 ## Jak přenést .iso soubory na CD
 **.iso** soubory jsou obrazy instalačních CD resp. DVD a je potřeba je správným způsobem přenést, vypálit na CD. **Tyto soubory se nevypalují jako běžný soubor**, ale ve vašem vypalovacím programu je potřeba zvolit vypalování obrazu (image) CD. Příslušné volby jsou závislé na vašem vypalovacím softwaru.
+
+Pokud si postupem nejste jisti, můžete CD zakoupit za velmi příznivé ceny v [Linux CD shopu](http://www.linuxsoft.cz/shop/?kategorie=109).
+</section>
+
+<section markdown="1">
+# Jak spustit Live CD?
+
+Pokud máte CD správně vypáleno, budete muset restartovat počítač. Poté bude zřejmě potřeba v BIOSu nastavit, resp. povolit, startování z CD. Do BIOSu se zpravidla dostanete stiskem nějaké speciální klávesy při startu počítače - tato klávesa by se měla při startu vypisovat na obrazovce. Jestliže máte startování z CD povoleno, po restartu počítače by se měl z CD začít zavádět vybraný operační systém Linux.
 </section>
 
 <section markdown="1">
