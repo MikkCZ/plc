@@ -140,26 +140,23 @@ table {
     width: 100%;
 }
 
-td {
-    background-color: #fff;
-    padding: 3px;
-}
-
-.lcol .mp {
-    background-color: #ccc;
-}
-
 th {
     text-align: left;
     background-image: url("../img/top_bckg.png");
     background-repeat: repeat-x;
     background-color: yellow;
-}
-
-th,
-table h4 {
     font-size: 1.2em;
     margin: 0;
+}
+
+td {
+    background-color: #fff;
+    padding: 3px;
+    width: 33%;
+}
+
+.lcol .mp {
+    background-color: #ccc;
 }
 
 .inline-nav {
