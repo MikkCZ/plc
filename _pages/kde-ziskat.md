@@ -9,202 +9,157 @@ layout: wide
 ---
 <article markdown="1">
 
-# Kde Linux  získat a jaký si vybrat
+# Kde Linux získat a jaký si vybrat
 Operační systém Linux lze získat v tzv. distribucích. **Distribuce** jsou předem připravené balíky kombinující linuxové jádro a grafické prostředí s nejrůznějšími aplikacemi pro práci na počítači. Typicky obsahují nástroje pro správu počítače, přístup k internetu, práci s dokumenty nebo multimédii. Níže je uveden seznam několika distribucí určených široké veřejnosti.
 
 # Jak si mohu Linux vyzkoušet
-Linuxové distribuce si můžete před instalací vyzkoušet i bez jejich instalace. Většina z nich nabízí tzv. **live (živou) variantu** pro vyzkoušení systému bez instalace. Bývá součástí instalačního média nebo dokonce první krok před začátkem instalačního procesu a celý systém spustí z USB disku nebo DVD. Po vyzkoušení, jak se systém chová, se můžete rozhodnout, jestli ho nainstalovat, nebo počítač restartujete a vrátíte se zpět k Windows. Pokud se rozhodnete pro instalaci, nezapomeňte si předem **zazálohovat svá data a nainstalované programy**!
+Linuxové distribuce si můžete před instalací vyzkoušet i bez jejich instalace. Většina z nich nabízí tzv. **live (živou) variantu** pro vyzkoušení systému bez instalace. Bývá součástí instalačního média nebo dokonce první krok před začátkem instalačního procesu a celý systém spustí z USB flash disku nebo DVD. Po vyzkoušení, jak se systém chová, se můžete rozhodnout, jestli ho nainstalovat, nebo počítač restartujete a vrátíte se zpět k Windows. Pokud se rozhodnete pro instalaci, nezapomeňte si předem **zazálohovat svá data a nainstalované programy**!
 
-## ![]({{ 'img/ubuntu_ico.png' | relative_url }}) Ubuntu
-{:id="ubuntu"}
-[![]({{ 'img/ubuntu_t.png' | relative_url }}){:.t_sc}]({{ 'img/ubuntu.png' | relative_url }}) **Ubuntu** je poměrně mladá distribuce vyvíjená komunitou za podpory firmy Canonical. Ubuntu je ovšem postaveno na velmi spolehlivém základě již mnoho let vyvíjené distribuce [Debian GNU/Linux](http://www.debian.org). Zatímco Debian se snaží být distribucí značně univerzální, jasným cílem Ubuntu je přiblížit Linux uživatelům pro použití na osobních počítačích jako tzv. desktopové prostředí. Grafické prostředí Ubuntu je založeno na [Unity](https://unity.ubuntu.com/), někteří lidé ale více preferují grafické prostředí [KDE](http://www.kde.org/). Proto vznikla varianta Ubuntu zvaná [Kubuntu](http://www.kubuntu.org/). Odlehčená verze s [Xfce](http://www.xfce.org/) neboli [Xubuntu](http://www.xubuntu.org/) je vhodná např. pro starší počítače. Ve většině případů je nejlepší sáhnout přímo po Ubuntu. Instalační CD je i tzv. live CD, takže si Ubuntu můžete předem zkusit.
+## ![]({{ 'img/ubuntu-logo.svg' | relative_url }}) Ubuntu
+[![]({{ 'img/ubuntu_t.png' | relative_url }}){:.t_sc}]({{ 'img/ubuntu.png' | relative_url }})
+**Ubuntu** je distribuce vyvíjená firmou Canonical. Je postaveno na spolehlivém základě po mnoho let vyvíjené distribuce [Debian](#debian). Zatímco Debian se snaží být distribucí značně univerzální, jasným cílem Ubuntu je přiblížit Linux uživatelům pro běžné použití na osobních počítačích.
 
-**Debian** je komunitní distribucí. To znamená, že ho vyvíjejí dobrovolníci. U Debianu existuje záruka, že vždy a za všech okolností zůstane tím, čím je - to je svobodným softwarem.
-{:.subdist}
+Standardní Ubuntu používá grafické prostředí [GNOME][GNOME]. Existují také varianty (flavours/příchutě) vyvíjené komunitou s jinými prostředími jako je např. [KDE][KDE]. Jejich seznam najdete na [této stránce](https://www.ubuntu.com/download/flavours). Ve většině případů je nejjednodušší sáhnout přímo po klasickém Ubuntu s GNOME.
+
+Verze Ubuntu vychází ve dvou variantách - stabilnější LTS s delším obdobím podpory, a běžné verze s rychlejším přidáváním nových funkcí, ale kratší podporou a potenciální méně stabilní. Speciálně pro začínající uživatele doporučujeme začít s verzí LTS.
 
 **Canonical** je komerční společnost, která zaštiťuje vývoj Ubuntu. V rámci této aktivity podporuje i řadu dalších projektů a poskytuje nástroje a podporu pro vývoj otevřeného software.
 {:.subdist}
 
-- [České Ubuntu](http://www.ubuntu.cz/)
-- [Podpora](http://forum.ubuntu.cz/)
-- [Dokumentace](http://wiki.ubuntu.cz/)
-- [Ubuntu - projekt](http://www.ubuntulinux.org/)
-- [Poslat CD zdarma](http://www.ubuntu.cz/poslat-cd-zdarma)
-- [Jak na Live USB](http://wiki.ubuntu.cz/LiveCD)
-- [Stáhnout Ubuntu](http://releases.ubuntu.cz/)
+- [Česká komunita Ubuntu](https://www.ubuntu.cz/)
+- [Fórum podpory](http://forum.ubuntu.cz/)
+- [Oficiální stránky](https://www.ubuntu.com/)
+- [Stáhnout Ubuntu](http://releases.ubuntu.com/)
 {:.download}
 
-## ![]({{ 'img/fedora_ico.png' | relative_url }}) Fedora
-{:id="fedora"}
-**Fedora** je distribuce, která vznikla jako nekomerční odnož Red Hat Linuxu. Vyvíjí ho komunita vývojářů za podpory firmy Red Hat. Na základě Fedory pak Red Hat připravuje své komerční distribuce Red Hat Enterprise Linux. Fedora je známa svou pokrokovostí a zpravidla přináší v každé verzi několik zásadních novinek. Distribuce je značně univerzální, se znatelným zaměřením na použití na osobních počítačích.
+## ![]({{ 'img/fedora-logo.svg' | relative_url }}) Fedora
+**Fedora** je pregresivní distribuce, která vznikla jako nekomerční odnož Red Hat Linuxu. Její vývoj tak podporuje firma Red Hat. Na základě Fedory pak Red Hat připravuje své komerční distribuce Red Hat Enterprise Linux. Fedora je známa svou pokrokovostí a zpravidla přináší v každé verzi několik zásadních novinek. Distribuce je značně univerzální, se znatelným zaměřením na použití na osobních počítačích.
 
-**Red Hat** je firma zabývající se vývojem a prodejem Red Hat Enterprise Linuxu. V minulosti významně pomohla zdomácnění Linuxu svou komunitní distribucí Red Hat Linux, jejímž následovníkem je Fedora.
+Standardní Fedora používá grafické prostředí [GNOME][GNOME]. Existují také varianty (spiny) s jinými prostředími včetně [KDE][KDE] nebo [Cinnamonu][Cinnamon]. Jejich seznam najdete na [této stránce](https://spins.fedoraproject.org/). Ve většině případů je nejjednodušší sáhnout přímo po klasické Fedoře s GNOME.
+
+**Red Hat** je firma zabývající se vývojem, prodejem a podporou komerční distribuce Red Hat Enterprise Linuxu určené pro podniky. V minulosti významně pomohla zdomácnění Linuxu svou komunitní distribucí Red Hat Linux, jejímž následovníkem je Fedora.
 {:.subdist}
 
-- [Česká Fedora](http://www.mojefedora.cz/)
-- [Podpora](http://forum.mojefedora.cz/)
-- [Příručka uživatele](http://wiki.mojefedora.cz/doku.php?id=navody:prirucka:obsah)
-- [Fedora - projekt](http://www.fedoraproject.org/)
-- [Jak na Live USB](https://getfedora.org/cs/workstation/download/)
-- [Stáhnout Fedoru](http://mojefedora.cz/jak-stahnout)
+- [Česká komunity Fedory](https://mojefedora.cz/)
+- [Fórum podpory](https://forum.mojefedora.cz/)
+- [Oficiální stránky](https://getfedora.org/)
+- [Stáhnout Fedoru](https://mojefedora.cz/jak-stahnout/)
 {:.download}
 
-## ![]({{ 'img/suse_ico.png' | relative_url }}) OpenSuSE
+## ![]({{ 'img/opensuse-logo.png' | relative_url }}) OpenSUSE
 {:id="suse"}
-[![]({{ 'img/opensuse-10.3_t.png' | relative_url }}){:.t_sc}]({{ 'img/opensuse-10.3.png' | relative_url }}) **SuSE** lze dnes získat ve dvou podobách. Jako **OpenSuSE**, což je komunitou vyvíjená distribuce a jako **SuSE Enterprise Linux (SLED)**. Ať tak či tak, na obou se podílí firma Novell v rámci jejích linuxových aktivit. SuSE je distribuce profilující se spíše jako komerční, tedy distribuce, kterou můžete především koupit. Distribuce SuSE má některé specifické nástroje, které se snaží distribuci co nejvíce zpřístupnit běžným uživatelům osobních počítačů. Vzhledem k jejímu komerčnímu charakteru je k dispozici i instalační podpora.
+[![]({{ 'img/opensuse-10.3_t.png' | relative_url }}){:.t_sc}]({{ 'img/opensuse-10.3.png' | relative_url }})
+Na vývoji **openSUSE** se podílí firma Novell v rámci jejích linuxových aktivit. Kromě openSUSE je dostupná také komerční varianta SUSE Linux Exterprise. Distribuce openSUSE má některé specifické nástroje, které se snaží distribuci co nejvíce zpřístupnit běžným uživatelům osobních počítačů. Vzhledem k jejímu komerčnímu charakteru je k dispozici i instalační podpora.
 
-**Novell** je jednou z předních softwarových firem. V současnosti se zaměřuje právě na oblasti využití Linuxu a nabízí celou řadu řešení založených na něm, resp. na SuSE Linuxu.
+openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervativnější Leap nabízí pravidelně vydávané "velké" verze, kdežto varianta Tumbleweed je aktualizována průběžně.
+
+**Novell** je jednou z předních softwarových firem. V současnosti se zaměřuje právě na oblasti využití Linuxu a nabízí celou řadu řešení na něm založených.
 {:.subdist}
 
-- [OpenSuSE](http://opensuse.org/cs/)
-- [SuSE portál](http://www.suseportal.cz/)
-- [Objednat SuSE](http://www.suseshop.cz/)
-- [Podpora](http://www.suseportal.cz/forum)
-- [SuSE](http://www.suse.com/)
-- [Jak na Live USB](https://en.opensuse.org/SDB:Live_USB_stick)
-- [Stáhnout SuSE](http://opensuse.org/cs/)
+- [Oficiální stránky](https://www.opensuse.org/)
+- [Fórum podpory](https://forums.opensuse.org/)
+- [Stáhnout openSUSE](https://www.opensuse.org/)
 {:.download}
 
 ## ![]({{ 'img/linux-mint-logo.svg' | relative_url }}) Linux Mint
-{:id="mint"}
-**Linux Mint** je distribuce založená na Ubuntu (se kterou jsou zpětně kompatibilní a využívají aplikace od Canonical Ltd.), případně na Debianu. Zatímco jádro Linux Mint je založeno z větší části na Ubuntu, grafické uspořádání plochy a uživatelské rozhraní je naprosto odlišné. Mint totiž používá grafické prostředí Cinnamon. Mint má také vlastní kolekci systémových nástrojů vyvinutou pro snadnější správu systému a uživatelských práv.
+**Linux Mint** je distribuce založená na [Ubuntu](#ubuntu) a [Debianu](#debian). Zatímco jádro Mintu je založeno z větší části na Ubuntu, grafické uspořádání plochy a uživatelské rozhraní je naprosto odlišné. Mint totiž používá grafické prostředí [Cinnamon][Cinnamon]. Mint má také vlastní kolekci systémových nástrojů vyvinutou pro snadnější správu systému a uživatelských práv.
 
-- [Česká komunita](https://www.linux-mint-czech.cz/)
-- [Oficiální web](https://www.linuxmint.com/)
+- [Česká komunita Mintu](https://www.linux-mint-czech.cz/)
 - [Fórum podpory](https://forum.linux-mint-czech.cz/)
+- [Oficiální stránky](https://www.linuxmint.com/)
 - [Stáhnout Linux Mint](https://www.linux-mint-czech.cz/ke-stazeni/)
 {:.download}
 
-## ![]({{ 'img/pclinuxos_ico.png' | relative_url }}) PCLinuxOS
-{:id="pclinuxos"}
-[![]({{ 'img/pclinuxos-2007_t.png' | relative_url }}){:.t_sc}]({{ 'img/pclinuxos-2007.png' | relative_url }}) **PCLinuxOS** je distribuce, která vznikla odštěpením od Mandrake linuxu (nyní Mandriva) v roce 2003 a vyvíjí jej skupina vývojářů soustředěná okolo Texstara (Bill Reynolds). Jedná se o distribuci, která je zaměřená na maximální jednoduchost. Obsahuje proprietální kodeky a instalaci dalších programů obstarává Debianovský apt s jeho grafickou nadstavbou Synapticem spravující jeden centrální, přednastavený repozitář (k dispozici jsou samozřejmě i záložní zrdcadla). Instalační CD, které je zároveň Live CD, obsahuje ve zkomprimované podobě cca.2 GB dat, takže po instalaci dostanete plně funkční systém s bohatým množstvím software, který je ihned připraven k práci, používání internetu, přehrávání filmů, mp3.
+## ![]({{ 'img/mageia-logo.svg' | relative_url }}) Mageia
+**Mageia** je pokračováním distribuce Madriva, dříve Mandrake Linux. Je vyvíjena komunitou vývojářů za podpory vlastní neziskové organizace.
 
-- [Český PCLinuxOS](http://pclinuxos.cz/)
-- [PCLinuxOS](http://www.pclinuxos.com/)
-- [Podpora](http://forum.pclinuxos.cz/)
+- [Český komunita Mageia Linux](https://mageia.cz/)
+- [Fórum podpory](https://forum.mageia.cz/)
+- [Oficiální stránky](https://www.mageia.org/)
+- [Stáhnout Mageiu](https://mageia.cz/stahnout-mageia/)
 {:.download}
 
-# Distribuce pro pokročilejší uživatele
-Pokročilejšími uživateli jsou ti, kdo zvládají administraci Linuxu z příkazové řádky a jsou obeznámeni s architekturou a strukturou Linuxu.
+## ![]({{ 'img/debian-logo.svg' | relative_url }}) Debian
+**Debian** je jedna z velmi dlouho vyvíjených distribucí, zcela vycházejících z myšlenky <abbr title="GNU is Not Unix">GNU</abbr> a open source. Kompletní distribuce Debian je rozsáhlý a komplexní celek s univerzálním použitím, bez dalších znalostí ale není úplně vhodný pro začátečníky. Projekt Debian vydává tři větve své distribuce - otestovanou *stable (stabilní)*, *testing (testovací)* a zcela neodzkoušenou *unstable (nestabilní)*.
 
-## ![]({{ 'img/gentoo_ico.png' | relative_url }}) Gentoo
-{:id="gentoo"}
-**Gentoo** je distribuce pro pokročilé uživatele. Umožňuje uživateli sestavovat si celou distribuci samostatně a zcela na míru svému počítači. Gentoo je velmi dobře dokumentována a poskytuje pokročilejším uživatelům možnost dalšího rozvoje jejich znalostí o Linuxu. Přesto, že si tato distribuce zakládá na svém pokročilém přístupu, dá se i tak snadno použít na osobním počítači.
+Debian je komunitní distribucí. To znamená, že ho vyvíjejí dobrovolníci. Také vždy a za všech okolností zůstane tím, čím je, tedy svobodným softwarem.
 
-**Gentoo** je trochu specifická a poměrně mladá komunitní distribuce. Její vývojáři ji založili jako linuxovou větev, která se svými principy přibližuje k jiným unixovým platformám.
-{:.subdist}
-
-- [Gentoo linux](http://www.gentoo.org/)
-- [Jak na Live USB](https://wiki.gentoo.org/wiki/LiveUSB)
-- [Stažení Gentoo](http://www.gentoo.org/main/en/where.xml)
+- [Česká komunita Debianu](https://www.debian.cz/)
+- [Oficiální stránky](https://www.debian.org/)
+- [Podpora](https://www.debian.org/support)
+- [Stáhnout Debian](https://www.debian.org/distrib/)
 {:.download}
 
-## ![]({{ 'img/slack_ico.png' | relative_url }}) Slackware
-{:id="slackware"}
-**Slackware** je distribuce s dnes již trochu spartánským přístupem. Přesto, a nebo právě proto, si díky své jednoduchosti zachovává množství příznivců. Její použití na běžném osobním počítači ovšem již vyžaduje znalost ovládání Linuxu na úrovni shellu.
+## ![]({{ 'img/manjaro-logo.svg' | relative_url }}) Manjaro
+**Manjaro** je mladá distribuce založená na [Arch Linuxu](#arch-linux). Jejím cílem je uživatelská přívětivost a bezproblémové fungování ihned po instalaci. Dostupné je se třemi uživatelými prostředími [Xfce][Xfce], [KDE][KDE] a [GNOME][GNOME].
 
-**Slackware** je distribucí komunitní, ovšem vytvářenou pod vedením silné osobnosti Patricka Volkerdinga, který je jejím zakladatelem.
-{:.subdist}
-
-- [Slackware - projekt](http://www.slackware.com/)
-- [Český Slackware](http://www.slackware.cz/)
-- [Stažení Slackware](http://www.slackware.com/getslack/list.php?country=Czech%20Republic)
+- [Oficiální stránky](https://manjaro.org/)
+- [Fórum podpory](https://forum.manjaro.org/)
+- [Stáhnout Manjaro](https://manjaro.org/get-manjaro/)
 {:.download}
 
-## ![]({{ 'img/slax_ico.png' | relative_url }}) Slax
-{:id="slax"}
-Slax není oficiálním live CD distribuce Slackware, jak by se mohlo na první pohled zdát, je na ní ale zcela založeno. Distribuci vytváří Čech Tomáš Matějíček a je tedy dostupná i v češtině. Nejen z tohoto důvodu ji lze vřele doporučit. Slax obsahuje skupinu dobře spolupracujících aplikací a kompaktní desktopové prostředí [KDE](http://www.kde.org/international/czechia/) se základními aplikacemi pro dnešní domácí počítače. To vše poskytuje v pouhých 200 MB, které se vejdou i na CD malých průměrů. Slax je možné nainstalovat a používat jako normální operační systém.
+## ![]({{ 'img/gentoo-logo.svg' | relative_url }}) Gentoo
+**Gentoo** je distribuce pro pokročilé uživatele. Umožňuje sestavovat si všechen software ze zdrojových kódů a zcela na míru svému počítači. Gentoo je velmi dobře dokumentována a poskytuje pokročilejším uživatelům možnost dalšího rozvoje jejich znalostí o Linuxu. Přesto, že si tato distribuce zakládá na svém pokročilém přístupu, dá se používat na osobním počítači.
 
-- [Slax](http://www.slax.cz/)
-- [Stránky stáhnutí](http://www.slax.org/get_slax.php?lang=cs)
+Gentoo je trochu specifická komunitní distribuce. Její vývojáři ji založili jako linuxovou větev, která se svými principy přibližuje k jiným unixovým platformám.
+
+- [Oficiální stránky](https://www.gentoo.org/)
+- [Podpora](https://www.gentoo.org/support/)
+- [Stáhnout Gentoo](https://www.gentoo.org/downloads/)
 {:.download}
 
-## ![]({{ 'img/debian_ico.png' | relative_url }}) Debian GNU/Linux
-{:id="debian"}
-**Debian** je jedna z velmi dlouho vyvíjených distribucí, zcela vycházejících z myšlenky <abbr title="GNU is Not Unix">GNU</abbr> resp. open source. Kompletní distribuce Debian je velmi rozsáhlý a komplexní celek s univerzálním použitím, bez dalších znalostí je ale nevhodný pro úplné začátečníky - právě kvůli své rozsáhlosti. Projekt Debian vydává tři větve své distribuce - *stable (stabilní), testing (testovací), unstable (nestabilní)*. Nestabilní obsahuje zcela nové věci a její konzistence není zaručena, testovací větev je určena pro programy, které prošly základním testováním a jsou kandidáty na zařazení do stabilní větve. Stabilní větev pak obsahuje jen stabilnější a odladěné aplikace (mnohdy pak ale neobsahuje největší novinky).
+## ![]({{ 'img/arch-logo.svg' | relative_url }}) Arch Linux
+**Arch Linux** je distribuce dodržující pravidlo <abbr title="Keep it simple, stupid">KISS</abbr>. Je obzvlášt známá pro svou vyčerpávající dokumentaci [ArchWiki](https://wiki.archlinux.org/), která je mnohdy použitelná i pro ostatní linuxové distribuce.
 
-- [Debian GNU/Linux](http://www.debian.org/)
-- [Český Debian GNU/Linux](http://www.debian.cz/)
-- [Jak na Live USB](https://www.debian.org/CD/live/)
-- [Stažení Debianu](http://www.debian.org/distrib/)
+- [Česká komunita Archu](https://arch-linux.cz/)
+- [Oficiální stránky](https://www.archlinux.org/)
+- [Fórum podpory](https://bbs.archlinux.org/)
+- [Stáhnout Arch Linux](https://www.archlinux.org/download/)
 {:.download}
 
-## ![]({{ 'img/mageia_ico.png' | relative_url }}) Mageia
-{:id="mageia"}
-**Mageia**, dříve známý jako Madriva/Mandrakelinux. Je vyvíjen komunitou vývojářů, vznikla odstepenim od updatajiciho Mandriva Linuxu.
+## ![]({{ 'img/slax-logo.svg' | relative_url }}) Slax
+**Slax** je malou a primárně Live CD distribucí. Funguje tedy primárně jako "kapesní" Linux, který není potřeba instalovat a do počítače neukládá žádná data. Je vhodný pro používání z USB flash disku, kam lze ukládání dat nastavit, ale toto nastavení už vyžaduje pokročilejší znalosti. Slax používá jako základ [Debian](#debian) a vytváří ho Čech Tomáš Matějíček.
 
-- [Český Mageia Linux](http://mageia.cz/)
-- [Podpora](http://forum.mageia.cz/)
-- [Dokumentace](http://wiki.mageia.cz/)
-- [Mageia](http://www.mageia.org/)
-- [Jak na Live USB](https://wiki.mageia.cz/instalace-live_usb)
-- [Stáhnout Mageiu](http://mageia.cz/stahnout-mageia/)
-{:.download}
-
-## ![]({{ 'img/mandrake_ico.png' | relative_url }}) Mandriva Linux
-{:id="mandriva"}
-**Mandriva Linux**, dříve známý jako Mandrakelinux. Je vyvíjen komunitou vývojářů společně s vývojáři firmy Mandriva (dříve Mandrakesoft). Mandriva Linux je k dostání v několik verzích - od placené krabicové verze až po verzi zcela zdarma. Rozdíl je tvořen především rozsahem dokumentace, doplňků a komerčních aplikací. Mandriva Linux je distribuce silně specializovaná pro použití na osobním počítači a získala si oblibu u velkého množství uživatelů, kteří s Linuxem začínají. **Mandrakesoft a Connectiva** po sloučení vytvořily, i kvůli dlouhodobě trvajícím sporům o ochrannou známku Mandrake, společnost Mandriva a společnými silami pokračují ve vývoji distribuce Mandriva Linux.
-
-- [Český Mandriva Linux](http://mandrivalinux.cz/)
-- [Objednat Mandriva Linux](http://shop.qcm.cz/catalog/index.php?cPath=86_30)
-- [Podpora](http://www.mandrivalinux.cz/modules/newbb/)
-- [Dokumentace](http://www.mandrivalinux.cz/dokumentace)
-- [Mandriva](http://www.mandriva.com/)
-- [Stáhnout Mandriva Linux](http://www.mandrivalinux.cz/download)
+- [Oficiální stránky](https://www.slax.org/)
+- [Stáhnout Slax](https://www.slax.org/)
 {:.download}
 
 </article>
 
 <aside>
 
-<section class="centr" markdown="1">
-![]({{ 'img/ubuntu_ico.png' | relative_url }})
-![]({{ 'img/fedora_ico.png' | relative_url }})
-![]({{ 'img/mandrake_ico.png' | relative_url }})
-![]({{ 'img/mageia_ico.png' | relative_url }})
-![]({{ 'img/suse_ico.png' | relative_url }})
-![]({{ 'img/pclinuxos_ico.png' | relative_url }})
-![]({{ 'img/gentoo_ico.png' | relative_url }})
-![]({{ 'img/slack_ico.png' | relative_url }})
-![]({{ 'img/debian_ico.png' | relative_url }})
-</section>
-
 {% capture submenu %}{% include submenu.md %}{% endcapture %}
 {{ submenu | markdownify }}
 
 <section markdown="1">
 # Jak stáhnout Linux?
+U každé distribuce na této stránce najdete odkaz na stránku s popisem jejího stažení a instalace. I pokud je distribuce samotná do češtiny přeložená, některé stránky mohou být v angličtině.
 
-## Jak postupovat při stahování Linuxu
-U každé distribuce na této stránce je odkaz na stránku popisující, jak a kde můžete příslušnou distribuci stáhnout. Některé stránky jsou však v angličtině a mohou obsahovat termíny, které nemusí být zcela zřejmé.
-
-Při stahování distribuce je nejlepší sáhnout po verzi pokud možno nejnovější. Z nabízených adresářů je tedy záhodno vybrat **verzi označenou nejvyšším číslem**. Další komplikace mohou nastat u **volby vhodné architektury** - to znamená specifikace typu vašeho počítače. (Linux je dostupný pro mnoho různých architektur - např. Intel, AMD, PowerPC (Mac) a další.) Pokud vlastníte počítač postavený na procesoru firmy **Intel nebo AMD**, neuděláte chybu, pokud **zvolíte architekturu i386, i486, i586 (od Pentia I výš) či i686**, souhrnně se tato architektura někdy označuje **x86**. Pokud máte novější **64bitový procesor AMD**, bylo by škoda nezvolit příslušnou 64bitovou architekturu - tedy **AMD64 nebo x86_64**.
-
-Z nabízených adresářů a souborů je pak potřeba **stáhnout soubory s příponou .iso**, což jsou CD případně DVD obrazy.
+Při stahování distribuce je nejlepší sáhnout po nejnovější verzi označenou nejvyšším číslem. Pokud máte počítač s procesorem Intel nebo AMD, hledejte verzi pro architekturu/typ počítače **x86_64** (pokud máte opravdu starý počítač, tak **x86**). Z nabízených adresářů a souborů je většinou potřeba stáhnout soubor s příponou **.iso**.
 </section>
 
 <section markdown="1">
 # Co s .iso soubory?
+**.iso** soubory jsou obrazy instalačních CD/DVD a je potřeba je správným způsobem vypálit, nebo zapsat na USB flash disk pomocí nástrojů k tomu určených. **Tyto soubory se nevypalují jako běžný soubor**, ale ve vašem vypalovacím programu je potřeba zvolit vypalování obrazu (image). Pro zápis na USB flash disk většina distribucí nabízí vhodný nástroj a návod.
 
-## Jak přenést .iso soubory na CD
-**.iso** soubory jsou obrazy instalačních CD resp. DVD a je potřeba je správným způsobem přenést, vypálit na CD. **Tyto soubory se nevypalují jako běžný soubor**, ale ve vašem vypalovacím programu je potřeba zvolit vypalování obrazu (image) CD. Příslušné volby jsou závislé na vašem vypalovacím softwaru.
-
-Pokud si postupem nejste jisti, můžete CD zakoupit za velmi příznivé ceny v [Linux CD shopu](http://www.linuxsoft.cz/shop/?kategorie=109).
+Pokud si postupem nejste jisti, můžete připravené médium zakoupit v e-shopu [LinuxMarket](https://www.linuxmarket.cz/instalacni-media).
 </section>
 
 <section markdown="1">
-# Jak spustit Live CD?
+# Jak spustit Live CD a Linux vyzkoušet?
+Pokud máte CD/DVD vypáleno nebo USB flash disk správně zapsaný, vložte ho do počítače a ten restartujte. Poté při restartu vyvolejte BIOS nebo nabídku pro výběr média stiskem speciální klávesy - tato klávesa by se měla při startu krátce zobrazit na obrazovce. Jestliže máte startování z požadovaného média povoleno, spustí se po restartu Linux nahraný na vašem médiu k vyzkoušení v "živém" režimu a případně instalaci.
 
-Pokud máte CD správně vypáleno, budete muset restartovat počítač. Poté bude zřejmě potřeba v BIOSu nastavit, resp. povolit, startování z CD. Do BIOSu se zpravidla dostanete stiskem nějaké speciální klávesy při startu počítače - tato klávesa by se měla při startu vypisovat na obrazovce. Jestliže máte startování z CD povoleno, po restartu počítače by se měl z CD začít zavádět vybraný operační systém Linux.
+Pokud se vám Linux zalíbí a rozhodnete se pro instalaci, nezapomeňte si předem **zazálohovat svá data a nainstalované programy**!
 </section>
 
 <section markdown="1">
 # Našel jsem jiný Linux!
-
-## Existuje mnoho variant Linuxu
-Linuxových distribucí existuje velké množství a zde uvedené jsou vybrány pouze proto, že jsou vhodné pro začínající uživatele a pro použití na osobním počítači nebo notebooku. Existuje mnoho speciálních, účelových distribucí, určených pro servery, pro malá a vestavěná zařízení, pro PDA, používá se v bezdrátových přípojných bodech (wifi) atd. Za tímto účelem vzniká množství různých variant, které ovšem nejsou vždy vhodné na osobní počítač.
-
-Mnoho dalších distribucí naleznete na stránkách [linuxsoft](http://www.linuxsoft.cz/distro_list.php?id_kategory=1) a [distrowatch](http://distrowatch.com/).
+Linuxových distribucí existuje moho a zde uvedené jsou vybrány podle toho, zda se hodí pro začínající uživatele, použití na osobním počítači a mají aktivní českou komunitu. Existuje mnoho speciálních, účelových distribucí, určených pro servery, malá a vestavěná zařízení atd., ale nemusí být vhodné pro osobní počítače ani laptopy.
 </section>
 
 </aside>
+
+[GNOME]: https://www.gnome.org/
+[KDE]: https://www.kde.org/
+[Cinnamon]: https://github.com/linuxmint/Cinnamon
+[Xfce]: https://xfce.org/
