@@ -6,7 +6,7 @@ redirect_from:
   - chci-vyzkouset.html
 layout: wide
 ---
-<div class="lcol" markdown="1">
+<article markdown="1">
 
 # Chci si Linux vyzkoušet na svém počítači
 **Linux** je svobodný a volně šiřitelný software. To jej předurčuje k mnoha způsobům použití. Jedním z nich jsou tzv. live CD (live je česky "živý").
@@ -68,11 +68,11 @@ Live DVD gentoo není přímo určeno pro běžné použití, ale spíše jako i
 
 Live už není pro mne, [chci kompletní linuxový systém]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
 
-</div>
+</article>
 
-<div class="rcol">
+<aside>
 
-<div class="centr" markdown="1">
+<section class="centr" markdown="1">
 ![]({{ 'img/ubuntu_ico.png' | relative_url }})
 ![]({{ 'img/slax_ico.png' | relative_url }})
 ![]({{ 'img/fedora_ico.png' | relative_url }})
@@ -81,12 +81,12 @@ Live už není pro mne, [chci kompletní linuxový systém]({{ site.baseurl }}{%
 ![]({{ 'img/suse_ico.png' | relative_url }})
 
 **Live CD**
-</div>
+</section>
 
 {% capture submenu %}{% include submenu.md %}{% endcapture %}
 {{ submenu | markdownify }}
 
-<div markdown="1">
+<section markdown="1">
 # Jak stáhnout Linux?
 
 ## Jak postupovat při stahování Linuxu
@@ -95,23 +95,23 @@ U každé distribuce na této stránce je odkaz na stránku popisující, jak a 
 Při stahování distribuce je nejlepší sáhnout po verzi pokud možno nejnovější. Z nabízených adresářů je tedy záhodno vybrat **verzi označenou nejvyšším číslem**. Další komplikace mohou nastat u **volby vhodné architektury** - to znamená specifikace typu vašeho počítače. (Linux je dostupný pro mnoho různých architektur - např. Intel, AMD, PowerPC (Mac) a další.) Pokud vlastníte počítač postavený na procesoru firmy **Intel nebo AMD**, neuděláte chybu, pokud **zvolíte architekturu i386, i486, i586 (od Pentia I výš) či i686**, souhrnně se tato architektura někdy označuje **x86**. Pokud máte novější **64bitový procesor AMD**, bylo by škoda nezvolit příslušnou 64bitovou architekturu - tedy **AMD64 nebo x86_64**.
 
 Z nabízených adresářů a souborů je pak potřeba **stáhnout soubory s příponou .iso**, což jsou CD případně DVD obrazy.
-</div>
+</section>
 
-<div markdown="1">
+<section markdown="1">
 # Co s .iso soubory?
 
 ## Jak přenést .iso soubory na CD
 **.iso** soubory jsou obrazy instalačních CD resp. DVD a je potřeba je správným způsobem přenést, vypálit na CD. **Tyto soubory se nevypalují jako běžný soubor**, ale ve vašem vypalovacím programu je potřeba zvolit vypalování obrazu (image) CD. Příslušné volby jsou závislé na vašem vypalovacím softwaru.
 
 Pokud si postupem nejste jisti, můžete CD zakoupit za velmi příznivé ceny v [Linux CD shopu](http://www.linuxsoft.cz/shop/?kategorie=109).
-</div>
+</section>
 
-<div markdown="1">
+<section markdown="1">
 # Jak spustit Live CD?
 
 ## Jak "nabootovat" Linux z Live CD
 
 Pokud máte CD správně vypáleno, budete muset restartovat počítač. Poté bude zřejmě potřeba v BIOSu nastavit, resp. povolit, startování z CD. Do BIOSu se zpravidla dostanete stiskem nějaké speciální klávesy při startu počítače - tato klávesa by se měla při startu vypisovat na obrazovce. Jestliže máte startování z CD povoleno, po restartu počítače by se měl z CD začít zavádět vybraný operační systém Linux.
-</div>
+</section>
 
-</div>
+</aside>

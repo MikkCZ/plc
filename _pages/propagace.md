@@ -8,7 +8,7 @@ layout: wide
 
 weburl: http://proc.linux.cz
 ---
-<div class="lcol" markdown="1">
+<article markdown="1">
 
 # Propagujte Linux
 
@@ -45,16 +45,16 @@ Pokud chcete pomoci propagovat Linux, umístěte na své stránky ikonku a odkaz
 
 Pozn.: [SVG zdroj]({{ '/img/linux_plakat.svg' | relative_url }}), který snadno otevřete nebo zpracujete v programu [Inkscape](http://www.inkscape.org).
 
-</div>
+</article>
 
-<div class="rcol">
+<aside>
 
 {% capture submenu %}{% include submenu.md %}{% endcapture %}
 {{ submenu | markdownify }}
 
-<div markdown="1">
+<section markdown="1">
 # Propagace Linuxu
 Pokud chcete propagovat používání Linuxu využijte některou z nabízených ikon nebo bannerů. Pokud máte zájem o jiný typ reklamní grafiky, kterou použijete k propagaci Linuxu můžete se obrátit na email uvedený v patičce stránky. Pokud jste nějakou grafiku k tomuto tématu vytvořili sami, můžete nám ji poslat a my ji zde zveřejníme.
-</div>
+</section>
 
-</div>
+</aside>

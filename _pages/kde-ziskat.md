@@ -6,7 +6,7 @@ redirect_from:
   - kde-ziskat.html
 layout: wide
 ---
-<div class="lcol" markdown="1">
+<article markdown="1">
 
 # Kde získat Linux a jaký si vybrat
 Operační systém Linux lze získat v tzv. **distribucích** - to je souhrn nejrůznějších aplikací sloužících k práci s počítačem. Níže je uveden seznam několika distribucí určených široké veřejnosti.
@@ -127,11 +127,11 @@ Pokročilejšími uživateli jsou ti, kdo zvládají administraci Linuxu z pří
 - [Stáhnout Mandriva Linux](http://www.mandrivalinux.cz/download)
 {:.download}
 
-</div>
+</article>
 
-<div class="rcol">
+<aside>
 
-<div class="centr" markdown="1">
+<section class="centr" markdown="1">
 ![]({{ 'img/ubuntu_ico.png' | relative_url }})
 ![]({{ 'img/fedora_ico.png' | relative_url }})
 ![]({{ 'img/mandrake_ico.png' | relative_url }})
@@ -143,12 +143,12 @@ Pokročilejšími uživateli jsou ti, kdo zvládají administraci Linuxu z pří
 ![]({{ 'img/debian_ico.png' | relative_url }})
 
 **Plné distribuce**
-</div>
+</section>
 
 {% capture submenu %}{% include submenu.md %}{% endcapture %}
 {{ submenu | markdownify }}
 
-<div markdown="1">
+<section markdown="1">
 # Jak stáhnout Linux?
 
 ## Jak postupovat při stahování Linuxu
@@ -157,22 +157,22 @@ U každé distribuce na této stránce je odkaz na stránku popisující, jak a 
 Při stahování distribuce je nejlepší sáhnout po verzi pokud možno nejnovější. Z nabízených adresářů je tedy záhodno vybrat **verzi označenou nejvyšším číslem**. Další komplikace mohou nastat u **volby vhodné architektury** - to znamená specifikace typu vašeho počítače. (Linux je dostupný pro mnoho různých architektur - např. Intel, AMD, PowerPC (Mac) a další.) Pokud vlastníte počítač postavený na procesoru firmy **Intel nebo AMD**, neuděláte chybu, pokud **zvolíte architekturu i386, i486, i586 (od Pentia I výš) či i686**, souhrnně se tato architektura někdy označuje **x86**. Pokud máte novější **64bitový procesor AMD**, bylo by škoda nezvolit příslušnou 64bitovou architekturu - tedy **AMD64 nebo x86_64**.
 
 Z nabízených adresářů a souborů je pak potřeba **stáhnout soubory s příponou .iso**, což jsou CD případně DVD obrazy.
-</div>
+</section>
 
-<div markdown="1">
+<section markdown="1">
 # Co s .iso soubory?
 
 ## Jak přenést .iso soubory na CD
 **.iso** soubory jsou obrazy instalačních CD resp. DVD a je potřeba je správným způsobem přenést, vypálit na CD. **Tyto soubory se nevypalují jako běžný soubor**, ale ve vašem vypalovacím programu je potřeba zvolit vypalování obrazu (image) CD. Příslušné volby jsou závislé na vašem vypalovacím softwaru.
-</div>
+</section>
 
-<div markdown="1">
+<section markdown="1">
 # Našel jsem jiný Linux!
 
 ## Existuje mnoho variant Linuxu
 Linuxových distribucí existuje velké množství a zde uvedené jsou vybrány pouze proto, že jsou vhodné pro začínající uživatele a pro použití na osobním počítači nebo notebooku. Existuje mnoho speciálních, účelových distribucí, určených pro servery, pro malá a vestavěná zařízení, pro PDA, používá se v bezdrátových přípojných bodech (wifi) atd. Za tímto účelem vzniká množství různých variant, které ovšem nejsou vždy vhodné na osobní počítač.
 
 Mnoho dalších distribucí naleznete na stránkách [linuxsoft](http://www.linuxsoft.cz/distro_list.php?id_kategory=1) a [distrowatch](http://distrowatch.com/).
-</div>
+</section>
 
-</div>
+</aside>

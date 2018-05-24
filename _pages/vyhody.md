@@ -5,14 +5,12 @@ redirect_from:
   - index_new.html
 layout: wide
 ---
-<div class="lcol" markdown="1">
+<article markdown="1">
 
 # Výhody operačního systému Linux
 
 ### Vyzkoušejte Linux, o kterém jste zatím jen četli
 
-<div class="vyhody" markdown="1">
-![]({{ 'img/lin_shot3.gif' | relative_url }})
 - [Moderní operační systém](#moderni)
 - [Bez virů a spywaru](#bezviru)
 - [Zcela ovladatelný](#ovladatelny)
@@ -24,7 +22,8 @@ layout: wide
 - [Kvalifikovaná podpora a dokumentace](#podpora)
 - [Dostupný v češtině](#cestina)
 - [Pro všechny zdarma](#zdarma)
-</div>
+![]({{ 'img/lin_shot3.gif' | relative_url }})
+{:.vyhody}
 
 Pokud se rozhodujete, **jaký operační systém si vyberete, či uvažujete o jeho změně**, přečtěte si následující řádky, které by vám měly rozhodování ulehčit.
 
@@ -139,27 +138,27 @@ Nejsnadněji dostupné jsou ve formě <abbr title="Compact Disk">CD</abbr> nebo 
 
 Linux mne zaujal a [chci ho vyzkoušet]({{ site.baseurl }}{% link _pages/chci-vyzkouset.md %}).
 
-</div>
+</article>
 
-<div class="rcol">
+<aside>
 
-<div class="centr" markdown="1">
+<section class="centr" markdown="1">
 ![tučňák]({{ 'img/nechte_vstoupit.png' | relative_url }})
 
 **Nechte tučňáka vstoupit**
-</div>
+</section>
 
-<div markdown="1">
+<section markdown="1">
 # Linux na desktop
 Pokud hledáte šikovného dodavatele na instalaci Linuxu na běžný desktopový počítač, určitě se podívejte do
 
 - [![]({{ 'img/linux-cz.ico' | relative_url }}) seznamu linuxových profesionálů](http://instalace.linux.cz)
-</div>
+</section>
 
 {% capture submenu %}{% include submenu.md %}{% endcapture %}
 {{ submenu | markdownify }}
 
-<div markdown="1">
+<section markdown="1">
 # Opravdu zdarma
 
 ## Jak to, že může být Linux zdarma?
@@ -168,9 +167,9 @@ Na vývoji komponent Linuxu se podílí nesmírné množství lidí z celého sv
 Vývoj Linuxu podporují i velké společnosti jako [Red Hat](https://www.redhat.com/), [IBM](http://www.ibm.cz/), [Novell](http://www.novell.cz/) nebo [Intel](http://www.intel.com/).
 
 Linux je založen na [<abbr title="GNU is Not Unix">GNU</abbr>](http://www.gnu.org/) a myšlence svobodného softwaru.
-</div>
+</section>
 
-<div markdown="1">
+<section markdown="1">
 # Hry na Linuxu
 
 ## Pro Linux existuje množství kvalitních her
@@ -205,13 +204,13 @@ Hraní her není typickým využitím Linuxu, kvalitních her ale existuje velk�
 - atd.
 
 Výhodou Linuxu je i to, že množství her se dá spustit pod různými emulátory, ať již Amigy, ZX Spectra nebo pod emulátory MS Windows ([Cedega](http://gametreelinux.com/)) a DOSu ([DOSBox](http://dosbox.sourceforge.net/) nebo [dosemu](http://www.dosemu.org/)). Nutno upozornit, že za většinu známých linuxových her od velkých společností se platí stejně jako jinde. Na druhou stranu - především původní linuxové hry jsou většinou zdarma. Zajímavá je např. hra [Battle of Wesnoth](http://www.wesnoth.org/start/1.0/). Množství zajímavých informací pro Linuxové hráče najdete na stránkách [Linux Gamers' FAQ](http://www.icculus.org/lgfaq/sk/).
-</div>
+</section>
 
-<div markdown="1">
+<section markdown="1">
 # Linux = výběr
 
 ## Linux znamená, že máte možnost volby
 S Linuxem máte vždy na výběr. Můžete si vybrat architekturu počítače, operační systém, distribuci, software, který chcete používat, filosofii, která vám vyhovuje nejlépe, stejně jako vzhled a prostředí, ve kterém chcete pracovat. Můžete si vybrat práci se systémem na nejrůznějších úrovních od [začátečníka](http://bbs.cvut.cz/~covex/linux/newbie.html) až po [pokročilé](http://bbs.cvut.cz/~covex/linux/kouzlo_cmdline.html).
-</div>
+</section>
 
-</div>
+</aside>

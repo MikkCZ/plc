@@ -39,14 +39,13 @@
             </aside>
             <div id="content">
                 <img src="{{ '/img/podklad_text_top.png' | relative_url }}">
-                <div class="text-content">
+                <article>
                     {{ content }}
-                </div>
+                </article>
                 <img src="{{ '/img/podklad_text_bottom.png' | relative_url }}">
             </div>
         </main>
-        {% capture footer %}{% include footer.md %}{% endcapture %}
-        {{ footer | markdownify }}
+        {% include footer.html %}
     </div>
 </body>
 </html>

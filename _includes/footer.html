@@ -1,0 +1,25 @@
+<footer>
+  {% capture footer %}{% include footer.md %}{% endcapture %}
+  {{ footer | markdownify }}
+</footer>
+
+<!-- Google Code for PAGEVIEW Conversion Page -->
+<script>
+<!--
+var google_conversion_id = 1069089218;
+var google_conversion_language = "cs";
+var google_conversion_format = "1";
+var google_conversion_color = "FFFFFF";
+if (1) {
+  var google_conversion_value = 1;
+}
+var google_conversion_label = "PAGEVIEW";
+//-->
+</script>
+<script src="https://www.googleadservices.com/pagead/conversion.js"></script>
+<noscript><img height=1 width=1 border=0 src="https://www.googleadservices.com/pagead/conversion/1069089218/?value=1&label=PAGEVIEW&script=0"></noscript>
+<script src="https://www.google-analytics.com/urchin.js"></script>
+<script>
+_uacct = "{{ site.google_analytics }}";
+urchinTracker();
+</script>

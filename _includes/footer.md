@@ -1,4 +1,3 @@
-<footer markdown="1">
 - [Proč]({{ '/' | relative_url }})
 - [Výhody Linuxu]({{ site.baseurl }}{% link _pages/vyhody.md %})
 - [Chci vyzkoušet]({{ site.baseurl }}{% link _pages/chci-vyzkouset.md %})
@@ -12,25 +11,3 @@ Jako *[GNU/Linux](https://cs.wikipedia.org/wiki/Linux)* je označován svobodný
 
 &copy; {{ site.time | date: '%Y' }} [{{ site.author.name }}]({{ site.author.web }}), [e-mail](mailto:{{ site.author.email }}) - pod záštitou CZLUG
 {:.copy}
-</footer>
-
-<!-- Google Code for PAGEVIEW Conversion Page -->
-<script>
-<!--
-var google_conversion_id = 1069089218;
-var google_conversion_language = "cs";
-var google_conversion_format = "1";
-var google_conversion_color = "FFFFFF";
-if (1) {
-  var google_conversion_value = 1;
-}
-var google_conversion_label = "PAGEVIEW";
-//-->
-</script>
-<script src="https://www.googleadservices.com/pagead/conversion.js"></script>
-<noscript><img height=1 width=1 border=0 src="https://www.googleadservices.com/pagead/conversion/1069089218/?value=1&label=PAGEVIEW&script=0"></noscript>
-<script src="https://www.google-analytics.com/urchin.js"></script>
-<script>
-_uacct = "{{ site.google_analytics }}";
-urchinTracker();
-</script>

@@ -5,7 +5,7 @@ redirect_from:
   - odpovedi.html
 layout: wide
 ---
-<div class="lcol" markdown="1">
+<article markdown="1">
 
 # Odpovědi na časté otázky
 Na této stránce shromažďujeme odpovědi na otázky, které se často vyskytují mezi zájemci o Linux.
@@ -51,9 +51,9 @@ Tak jako na prohlížení internetových stránek v operačních  systémech od 
 
 Dále vám distribuce umožní pohodlnou instalaci Linuxu na váš stolní počítač, firemní server či notebook.
 
-</div>
+</article>
 
-<div class="rcol">
+<aside>
     {% capture submenu %}{% include submenu.md %}{% endcapture %}
     {{ submenu | markdownify }}
-</div>
+</aside>

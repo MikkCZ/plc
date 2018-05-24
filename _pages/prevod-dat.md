@@ -6,7 +6,7 @@ redirect_from:
   - prevod-dat.html
 layout: wide
 ---
-<div class="lcol" markdown="1">
+<article markdown="1">
 
 # Převod profilů některých běžných aplikací
 
@@ -73,14 +73,14 @@ Převést data vašeho profilu poštovního klienta Mozilla Thunderbird je v pod
 
 1. Spusťte Thunderbird. Vaše nastavení by měla být převedena.
 
-</div>
+</article>
 
-<div class="rcol">
+<aside>
 
 {% capture submenu %}{% include submenu.md %}{% endcapture %}
 {{ submenu | markdownify }}
 
-<div markdown="1">
+<section markdown="1">
 # Multiplatformní
 
 ## Už vím proč používat multiplatformní aplikace
@@ -88,6 +88,6 @@ Převést data vašeho profilu poštovního klienta Mozilla Thunderbird je v pod
 Zde vidíte jednu z výhod, proč používat tzv. multiplatformní aplikace. Tedy aplikace, které lze provozovat na více operačních systémech a mnohdy i na více architekturách.
 
 Ne jen, že se nemusíte zdržovat zvykáním si na nové chování jiné aplikace, ale i převod dat je velmi snadný. Krom toho většina aplikací s otevřeným zdrojovým kódem využívá i tzv. otevřených formátů - tedy struktury ve kterých jsou uloženy jejich data jsou veřejně známy a zdokumentovány. Převod jimi vytvořených dat je pak mnohem snadnější.
-</div>
+</section>
 
-</div>
+</aside>

@@ -32,7 +32,7 @@ header li:not(:last-child)::after {
 
 /************* left column *************/
 
-.lcol {
+article {
     float: left;
     padding-left: 20px;
     margin-top: 100px;
@@ -40,7 +40,7 @@ header li:not(:last-child)::after {
     color: #494949;
 }
 
-.lcol h2 {
+article h2 {
     border-bottom: 1px solid black;
     color: #000;
     font-size: 1.2em;
@@ -48,21 +48,21 @@ header li:not(:last-child)::after {
     margin: 0px;
 }
 
-.lcol p {
+article p {
     font-size: 1em;
     margin-bottom: 1em;
 }
 
-.lcol a {
+article a {
     text-decoration: underline;
 }
 
-.lcol b {
+article b {
     color: #292929;
 }
 
-.lcol pre,
-.lcol code {
+article pre,
+article code {
     display: block;
     margin-left: 1em;
     padding: 0.5em;
@@ -70,22 +70,22 @@ header li:not(:last-child)::after {
     background-color: #eee;
 }
 
-.lcol .download {
+article .download {
     text-align: right;
     list-style-type: none;
 }
 
-.lcol .download li {
+article .download li {
     display: inline;
 }
 
-.lcol .download li:not(:last-child)::after {
+article .download li:not(:last-child)::after {
     display: inline-block;
     content: '|';
     padding-left: 0.25em;
 }
 
-.lcol .download img {
+article .download img {
     padding: 1px;
     margin: 1px;
 }
@@ -93,21 +93,20 @@ header li:not(:last-child)::after {
 .vyhody {
     border: 1px solid black;
     margin: 20px;
+    padding: 2em 2em 2em 10%;
     background-image: url("../img/vyhody_bck.png");
     background-position: right top;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .vyhody img {
-    float: right;
     margin: 5%;
     padding: 0px;
     padding-right: 5%;
-}
-
-.vyhody ul {
-    padding: 2em 2em 2em 10%;
-    margin: 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .vyhody li {
@@ -126,12 +125,12 @@ header li:not(:last-child)::after {
     font-size: 0.9em;
 }
 
-.lcol .t_sc {
+article .t_sc {
     float: right;
     margin: 5px;
 }
 
-.lcol .subdist {
+article .subdist {
     padding-left: 15em;
 }
 
@@ -155,7 +154,7 @@ td {
     width: 33%;
 }
 
-.lcol .mp {
+article .mp {
     background-color: #ccc;
 }
 
@@ -177,7 +176,7 @@ td {
 /************* right collum *************/
 
 
-.rcol {
+aside {
     float: right;
     width: 25%;
     margin-top: 100px;
@@ -185,26 +184,21 @@ td {
     font-size: 0.9em;
 }
 
-.rcol .centr {
+aside .centr {
     text-align: center;
 }
 
-.rcol .centr strong {
+aside .centr strong {
     color: #888;
     font-size: 1.2em;
 }
 
-.rcol > div:not([class="centr"]) {
+aside > section:not([class="centr"]) {
     margin: 10px;
     border: 1px solid #f2dc00;
 }
 
-.rcol .c800 {
-    font-size: 1.3em;
-    font-weight: bold;
-}
-
-.rcol h1 {
+aside h1 {
     font-size: 1.2em;
     color: white;
     background-image: url("../img/top_bckg.png");
@@ -216,25 +210,25 @@ td {
     border-bottom: 1px solid #a2ac00;
 }
 
-.rcol h1 a {
+aside h1 a {
     text-decoration: none;
     color: #ac0000;
 }
 
-.rcol h2 {
+aside h2 {
     font-size: 1em;
     padding: 10px 5px 0px 5px;
     margin: 1px;
     color: #292929;
 }
 
-.rcol p {
+aside p {
     padding: 5px;
     margin: 1px;
     line-height:1.5em;
 }
 
-.rcol a {
+aside a {
     text-decoration: underline;
 }
 

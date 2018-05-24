@@ -6,7 +6,7 @@ redirect_from:
   - odkazy.html
 layout: wide
 ---
-<div class="lcol" markdown="1">
+<article markdown="1">
 
 # Odkazy s užitečnými informacemi
 Na této stránce najdete odkazy na několik užitečných stránek, které vám mohou být nápomocny při práci s Linuxem.
@@ -84,14 +84,14 @@ Jako zdroj nerůznějších rad, zpráv a článků lze využít i česky vychá
 
 Propagační ikonky a bannery najdete na samostatné stránce [Propagujte Linux]({{ site.baseurl }}{% link _pages/propagace.md %}).
 
-</div>
+</article>
 
-<div class="rcol">
+<aside>
 
 {% capture submenu %}{% include submenu.md %}{% endcapture %}
 {{ submenu | markdownify }}
 
-<div markdown="1">
+<section markdown="1">
 # Nebojte se změny
 
 ## Jak postupně přejít na Linux
@@ -103,6 +103,6 @@ Další možností je použít tzv. **virtuální počítač** - pod Linuxem spu
 
 ## Linux není MS Windows zdarma
 Základy Linuxu jsou zcela jiné, než je tomu např. u MS Windows. Linux se vyvinul jako systém [unixového](http://cs.wikipedia.org/wiki/Unix) typu a proto je jeho ovládání a chování v některých směrech odlišné, než jak jste mohli být zvyklí v MS Windows. Podstatou samotného systému je ale jeho možnost přizpůsobení, a to jak vzhledem, tak chováním. Jak může též vypadat Linux přizpůsobený pro uživatele MS Windows, si můžete prohlédnout např. u komerčně prodávané distribuce [Linspire](http://www.linspire.com/).
-</div>
+</section>
 
-</div>
+</aside>

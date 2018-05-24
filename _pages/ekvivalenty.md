@@ -6,7 +6,7 @@ redirect_from:
  - ekvivalenty.html
 layout: wide
 ---
-<div class="lcol" markdown="1">
+<article markdown="1">
 
 # Tabulka ekvivalentních aplikací
 
@@ -260,7 +260,7 @@ Zajímavé aplikace, které jsou multiplatformní (lze je použít jak na MS Win
 
 | Součástí OS | Minesweeper (Miny) <br> Solitaire <br> Srdce <br> Freecell <br> Spider <br> Pinball | [Mines (Miny)](http://www.gnome.org/projects/gnome-games/) <br> [Aisleriot (Karetní hry)](http://www.gnome.org/projects/gnome-games/) <br> [Ataxx](http://www.gnome.org/projects/gnome-games/) <br> [Blackjack](http://www.gnome.org/projects/gnome-games/) <br> [Four-in-a-row](http://www.gnome.org/projects/gnome-games/) <br> [Gnometris](http://www.gnome.org/projects/gnome-games/) <br> [Iagno](http://www.gnome.org/projects/gnome-games/) <br> [Klotski](http://www.gnome.org/projects/gnome-games/) <br> [Lines](http://www.gnome.org/projects/gnome-games/) <br> [Mahjongg](http://www.gnome.org/projects/gnome-games/) <br> [Nibbles](http://www.gnome.org/projects/gnome-games/) <br> [Robots](http://www.gnome.org/projects/gnome-games/) <br> [Same Gnome](http://www.gnome.org/projects/gnome-games/) <br> [Stones](http://www.gnome.org/projects/gnome-games/) <br> [Tali](http://www.gnome.org/projects/gnome-games/) <br> [Tetravex](http://www.gnome.org/projects/gnome-games/) <br> [A mnoho dalších pro KDE](http://games.kde.org/) <br> např. Leutnant Skat (síťová karetní hra) <br> [Roll'm Up (Pinball)](http://www.linuxsoft.cz/sw_detail.php?id_item=1747) |
 
-<pre>
+```
 [Prop]      ... proprietární
 [NF]        ... není svobodný software
 (GUI)       ... grafické rozhraní k programu
@@ -268,16 +268,16 @@ Zajímavé aplikace, které jsou multiplatformní (lze je použít jak na MS Win
 (GNOME)     ... vhodné pro prostředí GNOME
 (konsole)   ... textové rozranní
 (standard)  ... nachází se standardně v systému
-</pre>
+```
 
-</div>
+</article>
 
-<div class="rcol">
+<aside>
 
 {% capture submenu %}{% include submenu.md %}{% endcapture %}
 {{ submenu | markdownify }}
 
-<div markdown="1">
+<section markdown="1">
 # Rozdíly ve filosofii
 
 ## Proč jsou Linuxové aplikace jaké jsou
@@ -288,15 +288,15 @@ Důležitý ideologický rozdíl mezi MS Windows a Linuxem je tento:
 **Ideou Linuxu je mít pouze jednu komponentu nebo program, který dělá danou věc, ale dělá ji dobře.** Proto se dají programy v Linuxu přirovnat spíše k Legu - např. kontrola pravopisu je použita stejná ne jen v textovém editoru, ale i v poštovním programu atd. Typické je také to, že pokud existuje kvalitní aplikace pracující z příkazové řádky, zpravidla existuje pouze grafická nadstavba, která tento program využívá a poskytuje tak pouze uživatelsky přítulnější rozhraní.
 
 Tento princip je potřeba mít vždy na paměti při hledání ekvivalentů.
-</div>
+</section>
 
-<div markdown="1">
+<section markdown="1">
 # Další aplikace
 
 ## Kde hledat další aplikace
 Kromě využití běžného vyhledávače lze použít i specializované katalogy programů pro GNU/Linux. Např. [FSF/UNESCO Free software directory](https://directory.fsf.org/), [GitHub](https://github.com/), [Freecode](http://freecode.com/), [Launchpad](https://launchpad.net/), [SourceForge](http://sourceforge.net/), [Linux App Finder](http://linuxappfinder.com/), [GTK+ Applications Repository](http://gtk-apps.org/), [Free Qt Applications](http://qt-apps.org/), [Open Source Alternatives](http://www.osalt.com/) nebo [AlternativeTo](https://alternativeto.net/), případně samozřejmě české [AbcLinuxu](https://www.abclinuxu.cz/software) nebo [Linuxsoft](http://www.linuxsoft.cz/).
 
 Než začnete vyhledávat aplikaci přímo na jejích stránkách, přesvědčte se pomocí instalačních nástrojů (apt, yum, urpmi, yast), že již není připravena přímo ve vaší distribuci.
-</div>
+</section>
 
-</div>
+</aside>
