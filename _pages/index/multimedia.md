@@ -1,16 +1,15 @@
 ---
+title: Multimédia
 permalink: /multimedia/
 layout: boxed
 ---
-[![Audio knihovna Listen]({{ 'img/listen_t.png' | relative_url }} "Audio knihovna Listen")]({{ 'img/listen.png' | relative_url }}){:.doprava}
-
 # ![]({{ 'img/multimedia.png' | relative_url }}) Multimédia
 
-Měli jste někdy problémy s přehráváním nějakého filmu? Chyběl vám kodek, nebo prostě přehrávač odmítl daný formát přehrát? Pak byste měli zkusit linuxový [MPlayer](http://www.mplayerhq.hu/design7/news.html) (The Movie Player).
+Měli jste někdy problémy s přehráváním nějakého filmu? Chyběl vám kodek, nebo prostě přehrávač odmítl daný formát přehrát? Pak byste měli zkusit svobodný [VLC media Player](https://www.videolan.org/) nebo některý další z řady [přehrávačů]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}#video).
 
-Organizaci své sbírky hudby (ať už v **mp3** nebo jiných formátech) přenechte některému z linuxových programů. Stejně tak byste měli zkusit, jak snadno dáte řád všem svým fotografiím.
+Organizaci své hudební kolekce (v mp3 i jiných formátech) můžete přenechat některému [hudebnímu přehrávači]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}#hudba). Stejně snadno dáte řád všem svým fotografiím.
 
-Stačí jen vybrat některý z dostupných programů, který vám vyhovuje, a nainstalovat. Nebo prostě použijte to, co pro vás distributoři pečlivě vybrali. <u>Žádné zdlouhavé přebírání shareware, žádné trial verze.</u>
+Stačí vybrat ve správci softwaru z dostupných programů ten, který vám nejlépe vyhovuje, nebo použijte ten, který vámi používaná linuxová [distribuce]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}) už obsahuje. Žádné hledání po internetu nebo stahování trial verzí.
 
-*Linux* nevyrostl jako multimediální systém, dnes však bez problému zvládá všechny oblasti multimediální zábavy, ale i mnohem víc. A tak je používán i ve filmových studiích.
+Linux sice nevyrostl jako multimediální systém, ale bez problému zvládá všechny oblasti multimediální zábavy. Používají ho i filmová studia.
 {:.historie}

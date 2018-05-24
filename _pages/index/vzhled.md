@@ -1,19 +1,15 @@
 ---
+title: Vzhled a ovládání
 permalink: /vzhled/
 layout: boxed
 ---
-[![3D přepínání desktopů]({{ 'img/beryl_t.png' | relative_url }} "3D přepínání desktopů")]({{ 'img/beryl.jpg' | relative_url }}){:.doprava}
+[![3D přepínání ploch]({{ 'img/beryl_t.png' | relative_url }} "3D přepínání ploch")]({{ 'img/beryl.jpg' | relative_url }}){:.doprava}
 
-# ![]({{ 'img/vzhled.png' | relative_url }}) Vzhled
+# ![]({{ 'img/vzhled.png' | relative_url }}) Vzhled a ovládání
 
-- průhlednost
-- grafické efekty
-- okna ve 3D prostoru
-- živé náhledy
+Podle [distribuce]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}) a grafického prostředí může váš Linux vypadat klasicky jako Windows s hlavní lištou vespod obrazovky a nabídkou "Start", nebo naopak velmi futuristicky s funkcemi jako jsou 3D plochy. A nebudete k jeho fungování potřebovat ani žádný supermoderní počítač.
 
-To je jen výběr z toho, co *Linux* už nejaký ten pátek umí. Stále se zlepšuje a nepotřebujete k tomu supermoderní počítač.
+Podobu Linuxu z velké části určuje jeho grafické prostředí. Mezi nejpoužívanější a nejvyspělejší patří GNOME, KDE, Xfce, Cinnamon nebo MATE. Nemusíte se ale bát žádného složitého výběru. Grafické prostředí je vždy výchozí součástí každé distribuce pro běžné uživatele.
 
-[Podívejte se](http://youtube.com/results?search_query=xgl+OR+aiglx&search=Search) sami, jak *Linux* dnes vypadá a co dokáží jeho okna ovládaná [Compizem](http://www.compiz.org/).
-
-Jako je možné měnit celý *Linux*, je možné měnit i jeho vzhled. A je tomu tak už mnoho let. *Linux* má nespočetně podob a barev pleti. Stejně jako lidé, kteří ho používají. Přeneste si vzhled svého pokoje i na monitor.
+Jako je možné měnit celý Linux, je možné měnit i jeho vzhled. A je tomu tak už mnoho let. Linux má nespočetně podob a barev. Přeneste si třeba barvy svého pokoje i na monitor.
 {:.historie}

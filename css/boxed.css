@@ -46,22 +46,25 @@ header span {
 
 main > aside {
     float: left;
+    width: 64px;
+    text-align: center;
 }
 main > aside ul {
     list-style-type: none;
     padding: 10px 0 0 0;
-}
-main > aside li,
-main > aside li a {
-    display: block;
-    width: 64px;
-    height: 64px;
 }
 main > aside li {
     opacity: 1;
 }
 main > aside li:hover {
     opacity: 0.6;
+}
+main > aside li {
+  padding: 4px 0;
+}
+main > aside img {
+    max-width: 48px;
+    max-height: 48px;
 }
 
 #content {
@@ -130,11 +133,6 @@ main > aside li:hover {
     font-size: 24px;
     font-weight: bold;
     color: #494949;
-}
-.keywords .key26 {
-    font-size: 26px;
-    font-weight: bold;
-    color: #252525;
 }
 
 footer {

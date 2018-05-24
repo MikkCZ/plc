@@ -1,14 +1,13 @@
 ---
+title: Internet
 permalink: /internet/
 layout: boxed
 ---
-[![Webový prohlížeč Firefox]({{ 'img/ff2_t.png' | relative_url }} "Webový prohlížeč Firefox")]({{ 'img/ff2.png' | relative_url }}){:.doprava}
+# ![]({{ 'img/internet.png' | relative_url }}) Internet a web
 
-# ![]({{ 'img/internet.png' | relative_url }}) Internet
+Přístup k internetu je samozřejmostí a u Linuxu je tomu nejinak. Můžete používat na Linuxu asi nejrozšířenější Firefox nebo další z [dostupných webových prohlížečů]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}#internet), které znáte z Windows a jiných systémů. Není nic jednoduššího, než si svá nastavení, hesla a záložky sesynchronizovat nebo [převést do Linuxu]({{ site.baseurl }}{% link _pages/prevod-dat.md %}).
 
-Myslíte si, že znáte Internet? Vyzkoušejte jak vypadá v *Linuxu*. S [Firefoxem](http://www.mozilla.cz/produkty/firefox/). A pokud Firefox už znáte, není nic jednoduššího než si svá nastavení, hesla a záložky [převést do *Linuxu*]({{ site.baseurl }}{% link _pages/prevod-dat.md %}).
+Přístup k vaší poště vám zprostředkuje [Thunderbird](https://www.mozilla.cz/produkty/thunderbird/) a se svými přáteli můžete komunikavat pomocí kecálka [Pidgin](http://www.pidgin.cz/), [Skype](https://www.skype.com/cs/get-skype/) nebo [Facebooku](https://messengerfordesktop.com/).
 
-Všechny novinky můžete mít na dosah s RSS stejně jako dříve včetně svojí pošty z [Thunderbirdu](http://www.mozilla.cz/produkty/thunderbird). Své přátele opět najdete pomocí kecálka [Pidgin](http://www.pidgin.im/) nebo [Skype](http://skype.com/intl/en/download/skype/linux/). A jako bonus dostanete [bezpečí]({{ site.baseurl }}{% link _pages/index/bezpecnost.md %}) a [jedinečný vzhled]({{ site.baseurl }}{% link _pages/index/vzhled.md %}).
-
-Internet, jak ho znáte, začal Netscapem. I ten bežel na *Linuxu*, ale poskytoval jen málo z toho, co dnes znáte. Jen díky pricipům *Linuxu* se ale Netscape vyvinul do dnešního Firefoxu. I Firefox je totiž svobodný software stejně jako celý *Linux*.
+U začátků dnes známého internetu stál prohlížeč Netscape, který se vyvinul do dnešního Firefoxu. Oba fungovali a fungují na Linuxu. A stejně jako Linux, tak i Firefox je totiž svobodný software.
 {:.historie}
