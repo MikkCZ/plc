@@ -60,6 +60,16 @@ Vyberte si distribuci, která se vám líbí.
 - [Stáhnout SuSE](http://opensuse.org/cs/)
 {:.download}
 
+## ![]({{ 'img/linux-mint-logo.svg' | relative_url }}) Linux Mint
+{:id="mint"}
+**Linux Mint** je distribuce založená na Ubuntu (se kterou jsou zpětně kompatibilní a využívají aplikace od Canonical Ltd.), případně na Debianu. Zatímco jádro Linux Mint je založeno z větší části na Ubuntu, grafické uspořádání plochy a uživatelské rozhraní je naprosto odlišné. Mint totiž používá grafické prostředí Cinnamon. Mint má také vlastní kolekci systémových nástrojů vyvinutou pro snadnější správu systému a uživatelských práv.
+
+- [Česká komunita](https://www.linux-mint-czech.cz/)
+- [Oficiální web](https://www.linuxmint.com/)
+- [Fórum podpory](https://forum.linux-mint-czech.cz/)
+- [Stáhnout Linux Mint](https://www.linux-mint-czech.cz/ke-stazeni/)
+{:.download}
+
 ## ![]({{ 'img/pclinuxos_ico.png' | relative_url }}) PCLinuxOS
 {:id="pclinuxos"}
 [![]({{ 'img/pclinuxos-2007_t.png' | relative_url }}){:.t_sc}]({{ 'img/pclinuxos-2007.png' | relative_url }}) **PCLinuxOS** je distribuce, která vznikla odštěpením od Mandrake linuxu (nyní Mandriva) v roce 2003 a vyvíjí jej skupina vývojářů soustředěná okolo Texstara (Bill Reynolds). Jedná se o distribuci, která je zaměřená na maximální jednoduchost. Obsahuje proprietální kodeky a instalaci dalších programů obstarává Debianovský apt s jeho grafickou nadstavbou Synapticem spravující jeden centrální, přednastavený repozitář (k dispozici jsou samozřejmě i záložní zrdcadla). Instalační CD, které je zároveň Live CD, obsahuje ve zkomprimované podobě cca.2 GB dat, takže po instalaci dostanete plně funkční systém s bohatým množstvím software, který je ihned připraven k práci, používání internetu, přehrávání filmů, mp3.

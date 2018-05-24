@@ -48,6 +48,11 @@ article h2 {
     margin: 0px;
 }
 
+article h2 img {
+    max-width: 1em;
+    max-height: 1em;
+}
+
 article p {
     font-size: 1em;
     margin-bottom: 1em;
