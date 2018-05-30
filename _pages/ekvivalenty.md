@@ -62,7 +62,7 @@ Tento princip je potřeba mít při hledání ekvivalentů vždy na paměti.
 {:.inline-nav}
 
 ### Internet
-{:id="internet"}
+{:#internet}
 
 | Popis programu, úlohy | MS Windows | GNU/Linux |
 | --- |
@@ -96,7 +96,7 @@ Tento princip je potřeba mít při hledání ekvivalentů vždy na paměti.
 | Synchronizace | Dropbox | Dropbox |
 
 ### Kancelářské nástroje
-{:id="kancelar"}
+{:#kancelar}
 
 | Kancelářské balíky | [LibreOffice](https://www.libreoffice.org/){:.mp} <br> [OpenOffice.org](http://www.openoffice.org/){:.mp} <br> MS Office <br> 602Software | [LibreOffice](https://cs.libreoffice.org/){:.mp} <br> [OpenOffice.org](https://www.openoffice.org/cs/){:.mp} <br> [Calligra](http://www.calligra-suite.org/){:.mp} <br> [GNOME Office](https://wiki.gnome.org/Projects/GnomeOffice) <br> [HancomOffice](http://www.hancom.com/) [Prop] <br> Applixware Office [Prop] <br> TeX <br> [LaTeX](http://www.latex-project.org/) <br> .. |
 | Editory dokumentů | MS Word <br> [OpenOffice.org](http://www.openoffice.org/){:.mp} Writer <br> 602Text <br> [LyX](http://www.lyx.org/){:.mp} <br> [Abiword](http://www.abisource.com/){:.mp} | [LibreOffice](https://www.libreoffice.org/discover/writer/){:.mp} Writer <br> [OpenOffice.org](http://www.openoffice.org/){:.mp} Writer <br> [Calligra Words](http://www.calligra.org/words/){:.mp} <br> [Abiword](http://www.abisource.com/){:.mp} <br> [TextMaker](http://www.softmaker.de/tm_en.htm) [Prop] <br> [Ted](http://www.nllgg.nl/Ted/) <br> [LyX](http://www.lyx.org/){:.mp} <br> [Kile (KDE integrované prostředí LaTeX)](http://kile.sourceforge.net/) |
@@ -109,7 +109,7 @@ Tento princip je potřeba mít při hledání ekvivalentů vždy na paměti.
 | Malé DTP nástroje | MS Publisher | [Scribus](http://www.scribus.net/){:.mp}<br> |
 
 ### Správa souborů
-{:id="ssouboru"}
+{:#ssouboru}
 
 | Správci souborů jako FAR a NC | FAR <br> Norton Commander <br> Disco Commander <br> Volcov Commander <br> etc | [Midnight Commander](http://www.ibiblio.org/mc/) <br> [Deco (Demos Commander)](http://sourceforge.net/projects/deco/) <br> [Portos Commander](http://sourceforge.net/projects/pcmm/) <br> [Konqueror in MC style](http://www.konqueror.org/) <br> Gentoo <br> [VFU](http://soul.datamax.bg/~cade/vfu/) <br> [Ytree](http://www.han.de/~werner/ytree.html) |
 | Správci souborů jako Windows Commander | Total Commander (původně Windows Commander) | [Krusader](http://krusader.sourceforge.net/) <br> [Tux Commander](http://tuxcmd.sourceforge.net/) <br> [muCommander](http://www.mucommander.com/){:.mp} <br> [Double Commander](http://doublecmd.sourceforge.net/){:.mp} <br> [GNOME Commander](https://gcmd.github.io/) <br> [Midnight Commander](http://www.ibiblio.org/mc/) <br> [Kcommander](http://sourceforge.net/projects/kcommander/) <br> FileRunner (TCL/TK) <br> [Rox-Filer](http://rox.sourceforge.net/desktop/ROX-Filer) <br> [Worker](http://www.boomerangsworld.de/cms/worker/) |
@@ -119,7 +119,7 @@ Tento princip je potřeba mít při hledání ekvivalentů vždy na paměti.
 | Programy pro spojováníní a rozdělování souborů | [HJSplit](http://www.hjsplit.org/){:.mp}<br> | [HJSplit](http://www.hjsplit.org/){:.mp} <br> [GNOME Split](https://github.com/respawner/gnome-split) <br> cat (konsole) <br> split (konsole) |
 
 ### Textové editory
-{:id="teditory"}
+{:#teditory}
 
 | Textové editory | Notepad <br> WordPad <br> TextPad <br> EasyPad <br> [PSPad](http://www.pspad.com/) <br> [Vim](http://www.vim.org/){:.mp} <br> [Xemacs](http://www.xemacs.org/){:.mp}<br> | [Kate](http://kate-editor.org/) (KDE) <br> [Gedit](https://wiki.gnome.org/Apps/Gedit) (GNOME) <br> [Vim](http://www.vim.org/){:.mp} <br> [Xemacs](http://www.xemacs.org/){:.mp} <br> [Scribes](http://scribes.sourceforge.net/) <br> [Gnotepad](http://gnotepad.sourceforge.net/) <br> KWrite (KDE) <br> Nedit<br> |
 | Konsolové textové editory | [Vim](http://www.vim.org/){:.mp} <br> [Emacs](http://www.gnu.org/software/emacs/){:.mp} <br> editor z FAR <br> editor z DN<br> | [Vim](http://www.vim.org/){:.mp} <br> [Emacs](http://www.gnu.org/software/emacs/){:.mp} <br> [Nano](http://www.nano-editor.org/) (Svobodná implementace [pico](http://www.washington.edu/pine/)) <br> [Fte](http://fte.sourceforge.net/) <br> [JED](http://www.jedsoft.org/jed/) <br> CoolEdit |
@@ -127,13 +127,13 @@ Tento princip je potřeba mít při hledání ekvivalentů vždy na paměti.
 [JED](http://www.jedsoft.org/jed/) <br> [Setedit](http://setedit.sourceforge.net/) (ve stylu Turbo Vision) <br> [HT editor](http://hte.sourceforge.net/) <br> |
 
 ### Práce s PDF
-{:id="ppdf"}
+{:#ppdf}
 
 | Prohlížení PDF | [Acrobat Reader](http://www.adobe.com/products/acrobat){:.mp} [Prop] <br> [Foxit Reader](https://www.foxitsoftware.com/products/pdf-reader/){:.mp} [Prop] <br> [GSView](http://www.ghostscript.com/GSView.html){:.mp} | [Foxit Reader](https://www.foxitsoftware.com/products/pdf-reader/){:.mp} [Prop] <br> [Evince](https://wiki.gnome.org/Apps/Evince) (GNOME) <br> [Okular](http://okular.kde.org/) (KDE) <br> [Kpdf](http://kpdf.kde.org/) (KDE) <br> [Xpdf](http://www.foolabs.com/xpdf/) <br> [GSView](http://www.ghostscript.com/GSView.html){:.mp} <br> Kghostview |
 | Vytváření PDF | Adobe Acrobat Distiller <br> [GSView](http://www.ghostscript.com/GSView.html){:.mp} <br> [Ghostscript](http://www.ghostscript.com/) <br> [OpenOffice.org](http://www.openoffice.org/){:.mp} umí export přímo do PDF | Jakýkoli Linuxový WYSIWYG program -&gt; tisk do souboru -&gt; ps2pdf. (Celý [článek](http://www.denniswarner.net/lfp/creating_pdf_files.html) o vytváření PDF) <br> Adobe Acrobat Distiller [Prop] <br> PStill [Shareware] <br> PDFLatex <br> Xfig <br> [Ghostscript](http://www.ghostscript.com/) <br> [Tex2Pdf](http://tex2pdf.berlios.de/) <br> [GV](http://wino.physik.uni-mainz.de/~plass/gv/) <br> [GGV](http://directory.fsf.org/project/ggv/) <br> [GSView](http://www.ghostscript.com/GSView.html){:.mp} <br> Kghostview <br> [Panda PDF Generator](http://freshmeat.net/projects/panda/) <br> [OpenOffice.org](http://www.openoffice.org/){:.mp} umí export přímo do PDF |
 
 ### Hudba, CD a mp3
-{:id="hudba"}
+{:#hudba}
 
 | Přehrávač hudby / mp3 / ogg | iTunes <br> Windows Media Player <br> [Winamp](http://www.winamp.com/) <br> [Zinf](http://www.zinf.org/) <br> [SnackAmp](http://snackamp.sourceforge.net/) <br> [Media Box Audio / Video](http://www.e-soft.co.uk/) <br> [Workstation 5](http://www.e-soft.co.uk/) <br> [Blaze Media Pro](http://www.blazemp.com/) <br> [Real Jukebox](http://www.real.com/) <br> | [Amarok](http://amarok.kde.org/){:.mp} <br> [Rhythmbox](https://wiki.gnome.org/Apps/Rhythmbox) <br> [Banshee](http://banshee.fm/){:.mp} <br> [Exaile](http://www.exaile.org/) <br> Listen <br> [Clementine](http://www.clementine-player.org/){:.mp} <br> [Audacious](http://audacious-media-player.org/){:.mp} <br> [XMMS (X multimedia system)](http://www.xmms.org/) <br> [gtkpod](http://www.gtkpod.org/) <br> [Zinf](http://www.zinf.org/) (dříve Freeamp) <br> Noatun <br> Xamp <br> [SnackAmp](http://snackamp.sourceforge.net/) <br> [Mplayer](http://www.mplayerhq.hu/){:.mp} (Grafické rozhraní: [Kplayer](http://kplayer.sourceforge.net/), [KMPlayer](http://kmplayer.kde.org/)) <br> [Xine](http://xine.sourceforge.net/) (Grafické rozhraní: [Totem](https://wiki.gnome.org/Apps/Totem/), [Kaffeine](https://www.kde.org/applications/multimedia/kaffeine/)) <br> [JuK](http://ktown.kde.org/~wheeler/juk.html) <br> wxMusik <br> [BMP (Beep Media Player)](http://sourceforge.net/projects/beepmp/) <br> [Muine](http://muine.gooeylinux.org/) |
 | Konsolové přehrávače hudby / mp3 / ogg | mpg123 <br> dosamp <br> [Mplayer](http://www.mplayerhq.hu/){:.mp} | Cplayer <br> [mpg123](http://www.mpg123.de/) <br> [ogg123](http://www.xiph.org/) <br> [mpg321](http://mpg321.sourceforge.net/) <br> Orpheus <br> [Mp3blaster](http://mp3blaster.sourceforge.net/) <br> [Madplay](http://www.mars.org/home/rob/proj/mpeg/) <br> [Mplayer](http://www.mplayerhq.hu/){:.mp} |
@@ -154,7 +154,7 @@ Tento princip je potřeba mít při hledání ekvivalentů vždy na paměti.
 | Editory ID3-Tagů | [Mp3tag](http://mp3tag.de/) | [EasyTAG](https://wiki.gnome.org/Apps/EasyTAG) <br> Cantus <br> [id3tool](http://nekohako.xware.cx/id3tool/) (konsole) <br> id3ed (konsole) <br> [id3edit](http://id3edit.sourceforge.net/) (konsole) |
 
 ### Grafika a obrázky
-{:id="grafika"}
+{:#grafika}
 
 | Prohlížeče obrázků | [Xnview](http://www.xnview.com/){:.mp} <br> ACDSee <br> IrfanView <br> [CompuPic](http://www.photodex.com/) [Prop] <br> Windows Fax and Image viewer | [Gwenview](http://www.kde.org/applications/graphics/gwenview//) [KDE] <br> [Eye of GNOME](https://wiki.gnome.org/Apps/EyeOfGnome) (GNOME) <br> [gThumb](https://wiki.gnome.org/Apps/gthumb/) (GNOME) <br> [Mirage](http://mirageiv.sourceforge.net/) (GNOME) <br> [Geeqie](http://geeqie.sourceforge.net/) (GNOME) <br> [Xnview](http://www.xnview.com/){:.mp} <br> [Qiv](https://spiegl.de/qiv/) <br> Kview <br> [pornview](http://sourceforge.net/projects/pornview/) <br> ShowImg <br> Fbi <br> [Gthumb](https://wiki.gnome.org/Apps/gthumb) <br> PixiePlus<br> |
 | Jednoduché grafické editory | Paint | [KolourPaint](http://www.kolourpaint.org/) (KDE) <br> [GNOME Paint](https://launchpad.net/gnome-paint) (GNOME) <br> [Tuxpaint](http://www.newbreedsoftware.com/tuxpaint/){:.mp} <br> [Xpaint](http://sf-xpaint.sourceforge.net/) <br> [Gpaint](http://www.gnu.org/software/gpaint/) <br> [Graphtool](http://savannah.nongnu.org/projects/graphtool/) <br> Kpaint<br> |
@@ -169,7 +169,7 @@ Tento princip je potřeba mít při hledání ekvivalentů vždy na paměti.
 | Organizace fotografií | Zoner Photo Studio <br> Adobe Photoshop Lightroom <br> ACDSee<br> | [digiKam](http://digikam.org/){:.mp} <br> [F-Spot](http://f-spot.org/) <br> [Shotwell](https://wiki.gnome.org/Apps/Shotwell) <br> [gThumb](https://wiki.gnome.org/Apps/gthumb) <br> |
 
 ### Přehrávání a zpracování videa
-{:id="video"}
+{:#video}
 
 | Video přehrávače | [BSplayer](http://www.bsplayer.com/) <br> Zoomplayer <br> Windows Media Player <br> [VideoLAN](http://www.videolan.org/){:.mp} <br> Winamp3 <br> [Mplayer](http://www.mplayerhq.hu/){:.mp} <br> RealPlayer <br> Xing <br> Simplayer | [VideoLAN](http://www.videolan.org/){:.mp} <br> [Mplayer](http://www.mplayerhq.hu/){:.mp} <br> [mpv](https://mpv.io/){:.mp} <br> [Totem](https://wiki.gnome.org/Apps/Totem/) (GNOME) <br> [Kaffeine](https://www.kde.org/applications/multimedia/kaffeine/) (KDE) <br> [Dragon Player](https://www.kde.org/applications/multimedia/dragonplayer/) (KDE) <br> [Miro](http://www.getmiro.com/){:.mp} <br> [Xine](http://xine.sourceforge.net/) <br> [Helix Player](https://player.helixcommunity.org/) |
 | DVD přehrávače | PowerDVD <br> [WinDVD](http://www.intervideo.com/){:.mp} <br> MicroDVD <br> Windows Media Player <br> [VideoLAN](http://www.videolan.org/){:.mp} | [VideoLAN](http://www.videolan.org/){:.mp} <br> [Mplayer](http://www.mplayerhq.hu/){:.mp} <br> [mpv](https://mpv.io/){:.mp} <br> [Xine](http://xine.sourceforge.net/) <br> |
@@ -182,7 +182,7 @@ Tento princip je potřeba mít při hledání ekvivalentů vždy na paměti.
 | Multimediální centra | Windows Media Center <br> [Kodi](http://kodi.tv/){:.mp} <br> [MythTV](http://www.mythtv.org/){:.mp} <br> [Moovida](http://www.moovida.com/){:.mp}<br> | [Kodi (dříve XBMC Media Center)](http://kodi.tv/){:.mp} <br> [MythTV](http://www.mythtv.org/){:.mp} <br> Moovida<br> |
 
 ### Programování a vývoj
-{:id="programovani"}
+{:#programovani}
 
 | IDE | [Eclipse](http://www.eclipse.org/){:.mp} <br> [NetBeans](http://netbeans.org/){:.mp} <br> Microsoft VisualStudio .net <br> [Emacs](http://www.gnu.org/software/emacs/){:.mp} <br> [XEmacs](http://www.xemacs.org/){:.mp} <br> [Vim](http://www.vim.org/){:.mp} + ctags + [scripty z vim.sf.net](http://vim.sf.net/) <br> [Boa Constructor](http://boa-constructor.sourceforge.net/) <br> [PythonCard](http://pythoncard.sourceforge.net/) <br> | [Eclipse](http://www.eclipse.org/){:.mp} <br> [NetBeans](http://netbeans.org/){:.mp} <br> [CodeForge](http://www.codeforge.com/) <br> [Kdevelop](http://www.kdevelop.org/) + [Qt Designer](https://qt-project.org/) <br> <br> [Glade](http://glade.gnome.org/) + [Motor](http://konst.org.ua/motor) nebo + [Xwpe](http://www.identicalsoftware.com/xwpe/) nebo + jiný textový editor <br> [Emacs](http://www.gnu.org/software/emacs/){:.mp} <br> [XEmacs](http://www.xemacs.org/){:.mp} <br> [Vim](http://www.vim.org/){:.mp} + ctags + [scripty z vim.sf.net](http://vim.sf.net/) <br> [Boa Constructor](http://boa-constructor.sourceforge.net/) <br> [PythonCard](http://pythoncard.sourceforge.net/) |
 | Visual C++ IDE | Borland C++ Builder <br> MS Visual C<br> | [Anjuta](http://anjuta.org/) + [Glade](http://glade.gnome.org/) + Devhelp <br> [KDE Studio Gold](http://www.thekompany.com/products/ksg/) [Prop] <br> [Dev-C++](http://www.bloodshed.net/devcpp.html) <br> [Kylix](http://www.codework.com/kylix/) [Prop] (Kylix Personal Edition je zdarma) <br> vtkBuilder <br> foxBuilder <br> wxDesigner <br> [Code Crusader](http://www.newplanetsoftware.com/jcc/) [Prop] <br> [CodeWarrior](http://www.metrowerks.com/mw/default.htm) [Prop] <br> [Gbuilder](http://gbuilder.sourceforge.net/) <br> [Source Navigator](http://sourcenav.sourceforge.net/) <br> [TimeStorm](http://www.timesys.com/) [Prop] <br> [Understand for C++](http://www.scitools.com/ucpp.html) [Prop] <br> [SlickEdit](http://www.slickedit.com/) [Prop] |
@@ -215,7 +215,7 @@ Tento princip je potřeba mít při hledání ekvivalentů vždy na paměti.
 | Vytváření grafů a diagramů | Microsoft Visio | [Calligra Flow](http://www.calligra.org/flow/){:.mp} <br> [Dia](https://wiki.gnome.org/Apps/Dia/) <br> KChart <br> <br> Tgif + dotty <br> Tulip <br> [Poseidon for UML](http://www.gentleware.com/) [Prop &amp; svobodná verze] <br> [JGraph + JGraphPad](http://sourceforge.net/projects/jgraph/) (Java) |
 
 ### Různé nástroje
-{:id="nastroje"}
+{:#nastroje}
 
 | Krypto | [PGP](http://www.pgp.com/) <br> [GnuPG](http://www.gnupg.org/) + [Windows Privacy Tools](http://winpt.sourceforge.net/) | [GnuPG (konsole)](http://www.gnupg.org/) + [GPA](http://www.gnupg.org/gpa.html) <br> [KGpg](http://devel-home.kde.org/~kgpg/) <br> [PGP](http://www.pgp.com/) [Prop] |
 | Plánovač systémových úloh | mstask <br> nnCron | cron <br> at (standard, konsole) GUI: Kcron |
@@ -233,7 +233,7 @@ Tento princip je potřeba mít při hledání ekvivalentů vždy na paměti.
 | Práce s Palmem | Palm Desktop | [Kpilot](http://www.slac.com/pilone/kpilot_home/) <br> [Jpilot](http://jpilot.org/) |
 
 ### Monitory systému
-{:id="monitory"}
+{:#monitory}
 
 | Monitorování teploty/napětí/otáček | MBMonitor <br> PCAlert <br> Speedfan | [Gkrellm](http://www.gkrellm.net/) + zásuvné moduly [Ksensors](http://ksensors.sourceforge.net/) <br> [Lm_sensors](http://secure.netroedge.com/~lm78/) <br> [xsensors](http://www.linuxhardware.org/) <br> |
 | S.M.A.R.T-atributy a teplota HDD | Většinou s CD k motherboardu <br> [Active SMART](http://www.ariolic.ru/activesmart/index.html) | smartctl <br> [hddtemp](http://www.guzu.net/linux/hddtemp.php) <br> [IDEload](http://www.guzu.net/linux/various.php) <br> [Smartsuite-2.1](http://www.linux-ide.org/smart.html) <br> [Smartmontools](http://smartmontools.sourceforge.net/) <br> [Ide-smart](http://lightside.eresmas.com/) <br> [Smartsuite](http://sourceforge.net/projects/smartsuite/) |
@@ -241,7 +241,7 @@ Tento princip je potřeba mít při hledání ekvivalentů vždy na paměti.
 | Testování HDD | SiSoft SANDRA <br> [IOzone](http://www.iozone.org/) | hdparm <br> [Bonnie++](http://www.coker.com.au/bonnie%2B%2B/) <br> [IOzone](http://www.iozone.org/) <br> [Dbench](http://freshmeat.net/projects/dbench/?topic_id=836%2C138) <br> [Bonnie](http://www.textuality.com/bonnie/) <br> [Nhfsstone](http://nfs.sourceforge.net/) <br> [SPEC SFS](http://www.spec.org/osg/sfs97r1/) [Prop] |
 
 ### Emulátory a virtuální počítače
-{:id="emulatory"}
+{:#emulatory}
 
 | Virtual machine emulátor | [Oracle VM VirtualBox](http://www.virtualbox.org/){:.mp} <br> [VMWare](http://www.vmware.com/){:.mp} [Prop] <br> Connectix Virtual PC [Prop] | [Oracle VM VirtualBox](http://www.virtualbox.org/){:.mp} <br> [KVM](http://www.linux-kvm.org/) (Kernel-based Virtual Machine) <br> [Xen](http://www.xen.org/) <br> [QEmu](http://fabrice.bellard.free.fr/qemu/) <br> [VMWare](http://www.vmware.com/){:.mp} [Prop] <br> [Win4Lin](http://www.netraverse.com/) [Prop] <br> [Bochs](http://bochs.sourceforge.net/) <br> [Plex86](http://savannah.nongnu.org/projects/plex86) <br> [User Mode Linux](http://user-mode-linux.sourceforge.net/) |
 | Linux emulátor | [CygWin](http://www.cygwin.org/) <br> MKS Toolkit <br> Bash for Windows <br> [Minimalist GNU For Windows](http://www.mingw.org/) | [User Mode Linux](http://user-mode-linux.sourceforge.net/) |
@@ -262,7 +262,7 @@ Tento princip je potřeba mít při hledání ekvivalentů vždy na paměti.
 | Další emulátor | ???<br> | [M.E.S.S](http://mess.emuverse.com/) <br> [Zinc](http://www.emulator-zone.com/doc.php/arcade/zinc.html) <br> [GENS - Sega](http://gens.consolemul.com/) <br> [Mupen64 - Nintendo 64 emulátor](http://mupen64.emulation64.com/) |
 
 ### Jednoduché hry
-{:id="jednoduchehry"}
+{:#jednoduchehry}
 
 | Součástí OS | Minesweeper (Miny) <br> Solitaire <br> Srdce <br> Freecell <br> Spider <br> Pinball | [Mines (Miny)](http://www.gnome.org/projects/gnome-games/) <br> [Aisleriot (Karetní hry)](http://www.gnome.org/projects/gnome-games/) <br> [Ataxx](http://www.gnome.org/projects/gnome-games/) <br> [Blackjack](http://www.gnome.org/projects/gnome-games/) <br> [Four-in-a-row](http://www.gnome.org/projects/gnome-games/) <br> [Gnometris](http://www.gnome.org/projects/gnome-games/) <br> [Iagno](http://www.gnome.org/projects/gnome-games/) <br> [Klotski](http://www.gnome.org/projects/gnome-games/) <br> [Lines](http://www.gnome.org/projects/gnome-games/) <br> [Mahjongg](http://www.gnome.org/projects/gnome-games/) <br> [Nibbles](http://www.gnome.org/projects/gnome-games/) <br> [Robots](http://www.gnome.org/projects/gnome-games/) <br> [Same Gnome](http://www.gnome.org/projects/gnome-games/) <br> [Stones](http://www.gnome.org/projects/gnome-games/) <br> [Tali](http://www.gnome.org/projects/gnome-games/) <br> [Tetravex](http://www.gnome.org/projects/gnome-games/) <br> [A mnoho dalších pro KDE](http://games.kde.org/) <br> např. Leutnant Skat (síťová karetní hra) <br> [Roll'm Up (Pinball)](http://www.linuxsoft.cz/sw_detail.php?id_item=1747) |
 
@@ -277,7 +277,7 @@ Tento princip je potřeba mít při hledání ekvivalentů vždy na paměti.
 ```
 
 ## Kde hledat další aplikace
-{:id="dalsi"}
+{:#dalsi}
 
 Kromě využití běžného vyhledávače lze použít i specializované katalogy programů pro GNU/Linux. Např. [FSF/UNESCO Free software directory](https://directory.fsf.org/), [GitHub](https://github.com/), [Freecode](http://freecode.com/), [Launchpad](https://launchpad.net/), [SourceForge](http://sourceforge.net/), [Linux App Finder](http://linuxappfinder.com/), [GTK+ Applications Repository](http://gtk-apps.org/), [Free Qt Applications](http://qt-apps.org/), [Open Source Alternatives](http://www.osalt.com/) nebo [AlternativeTo](https://alternativeto.net/), případně samozřejmě české [AbcLinuxu](https://www.abclinuxu.cz/software) nebo [Linuxsoft](http://www.linuxsoft.cz/).
 

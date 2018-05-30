@@ -7,7 +7,7 @@ install:
 script:
  - bundle exec jekyll build --baseurl /proc-linux-cz --destination _site/proc-linux-cz
  - cd _site
- - htmlproofer . --disable-external --empty-alt-ignore --file-ignore ./proc-linux-cz/server.html
+ - htmlproofer . --disable-external --empty-alt-ignore
  - cd -
 
 deploy:
