@@ -12,7 +12,7 @@ weburl: http://proc.linux.cz
 
 # Propagujte Linux
 
-Sledujte stránku [Linux / CZ na Facebooku](https://www.facebook.com/CzechLinux/) a sdílejte zajímavé příspěvky se svými přáteli. Nebo si [kupte tričko](https://www.linuxmarket.cz/). :)
+Pokud chcete propagovat používání Linuxu, začněte ho sami používat a podělte se se svým okolím o to, jak změna probíhala a co vám přinesla. Sledujte stránku [Linux / CZ na Facebooku](https://www.facebook.com/CzechLinux/) a sdílejte zajímavé příspěvky se svými přáteli. Nebo si [kupte tričko](https://www.linuxmarket.cz/). :)
 
 [![Tux CZ]({{ '/img/tux-cz.png' | relative_url }})](https://www.facebook.com/CzechLinux/)
 
@@ -36,13 +36,6 @@ Pozn.: [SVG zdroj]({{ '/img/linux_plakat.svg' | relative_url }}) snadno otevřet
 </article>
 
 <aside>
-
-{% capture submenu %}{% include submenu.md %}{% endcapture %}
-{{ submenu | markdownify }}
-
-<section markdown="1">
-# Propagace Linuxu
-Pokud chcete propagovat používání Linuxu, začněte ho sami používat a podělte se se svým okolím o to, jak změna probíhala a co vám přinesla.
-</section>
-
+  {% capture submenu %}{% include submenu.md %}{% endcapture %}
+  {{ submenu | markdownify }}
 </aside>

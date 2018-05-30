@@ -16,6 +16,7 @@ layout: wide
 - [Zcela ovladatelný](#ovladatelny)
 - [Kancelářské nástroje (Office)](#office)
 - [Velké množství aplikací](#aplikace)
+- [Hry](#hry)
 - [Variabilní a přizpůsobitelný](#variabilni)
 - [Vzdálená správa a použití](#sprava)
 - [Kvalifikovaná podpora a dokumentace](#podpora)
@@ -42,6 +43,8 @@ Na Linuxu není zpravidla nutné používat **žádný komplikovaný bezpečnost
 {:id="ovladatelny"}
 Linux **neodesílá žádné citlivé informace** bez vašeho vědomí. V naprosté většině případů také **nevyžaduje restart** k projevení změn.
 
+Vždy si můžete vybrat distribuci, software, který chcete používat, filosofii, která vám vyhovuje nejlépe, stejně jako vzhled a prostředí, ve kterém chcete pracovat. Můžete si vybrat práci se systémem na nejrůznějších úrovních od [začátečníka](http://bbs.cvut.cz/~covex/linux/newbie.html) až po [pokročilé](http://bbs.cvut.cz/~covex/linux/kouzlo_cmdline.html).
+
 Chování Linuxu je za každých okolností předvídatelné, ovladatelné a dohledatelné. S Linuxem se nedostanete do situace, kdy byste nemohli přijít na to, co a jak systém nebo aplikace dělá. Všechny služby, které na systému běží, máte plně pod kontrolou.
 
 ## Kancelářské nástroje (Office)
@@ -57,6 +60,21 @@ V každé linuxové distribuci naleznete od začítku **velký výběr nejrůzn�
 Webový prohlížeč, mediální přehrávač, kancelářský balík, poštovní klient, grafické, 3D i jiné editory, komunikační nástroje a další software uspokojí všechny běžné potřeby při práci s počítačem. S Linuxem si navíc můžete vybrat ty konkrétní programy, které vám nejvíce vyhovují. Naprostá většina těchto aplikací je k dispozici zcela **zdarma** a bez omezení.
 
 Pokud hledáte vhodnou náhradu aplikací zkuste se podívat do naší [tabulky ekvivalentních aplikací]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}).
+
+## Hry
+{:id="hry"}
+Hraní her není typickým využitím Linuxu. Výběr her je ale kvalitní. O hraní na Linuxu je třeba celý web [Game Tree Linux](http://gametreelinux.com/).
+
+Linuxové hry najdete na [Steamu](https://store.steampowered.com/linux), kde má Linux i živou [hráčskou komunitu](https://steamcommunity.com/linux). Hrát můžete i mnoho her pomocí [WineHQ](https://www.winehq.org/) a [PlayOnLinux](https://www.playonlinux.com/en/), což jsou projekty, které umožňují spouštět hry a aplikace napsané pro systém Windows. Zkušenosti s kompatibilitou jednotlivých aplikací můžete dohledat v [této databázi](https://appdb.winehq.org/).
+
+Z her napsaných přímo pro Linux vybíráme:
+- [Battle of Wesnoth](https://www.wesnoth.org/)
+- [FlightGear](http://www.flightgear.org/) - letecký simulátor
+- [OpenTTD - Open Transport Tycoon](https://www.openttd.com/)
+- [SuperTuxKart](https://supertuxkart.net/) - závody s maskoty svobodných projektů
+- [WarZone 2100](https://wz2100.net/)
+
+Na Linuxu funguje i [DOSBox](https://www.dosbox.com/) nebo [ScummVM](https://www.scummvm.org/), se kterými spustíte i staré DOSové hry.
 
 ## Variabilní a přizpůsobitelný
 {:id="variabilni"}
@@ -84,41 +102,13 @@ V podstatě **všechny linuxové distribuce jsou k dispozici zdarma**, protože 
 
 Pokud chcete, je možné Linux, s cílenou podporou a doplňky, zakoupit u specializovaných distributorů. Je však na vás, zda hodláte za podporu platit. Systém samotný je vždy, jakožto [svobodný software](https://cs.wikipedia.org/wiki/Svobodn%C3%BD_software), zdarma. Už nebudete muset přemýšlet nad legálností softwaru, nebudete potřebovat registrační klíče. Využívejte výhody legálního operačního systému bez jakýchkoli obtěžujících omezení.
 
+Na vývoji Linuxu se podílí nesmírné množství lidí z celého světa, často ve svém volném čase a pro zábavu. Proto svou práci dávají k dispozici zdarma. Vývoj Linuxu podporují i velké společnosti jako [Red Hat](https://www.redhat.cz/), [IBM](http://www.ibm.cz/), [Novell](http://www.novell.cz/) nebo [Intel](https://www.intel.com/). Nikdo vás ale nenutí komukoli cokoli vracet či platit, ale pokud chcete, můžete sami přispět a Linux vylepšovat. Zapojit se lze nejrůznějšími způsoby - od pomoci při hlášení nalezených chyb, přes [překlady do češtiny](http://www.l10n.cz/) až po programování.
+
 ## Linux mne zaujal a [chci ho vyzkoušet]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
 
 </article>
 
 <aside>
-
-{% capture submenu %}{% include submenu.md %}{% endcapture %}
-{{ submenu | markdownify }}
-
-<section markdown="1">
-# Jak může být Linux zdarma?
-Na vývoji Linuxu se podílí nesmírné množství lidí z celého světa, často ve svém volném čase a pro zábavu. Proto svou práci dávají k dispozici zdarma. Nikdo vás nenutí komukoli cokoli vracet či platit, ale pokud chcete, můžete sami přispět a Linux vylepšovat. Zapojit se lze nejrůznějšími způsoby - od pomoci při hlášení nalezených chyb, přes [překlady do češtiny](http://www.l10n.cz/) až po programování.
-
-Vývoj Linuxu podporují i velké společnosti jako [Red Hat](https://www.redhat.cz/), [IBM](http://www.ibm.cz/), [Novell](http://www.novell.cz/) nebo [Intel](https://www.intel.com/).
-</section>
-
-<section markdown="1">
-# S Linuxem máte vždy na výběr
-Můžete si vybrat distribuci, software, který chcete používat, filosofii, která vám vyhovuje nejlépe, stejně jako vzhled a prostředí, ve kterém chcete pracovat. Můžete si vybrat práci se systémem na nejrůznějších úrovních od [začátečníka](http://bbs.cvut.cz/~covex/linux/newbie.html) až po [pokročilé](http://bbs.cvut.cz/~covex/linux/kouzlo_cmdline.html).
-</section>
-
-<section markdown="1">
-# Hry na Linuxu
-Hraní her není typickým využitím Linuxu. Výběr her je ale kvalitní. O hraní na Linuxu je třeba celý web [Game Tree Linux](http://gametreelinux.com/).
-
-Linuxové hry najdete na [Steamu](https://store.steampowered.com/linux), kde má Linux i živou [hráčskou komunitu](https://steamcommunity.com/linux). Hrát můžete i mnoho her pomocí [WineHQ](https://www.winehq.org/) a [PlayOnLinux](https://www.playonlinux.com/en/), což jsou projekty, které umožňují spouštět hry a aplikace napsané pro systém Windows. Zkušenosti s kompatibilitou jednotlivých aplikací můžete dohledat v [této databázi](https://appdb.winehq.org/).
-
-Z her napsaných přímo pro Linux vybíráme:
-- [Battle of Wesnoth](https://www.wesnoth.org/)
-- [FlightGear](http://www.flightgear.org/) - letecký simulátor
-- [OpenTTD - Open Transport Tycoon](https://www.openttd.com/)
-- [SuperTuxKart](https://supertuxkart.net/) - závody s maskoty svobodných projektů
-- [WarZone 2100](https://wz2100.net/)
-
-Na Linuxu funguje i [DOSBox](https://www.dosbox.com/) nebo [ScummVM](https://www.scummvm.org/), se kterými spustíte i staré DOSové hry.
-</section>
-
+  {% capture submenu %}{% include submenu.md %}{% endcapture %}
+  {{ submenu | markdownify }}
 </aside>

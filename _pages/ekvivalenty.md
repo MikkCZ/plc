@@ -11,7 +11,9 @@ layout: wide
 # Tabulka ekvivalentních aplikací
 
 ### Přesvědčte se, že svobodné multiplatformní softwarové nástroje vám poskytnout to, co potřebujete, a zdarma!
-Zajímavé aplikace, které jsou multiplatformní (lze je použít jak na MS Windows tak na GNU/Linuxu), jsou <span class="mp">označeny takto</span>.
+Přechod na Linux vám usnadní, pokud už na Windows používáte některé multiplatformní aplikace. To jsou aplikace, které fungují na více operačních systémech a většinou umožňují i snadný [přenos dat a nastavení]({{ site.baseurl }}{% link _pages/prevod-dat.md %}). Také si u nich po změně systému nemusíte zvykat na nové uživatelské rozhraní nebo hledat potřebné funkce.
+
+Zajímavé multiplatformní aplikace jsou v seznamu níže <span class="mp">označeny takto</span>.
 
 ## Zkrácený seznam nejběžnějších aplikací
 
@@ -39,6 +41,12 @@ Zajímavé aplikace, které jsou multiplatformní (lze je použít jak na MS Win
 | Photoshop, Paint Shop | [GIMP](http://www.gimp.org/){:.mp}, [Krita](http://www.krita.org/){:.mp} |
 
 ## Rozšířený seznam ekvivalentů
+Většina programů pro MS Windows se snaží vycházet z principu "vše v jednom" - tedy každý vývojář přidává všechny vlastnosti do jeho vlastního produktu.
+
+Ideou Linuxu je mít pouze jednu komponentu nebo program, který dělá danou věc, ale dělá ji dobře. Proto se dají programy v Linuxu přirovnat spíše k Legu - např. kontrola pravopisu je použita stejná ne jen v textovém editoru, ale i v poštovním programu atd. Typické je také to, že pokud existuje kvalitní aplikace pracující z příkazové řádky, zpravidla existuje pouze grafická nadstavba, která tento program využívá a poskytuje tak uživatelsky přítulnější rozhraní.
+
+Tento princip je potřeba mít při hledání ekvivalentů vždy na paměti.
+
 - [Internet](#internet)
 - [Kancelář](#kancelar)
 - [Správa souborů](#ssouboru)
@@ -52,6 +60,7 @@ Zajímavé aplikace, které jsou multiplatformní (lze je použít jak na MS Win
 - [Monitory systému](#monitory)
 - [Emulátory](#emulatory)
 - [Jednoduché hry](#jednoduchehry)
+- [Další](#dalsi)
 {:.inline-nav}
 
 ### Internet
@@ -121,7 +130,6 @@ Zajímavé aplikace, které jsou multiplatformní (lze je použít jak na MS Win
 
 ### Práce s PDF
 {:id="ppdf"}
-
 
 | Prohlížení PDF | [Acrobat Reader](http://www.adobe.com/products/acrobat){:.mp} [Prop] <br> [Foxit Reader](https://www.foxitsoftware.com/products/pdf-reader/){:.mp} [Prop] <br> [GSView](http://www.ghostscript.com/GSView.html){:.mp} | [Foxit Reader](https://www.foxitsoftware.com/products/pdf-reader/){:.mp} [Prop] <br> [Evince](https://wiki.gnome.org/Apps/Evince) (GNOME) <br> [Okular](http://okular.kde.org/) (KDE) <br> [Kpdf](http://kpdf.kde.org/) (KDE) <br> [Xpdf](http://www.foolabs.com/xpdf/) <br> [GSView](http://www.ghostscript.com/GSView.html){:.mp} <br> Kghostview |
 | Vytváření PDF | Adobe Acrobat Distiller <br> [GSView](http://www.ghostscript.com/GSView.html){:.mp} <br> [Ghostscript](http://www.ghostscript.com/) <br> [OpenOffice.org](http://www.openoffice.org/){:.mp} umí export přímo do PDF | Jakýkoli Linuxový WYSIWYG program -&gt; tisk do souboru -&gt; ps2pdf. (Celý [článek](http://www.denniswarner.net/lfp/creating_pdf_files.html) o vytváření PDF) <br> Adobe Acrobat Distiller [Prop] <br> PStill [Shareware] <br> PDFLatex <br> Xfig <br> [Ghostscript](http://www.ghostscript.com/) <br> [Tex2Pdf](http://tex2pdf.berlios.de/) <br> [GV](http://wino.physik.uni-mainz.de/~plass/gv/) <br> [GGV](http://directory.fsf.org/project/ggv/) <br> [GSView](http://www.ghostscript.com/GSView.html){:.mp} <br> Kghostview <br> [Panda PDF Generator](http://freshmeat.net/projects/panda/) <br> [OpenOffice.org](http://www.openoffice.org/){:.mp} umí export přímo do PDF |
@@ -270,33 +278,16 @@ Zajímavé aplikace, které jsou multiplatformní (lze je použít jak na MS Win
 (standard)  ... nachází se standardně v systému
 ```
 
+## Kde hledat další aplikace
+{:id="dalsi"}
+
+Kromě využití běžného vyhledávače lze použít i specializované katalogy programů pro GNU/Linux. Např. [FSF/UNESCO Free software directory](https://directory.fsf.org/), [GitHub](https://github.com/), [Freecode](http://freecode.com/), [Launchpad](https://launchpad.net/), [SourceForge](http://sourceforge.net/), [Linux App Finder](http://linuxappfinder.com/), [GTK+ Applications Repository](http://gtk-apps.org/), [Free Qt Applications](http://qt-apps.org/), [Open Source Alternatives](http://www.osalt.com/) nebo [AlternativeTo](https://alternativeto.net/), případně samozřejmě české [AbcLinuxu](https://www.abclinuxu.cz/software) nebo [Linuxsoft](http://www.linuxsoft.cz/).
+
+Než začnete vyhledávat aplikaci přímo na jejích stránkách, přesvědčte se pomocí správce softwaru nebo instalačních nástrojů (apt, yum, urpmi, yast), že již není připravena přímo ve vaší distribuci.
+
 </article>
 
 <aside>
-
-{% capture submenu %}{% include submenu.md %}{% endcapture %}
-{{ submenu | markdownify }}
-
-<section markdown="1">
-# Rozdíly ve filosofii
-
-## Proč jsou Linuxové aplikace jaké jsou
-Důležitý ideologický rozdíl mezi MS Windows a Linuxem je tento:
-
-**Většina programů pro MS Windows se snaží vycházet z principu "vše v jednom"** - tedy každý vývojář přidává všechny vlastnosti do jeho vlastního produktu.
-
-**Ideou Linuxu je mít pouze jednu komponentu nebo program, který dělá danou věc, ale dělá ji dobře.** Proto se dají programy v Linuxu přirovnat spíše k Legu - např. kontrola pravopisu je použita stejná ne jen v textovém editoru, ale i v poštovním programu atd. Typické je také to, že pokud existuje kvalitní aplikace pracující z příkazové řádky, zpravidla existuje pouze grafická nadstavba, která tento program využívá a poskytuje tak pouze uživatelsky přítulnější rozhraní.
-
-Tento princip je potřeba mít vždy na paměti při hledání ekvivalentů.
-</section>
-
-<section markdown="1">
-# Další aplikace
-
-## Kde hledat další aplikace
-Kromě využití běžného vyhledávače lze použít i specializované katalogy programů pro GNU/Linux. Např. [FSF/UNESCO Free software directory](https://directory.fsf.org/), [GitHub](https://github.com/), [Freecode](http://freecode.com/), [Launchpad](https://launchpad.net/), [SourceForge](http://sourceforge.net/), [Linux App Finder](http://linuxappfinder.com/), [GTK+ Applications Repository](http://gtk-apps.org/), [Free Qt Applications](http://qt-apps.org/), [Open Source Alternatives](http://www.osalt.com/) nebo [AlternativeTo](https://alternativeto.net/), případně samozřejmě české [AbcLinuxu](https://www.abclinuxu.cz/software) nebo [Linuxsoft](http://www.linuxsoft.cz/).
-
-Než začnete vyhledávat aplikaci přímo na jejích stránkách, přesvědčte se pomocí instalačních nástrojů (apt, yum, urpmi, yast), že již není připravena přímo ve vaší distribuci.
-</section>
-
+  {% capture submenu %}{% include submenu.md %}{% endcapture %}
+  {{ submenu | markdownify }}
 </aside>

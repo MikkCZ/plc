@@ -10,10 +10,19 @@ layout: wide
 <article markdown="1">
 
 # Kde Linux získat a jaký si vybrat
-Operační systém Linux lze získat v tzv. distribucích. **Distribuce** jsou předem připravené balíky kombinující linuxové jádro a grafické prostředí s nejrůznějšími aplikacemi pro práci na počítači. Typicky obsahují nástroje pro správu počítače, přístup k internetu, práci s dokumenty nebo multimédii. Níže je uveden seznam několika distribucí určených široké veřejnosti.
+Operační systém Linux lze získat v tzv. distribucích. **Distribuce** jsou předem připravené balíky kombinující linuxové jádro a grafické prostředí s nejrůznějšími aplikacemi. Obsahují nástroje pro správu počítače, přístup k internetu, práci s dokumenty nebo multimédii. Existuje i mnoho speciálních, účelových distribucí, určených pro servery, malá a vestavěná zařízení atd. Zde uvedené jsou vybrány podle toho, zda se hodí pro začínající uživatele, použití na osobním počítači nebo laptopu a mají aktivní českou komunitu.
 
 # Jak si mohu Linux vyzkoušet
-Linuxové distribuce si můžete před instalací vyzkoušet i bez jejich instalace. Většina z nich nabízí tzv. **live (živou) variantu** pro vyzkoušení systému bez instalace. Bývá součástí instalačního média nebo dokonce první krok před začátkem instalačního procesu a celý systém spustí z USB flash disku nebo DVD. Po vyzkoušení, jak se systém chová, se můžete rozhodnout, jestli ho nainstalovat, nebo počítač restartujete a vrátíte se zpět k Windows. Pokud se rozhodnete pro instalaci, nezapomeňte si předem **zazálohovat svá data a nainstalované programy**!
+Linux si můžete před instalací vyzkoušet i bez instalace. Většina distribucí nabízí tzv. **live (živou) variantu** pro vyzkoušení systému bez instalace. Bývá součástí instalačního média nebo dokonce první krok před začátkem instalačního procesu a celý systém spustí z USB flash disku nebo DVD. Po vyzkoušení se můžete rozhodnout, jestli ho nainstalovat, nebo počítač restartujete a vrátíte se zpět k Windows. Pokud se rozhodnete pro instalaci, nezapomeňte si předem **zazálohovat svá data a nainstalované programy**!
+
+# Jak Linux stáhnout a nainstalovat
+U každé distribuce na této stránce najdete odkaz na stránku s popisem jejího stažení a instalace. Nejlepší je sáhnout po nejnovější verzi označené nejvyšším číslem. Pokud máte počítač s procesorem Intel nebo AMD, hledejte verzi pro **x86_64** (pokud máte opravdu starý počítač, tak **x86**).
+
+Z nabízených adresářů a souborů je většinou potřeba stáhnout soubor s příponou **.iso**. **.iso** soubory jsou obrazy CD/DVD a stačí je správným způsobem vypálit, nebo zapsat na USB flash disk pomocí nástrojů k tomu určených. **Tyto soubory se nevypalují jako běžný soubor**, ale je potřeba zvolit vypalování obrazu (image). Pro zápis na USB flash disk většina distribucí nabízí vhodný nástroj a návod. Pokud si postupem nejste jisti, můžete už připravené médium zakoupit v e-shopu [LinuxMarket](https://www.linuxmarket.cz/instalacni-media).
+
+Jakmile máte CD/DVD vypáleno nebo USB flash disk správně zapsaný, vložte ho do počítače a ten restartujte. Poté při restartu vyvolejte BIOS nebo nabídku pro výběr média stiskem speciální klávesy - tato klávesa by se měla při startu krátce zobrazit na obrazovce. Jestliže máte startování z požadovaného média povoleno, spustí se po restartu Linux nahraný na vašem médiu k vyzkoušení v "živém" režimu a případně instalaci.
+
+Pokud se vám Linux zalíbí a rozhodnete se pro instalaci, nezapomeňte si předem **zazálohovat svá data a nainstalované programy**!
 
 ## ![]({{ 'img/ubuntu-logo.svg' | relative_url }}) Ubuntu
 [![]({{ 'img/ubuntu_t.png' | relative_url }}){:.t_sc}]({{ 'img/ubuntu.png' | relative_url }})
@@ -127,36 +136,8 @@ Gentoo je trochu specifická komunitní distribuce. Její vývojáři ji založi
 </article>
 
 <aside>
-
-{% capture submenu %}{% include submenu.md %}{% endcapture %}
-{{ submenu | markdownify }}
-
-<section markdown="1">
-# Jak stáhnout Linux?
-U každé distribuce na této stránce najdete odkaz na stránku s popisem jejího stažení a instalace. I pokud je distribuce samotná do češtiny přeložená, některé stránky mohou být v angličtině.
-
-Při stahování distribuce je nejlepší sáhnout po nejnovější verzi označenou nejvyšším číslem. Pokud máte počítač s procesorem Intel nebo AMD, hledejte verzi pro architekturu/typ počítače **x86_64** (pokud máte opravdu starý počítač, tak **x86**). Z nabízených adresářů a souborů je většinou potřeba stáhnout soubor s příponou **.iso**.
-</section>
-
-<section markdown="1">
-# Co s .iso soubory?
-**.iso** soubory jsou obrazy instalačních CD/DVD a je potřeba je správným způsobem vypálit, nebo zapsat na USB flash disk pomocí nástrojů k tomu určených. **Tyto soubory se nevypalují jako běžný soubor**, ale ve vašem vypalovacím programu je potřeba zvolit vypalování obrazu (image). Pro zápis na USB flash disk většina distribucí nabízí vhodný nástroj a návod.
-
-Pokud si postupem nejste jisti, můžete připravené médium zakoupit v e-shopu [LinuxMarket](https://www.linuxmarket.cz/instalacni-media).
-</section>
-
-<section markdown="1">
-# Jak spustit Live CD a Linux vyzkoušet?
-Pokud máte CD/DVD vypáleno nebo USB flash disk správně zapsaný, vložte ho do počítače a ten restartujte. Poté při restartu vyvolejte BIOS nebo nabídku pro výběr média stiskem speciální klávesy - tato klávesa by se měla při startu krátce zobrazit na obrazovce. Jestliže máte startování z požadovaného média povoleno, spustí se po restartu Linux nahraný na vašem médiu k vyzkoušení v "živém" režimu a případně instalaci.
-
-Pokud se vám Linux zalíbí a rozhodnete se pro instalaci, nezapomeňte si předem **zazálohovat svá data a nainstalované programy**!
-</section>
-
-<section markdown="1">
-# Našel jsem jiný Linux!
-Linuxových distribucí existuje moho a zde uvedené jsou vybrány podle toho, zda se hodí pro začínající uživatele, použití na osobním počítači a mají aktivní českou komunitu. Existuje mnoho speciálních, účelových distribucí, určených pro servery, malá a vestavěná zařízení atd., ale nemusí být vhodné pro osobní počítače ani laptopy.
-</section>
-
+  {% capture submenu %}{% include submenu.md %}{% endcapture %}
+  {{ submenu | markdownify }}
 </aside>
 
 [GNOME]: https://www.gnome.org/
