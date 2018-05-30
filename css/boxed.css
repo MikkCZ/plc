@@ -3,7 +3,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 785px;
-    background: #ffd70f url(../img/podklad.png) 0 0 repeat-y;
+    background: #ffd70f url(../img/layout/podklad.png) 0 0 repeat-y;
 }
 
 main {
@@ -70,7 +70,7 @@ main > aside img {
 #content {
     width: 500px;
     font-family: Arial;
-    background: url(../img/podklad_text_stred.png);
+    background: url(../img/layout/podklad_text_stred.png);
     float: right;
 }
 #content a:hover {
@@ -137,7 +137,7 @@ main > aside img {
 
 footer {
     height: 185px;
-    background: url(../img/gnulinux5_bck_bottom.png) 0 0 no-repeat;
+    background: url(../img/layout/gnulinux5_bck_bottom.png) 0 0 no-repeat;
     padding: 60px 100px 0 100px;
 }
 

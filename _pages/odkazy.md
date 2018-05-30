@@ -16,7 +16,7 @@ Na české scéně působí několik zpravodajských serverů portálů věnují
 # Odkazy s užitečnými informacemi
 Na této stránce najdete odkazy na několik užitečných stránek, které vám mohou být nápomocny při práci s Linuxem.
 
-## ![]({{ 'img/ico_migrate_tux.png' | relative_url }}) Základní informace pro začínající uživatele
+## Základní informace pro začínající uživatele
 Přímo na tomto webu najdete časté otázky a odpovědi, obsáhlý seznam programů (nejen) pro Linux a informace o přechozu ze systému Windows a převodu dat běžně používaných aplikací.
 
 - [Odpovědi na časté otázky]({{ site.baseurl }}{% link _pages/odpovedi.md %})
@@ -24,26 +24,26 @@ Přímo na tomto webu najdete časté otázky a odpovědi, obsáhlý seznam prog
 - [Převod profilů]({{ site.baseurl }}{% link _pages/prevod-dat.md %})
 {:.download}
 
-## ![]({{ 'img/ico_migrate_tux.png' | relative_url }}) Základní informace pro začínající uživatele
+## Základní informace pro začínající uživatele
 Článek stručně shrnující informace o instalaci Linuxu, o běžných aplikacích, o tom jak aplikace instalovat, kde hledat pomoc s vašimi problémy a jak vybírat hardware.
 
 - [Informace pro začínající uživatele](http://sandbox.cz/~covex/linux/newbie.html)
 {:.download}
 
-## ![]({{ 'img/ico_migrate_tux.png' | relative_url }}) Kouzlo příkazové řádky - pro pokročilé
+## Kouzlo příkazové řádky - pro pokročilé
 Pokud chcete do Linuxu proniknout hlouběji, nezbude vám, než pochopit a propadnout kouzlu příkazové řádky.
 
 - [Kouzlo příkazové řádky](http://sandbox.cz/~covex/linux/kouzlo_cmdline.html)
 {:.download}
 
-## ![]({{ 'img/ico_migrate_tux.png' | relative_url }}) Dokumentace a knihy o Linuxu
+## Dokumentace a knihy o Linuxu
 Podrobnější dokumentace a česky vydané knihy s Linuxovou tématikou jsou shrnuty na stránce "Dokumentace k Linuxu" na serveru linux.cz.
 
 - [Dokumentace k Linuxu - linux.cz](https://www.linux.cz/doc.html)
 - [Knihy o Linuxu - LinuxMarket](https://www.linuxmarket.cz/knihy/knihy-o-linuxu)
 {:.download}
 
-## ![]({{ 'img/ico_migrate_tux.png' | relative_url }}) Otázky, které nedají spát linuxovým hráčům
+## Otázky, které nedají spát linuxovým hráčům
 V těchto rozsáhlých otázkách a odpovědích najdete informace o množství zajímavých her, a způsobu jejich provozování na Linuxu.
 
 - [Otázky, které nedají spát linuxovým hráčům](http://www.icculus.org/lgfaq/sk/)

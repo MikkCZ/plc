@@ -1,7 +1,7 @@
 header {
     position: absolute; left: 0px; top: 0px;
     width: 100%;
-    background-image: url("../img/top_bckg.png");
+    background-image: url("../img/layout/top_bckg.png");
     background-repeat: repeat-x;
 }
 
@@ -99,7 +99,7 @@ article .download img {
     border: 1px solid black;
     margin: 20px;
     padding: 2em 2em 2em 10%;
-    background-image: url("../img/vyhody_bck.png");
+    background-image: url("../img/layout/vyhody_bck.png");
     background-position: right top;
     background-repeat: no-repeat;
     position: relative;
@@ -137,7 +137,7 @@ table {
 
 th {
     text-align: left;
-    background-image: url("../img/top_bckg.png");
+    background-image: url("../img/layout/top_bckg.png");
     background-repeat: repeat-x;
     background-color: yellow;
     font-size: 1.2em;
@@ -158,7 +158,7 @@ article .mp {
     list-style-type: none;
     margin: 0.5em 0;
     padding: 0.5em;
-    background-image: url("../img/top_bckg.png");
+    background-image: url("../img/layout/top_bckg.png");
     background-repeat: repeat-x;
     background-color: yellow;
     border: 2px solid #aaa;
