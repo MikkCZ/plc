@@ -17,7 +17,6 @@ layout: wide
 - [Kancelářské nástroje (Office)](#office)
 - [Velké množství aplikací](#aplikace)
 - [Variabilní a přizpůsobitelný](#variabilni)
-- [Víceuživatelský a víceúlohový](#vice)
 - [Vzdálená správa a použití](#sprava)
 - [Kvalifikovaná podpora a dokumentace](#podpora)
 - [Dostupný v češtině](#cestina)
@@ -25,192 +24,101 @@ layout: wide
 ![]({{ 'img/lin_shot3.gif' | relative_url }})
 {:.vyhody}
 
-Pokud se rozhodujete, **jaký operační systém si vyberete, či uvažujete o jeho změně**, přečtěte si následující řádky, které by vám měly rozhodování ulehčit.
+Pokud přemýšlíte, **jestli a proč zvolit Linux jako operační systém**, přečtěte si následující řádky, které vám pomohou rozhodování ulehčit.
 
 ## Moderní operační systém
 {:id="moderni"}
-**Linux** je moderní operační systém (OS), jehož **ovládání je stejně přívětivé jako u jiných systémů** a který **obsahuje velké množství ovladačů** pro nejrůznější standardizovaný hardware.
+**Linux** je moderní operační systém (OS) a jeho **ovládání je stejně přívětivé jako u jiných systémů**.
 
-Najdete v něm podporu pro širokou škálu <abbr title="Universal Serial Bus">USB</abbr> zařízení, podporu Bluetooth a IrDA, akcelerovaných grafických karet ([nVidia](http://www.nvidia.com/object/unix.html), [ATI](http://www.ati.com/) a další), disků SATA i ATA, vypalovacích mechanik a mnohého dalšího. Linux byl první dostupný operační systém běžící na PC v 64bitovém módu a běžně podporuje víceprocesorové počítače.
-{:.subvyhoda}
+**Obsahuje velké množství ovladačů** pro nejrůznější standardizovaný hardware. Linux podporuje širokou škálu <abbr title="Universal Serial Bus">USB</abbr> zařízení, Bluetooth i Wi-Fi, grafické karty ([AMD](https://support.amd.com/en-us/download/linux), [nVidia](http://www.nvidia.com/object/unix.html) a další), SSD disky a mnohá další zařízení.
 
-![USB]({{ 'img/usb.png' | relative_url }} "USB")
-![Bluetooth]({{ 'img/bt.png' | relative_url }} "Bluetooth")
-![nVidia]({{ 'img/nv.png' | relative_url }} "nVidia")
-![ATI]({{ 'img/ati.png' | relative_url }} "ATI")
-![Serial ATA]({{ 'img/sata.png' | relative_url }} "Serial ATA")
-{:.download}
-
+Linux byl první dostupný operační systém běžící na PC v 64bitovém režimu.
 
 ## Bezpečný - bez virů a spywaru
 {:id="bezviru"}
-Na Linuxu není zpravidla nutné používat **žádný komplikovaný zabezpečovací nebo antivirový systém.**
-
-Linux je sám o sobě velmi dobře zkonstruován a odolává mnoha známým bezpečnostním komplikacím (např. [virům](http://www.viry.cz/)). Aktualizace systému jsou dostupné zdarma a včas každému bez rozdílu.
-{:.subvyhoda}
+Na Linuxu není zpravidla nutné používat **žádný komplikovaný bezpečnostní nebo antivirový program**. Linux je sám o sobě velmi dobře navržen a odolává mnoha známým bezpečnostním rizikům (např. [virům](https://www.viry.cz/)). Aktualizace systému jsou dostupné zdarma a včas, pro každého a bez rozdílu.
 
 ## Zcela ovladatelný
 {:id="ovladatelny"}
-Linux **neodesílá žádné citlivé informace** bez vašeho vědomí. V naprosté většině případů **systém nevyžaduje restart** k projevení změn.
+Linux **neodesílá žádné citlivé informace** bez vašeho vědomí. V naprosté většině případů také **nevyžaduje restart** k projevení změn.
 
 Chování Linuxu je za každých okolností předvídatelné, ovladatelné a dohledatelné. S Linuxem se nedostanete do situace, kdy byste nemohli přijít na to, co a jak systém nebo aplikace dělá. Všechny služby, které na systému běží, máte plně pod kontrolou.
-{:.subvyhoda}
 
 ## Kancelářské nástroje (Office)
 {:id="office"}
-Mezi aplikacemi každé větší linuxové [distribuce]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}) najdete **kancelářský balík, tzv. office.**
+Mezi aplikacemi každé větší linuxové [distribuce]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}) najdete **kancelářský balík, tzv. office**. Nejčastěji se jedná o [LibreOffice](https://www.libreoffice.cz/) s **editorem textů** (Writer), **tabulkovým procesorem** (Calc), nástrojem pro **tvorbu prezentací** (Impress) a dalšími.
 
-Nejčastěji se pak jedná o [LibreOffice](http://www.libreoffice.cz/), obsahující všechny kancelářské nástroje, na které jste zvyklí - **editor textů** (Write), **tabulkový procesor** (Calc), nástroj pro **tvorbu prezentací** (Impress), **grafický editor** (Draw), **editor matematických rovnic** (Math) a v nejnovější verzi i **databázi** (Base).
-{:.subvyhoda}
-
-![Office]({{ 'img/icon-office.png' | relative_url }} "Office")
-![Office Word]({{ 'img/icon-office-wordprocessor.png' | relative_url }} "Office Word")
-![Office Spreadsheet]({{ 'img/icon-office-spreadsheet.png' | relative_url }} "Office Spreadsheet")
-![Office Presentation]({{ 'img/icon-office-presentation.png' | relative_url }} "Office Presentation")
-{:.download}
+Jako poštovního klienta pro práci s e-maily můžete použít třeba [Thunderbird](https://www.mozilla.cz/produkty/thunderbird/).
 
 ## Velké množství aplikací
 {:id="aplikace"}
-V každé linuxové distribuci naleznete **velké množství nejrůznějších aplikací.**
+V každé linuxové distribuci naleznete od začítku **velký výběr nejrůznějších aplikací** a mnoho dalších si můžete doinstalovat v "obchodu" (samozřejmě zdarma a v plné verzi).
 
-[Prohlížeče internetu](http://www.mozilla.cz/), [přehrávače multimédií](http://www.mplayerhq.hu/), kancelářský software, [poštovní klienty](http://www.mozilla.cz/), nejrůznější editory (včetně [grafických](http://www.gimp.cz/) i [3D](http://www.blender.org/)), programovací nástroje (IDE, kompilátory), komunikační nástroje ([ICQ, Jabber](http://psi-im.org/) apod.), hry a další - které jsou schopny uspokojit všechny běžné potřeby při práci s počítačem. Přesto vás ale neomezuje pouze na tyto jako jediné možné, ale umožňuje vám vybrat si ty, které vám nejvíce vyhovují. Naprostá většina těchto aplikací je k dispozici zcela **zdarma**.
-{:.subvyhoda}
+Webový prohlížeč, mediální přehrávač, kancelářský balík, poštovní klient, grafické, 3D i jiné editory, komunikační nástroje a další software uspokojí všechny běžné potřeby při práci s počítačem. S Linuxem si navíc můžete vybrat ty konkrétní programy, které vám nejvíce vyhovují. Naprostá většina těchto aplikací je k dispozici zcela **zdarma** a bez omezení.
 
 Pokud hledáte vhodnou náhradu aplikací zkuste se podívat do naší [tabulky ekvivalentních aplikací]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}).
-{:.subvyhoda}
-
-![Firefox]({{ 'img/ff.png' | relative_url }} "Firefox")
-![Thunderbird]({{ 'img/tb.png' | relative_url }} "Thunderbird")
-![ICQ]({{ 'img/icq.gif' | relative_url }} "ICQ")
-![Gimp]({{ 'img/gimp.gif' | relative_url }} "Gimp")
-![Blender]({{ 'img/blender.gif' | relative_url }} "Blender")
-{:.download}
 
 ## Variabilní a přizpůsobitelný
 {:id="variabilni"}
-Linux **lze výkonově i vzhledově přizpůsobit** každému požadavku.
-
-Linux je možné používat na velkém množství zařízení od <abbr title="Personal Digital Assistent">PDA</abbr>, přes notebooky, stolní počítače až po specializované servery. Díky jeho založení však není potřeba se na každém učit novému zacházení. Stále se jedná o principiálně stejný systém.
-{:.subvyhoda}
-
-Flexibilita Linuxu umožňuje, že při změně hardwaru nebo celého počítače nemusíte přeinstalovávat celý systém.
-{:.subvyhoda}
-
-![PDA]({{ 'img/pda.png' | relative_url }} "PDA")
-![notebook]({{ 'img/nb.png' | relative_url }} "notebook")
-![desktop]({{ 'img/dt.png' | relative_url }} "desktop")
-{:.download}
-
-## Víceuživatelský a víceúlohový
-{:id="vice"}
-**Nemusíte se přihlašovat a odhlašovat** při administraci systému. **Pracovat může i několik lidí najednou.**
-
-Na Linuxu může existovat a pracovat velké množství uživatelů, a to i zároveň. Uživatelé mohou sdílet stejnou plochu, stejně tak jako mít svoji plochu zcela oddělenou. Při administraci systému není třeba se odhlašovat a znovu přihlašovat, i když běžně nepracujete jako administrátor. Na Linuxu může běžet zároveň velké množství aplikací od různých uživatelů.
-{:.subvyhoda}
+Linux **lze výkonově i vzhledově přizpůsobit** každému požadavku. Můžete ho používat na stolním počítači i notebooku. Jádro Linuxu používá pod kapotou i mobilní operační systém Android.
 
 ## Vzdálená správa a použití
 {:id="sprava"}
-Na Linuxu **je možné pracovat vzdáleně**, a to mnoha různými způsoby.
+Na Linuxu **je možné pracovat vzdáleně**, a to mnoha různými způsoby. Z příkazové řádky, v kompletním grafickém rozhraní, nebo spuštěním konkrétní aplikace.
 
-Z příkazové řádky, v kompletním grafickém rozhraní, nebo spuštěním konkrétní aplikace. Pomocí vzdálené správy vám váš zkušenější kolega nebo kamarád může snadno pomoci s každým problémem, který řešíte. V rámci Linuxu si můžete na svém počítači spustit nejrůznější druhy služeb jako např. webový (<abbr title="Hyper Text Transfer Protocol">HTTP</abbr>) nebo souborový (<abbr title="File Transfer Protocol">FTP</abbr>) server. Nikdo vás však nenutí tyto služby pouštět a využívat.
-{:.subvyhoda}
+Pomocí vzdálené správy vám váš zkušenější kolega nebo kamarád může snadno pomoci s každým problémem, který řešíte, nebo se naopak můžete z práce přihlásit na svůj počítač doma. S Linuxem si můžete na svém počítači spustit nejrůznější druhy služeb jako např. webový (<abbr title="Hyper Text Transfer Protocol">HTTP</abbr>) nebo souborový (<abbr title="File Transfer Protocol">FTP</abbr>) server.
 
 ## Kvalifikovaná podpora a dokumentace
 {:id="podpora"}
-S Linuxem pracuje na celém světě velké množství lidí, včetně odborníků, kteří jsou ochotni se s vámi podělit o svoje zkušenosti. **Většinu dokumentace naleznete na internetu.**
+S Linuxem pracuje na celém světě velké množství lidí, včetně odborníků, kteří jsou ochotni se s vámi podělit o svoje zkušenosti. **Většinu dokumentace a návodů naleznete sndno na internetu**.
 
-A to ať už v rámci různých stránek, v diskusních fórech nebo v nejrůznější veřejně publikované dokumentaci, která je mnohdy už součástí vašeho systému. Řešení většiny svých problémů tak naleznete na internetu, nemusíte se nikde doprošovat, za nic platit. Odměnou všem ostatním bude to, že jednou vy pomůžete řešit stejný problém někomu jinému. Podporu si ale samozřejmě můžete i koupit jako službu.
-{:.subvyhoda}
+A v diskusních fórech se s vámi o své zkušenosti podělí a poradí vám mnoho nadšených uživatelů. Odměnou všem ostatním bude to, že jednou vy pomůžete řešit stejný problém někomu jinému. Podporu si ale samozřejmě můžete i koupit jako službu.
 
 ## Dostupný v češtině
 {:id="cestina"}
-Většina aplikací **na vás bude mluvit česky**.
-
-Ač je angličtina hlavním používaným jazykem, Linux je tzv. mezinárodní. To znamená, že v jedné instalaci můžete mít nainstalované jak kompletní české, tak např. i německé či hebrejské prostředí. Mezi jazyky a prostředími se lze libovolně přepínat.
-{:.subvyhoda}
+Většina aplikací **na vás bude mluvit česky**. Ač je angličtina hlavním používaným jazykem, Linux a jeho aplikace jsou [velmi dobře lokalizovány (překládány) do češtiny](http://www.l10n.cz/). Navíc můžete mít v jedné instalaci nainstalované jak kompletní české, tak např. i německé či hebrejské prostředí, libovolně mezi nimi přepínat.
 
 ## Pro všechny zdarma
 {:id="zdarma"}
-V podstatě **všechny linuxové distribuce jsou k dispozici zdarma**, protože se jedná o **svobodný software**.
+V podstatě **všechny linuxové distribuce jsou k dispozici zdarma**, protože se jedná o **svobodný software**. Nejsnadněji jsou dostupné [ke stažení z internetu]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}). Můžete si ale [objednat](https://www.linuxmarket.cz/) USB flash disk nebo DVD až domů, včetně různých příruček.
 
-Nejsnadněji dostupné jsou ve formě <abbr title="Compact Disk">CD</abbr> nebo <abbr title="Digital Versatile Disc">DVD</abbr> obrazů, které lze stáhnout z internetu. Mnohdy si však můžete objednat dodání až domů, a to za cenu poštovného a cenu média. Nebo si můžete koupit krabicové verze, které za mírně vyšší cenu přidávají k samotnému systému různé bonusy, jako jsou tištěné příručky, podporu apod. Pokud chcete, je možné Linux, s cílenou podporou a doplňky, zakoupit u specializovaných distributorů. Je však na vás, zda hodláte za podporu platit. Systém samotný je vždy, jakožto [svobodný software](http://cs.wikipedia.org/wiki/Svobodný_software), zdarma. Už nebudete muset přemýšlet nad legálností softwaru nebo výhrůžkami od <abbr title="Business Software Alliance - zástupce nadnárodních softwarových společností">BSA</abbr>. Nebudete potřebovat registrační klíč ani ověřování pravosti. Budete moci využívat výhody legálního <abbr title="Operační systém">OS</abbr> bez jakýchkoli obtěžujících omezení.
-{:.subvyhoda}
+Pokud chcete, je možné Linux, s cílenou podporou a doplňky, zakoupit u specializovaných distributorů. Je však na vás, zda hodláte za podporu platit. Systém samotný je vždy, jakožto [svobodný software](https://cs.wikipedia.org/wiki/Svobodn%C3%BD_software), zdarma. Už nebudete muset přemýšlet nad legálností softwaru, nebudete potřebovat registrační klíče. Využívejte výhody legálního operačního systému bez jakýchkoli obtěžujících omezení.
 
-Linux mne zaujal a [chci ho vyzkoušet]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
+## Linux mne zaujal a [chci ho vyzkoušet]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
 
 </article>
 
 <aside>
 
-<section class="centr" markdown="1">
-![tučňák]({{ 'img/nechte_vstoupit.png' | relative_url }})
-
-**Nechte tučňáka vstoupit**
-</section>
-
-<section markdown="1">
-# Linux na desktop
-Pokud hledáte šikovného dodavatele na instalaci Linuxu na běžný desktopový počítač, určitě se podívejte do
-
-- [![]({{ 'img/linux-cz.ico' | relative_url }}) seznamu linuxových profesionálů](http://instalace.linux.cz)
-</section>
-
 {% capture submenu %}{% include submenu.md %}{% endcapture %}
 {{ submenu | markdownify }}
 
 <section markdown="1">
-# Opravdu zdarma
+# Jak může být Linux zdarma?
+Na vývoji Linuxu se podílí nesmírné množství lidí z celého světa, často ve svém volném čase a pro zábavu. Proto svou práci dávají k dispozici zdarma. Nikdo vás nenutí komukoli cokoli vracet či platit, ale pokud chcete, můžete sami přispět a Linux vylepšovat. Zapojit se lze nejrůznějšími způsoby - od pomoci při hlášení nalezených chyb, přes [překlady do češtiny](http://www.l10n.cz/) až po programování.
 
-## Jak to, že může být Linux zdarma?
-Na vývoji komponent Linuxu se podílí nesmírné množství lidí z celého světa často ve svém volném čase a proto, že je to baví. Svou práci dávají k dispozici zdarma a očekávají, že jim bude opláceno stejným způsobem. Můžete si ale zvolit i jiný způsob jak jim jejich práci oplatit a to zakoupit si Linux a podpořit tak jeho vývoj. Nikdo vás však nenutí komukoli cokoli vracet či platit. Je na vás, zda se zapojíte do zlepšování toho, co jste se rozhodli používat, a oplatíte tak ostatním jejich snahu. Zapojit se lze nejrůznějšími způsoby - od pomoci při ohlašování chyb, přes programování a poskytnutí hardwaru až po peněžité příspěvky na zcela konkrétní věci, které považujete za důležité.
+Vývoj Linuxu podporují i velké společnosti jako [Red Hat](https://www.redhat.cz/), [IBM](http://www.ibm.cz/), [Novell](http://www.novell.cz/) nebo [Intel](https://www.intel.com/).
+</section>
 
-Vývoj Linuxu podporují i velké společnosti jako [Red Hat](https://www.redhat.com/), [IBM](http://www.ibm.cz/), [Novell](http://www.novell.cz/) nebo [Intel](http://www.intel.com/).
-
-Linux je založen na [<abbr title="GNU is Not Unix">GNU</abbr>](http://www.gnu.org/) a myšlence svobodného softwaru.
+<section markdown="1">
+# S Linuxem máte vždy na výběr
+Můžete si vybrat distribuci, software, který chcete používat, filosofii, která vám vyhovuje nejlépe, stejně jako vzhled a prostředí, ve kterém chcete pracovat. Můžete si vybrat práci se systémem na nejrůznějších úrovních od [začátečníka](http://bbs.cvut.cz/~covex/linux/newbie.html) až po [pokročilé](http://bbs.cvut.cz/~covex/linux/kouzlo_cmdline.html).
 </section>
 
 <section markdown="1">
 # Hry na Linuxu
+Hraní her není typickým využitím Linuxu. Výběr her je ale kvalitní. O hraní na Linuxu je třeba celý web [Game Tree Linux](http://gametreelinux.com/).
 
-## Pro Linux existuje množství kvalitních her
-Hraní her není typickým využitím Linuxu, kvalitních her ale existuje velké množství a nové stále přibývají. Z těch známějších jsou to kupříkladu:
+Linuxové hry najdete na [Steamu](https://store.steampowered.com/linux), kde má Linux i živou [hráčskou komunitu](https://steamcommunity.com/linux). Hrát můžete i mnoho her pomocí [WineHQ](https://www.winehq.org/) a [PlayOnLinux](https://www.playonlinux.com/en/), což jsou projekty, které umožňují spouštět hry a aplikace napsané pro systém Windows. Zkušenosti s kompatibilitou jednotlivých aplikací můžete dohledat v [této databázi](https://appdb.winehq.org/).
 
-- strategické
-  - [Heroes Of Might And Magic III](http://www.lokigames.com/products/heroes3/)
-- akční RPG
-  - množství mutací Doom 1, 2, [3](http://zerowing.idsoftware.com/linux/)
-  - Quake 1, 2, [3](http://zerowing.idsoftware.com/linux/)
-  - [Unreal Tournament](http://www.lokigames.com/products/ut/)
-  - [Return To Castle Wolfenstein](http://zerowing.idsoftware.com/linux/)
-  - [Enemy Territory](http://zerowing.idsoftware.com/linux/)...
-- simulátor
-  - [Open Transport Tycoon](http://www.openttd.com/)
-- Na Linuxu ovšem často najdete i tzv. goldies oldies - časem prověřené staré hry
-  - [Indiana Jones, Beneath A Steel Sky, Monkey Island](http://www.scummvm.org/)...
-- Linux má ale i své původní hry jako
-  - [Tuxracer](http://tuxracer.sourceforge.net/)
-  - [Crack Attack](http://aluminumangel.org/attack/)
-- logické
-  - [Fish Fillets](http://fillets.sourceforge.net/)
-  - [Frozen Bubble](http://www.frozen-bubble.org/)
-- simulátory
-  - [G-117](http://www.heptargon.de/gl-117/gl-117.html)
-  - [FlightGear](http://www.flightgear.org/)
-- FPS
-  - [Tremulous](http://tremulous.net/)
-- strategické
-  - [WarZone 2100](http://wz2100.net/)
-  - [Glest](http://www.glest.org/en/index.html)
-- atd.
+Z her napsaných přímo pro Linux vybíráme:
+- [Battle of Wesnoth](https://www.wesnoth.org/)
+- [FlightGear](http://www.flightgear.org/) - letecký simulátor
+- [OpenTTD - Open Transport Tycoon](https://www.openttd.com/)
+- [SuperTuxKart](https://supertuxkart.net/) - závody s maskoty svobodných projektů
+- [WarZone 2100](https://wz2100.net/)
 
-Výhodou Linuxu je i to, že množství her se dá spustit pod různými emulátory, ať již Amigy, ZX Spectra nebo pod emulátory MS Windows ([Cedega](http://gametreelinux.com/)) a DOSu ([DOSBox](http://dosbox.sourceforge.net/) nebo [dosemu](http://www.dosemu.org/)). Nutno upozornit, že za většinu známých linuxových her od velkých společností se platí stejně jako jinde. Na druhou stranu - především původní linuxové hry jsou většinou zdarma. Zajímavá je např. hra [Battle of Wesnoth](http://www.wesnoth.org/start/1.0/). Množství zajímavých informací pro Linuxové hráče najdete na stránkách [Linux Gamers' FAQ](http://www.icculus.org/lgfaq/sk/).
-</section>
-
-<section markdown="1">
-# Linux = výběr
-
-## Linux znamená, že máte možnost volby
-S Linuxem máte vždy na výběr. Můžete si vybrat architekturu počítače, operační systém, distribuci, software, který chcete používat, filosofii, která vám vyhovuje nejlépe, stejně jako vzhled a prostředí, ve kterém chcete pracovat. Můžete si vybrat práci se systémem na nejrůznějších úrovních od [začátečníka](http://bbs.cvut.cz/~covex/linux/newbie.html) až po [pokročilé](http://bbs.cvut.cz/~covex/linux/kouzlo_cmdline.html).
+Na Linuxu funguje i [DOSBox](https://www.dosbox.com/) nebo [ScummVM](https://www.scummvm.org/), se kterými spustíte i staré DOSové hry.
 </section>
 
 </aside>
