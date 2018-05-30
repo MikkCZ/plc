@@ -6,8 +6,6 @@ redirect_from:
   - prevod-dat.html
 layout: wide
 ---
-<article markdown="1">
-
 # Převod profilů některých běžných aplikací
 
 ### z MS Windows do Linuxu
@@ -18,10 +16,3 @@ Příkladem takových multiplatformních aplikací je webový prohlížeč Mozil
 
 - [Mozilla Firefox](https://support.mozilla.org/cs/kb/jak-zazalohovat-obnovit-profil) (můžete také použít [Firefox Sync](https://www.mozilla.org/cs/firefox/sync/))
 - [Mozilla Thunderbird](https://support.mozilla.org/cs/kb/profily-thunderbirdu) (pokud používáte [IMAP](https://support.mozilla.org/cs/kb/synchronizace-pres-protokol-imap), pro přenos pošty se stačí na Linuxu přihlásit ke své schránce)
-
-</article>
-
-<aside>
-  {% capture submenu %}{% include submenu.md %}{% endcapture %}
-  {{ submenu | markdownify }}
-</aside>

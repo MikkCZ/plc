@@ -6,8 +6,6 @@ redirect_from:
  - ekvivalenty.html
 layout: wide
 ---
-<article markdown="1">
-
 # Tabulka ekvivalentních aplikací
 
 ### Přesvědčte se, že svobodné multiplatformní softwarové nástroje vám poskytnout to, co potřebujete, a zdarma!
@@ -284,10 +282,3 @@ Tento princip je potřeba mít při hledání ekvivalentů vždy na paměti.
 Kromě využití běžného vyhledávače lze použít i specializované katalogy programů pro GNU/Linux. Např. [FSF/UNESCO Free software directory](https://directory.fsf.org/), [GitHub](https://github.com/), [Freecode](http://freecode.com/), [Launchpad](https://launchpad.net/), [SourceForge](http://sourceforge.net/), [Linux App Finder](http://linuxappfinder.com/), [GTK+ Applications Repository](http://gtk-apps.org/), [Free Qt Applications](http://qt-apps.org/), [Open Source Alternatives](http://www.osalt.com/) nebo [AlternativeTo](https://alternativeto.net/), případně samozřejmě české [AbcLinuxu](https://www.abclinuxu.cz/software) nebo [Linuxsoft](http://www.linuxsoft.cz/).
 
 Než začnete vyhledávat aplikaci přímo na jejích stránkách, přesvědčte se pomocí správce softwaru nebo instalačních nástrojů (apt, yum, urpmi, yast), že již není připravena přímo ve vaší distribuci.
-
-</article>
-
-<aside>
-  {% capture submenu %}{% include submenu.md %}{% endcapture %}
-  {{ submenu | markdownify }}
-</aside>

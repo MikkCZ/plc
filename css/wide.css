@@ -178,65 +178,6 @@ article .mp {
     margin: 0 0.7em;
 }
 
-/************* right collum *************/
-
-
-aside {
-    float: right;
-    width: 25%;
-    margin-top: 100px;
-    position: relative;
-    font-size: 0.9em;
-}
-
-aside .centr {
-    text-align: center;
-}
-
-aside .centr strong {
-    color: #888;
-    font-size: 1.2em;
-}
-
-aside > section:not([class="centr"]) {
-    margin: 10px;
-    border: 1px solid #f2dc00;
-}
-
-aside h1 {
-    font-size: 1.2em;
-    color: white;
-    background-image: url("../img/top_bckg.png");
-    background-repeat: repeat-x;
-    background-color: #f2dc00;
-    padding: 3px;
-    padding-bottom: 1px;
-    margin: 0px;
-    border-bottom: 1px solid #a2ac00;
-}
-
-aside h1 a {
-    text-decoration: none;
-    color: #ac0000;
-}
-
-aside h2 {
-    font-size: 1em;
-    padding: 10px 5px 0px 5px;
-    margin: 1px;
-    color: #292929;
-}
-
-aside p {
-    padding: 5px;
-    margin: 1px;
-    line-height:1.5em;
-}
-
-aside a {
-    text-decoration: underline;
-}
-
 footer {
     padding: 20px;
     font-size: smaller;

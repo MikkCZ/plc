@@ -5,8 +5,6 @@ redirect_from:
   - index_new.html
 layout: wide
 ---
-<article markdown="1">
-
 # Výhody operačního systému Linux
 
 ### Vyzkoušejte Linux, o kterém jste zatím jen četli
@@ -105,10 +103,3 @@ Pokud chcete, je možné Linux, s cílenou podporou a doplňky, zakoupit u speci
 Na vývoji Linuxu se podílí nesmírné množství lidí z celého světa, často ve svém volném čase a pro zábavu. Proto svou práci dávají k dispozici zdarma. Vývoj Linuxu podporují i velké společnosti jako [Red Hat](https://www.redhat.cz/), [IBM](http://www.ibm.cz/), [Novell](http://www.novell.cz/) nebo [Intel](https://www.intel.com/). Nikdo vás ale nenutí komukoli cokoli vracet či platit, ale pokud chcete, můžete sami přispět a Linux vylepšovat. Zapojit se lze nejrůznějšími způsoby - od pomoci při hlášení nalezených chyb, přes [překlady do češtiny](http://www.l10n.cz/) až po programování.
 
 ## Linux mne zaujal a [chci ho vyzkoušet]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
-
-</article>
-
-<aside>
-  {% capture submenu %}{% include submenu.md %}{% endcapture %}
-  {{ submenu | markdownify }}
-</aside>

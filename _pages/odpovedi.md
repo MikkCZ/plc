@@ -5,10 +5,12 @@ redirect_from:
   - odpovedi.html
 layout: wide
 ---
-<article markdown="1">
-
 # Odpovědi na časté otázky
+{:.no_toc}
 Na této stránce shromažďujeme odpovědi na otázky, které se často vyskytují mezi zájemci o Linux.
+
+* TOC
+{:toc}
 
 ## Když si stáhnu Linux z internetu, můžu ho legálně používat?
 Ano. Linux a jeho součásti mají [svobodné licence](https://www.gnu.org/licenses/), které umožňují legální používání i v případě stažení distribuce z internetu. Stažení z internetu bývá i hlavní formou získání linuxových distribucí.
@@ -40,9 +42,5 @@ Další možností je použít tzv. **virtuální počítač**. Můžete k tomu 
 ## Kde se Linux nejvíce odlišuje?
 Základy Linuxu jsou zcela jiné, než na jakých stojí MS Windows. Linux se vyvinul jako systém [unixového](https://cs.wikipedia.org/wiki/Unix) typu a proto je jeho ovládání a chování v některých směrech odlišné. Podstatou je ale možnost jeho přizpůsobení, a to jak vzhledem, tak chováním. Pokud se vám vaše linuxová distribuce nelíbí, požádejte o pomoc s nastavením na jejím fóru podpory nebo se [podívejte po jiné]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
 
-</article>
-
-<aside>
-    {% capture submenu %}{% include submenu.md %}{% endcapture %}
-    {{ submenu | markdownify }}
-</aside>
+## Kde najdu další informace? Existují nějaké další stránky věnované Linuxu?
+Na české scéně působí několik zpravodajských serverů portálů věnujících se Linuxu nebo svodobnému a otřevřenému softwaru (free and open source). Odkazy na ně i na další weby najdete na [další stránce]({{ site.baseurl }}{% link _pages/odkazy.md %}).

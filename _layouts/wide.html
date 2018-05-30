@@ -16,12 +16,15 @@
             <ul>
                 <li><a href="{{ '/' | relative_url }}">Proč</a></li>
                 <li><a href="{{ site.baseurl }}{% link _pages/vyhody.md %}">Výhody</a></li>
-                <li><a href="{{ site.baseurl }}{% link _pages/kde-ziskat.md %}">Chci vyzkoušet</a></li>
-                <li><a href="{{ site.baseurl }}{% link _pages/kde-ziskat.md %}">Kde získat</a></li>
+                <li><a href="{{ site.baseurl }}{% link _pages/odpovedi.md %}">Odpovědi</a></li>
+                <li><a href="{{ site.baseurl }}{% link _pages/propagace.md %}">Propagace</a></li>
+                <li><a href="{{ site.baseurl }}{% link _pages/kde-ziskat.md %}">Kde získat a vyzkoušet</a></li>
             </ul>
         </nav>
     </header>
-    {{ content }}
+    <article>
+        {{ content }}
+    </article>
     {% include footer.html %}
 </body>
 </html>

@@ -7,8 +7,6 @@ redirect_from:
   - chci-vyzkouset.html
 layout: wide
 ---
-<article markdown="1">
-
 # Kde Linux získat a jaký si vybrat
 Operační systém Linux lze získat v tzv. distribucích. **Distribuce** jsou předem připravené balíky kombinující linuxové jádro a grafické prostředí s nejrůznějšími aplikacemi. Obsahují nástroje pro správu počítače, přístup k internetu, práci s dokumenty nebo multimédii. Existuje i mnoho speciálních, účelových distribucí, určených pro servery, malá a vestavěná zařízení atd. Zde uvedené jsou vybrány podle toho, zda se hodí pro začínající uživatele, použití na osobním počítači nebo laptopu a mají aktivní českou komunitu.
 
@@ -133,12 +131,6 @@ Gentoo je trochu specifická komunitní distribuce. Její vývojáři ji založi
 - [Stáhnout Slax](https://www.slax.org/)
 {:.download}
 
-</article>
-
-<aside>
-  {% capture submenu %}{% include submenu.md %}{% endcapture %}
-  {{ submenu | markdownify }}
-</aside>
 
 [GNOME]: https://www.gnome.org/
 [KDE]: https://www.kde.org/

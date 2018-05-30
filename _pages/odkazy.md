@@ -6,8 +6,6 @@ redirect_from:
   - odkazy.html
 layout: wide
 ---
-<article markdown="1">
-
 # Informační portály
 Na české scéně působí několik zpravodajských serverů portálů věnujících se Linuxu nebo svodobnému a otřevřenému softwaru (free and open source). Od novinek přes tipy a triky až po informace o dění na české scéně.
 
@@ -50,10 +48,3 @@ V těchto rozsáhlých otázkách a odpovědích najdete informace o množství 
 
 - [Otázky, které nedají spát linuxovým hráčům](http://www.icculus.org/lgfaq/sk/)
 {:.download}
-
-</article>
-
-<aside>
-    {% capture submenu %}{% include submenu.md %}{% endcapture %}
-    {{ submenu | markdownify }}
-</aside>
