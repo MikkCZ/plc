@@ -6,50 +6,33 @@ redirect_from:
 layout: wide
 ---
 # Výhody operačního systému Linux
+{:.no_toc}
 
 ### Vyzkoušejte Linux, o kterém jste zatím jen četli
+{:.no_toc}
 
-- [Moderní operační systém](#moderni)
-- [Bez virů a spywaru](#bezviru)
-- [Zcela ovladatelný](#ovladatelny)
-- [Kancelářské nástroje (Office)](#office)
-- [Velké množství aplikací](#aplikace)
-- [Hry](#hry)
-- [Variabilní a přizpůsobitelný](#variabilni)
-- [Vzdálená správa a použití](#sprava)
-- [Kvalifikovaná podpora a dokumentace](#podpora)
-- [Dostupný v češtině](#cestina)
-- [Pro všechny zdarma](#zdarma)
-![]({{ 'img/lin_shot3.gif' | relative_url }})
-{:.vyhody}
+* TOC
+{:toc .vyhody}
 
 Pokud přemýšlíte, **jestli a proč zvolit Linux jako operační systém**, přečtěte si následující řádky, které vám pomohou rozhodování ulehčit.
 
 ## Moderní operační systém
 {:#moderni}
-**Linux** je moderní operační systém (OS) a jeho **ovládání je stejně přívětivé jako u jiných systémů**.
+**Linux** je moderní operační systém (OS) a jeho **ovládání je stejně přívětivé jako u jiných systémů**. Podobu Linuxu z velké části určuje jeho grafické prostředí. Váš Linux vypadat klasicky jako Windows s hlavní lištou a nabídkou "Start", nebo naopak velmi futuristicky s funkcemi jako jsou 3D plochy. A nebudete k jeho fungování potřebovat ani žádný supermoderní počítač. Linux funguje na běžném hardwaru, stolních počítačích i laptopech.
 
-**Obsahuje velké množství ovladačů** pro nejrůznější standardizovaný hardware. Linux podporuje širokou škálu <abbr title="Universal Serial Bus">USB</abbr> zařízení, Bluetooth i Wi-Fi, grafické karty ([AMD](https://support.amd.com/en-us/download/linux), [nVidia](http://www.nvidia.com/object/unix.html) a další), SSD disky a mnohá další zařízení.
-
-Linux byl první dostupný operační systém běžící na PC v 64bitovém režimu.
+Mezi nejpoužívanější a nejvyspělejší patří GNOME, KDE, Xfce, Cinnamon nebo MATE. Nemusíte se ale bát žádného složitého výběru. Grafické prostředí je vždy součástí každé [distribuce]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}) pro běžné uživatele. Navíc jako je možné měnit celý Linux, je možné měnit i jeho vzhled. Přeneste si třeba barvy svého pokoje i na monitor.
 
 ## Bezpečný - bez virů a spywaru
 {:#bezviru}
-Na Linuxu není zpravidla nutné používat **žádný komplikovaný bezpečnostní nebo antivirový program**. Linux je sám o sobě velmi dobře navržen a odolává mnoha známým bezpečnostním rizikům (např. [virům](https://www.viry.cz/)). Aktualizace systému jsou dostupné zdarma a včas, pro každého a bez rozdílu.
+Doby, kdy jste báli o svá data, jsou pryč. Linux je sám o sobě velmi dobře navržen a jen tak někdo nepovolaný se do něj nedostane. Žádný vir ani spyware vám nebude probírat poštu a vaše přihlašovací údaje, dokumenty, fotografie i hudba budou v bezpečí. Všechno v **plné verzi**, **bez registrace**, **bez odesílání dat** a bez nutnosti instalace dalších antivirových programů nebo firewallu, které Linux samozřejmě také má. Aktualizace systému jsou dostupné zdarma a včas, pro každého a bez rozdílu.
 
 ## Zcela ovladatelný
 {:#ovladatelny}
-Linux **neodesílá žádné citlivé informace** bez vašeho vědomí. V naprosté většině případů také **nevyžaduje restart** k projevení změn.
+Při nákupu počítače si většinou svůj operační systém vybrat nemůžete. Musíte si ho koupit s Windows a nebo... s Windows. Instalací Linuxu získáte **svobodu**. Linux **neodesílá žádné citlivé informace** bez vašeho vědomí. Za všechno se ale "platí". V případě Linuxu ale jen vaší chutí si přivyknout na nové a **dříve netušené možnosti**.
 
-Vždy si můžete vybrat distribuci, software, který chcete používat, filosofii, která vám vyhovuje nejlépe, stejně jako vzhled a prostředí, ve kterém chcete pracovat. Můžete si vybrat práci se systémem na nejrůznějších úrovních od [začátečníka](http://bbs.cvut.cz/~covex/linux/newbie.html) až po [pokročilé](http://bbs.cvut.cz/~covex/linux/kouzlo_cmdline.html).
+Vždy si můžete [vybrat distribuci]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}), software, který chcete používat, filosofii, která vám vyhovuje nejlépe, stejně jako vzhled a prostředí, ve kterém chcete pracovat. Můžete si vybrat práci se systémem na nejrůznějších úrovních od [začátečníka](http://bbs.cvut.cz/~covex/linux/newbie.html) až po [pokročilé](http://bbs.cvut.cz/~covex/linux/kouzlo_cmdline.html).
 
 Chování Linuxu je za každých okolností předvídatelné, ovladatelné a dohledatelné. S Linuxem se nedostanete do situace, kdy byste nemohli přijít na to, co a jak systém nebo aplikace dělá. Všechny služby, které na systému běží, máte plně pod kontrolou.
-
-## Kancelářské nástroje (Office)
-{:#office}
-Mezi aplikacemi každé větší linuxové [distribuce]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}) najdete **kancelářský balík, tzv. office**. Nejčastěji se jedná o [LibreOffice](https://www.libreoffice.cz/) s **editorem textů** (Writer), **tabulkovým procesorem** (Calc), nástrojem pro **tvorbu prezentací** (Impress) a dalšími.
-
-Jako poštovního klienta pro práci s e-maily můžete použít třeba [Thunderbird](https://www.mozilla.cz/produkty/thunderbird/).
 
 ## Velké množství aplikací
 {:#aplikace}
@@ -58,6 +41,26 @@ V každé linuxové distribuci naleznete od začítku **velký výběr nejrůzn�
 Webový prohlížeč, mediální přehrávač, kancelářský balík, poštovní klient, grafické, 3D i jiné editory, komunikační nástroje a další software uspokojí všechny běžné potřeby při práci s počítačem. S Linuxem si navíc můžete vybrat ty konkrétní programy, které vám nejvíce vyhovují. Naprostá většina těchto aplikací je k dispozici zcela **zdarma** a bez omezení.
 
 Pokud hledáte vhodnou náhradu aplikací zkuste se podívat do naší [tabulky ekvivalentních aplikací]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}).
+
+## Internet samozřejmostí
+{:#internet}
+Přístup k internetu je samozřejmostí a u Linuxu je tomu nejinak. Můžete používat na Linuxu asi nejrozšířenější Firefox nebo další z [dostupných webových prohlížečů]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}#internet), které znáte z Windows a jiných systémů. Není nic jednoduššího, než si svá nastavení, hesla a záložky sesynchronizovat nebo [převést do Linuxu]({{ site.baseurl }}{% link _pages/prevod-dat.md %}).
+
+Přístup k vaší poště vám zprostředkuje [Thunderbird](https://www.mozilla.cz/produkty/thunderbird/) a se svými přáteli můžete komunikavat pomocí kecálka [Pidgin](http://www.pidgin.cz/), [Skype](https://www.skype.com/cs/get-skype/) nebo [Facebooku](https://messengerfordesktop.com/).
+
+## Kancelářské nástroje (Office)
+{:#office}
+Mezi aplikacemi každé větší [distribuce]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}) najdete kancelářský balík s **editorem textů**, **tabulkovým procesorem**, nástrojem pro **tvorbu prezentací** a dalšími. Nenajdete v nich sice Microsoft Office, ale jejich svobodnou alternativu [LibreOffice](https://cs.libreoffice.org/). LibreOffice, dříve OpenOffice, je skvělou ukázkou otevřeného multiplatformního softwaru, a můžete ho znát i ze světa Windows.
+
+O práci s poštou a kalendářem se vám na Linuxu postarají vestavěné aplikace, nebo můžete používat třeba [Thunderbird](https://www.mozilla.cz/produkty/thunderbird/) a pomocí [webového prohlížeče](#internet) i webová rozhraní.
+
+## Multimédia
+{:#multimedia}
+Měli jste někdy problémy s přehráváním nějakého filmu? Chyběl vám kodek, nebo prostě přehrávač odmítl daný formát přehrát? Pak byste měli zkusit svobodný [VLC media Player](https://www.videolan.org/) nebo některý další z řady [přehrávačů]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}#video).
+
+Linux nabízí nespočet [hudebnímu přehrávačů]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}#hudba), které se vám mohou postarat o organizaci hudební kolekce. Podobně vám další aplikace pomohou s utříděním všem vašich fotografií. Stačí vybrat ve správci softwaru z dostupných programů ten, který vám nejlépe vyhovuje, nebo použijte ten, který linuxová [distribuce]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}) už obsahuje.
+
+Linux sice nevyrostl jako multimediální systém, ale bez problému zvládá všechny oblasti multimediální zábavy. Používají ho i filmová studia. Žádné hledání po internetu nebo stahování trial verzí.
 
 ## Hry
 {:#hry}
@@ -76,7 +79,7 @@ Na Linuxu funguje i [DOSBox](https://www.dosbox.com/) nebo [ScummVM](https://www
 
 ## Variabilní a přizpůsobitelný
 {:#variabilni}
-Linux **lze výkonově i vzhledově přizpůsobit** každému požadavku. Můžete ho používat na stolním počítači i notebooku. Jádro Linuxu používá pod kapotou i mobilní operační systém Android.
+Linux **lze výkonově i vzhledově přizpůsobit** každému požadavku. Linuxové jádro se začalo vyvíjet v roce 1991. Posléze bylo použito jako základ kompletního operačního systému společně s programy projektu GNU. Od té doby je Linux svobodným operačním systémem volně dostupným pro každého. Můžete ho používat na stolním počítači i notebooku. Jádro Linuxu používá pod kapotou i mobilní operační systém Android.
 
 ## Vzdálená správa a použití
 {:#sprava}
@@ -103,3 +106,4 @@ Pokud chcete, je možné Linux, s cílenou podporou a doplňky, zakoupit u speci
 Na vývoji Linuxu se podílí nesmírné množství lidí z celého světa, často ve svém volném čase a pro zábavu. Proto svou práci dávají k dispozici zdarma. Vývoj Linuxu podporují i velké společnosti jako [Red Hat](https://www.redhat.cz/), [IBM](http://www.ibm.cz/), [Novell](http://www.novell.cz/) nebo [Intel](https://www.intel.com/). Nikdo vás ale nenutí komukoli cokoli vracet či platit, ale pokud chcete, můžete sami přispět a Linux vylepšovat. Zapojit se lze nejrůznějšími způsoby - od pomoci při hlášení nalezených chyb, přes [překlady do češtiny](http://www.l10n.cz/) až po programování.
 
 ## Linux mne zaujal a [chci ho vyzkoušet]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
+{:.no_toc}
