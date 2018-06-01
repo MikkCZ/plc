@@ -50,7 +50,7 @@ Linux nabízí nespočet [hudebnímu přehrávačů]({{ site.baseurl }}{% link _
 Linux sice nevyrostl jako multimediální systém, ale bez problému zvládá všechny oblasti multimediální zábavy. Používají ho i filmová studia. Žádné hledání po internetu nebo stahování trial verzí.
 
 ## Hry
-Hraní her není typickým využitím Linuxu. Výběr her je ale kvalitní. O hraní na Linuxu je třeba celý web [Game Tree Linux](http://gametreelinux.com/).
+Hraní her není typickým využitím Linuxu. Výběr her je ale kvalitní. O hraní na Linuxu je třeba celý web [GamingOnLinux](https://www.gamingonlinux.com/).
 
 Linuxové hry najdete na [Steamu](https://store.steampowered.com/linux), kde má Linux i živou [hráčskou komunitu](https://steamcommunity.com/linux). Hrát můžete i mnoho her pomocí [WineHQ](https://www.winehq.org/) a [PlayOnLinux](https://www.playonlinux.com/en/), což jsou projekty, které umožňují spouštět hry a aplikace napsané pro systém Windows. Zkušenosti s kompatibilitou jednotlivých aplikací můžete dohledat v [této databázi](https://appdb.winehq.org/).
 
