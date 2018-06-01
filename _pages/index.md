@@ -26,7 +26,7 @@ Vždy si můžete [vybrat distribuci]({{ site.baseurl }}{% link _pages/kde-ziska
 Chování Linuxu je za každých okolností předvídatelné, ovladatelné a dohledatelné. S Linuxem se nedostanete do situace, kdy byste nemohli přijít na to, co a jak systém nebo aplikace dělá. Všechny služby, které na systému běží, máte plně pod kontrolou.
 
 ## Velké množství aplikací
-V každé linuxové distribuci naleznete od začítku **velký výběr nejrůznějších aplikací** a mnoho dalších si můžete doinstalovat v "obchodu" (samozřejmě zdarma a v plné verzi).
+V každé linuxové distribuci naleznete od začátku **velký výběr nejrůznějších aplikací** a mnoho dalších si můžete doinstalovat v "obchodu" (samozřejmě zdarma a v plné verzi).
 
 Webový prohlížeč, mediální přehrávač, kancelářský balík, poštovní klient, grafické, 3D i jiné editory, komunikační nástroje a další software uspokojí všechny běžné potřeby při práci s počítačem. S Linuxem si navíc můžete vybrat ty konkrétní programy, které vám nejvíce vyhovují. Naprostá většina těchto aplikací je k dispozici zcela **zdarma** a bez omezení.
 
@@ -35,7 +35,7 @@ Pokud hledáte vhodnou náhradu aplikací zkuste se podívat do naší [tabulky 
 ## Internet samozřejmostí
 Přístup k internetu je samozřejmostí a u Linuxu je tomu nejinak. Můžete používat na Linuxu asi nejrozšířenější Firefox nebo další z [dostupných webových prohlížečů]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}#internet), které znáte z Windows a jiných systémů. Není nic jednoduššího, než si svá nastavení, hesla a záložky sesynchronizovat nebo [převést do Linuxu]({{ site.baseurl }}{% link _pages/prevod-dat.md %}).
 
-Přístup k vaší poště vám zprostředkuje [Thunderbird](https://www.mozilla.cz/produkty/thunderbird/) a se svými přáteli můžete komunikavat pomocí kecálka [Pidgin](http://www.pidgin.cz/), [Skype](https://www.skype.com/cs/get-skype/) nebo [Facebooku](https://messengerfordesktop.com/).
+Přístup k vaší poště vám zprostředkuje [Thunderbird](https://www.mozilla.cz/produkty/thunderbird/) a se svými přáteli můžete komunikovat pomocí kecálka [Pidgin](http://www.pidgin.cz/), [Skype](https://www.skype.com/cs/get-skype/) nebo [Facebooku](https://messengerfordesktop.com/).
 
 ## Kancelářské nástroje (Office)
 Mezi aplikacemi každé větší [distribuce]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}) najdete kancelářský balík s **editorem textů**, **tabulkovým procesorem**, nástrojem pro **tvorbu prezentací** a dalšími. Nenajdete v nich sice Microsoft Office, ale jejich svobodnou alternativu [LibreOffice](https://cs.libreoffice.org/). LibreOffice, dříve OpenOffice, je skvělou ukázkou otevřeného multiplatformního softwaru, a můžete ho znát i ze světa Windows.
@@ -50,7 +50,7 @@ Linux nabízí nespočet [hudebnímu přehrávačů]({{ site.baseurl }}{% link _
 Linux sice nevyrostl jako multimediální systém, ale bez problému zvládá všechny oblasti multimediální zábavy. Používají ho i filmová studia. Žádné hledání po internetu nebo stahování trial verzí.
 
 ## Hry
-Hraní her není typickým využitím Linuxu. Výběr her je ale kvalitní. O hraní na Linuxu je třeba celý web [Game Tree Linux](http://gametreelinux.com/).
+Hraní her není typickým využitím Linuxu. Výběr her je ale kvalitní. O hraní na Linuxu je třeba celý web [GamingOnLinux](https://www.gamingonlinux.com/).
 
 Linuxové hry najdete na [Steamu](https://store.steampowered.com/linux), kde má Linux i živou [hráčskou komunitu](https://steamcommunity.com/linux). Hrát můžete i mnoho her pomocí [WineHQ](https://www.winehq.org/) a [PlayOnLinux](https://www.playonlinux.com/en/), což jsou projekty, které umožňují spouštět hry a aplikace napsané pro systém Windows. Zkušenosti s kompatibilitou jednotlivých aplikací můžete dohledat v [této databázi](https://appdb.winehq.org/).
 
@@ -72,7 +72,7 @@ Na Linuxu **je možné pracovat vzdáleně**, a to mnoha různými způsoby. Z p
 Pomocí vzdálené správy vám váš zkušenější kolega nebo kamarád může snadno pomoci s každým problémem, který řešíte, nebo se naopak můžete z práce přihlásit na svůj počítač doma. S Linuxem si můžete na svém počítači spustit nejrůznější druhy služeb jako např. webový (<abbr title="Hyper Text Transfer Protocol">HTTP</abbr>) nebo souborový (<abbr title="File Transfer Protocol">FTP</abbr>) server.
 
 ## Kvalifikovaná podpora a dokumentace
-S Linuxem pracuje na celém světě velké množství lidí, včetně odborníků, kteří jsou ochotni se s vámi podělit o svoje zkušenosti. **Většinu dokumentace a návodů naleznete sndno na internetu**.
+S Linuxem pracuje na celém světě velké množství lidí, včetně odborníků, kteří jsou ochotni se s vámi podělit o svoje zkušenosti. **Většinu dokumentace a návodů naleznete snadno na internetu**.
 
 A v diskusních fórech se s vámi o své zkušenosti podělí a poradí vám mnoho nadšených uživatelů. Odměnou všem ostatním bude to, že jednou vy pomůžete řešit stejný problém někomu jinému. Podporu si ale samozřejmě můžete i koupit jako službu.
 

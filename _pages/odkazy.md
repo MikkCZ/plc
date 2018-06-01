@@ -7,7 +7,7 @@ redirect_from:
 layout: default
 ---
 ### Informační portály
-Na české scéně působí několik zpravodajských serverů portálů věnujících se Linuxu nebo svodobnému a otřevřenému softwaru (free and open source). Od novinek přes tipy a triky až po informace o dění na české scéně.
+Na české scéně působí několik zpravodajských serverů portálů věnujících se Linuxu nebo svobodnému a otevřenému softwaru (free and open source). Od novinek přes tipy a triky až po informace o dění na české scéně.
 
 - [Root.cz](https://www.root.cz/)
 - [AbcLinuxu.cz](https://www.abclinuxu.cz/)
@@ -17,7 +17,7 @@ Na české scéně působí několik zpravodajských serverů portálů věnují
 Na této stránce najdete odkazy na několik užitečných stránek, které vám mohou být nápomocny při práci s Linuxem.
 
 ### Základní informace pro začínající uživatele
-Přímo na tomto webu najdete časté otázky a odpovědi, obsáhlý seznam programů (nejen) pro Linux a informace o přechozu ze systému Windows a převodu dat běžně používaných aplikací.
+Přímo na tomto webu najdete časté otázky a odpovědi, obsáhlý seznam programů (nejen) pro Linux a informace o přechodu ze systému Windows a převodu dat běžně používaných aplikací.
 
 - [Odpovědi na časté otázky]({{ site.baseurl }}{% link _pages/odpovedi.md %})
 - [Tabulka ekvivalentních aplikací]({{ site.baseurl }}{% link _pages/ekvivalenty.md %})
