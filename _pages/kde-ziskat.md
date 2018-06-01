@@ -41,7 +41,7 @@ Verze Ubuntu vychází ve dvou variantách - stabilnější LTS s delším obdob
 
 ## ![]({{ 'img/distribuce/fedora-logo.svg' | relative_url }}) Fedora
 {:#fedora}
-**Fedora** je pregresivní distribuce, která vznikla jako nekomerční odnož Red Hat Linuxu. Její vývoj tak podporuje firma Red Hat. Na základě Fedory pak Red Hat připravuje své komerční distribuce Red Hat Enterprise Linux. Fedora je známa svou pokrokovostí a zpravidla přináší v každé verzi několik zásadních novinek. Distribuce je značně univerzální, se znatelným zaměřením na použití na osobních počítačích.
+**Fedora** je progresivní distribuce, která vznikla jako nekomerční odnož Red Hat Linuxu. Její vývoj tak podporuje firma Red Hat. Na základě Fedory pak Red Hat připravuje své komerční distribuce Red Hat Enterprise Linux. Fedora je známa svou pokrokovostí a zpravidla přináší v každé verzi několik zásadních novinek. Distribuce je značně univerzální, se znatelným zaměřením na použití na osobních počítačích.
 
 Standardní Fedora používá grafické prostředí [GNOME][GNOME]. Existují také varianty (spiny) s jinými prostředími včetně [KDE][KDE] nebo [Cinnamonu][Cinnamon]. Jejich seznam najdete na [této stránce](https://spins.fedoraproject.org/). Ve většině případů je nejjednodušší sáhnout přímo po klasické Fedoře s GNOME.
 
@@ -56,7 +56,7 @@ Standardní Fedora používá grafické prostředí [GNOME][GNOME]. Existují ta
 ## ![]({{ 'img/distribuce/opensuse-logo.png' | relative_url }}) OpenSUSE
 {:#suse}
 [![]({{ 'img/opensuse-10.3_t.png' | relative_url }}){:.t_sc}]({{ 'img/opensuse-10.3.png' | relative_url }})
-Na vývoji **openSUSE** se podílí firma Novell v rámci jejích linuxových aktivit. Kromě openSUSE je dostupná také komerční varianta SUSE Linux Exterprise. Distribuce openSUSE má některé specifické nástroje, které se snaží distribuci co nejvíce zpřístupnit běžným uživatelům osobních počítačů. Vzhledem k jejímu komerčnímu charakteru je k dispozici i instalační podpora.
+Na vývoji **openSUSE** se podílí firma Novell v rámci jejích linuxových aktivit. Kromě openSUSE je dostupná také komerční varianta SUSE Linux Enterprise. Distribuce openSUSE má některé specifické nástroje, které se snaží distribuci co nejvíce zpřístupnit běžným uživatelům osobních počítačů. Vzhledem k jejímu komerčnímu charakteru je k dispozici i instalační podpora.
 
 openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervativnější Leap nabízí pravidelně vydávané "velké" verze, kdežto varianta Tumbleweed je aktualizována průběžně.
 
@@ -79,7 +79,7 @@ openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervati
 
 ## ![]({{ 'img/distribuce/mageia-logo.svg' | relative_url }}) Mageia
 {:#mageia}
-**Mageia** je pokračováním distribuce Madriva, dříve Mandrake Linux. Je vyvíjena komunitou vývojářů za podpory vlastní neziskové organizace.
+**Mageia** je pokračováním distribuce Mandriva, dříve Mandrake Linux. Je vyvíjena komunitou vývojářů za podpory vlastní neziskové organizace.
 
 - [Český komunita Mageia Linux](https://mageia.cz/)
 - [Fórum podpory](https://forum.mageia.cz/)
@@ -101,7 +101,7 @@ Debian je komunitní distribucí. To znamená, že ho vyvíjejí dobrovolníci. 
 
 ## ![]({{ 'img/distribuce/manjaro-logo.svg' | relative_url }}) Manjaro
 {:#manjaro}
-**Manjaro** je mladá distribuce založená na [Arch Linuxu](#arch-linux). Jejím cílem je uživatelská přívětivost a bezproblémové fungování ihned po instalaci. Dostupné je se třemi uživatelými prostředími [Xfce][Xfce], [KDE][KDE] a [GNOME][GNOME].
+**Manjaro** je mladá distribuce založená na [Arch Linuxu](#arch-linux). Jejím cílem je uživatelská přívětivost a bezproblémové fungování ihned po instalaci. Dostupné je se třemi uživatelskými prostředími: [Xfce][Xfce], [KDE][KDE] a [GNOME][GNOME].
 
 - [Oficiální stránky](https://manjaro.org/)
 - [Fórum podpory](https://forum.manjaro.org/)
@@ -121,7 +121,7 @@ Gentoo je trochu specifická komunitní distribuce. Její vývojáři ji založi
 
 ## ![]({{ 'img/distribuce/arch-logo.svg' | relative_url }}) Arch Linux
 {:#arch-linux}
-**Arch Linux** je distribuce dodržující pravidlo <abbr title="Keep it simple, stupid">KISS</abbr>. Je obzvlášt známá pro svou vyčerpávající dokumentaci [ArchWiki](https://wiki.archlinux.org/), která je mnohdy použitelná i pro ostatní linuxové distribuce.
+**Arch Linux** je distribuce dodržující pravidlo <abbr title="Keep it simple, stupid">KISS</abbr>. Je obzvlášť známá pro svou vyčerpávající dokumentaci [ArchWiki](https://wiki.archlinux.org/), která je mnohdy použitelná i pro ostatní linuxové distribuce.
 
 - [Česká komunita Archu](https://arch-linux.cz/)
 - [Oficiální stránky](https://www.archlinux.org/)
