@@ -16,6 +16,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - CNAME
+  - README.md
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
