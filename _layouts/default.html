@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+    {% include head.html %}
+</head>
+<body>
+    {% include google-tag-manager-noscript.html %}
+    <header>
+        <div id="wrapper">
+            <h1><a href="{{ '/' | relative_url }}">Linux</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ '/' | relative_url }}">Proč</a></li>
+                    <li><a href="{{ site.baseurl }}{% link _pages/odpovedi.md %}">Odpovědi</a></li>
+                    <li><a href="{{ site.baseurl }}{% link _pages/propagace.md %}">Propagace</a></li>
+                    <li><a href="{{ site.baseurl }}{% link _pages/kde-ziskat.md %}">Kde získat a vyzkoušet</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="wrapper">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+    </main>
+    {% include footer.html %}
+</body>
+</html>

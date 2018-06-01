@@ -1,13 +1,11 @@
 ---
-title: Převod profilů aplikací
+title: Převod profilů některých běžných aplikací
 description: Proč zvolit jako svůj operační systém Linux, jak převést profily některých běžných apliací.
 permalink: /prevod-dat/
 redirect_from:
   - prevod-dat.html
-layout: wide
+layout: default
 ---
-# Převod profilů některých běžných aplikací
-
 ### z MS Windows do Linuxu
 
 Při přechodu na Linux můžete snadno převést data profilů některých aplikací. Převod je nejsnadnější u aplikací, které jsou tzv. multiplatformní. To znamená, že fungují na více operačních systémech. Také si u nich nemusíte zvykat na nové uživatelské rozhraní nebo hledat potřebné funkce. Které to jsou můžete zjistit v [tabulce ekvivalentních aplikací]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}).

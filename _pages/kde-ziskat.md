@@ -5,15 +5,15 @@ permalink: /kde-ziskat/
 redirect_from:
   - kde-ziskat.html
   - chci-vyzkouset.html
-layout: wide
+layout: default
 ---
-# Kde Linux získat a jaký si vybrat
+### Kde Linux získat a jaký si vybrat
 Operační systém Linux lze získat v tzv. distribucích. **Distribuce** jsou předem připravené balíky kombinující linuxové jádro a grafické prostředí s nejrůznějšími aplikacemi. Obsahují nástroje pro správu počítače, přístup k internetu, práci s dokumenty nebo multimédii. Existuje i mnoho speciálních, účelových distribucí, určených pro servery, malá a vestavěná zařízení atd. Zde uvedené jsou vybrány podle toho, zda se hodí pro začínající uživatele, použití na osobním počítači nebo laptopu a mají aktivní českou komunitu.
 
-# Jak si mohu Linux vyzkoušet
+### Jak si mohu Linux vyzkoušet
 Linux si můžete před instalací vyzkoušet i bez instalace. Většina distribucí nabízí tzv. **live (živou) variantu** pro vyzkoušení systému bez instalace. Bývá součástí instalačního média nebo dokonce první krok před začátkem instalačního procesu a celý systém spustí z USB flash disku nebo DVD. Po vyzkoušení se můžete rozhodnout, jestli ho nainstalovat, nebo počítač restartujete a vrátíte se zpět k Windows. Pokud se rozhodnete pro instalaci, nezapomeňte si předem **zazálohovat svá data a nainstalované programy**!
 
-# Jak Linux stáhnout a nainstalovat
+### Jak Linux stáhnout a nainstalovat
 U každé distribuce na této stránce najdete odkaz na stránku s popisem jejího stažení a instalace. Nejlepší je sáhnout po nejnovější verzi označené nejvyšším číslem. Pokud máte počítač s procesorem Intel nebo AMD, hledejte verzi pro **x86_64** (pokud máte opravdu starý počítač, tak **x86**).
 
 Z nabízených adresářů a souborů je většinou potřeba stáhnout soubor s příponou **.iso**. **.iso** soubory jsou obrazy CD/DVD a stačí je správným způsobem vypálit, nebo zapsat na USB flash disk pomocí nástrojů k tomu určených. **Tyto soubory se nevypalují jako běžný soubor**, ale je potřeba zvolit vypalování obrazu (image). Pro zápis na USB flash disk většina distribucí nabízí vhodný nástroj a návod. Pokud si postupem nejste jisti, můžete už připravené médium zakoupit v e-shopu [LinuxMarket](https://www.linuxmarket.cz/instalacni-media).
@@ -32,7 +32,6 @@ Standardní Ubuntu používá grafické prostředí [GNOME][GNOME]. Existují ta
 Verze Ubuntu vychází ve dvou variantách - stabilnější LTS s delším obdobím podpory, a běžné verze s rychlejším přidáváním nových funkcí, ale kratší podporou a potenciální méně stabilní. Speciálně pro začínající uživatele doporučujeme začít s verzí LTS.
 
 **Canonical** je komerční společnost, která zaštiťuje vývoj Ubuntu. V rámci této aktivity podporuje i řadu dalších projektů a poskytuje nástroje a podporu pro vývoj otevřeného software.
-{:.subdist}
 
 - [Česká komunita Ubuntu](https://www.ubuntu.cz/)
 - [Fórum podpory](http://forum.ubuntu.cz/)
@@ -47,7 +46,6 @@ Verze Ubuntu vychází ve dvou variantách - stabilnější LTS s delším obdob
 Standardní Fedora používá grafické prostředí [GNOME][GNOME]. Existují také varianty (spiny) s jinými prostředími včetně [KDE][KDE] nebo [Cinnamonu][Cinnamon]. Jejich seznam najdete na [této stránce](https://spins.fedoraproject.org/). Ve většině případů je nejjednodušší sáhnout přímo po klasické Fedoře s GNOME.
 
 **Red Hat** je firma zabývající se vývojem, prodejem a podporou komerční distribuce Red Hat Enterprise Linuxu určené pro podniky. V minulosti významně pomohla zdomácnění Linuxu svou komunitní distribucí Red Hat Linux, jejímž následovníkem je Fedora.
-{:.subdist}
 
 - [Česká komunity Fedory](https://mojefedora.cz/)
 - [Fórum podpory](https://forum.mojefedora.cz/)
@@ -63,7 +61,6 @@ Na vývoji **openSUSE** se podílí firma Novell v rámci jejích linuxových ak
 openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervativnější Leap nabízí pravidelně vydávané "velké" verze, kdežto varianta Tumbleweed je aktualizována průběžně.
 
 **Novell** je jednou z předních softwarových firem. V současnosti se zaměřuje právě na oblasti využití Linuxu a nabízí celou řadu řešení na něm založených.
-{:.subdist}
 
 - [Oficiální stránky](https://www.opensuse.org/)
 - [Fórum podpory](https://forums.opensuse.org/)

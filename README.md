@@ -8,7 +8,7 @@ Repositář pro web proc.linux.cz. Web používá generátor statických stráne
 ### Šablona
 Soubory tvořící šablonu HTML se nachází v adresářích `_includes` a `_layouts`, styly v adresáři `css`.
 ### Obsah
-Soubor `index.md` tvoří hlavní stránku webu, ostatní stránky jsou v adresáři `_pages`. Obsah je psaný v Markdownu. Jako jeho dobrý přehled poslouží články:
+Obsah všech stránek je v adresáři `_pages` a je psaný v Markdownu. Jako jeho dobrý přehled poslouží články:
 - [Mastering Markdown - GitHub Guides](https://guides.github.com/features/mastering-markdown/)
 - [Basic writing and formatting syntax - User Documentation](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 - [Syntax | kramdown](https://kramdown.gettalong.org/syntax.html)

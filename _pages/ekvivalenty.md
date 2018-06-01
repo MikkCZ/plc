@@ -4,14 +4,16 @@ description: Proč zvolit jako svůj operační systém Linux a jak zjistit kter
 permalink: /ekvivalenty/
 redirect_from:
  - ekvivalenty.html
-layout: wide
+layout: default
 ---
-# Tabulka ekvivalentních aplikací
-
 ### Přesvědčte se, že svobodné multiplatformní softwarové nástroje vám poskytnout to, co potřebujete, a zdarma!
+{:.no_toc}
 Přechod na Linux vám usnadní, pokud už na Windows používáte některé multiplatformní aplikace. To jsou aplikace, které fungují na více operačních systémech a většinou umožňují i snadný [přenos dat a nastavení]({{ site.baseurl }}{% link _pages/prevod-dat.md %}). Také si u nich po změně systému nemusíte zvykat na nové uživatelské rozhraní nebo hledat potřebné funkce.
 
 Zajímavé multiplatformní aplikace jsou v seznamu níže <span class="mp">označeny takto</span>.
+
+* TOC
+{:toc .inline-nav}
 
 ## Zkrácený seznam nejběžnějších aplikací
 
@@ -44,22 +46,6 @@ Většina programů pro MS Windows se snaží vycházet z principu "vše v jedno
 Ideou Linuxu je mít pouze jednu komponentu nebo program, který dělá danou věc, ale dělá ji dobře. Proto se dají programy v Linuxu přirovnat spíše k Legu - např. kontrola pravopisu je použita stejná ne jen v textovém editoru, ale i v poštovním programu atd. Typické je také to, že pokud existuje kvalitní aplikace pracující z příkazové řádky, zpravidla existuje pouze grafická nadstavba, která tento program využívá a poskytuje tak uživatelsky přítulnější rozhraní.
 
 Tento princip je potřeba mít při hledání ekvivalentů vždy na paměti.
-
-- [Internet](#internet)
-- [Kancelář](#kancelar)
-- [Správa souborů](#ssouboru)
-- [Editory](#teditory)
-- [PDF](#ppdf)
-- [CD a mp3](#hudba)
-- [Grafika](#grafika)
-- [Video](#video)
-- [Programování](#programovani)
-- [Nástroje](#nastroje)
-- [Monitory systému](#monitory)
-- [Emulátory](#emulatory)
-- [Jednoduché hry](#jednoduchehry)
-- [Další](#dalsi)
-{:.inline-nav}
 
 ### Internet
 {:#internet}
