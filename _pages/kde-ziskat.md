@@ -140,5 +140,5 @@ Gentoo je trochu specifická komunitní distribuce. Její vývojáři ji založi
 
 [GNOME]: https://www.gnome.org/
 [KDE]: https://www.kde.org/
-[Cinnamon]: https://github.com/linuxmint/Cinnamon
+[Cinnamon]: https://cs.wikipedia.org/wiki/Cinnamon
 [Xfce]: https://xfce.org/
