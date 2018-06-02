@@ -36,7 +36,7 @@ Verze Ubuntu vychází ve dvou variantách - stabilnější LTS s delším obdob
 - [Česká komunita Ubuntu](https://www.ubuntu.cz/)
 - [Fórum podpory](http://forum.ubuntu.cz/)
 - [Oficiální stránky](https://www.ubuntu.com/)
-- [Stáhnout Ubuntu](http://releases.ubuntu.com/)
+- [Stáhnout Ubuntu](https://iubuntu.cz/ziskat-ubuntu/stahnout-desktop)
 {:.download}
 
 ## ![]({{ 'img/distribuce/fedora-logo.svg' | relative_url }}) Fedora
