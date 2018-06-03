@@ -21,7 +21,7 @@ Tak jako na prohlížení internetových stránek v operačním systému Windows
 ### Je verze z internetu nějak omezená (časově, funkčně)? Jaký je rozdíl oproti koupené verzi?
 Verze z internetu jsou plně funkční bez jakýchkoli omezení. Převážná většina linuxových distribucí a obsaženého softwaru je zdarma.
 
-Placené distribuce Linuxu obsahují nějakou přidanou hodnotu. U Linuxu je zvykem, že si nekupujeme právo k používání software, ale něco navíc. Např. telefonickou podporu, manuály, nebo bezpečnostní tým, který se stará o vydávání ověřených bezpečnostních oprav.
+Placené distribuce Linuxu obsahují nějakou přidanou hodnotu. U Linuxu je zvykem, že si nekupujeme právo k používání software, ale něco navíc. Např. telefonickou podporu, manuály nebo bezpečnostní tým, který se stará o vydávání ověřených bezpečnostních oprav.
 
 ### Mohu Linux používat ve firmě?
 Ano, Linux můžete používat ve firmě. Pro firemní server je dobré zakoupit nějakou placenou komerční distribuci se zárukou aktualizací a podporou pro případ problémů, a na počítače zaměstnanců nainstalovat [uživatelsky přívětivou distribuci]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
@@ -30,7 +30,9 @@ Ano, Linux můžete používat ve firmě. Pro firemní server je dobré zakoupit
 Většinu distribucí můžete pouzívat na libovolném množství počítačů. Dokonce mohou být spustěny zároveň. U placených distribucí je potřeba si předem přečíst licenční smlouvu a zeptat se prodejce.
 
 ### Jak přejdu na Linux?
-Při přechodu na Linux není třeba za sebou pálit mosty. Zkuste si Linux nainstalovat na volný disk, nebo prostě pro jistotu zkuste jen ["živou" verzi spustitelnou z CD nebo flash disku]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}). Vyzkoušejte si, zda vám aplikace v Linuxu vyhovují. Podívejte se i po aplikacích, které vám třeba pro stávající systém chybí nebo jsou jen placené.
+Při přechodu na Linux není třeba za sebou pálit mosty. Zkuste si Linux nainstalovat na volný disk, nebo prostě pro jistotu zkuste jen ["živou" verzi spustitelnou z CD nebo flash disku]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}). Můžete Linux také vyzkoušet ve virtuálním počítači přímo ve Windows, k čemuž můžete použít například [VirtualBox](https://www.virtualbox.org/).
+
+Vyzkoušejte si, zda vám aplikace v Linuxu vyhovují. Podívejte se i po aplikacích, které vám třeba pro stávající systém chybí nebo jsou jen placené.
 
 ### Jak najdu náhradu za své programy?
 Pokud postrádáte v Linuxu některé aplikace ze stávajícího systému a ještě jste nenašli [odpovídající náhradu v našem seznamu]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}), zeptejte se na nějakém fóru své distribuce. Pokud ani tam nepochodíte, můžete zkusit použít program [Wine](https://www.winehq.org/). Wine možňuje **spouštět některé aplikace z MS Windows** i pod Linuxem.
