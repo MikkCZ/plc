@@ -12,6 +12,7 @@ Na české scéně působí několik zpravodajských serverů portálů věnují
 - [Root.cz](https://www.root.cz/)
 - [AbcLinuxu.cz](https://www.abclinuxu.cz/)
 - [LinuxEXPRES](https://www.linuxexpres.cz/)
+- [MojeFedora](https://mojefedora.cz/) - Český portál věnovaný Fedora Linux distribuci
 
 ### Odkazy s užitečnými informacemi
 Na této stránce najdete odkazy na několik užitečných stránek, které vám mohou být nápomocny při práci s Linuxem.
