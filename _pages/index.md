@@ -45,7 +45,7 @@ O práci s poštou a kalendářem se vám na Linuxu postarají vestavěné aplik
 ## Multimédia
 Měli jste někdy problémy s přehráváním nějakého filmu? Chyběl vám kodek, nebo prostě přehrávač odmítl daný formát přehrát? Pak byste měli zkusit svobodný [VLC media Player](https://www.videolan.org/) nebo některý další z řady [přehrávačů]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}#video).
 
-Linux nabízí nespočet [hudebnímu přehrávačů]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}#hudba), které se vám mohou postarat o organizaci hudební kolekce. Podobně vám další aplikace pomohou s utříděním všem vašich fotografií. Stačí vybrat ve správci softwaru z dostupných programů ten, který vám nejlépe vyhovuje, nebo použijte ten, který linuxová [distribuce]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}) už obsahuje.
+Linux nabízí nespočet [hudebních přehrávačů]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}#hudba), které se vám mohou postarat o organizaci hudební kolekce. Podobně vám další aplikace pomohou s utříděním všech vašich fotografií. Stačí vybrat ve správci softwaru z dostupných programů ten, který vám nejlépe vyhovuje, nebo použijte ten, který linuxová [distribuce]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}) už obsahuje.
 
 Linux sice nevyrostl jako multimediální systém, ale bez problému zvládá všechny oblasti multimediální zábavy. Používají ho i filmová studia. Žádné hledání po internetu nebo stahování trial verzí.
 
@@ -54,8 +54,10 @@ Hraní her není typickým využitím Linuxu. Výběr her je ale kvalitní. O hr
 
 Linuxové hry najdete na [Steamu](https://store.steampowered.com/linux), kde má Linux i živou [hráčskou komunitu](https://steamcommunity.com/linux). Hrát můžete i mnoho her pomocí [WineHQ](https://www.winehq.org/) a [PlayOnLinux](https://www.playonlinux.com/en/), což jsou projekty, které umožňují spouštět hry a aplikace napsané pro systém Windows. Zkušenosti s kompatibilitou jednotlivých aplikací můžete dohledat v [této databázi](https://appdb.winehq.org/).
 
+Pro správu her pod Linuxem můžete použít například [Lutris](https://lutris.net/). Tato aplikace vám umožní spravovat [Steam](https://store.steampowered.com/linux) hry, [WineHQ](https://www.winehq.org/) hry a nativní Linuxové hry. Stránky aplikace také obsahují množství [instalačních skriptů](https://lutris.net/games/), které vám usnadní instalaci.
+
 Z her napsaných přímo pro Linux vybíráme:
-- [Battle of Wesnoth](https://www.wesnoth.org/)
+- [Battle of Wesnoth](https://www.wesnoth.org/) - tahová strategie (Nyní dostupná také na [Steamu](https://store.steampowered.com/linux))
 - [FlightGear](http://www.flightgear.org/) - letecký simulátor
 - [OpenTTD - Open Transport Tycoon](https://www.openttd.com/)
 - [SuperTuxKart](https://supertuxkart.net/) - závody s maskoty svobodných projektů
@@ -80,7 +82,7 @@ A v diskusních fórech se s vámi o své zkušenosti podělí a poradí vám mn
 Většina aplikací **na vás bude mluvit česky**. Ač je angličtina hlavním používaným jazykem, Linux a jeho aplikace jsou [velmi dobře lokalizovány (překládány) do češtiny](http://www.l10n.cz/). Navíc můžete mít v jedné instalaci nainstalované jak kompletní české, tak např. i německé či hebrejské prostředí, libovolně mezi nimi přepínat.
 
 ## Pro všechny zdarma
-V podstatě **všechny linuxové distribuce jsou k dispozici zdarma**, protože se jedná o **svobodný software**. Nejsnadněji jsou dostupné [ke stažení z internetu]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}). Můžete si ale [objednat](https://www.linuxmarket.cz/) USB flash disk nebo DVD až domů, včetně různých příruček.
+V podstatě **všechny linuxové distribuce jsou k dispozici zdarma**, protože se jedná o **svobodný software**. Nejsnadněji jsou dostupné [ke stažení z internetu]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}). Můžete si však i [objednat](https://www.linuxmarket.cz/) USB flash disk nebo DVD až domů, včetně různých příruček.
 
 Pokud chcete, je možné Linux, s cílenou podporou a doplňky, zakoupit u specializovaných distributorů. Je však na vás, zda hodláte za podporu platit. Systém samotný je vždy, jakožto [svobodný software](https://cs.wikipedia.org/wiki/Svobodn%C3%BD_software), zdarma. Už nebudete muset přemýšlet nad legálností softwaru, nebudete potřebovat registrační klíče. Využívejte výhody legálního operačního systému bez jakýchkoli obtěžujících omezení.
 
