@@ -24,7 +24,7 @@ Pokud se vám Linux zalíbí a rozhodnete se pro instalaci, nezapomeňte si pře
 
 ## ![]({{ 'img/distribuce/ubuntu-logo.svg' | relative_url }}) Ubuntu
 {:#ubuntu}
-[![]({{ 'img/ubuntu_t.png' | relative_url }}){:.t_sc}]({{ 'img/ubuntu.png' | relative_url }})
+[![]({{ 'img/screenshots/ubuntu_t.png' | relative_url }}){:.t_sc}]({{ 'img/screenshots/ubuntu.png' | relative_url }})
 **Ubuntu** je distribuce vyvíjená firmou Canonical. Je postaveno na spolehlivém základě po mnoho let vyvíjené distribuce [Debian](#debian). Zatímco Debian se snaží být distribucí značně univerzální, jasným cílem Ubuntu je přiblížit Linux uživatelům pro běžné použití na osobních počítačích.
 
 Standardní Ubuntu používá grafické prostředí [GNOME][GNOME]. Existují také varianty (flavours/příchutě) vyvíjené komunitou s jinými prostředími jako je např. [KDE][KDE]. Jejich seznam najdete na [této stránce](https://www.ubuntu.com/download/flavours). Ve většině případů je nejjednodušší sáhnout přímo po klasickém Ubuntu s GNOME.
@@ -41,7 +41,7 @@ Verze Ubuntu vychází ve dvou variantách - stabilnější LTS s delším obdob
 
 ## ![]({{ 'img/distribuce/fedora-logo.svg' | relative_url }}) Fedora
 {:#fedora}
-[![]({{ 'img/fedora_t.png' | relative_url }}){:.t_sc}]({{ 'img/fedora.png' | relative_url }})
+[![]({{ 'img/screenshots/fedora_t.png' | relative_url }}){:.t_sc}]({{ 'img/screenshots/fedora.png' | relative_url }})
 **Fedora** je progresivní distribuce, která vznikla jako nekomerční odnož Red Hat Linuxu. Její vývoj tak podporuje firma Red Hat. Na základě Fedory pak Red Hat připravuje své komerční distribuce Red Hat Enterprise Linux. Fedora je známa svou pokrokovostí a zpravidla přináší v každé verzi několik zásadních novinek. Distribuce je značně univerzální, se znatelným zaměřením na použití na osobních počítačích.
 
 Standardní Fedora používá grafické prostředí [GNOME][GNOME]. Existují také varianty (spiny) s jinými prostředími včetně [KDE][KDE] nebo [Cinnamonu][Cinnamon]. Jejich seznam najdete na [této stránce](https://spins.fedoraproject.org/). Ve většině případů je nejjednodušší sáhnout přímo po klasické Fedoře s GNOME.
@@ -56,7 +56,7 @@ Standardní Fedora používá grafické prostředí [GNOME][GNOME]. Existují ta
 
 ## ![]({{ 'img/distribuce/opensuse-logo.png' | relative_url }}) OpenSUSE
 {:#suse}
-[![]({{ 'img/opensuse_t.png' | relative_url }}){:.t_sc}]({{ 'img/opensuse.png' | relative_url }})
+[![]({{ 'img/screenshots/opensuse_t.png' | relative_url }}){:.t_sc}]({{ 'img/screenshots/opensuse.png' | relative_url }})
 Na vývoji **openSUSE** se podílí firma Novell v rámci jejích linuxových aktivit. Kromě openSUSE je dostupná také komerční varianta SUSE Linux Enterprise. Distribuce openSUSE má některé specifické nástroje, které se snaží distribuci co nejvíce zpřístupnit běžným uživatelům osobních počítačů. Vzhledem k jejímu komerčnímu charakteru je k dispozici i instalační podpora.
 
 openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervativnější Leap nabízí pravidelně vydávané "velké" verze, kdežto varianta Tumbleweed je aktualizována průběžně.
@@ -70,7 +70,7 @@ openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervati
 
 ## ![]({{ 'img/distribuce/linux-mint-logo.svg' | relative_url }}) Linux Mint
 {:#linux-mint}
-[![]({{ 'img/linuxmint_t.png' | relative_url }}){:.t_sc}]({{ 'img/linuxmint.png' | relative_url }})
+[![]({{ 'img/screenshots/linuxmint_t.png' | relative_url }}){:.t_sc}]({{ 'img/screenshots/linuxmint.png' | relative_url }})
 **Linux Mint** je distribuce založená na [Ubuntu](#ubuntu) a [Debianu](#debian). Zatímco jádro Mintu je založeno z větší části na Ubuntu, grafické uspořádání plochy a uživatelské rozhraní je naprosto odlišné. Mint totiž používá grafické prostředí [Cinnamon][Cinnamon]. Mint má také vlastní kolekci systémových nástrojů vyvinutou pro snadnější správu systému a uživatelských práv.
 
 - [Česká komunita Mintu](https://www.linux-mint-czech.cz/)
