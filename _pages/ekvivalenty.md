@@ -6,7 +6,7 @@ redirect_from:
  - ekvivalenty.html
 layout: default
 ---
-### Přesvědčte se, že svobodné multiplatformní softwarové nástroje vám poskytnout to, co potřebujete, a zdarma!
+### Přesvědčte se, že svobodné multiplatformní softwarové nástroje vám mohou poskytnout to, co potřebujete, a zdarma!
 {:.no_toc}
 Přechod na Linux vám usnadní, pokud už na Windows používáte některé multiplatformní aplikace. To jsou aplikace, které fungují na více operačních systémech a většinou umožňují i snadný [přenos dat a nastavení]({{ site.baseurl }}{% link _pages/prevod-dat.md %}). Také si u nich po změně systému nemusíte zvykat na nové uživatelské rozhraní nebo hledat potřebné funkce.
 
@@ -32,7 +32,7 @@ Některé z těchto programů nebo jiné jejich alternativy už bývají výchoz
 | Poznámkový blok, Notepad | součástí prostředí, např. [Kate](https://www.kde.org/applications/utilities/kate/) (KDE) a [Gedit](https://wiki.gnome.org/Apps/Gedit) (GNOME), nebo [Atom](https://atom.io/){:.mp} |
 | MS Office | [LibreOffice](https://www.libreoffice.org/){:.mp} |
 | Adobe Reader | součástí prostředí, např. [Okular](https://okular.kde.org/) (KDE) a [Evince](https://wiki.gnome.org/Apps/Evince) (GNOME) |
-| WinAmp, iTunes | součástí prostředí, např. [Rhythmbox](https://wiki.gnome.org/Apps/Rhythmbox) (GNOME), nebo [Audacious](https://audacious-media-player.org/){:.mp} |
+| WinAmp, iTunes | součástí prostředí, např. [Rhythmbox](https://wiki.gnome.org/Apps/Rhythmbox) (GNOME) a [Audacious](https://audacious-media-player.org/){:.mp}, nebo [Amarok](https://amarok.kde.org/){:.mp} |
 | Media Player | součástí prostředí, např. [Totem](https://wiki.gnome.org/Apps/Videos/) (GNOME), nebo [VLC media player](https://www.videolan.org/){:.mp} |
 | ACDSee, Prohlížeč fotografií | součástí distribuce |
 | Photoshop, Paint Shop | [GIMP](https://www.gimp.org/){:.mp}, [Krita](http://www.krita.org/){:.mp}, [Inkscape](https://inkscape.org/){:.mp} |
@@ -207,7 +207,7 @@ Alternativ je ale v prostředí Linuxu velmi mnoho, takže pokud si ze seznamu n
 
 | Popis programu | MS Windows | GNU/Linux |
 | --- |
-| Virtual machine emulátor | [Oracle VM VirtualBox](http://www.virtualbox.org/){:.mp} <br> [VMWare](http://www.vmware.com/){:.mp} [Prop] <br> Connectix Virtual PC [Prop] | [Oracle VM VirtualBox](http://www.virtualbox.org/){:.mp} <br> [KVM](http://www.linux-kvm.org/) (Kernel-based Virtual Machine) <br> [Xen](http://www.xen.org/) <br> [QEmu](http://fabrice.bellard.free.fr/qemu/) <br> [VMWare](http://www.vmware.com/){:.mp} [Prop] <br> [Win4Lin](http://www.netraverse.com/) [Prop] <br> [Bochs](http://bochs.sourceforge.net/) <br> [Plex86](http://savannah.nongnu.org/projects/plex86) <br> [User Mode Linux](http://user-mode-linux.sourceforge.net/) |
+| Virtual machine emulátor | [Oracle VM VirtualBox](http://www.virtualbox.org/){:.mp} <br> [VMWare](http://www.vmware.com/){:.mp} [Prop] <br> Connectix Virtual PC [Prop] | [Oracle VM VirtualBox](http://www.virtualbox.org/){:.mp} <br> [KVM](http://www.linux-kvm.org/) (Kernel-based Virtual Machine) <br> [Xen](http://www.xen.org/) <br> [QEmu](http://fabrice.bellard.free.fr/qemu/) <br> [VMWare](http://www.vmware.com/){:.mp} [Prop] <br> [Win4Lin](http://www.netraverse.com/) [Prop] <br> [Bochs](http://bochs.sourceforge.net/) <br> [Plex86](http://savannah.nongnu.org/projects/plex86) <br> [User Mode Linux](http://user-mode-linux.sourceforge.net/) <br> [Gnome Boxes](https://help.gnome.org/users/gnome-boxes/stable/) (Standard GNOME) |
 | Windows emulátor | - | [Wine](http://www.winehq.org/) <br> [Cedega](http://www.transgaming.com/) [NF] <br> [Crossover Office](http://www.codeweavers.com/) |
 | DOS emulátor | - | [DOSBox](http://sourceforge.net/projects/dosbox/) <br> [Dosemu](http://www.dosemu.org/) |
 | Sony PlayStation emulátor | ePSXe<br> | [ePSXe](http://www.epsxe.com/) <br> [Pcsx](http://www.pcsx.net/) |
@@ -241,4 +241,4 @@ Alternativ je ale v prostředí Linuxu velmi mnoho, takže pokud si ze seznamu n
 
 Kromě využití běžného vyhledávače lze použít i specializované katalogy programů pro GNU/Linux. Např. [FSF/UNESCO Free software directory](https://directory.fsf.org/), [GitHub](https://github.com/), [Freecode](http://freecode.com/), [Launchpad](https://launchpad.net/), [SourceForge](http://sourceforge.net/), [Linux App Finder](http://linuxappfinder.com/), [GTK+ Applications Repository](http://gtk-apps.org/), [Free Qt Applications](http://qt-apps.org/), [Open Source Alternatives](http://www.osalt.com/) nebo [AlternativeTo](https://alternativeto.net/), případně samozřejmě české [AbcLinuxu](https://www.abclinuxu.cz/software) nebo [Linuxsoft](http://www.linuxsoft.cz/).
 
-Než začnete vyhledávat aplikaci přímo na jejích stránkách, přesvědčte se pomocí správce softwaru nebo instalačních nástrojů (apt, yum, urpmi, yast), že již není připravena přímo ve vaší distribuci.
+Než začnete vyhledávat aplikaci přímo na jejích stránkách, přesvědčte se pomocí správce softwaru nebo instalačních nástrojů (apt, yum, dnf, urpmi, yast), že již není připravena přímo ve vaší distribuci.
