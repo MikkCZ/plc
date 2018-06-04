@@ -12,6 +12,8 @@ Obsah všech stránek je v adresáři `_pages` a je psaný v Markdownu. Jako jeh
 - [Mastering Markdown - GitHub Guides](https://guides.github.com/features/mastering-markdown/)
 - [Basic writing and formatting syntax - User Documentation](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 - [Syntax | kramdown](https://kramdown.gettalong.org/syntax.html)
+### Příprava
+Abyste byli schopni spustit níže uvedené příkazy, je nutné mít nainstalovaný [Ruby](https://www.ruby-lang.org/en/documentation/installation/) a [Bundler](https://bundler.io/#getting-started).
 ### Náhled
 Při úpravách vzhledu i obsahu je dobré rovnou se podívat na výsledek. Níže uvedený příkaz sestaví obsah repositáře a zpřístupní ho na lokální adrese http://localhost:4000/.
 ```
