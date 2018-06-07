@@ -48,7 +48,7 @@ Standardní Fedora používá grafické prostředí [GNOME][GNOME]. Existují ta
 
 **Red Hat** je firma zabývající se vývojem, prodejem a podporou komerční distribuce Red Hat Enterprise Linuxu určené pro podniky. V minulosti významně pomohla zdomácnění Linuxu svou komunitní distribucí Red Hat Linux, jejímž následovníkem je Fedora.
 
-- [Česká komunity Fedory](https://mojefedora.cz/)
+- [Česká komunita Fedory](https://mojefedora.cz/)
 - [Fórum podpory](https://forum.mojefedora.cz/)
 - [Oficiální stránky](https://getfedora.org/)
 - [Stáhnout Fedoru](https://mojefedora.cz/jak-stahnout/)
@@ -73,7 +73,7 @@ openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervati
 [![]({{ 'img/screenshots/linuxmint_t.png' | relative_url }}){:.t_sc}]({{ 'img/screenshots/linuxmint.png' | relative_url }})
 **Linux Mint** je distribuce založená na [Ubuntu](#ubuntu) a [Debianu](#debian). Zatímco jádro Mintu je založeno z větší části na Ubuntu, grafické uspořádání plochy a uživatelské rozhraní je naprosto odlišné. Mint totiž používá grafické prostředí [Cinnamon][Cinnamon], jsou však k dispozici i varianty s prostředími [MATE][MATE] a [Xfce][Xfce]. Mint má také vlastní kolekci systémových nástrojů vyvinutou pro snadnější správu systému a uživatelských práv.
 
-- [Česká komunita Mintu](https://www.linux-mint-czech.cz/)
+- [Česká komunita Linux Mintu](https://www.linux-mint-czech.cz/)
 - [Fórum podpory](https://forum.linux-mint-czech.cz/)
 - [Oficiální stránky](https://www.linuxmint.com/)
 - [Stáhnout Linux Mint](https://www.linux-mint-czech.cz/ke-stazeni/)
@@ -83,7 +83,7 @@ openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervati
 {:#mageia}
 **Mageia** je pokračováním distribuce Mandriva, dříve Mandrake Linux. Je vyvíjena komunitou vývojářů za podpory vlastní neziskové organizace.
 
-- [Český komunita Mageia Linux](https://mageia.cz/)
+- [Česká komunita Mageia Linuxu](https://mageia.cz/)
 - [Fórum podpory](https://forum.mageia.cz/)
 - [Oficiální stránky](https://www.mageia.org/)
 - [Stáhnout Mageiu](https://mageia.cz/stahnout-mageia/)
@@ -125,7 +125,7 @@ Gentoo je trochu specifická komunitní distribuce. Její vývojáři ji založi
 {:#arch-linux}
 **Arch Linux** je distribuce dodržující pravidlo <abbr title="Keep it simple, stupid">KISS</abbr>. Je obzvlášť známá pro svou vyčerpávající dokumentaci [ArchWiki](https://wiki.archlinux.org/), která je mnohdy použitelná i pro ostatní linuxové distribuce.
 
-- [Česká komunita Archu](https://arch-linux.cz/)
+- [Česká komunita Arch Linuxu](https://arch-linux.cz/)
 - [Oficiální stránky](https://www.archlinux.org/)
 - [Fórum podpory](https://bbs.archlinux.org/)
 - [Stáhnout Arch Linux](https://www.archlinux.org/download/)
