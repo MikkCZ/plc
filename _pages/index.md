@@ -52,9 +52,9 @@ Linux sice nevyrostl jako multimediální systém, ale bez problému zvládá v�
 ## Hry
 Hraní her není typickým využitím Linuxu. Výběr her je ale kvalitní. O hraní na Linuxu je třeba celý web [GamingOnLinux](https://www.gamingonlinux.com/).
 
-Linuxové hry najdete na [Steamu](https://store.steampowered.com/linux), kde má Linux i živou [hráčskou komunitu](https://steamcommunity.com/linux). Hrát můžete i mnoho her pomocí [WineHQ](https://www.winehq.org/) a [PlayOnLinux](https://www.playonlinux.com/en/), což jsou projekty, které umožňují spouštět hry a aplikace napsané pro systém Windows. Zkušenosti s kompatibilitou jednotlivých aplikací můžete dohledat v [této databázi](https://appdb.winehq.org/).
+Linuxové hry najdete na [Steamu](https://store.steampowered.com/linux), kde má Linux i živou [hráčskou komunitu](https://steamcommunity.com/linux). Hrát můžete i mnoho her pomocí [Wine](https://www.winehq.org/) a [PlayOnLinux](https://www.playonlinux.com/en/), což jsou projekty, které umožňují spouštět hry a aplikace napsané pro systém Windows. Zkušenosti s kompatibilitou jednotlivých aplikací můžete dohledat v [této databázi](https://appdb.winehq.org/).
 
-Pro správu her pod Linuxem můžete použít například [Lutris](https://lutris.net/). Tato aplikace vám umožní spravovat [Steam](https://store.steampowered.com/linux) hry, [WineHQ](https://www.winehq.org/) hry a nativní Linuxové hry. Stránky aplikace také obsahují množství [instalačních skriptů](https://lutris.net/games/), které vám usnadní instalaci.
+Pro správu her pod Linuxem můžete použít například [Lutris](https://lutris.net/). Tato aplikace vám umožní spravovat [Steam](https://store.steampowered.com/linux) hry, [Wine](https://www.winehq.org/) hry a nativní Linuxové hry. Stránky aplikace také obsahují množství [instalačních skriptů](https://lutris.net/games/), které vám usnadní instalaci.
 
 Z her napsaných přímo pro Linux vybíráme:
 - [Battle of Wesnoth](https://www.wesnoth.org/) - tahová strategie (Nyní dostupná také na [Steamu](https://store.steampowered.com/linux))
