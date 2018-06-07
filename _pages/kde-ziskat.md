@@ -71,7 +71,7 @@ openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervati
 ## ![]({{ 'img/distribuce/linux-mint-logo.svg' | relative_url }}) Linux Mint
 {:#linux-mint}
 [![]({{ 'img/screenshots/linuxmint_t.png' | relative_url }}){:.t_sc}]({{ 'img/screenshots/linuxmint.png' | relative_url }})
-**Linux Mint** je distribuce založená na [Ubuntu](#ubuntu) a [Debianu](#debian). Zatímco jádro Mintu je založeno z větší části na Ubuntu, grafické uspořádání plochy a uživatelské rozhraní je naprosto odlišné. Mint totiž používá grafické prostředí [Cinnamon][Cinnamon]. Mint má také vlastní kolekci systémových nástrojů vyvinutou pro snadnější správu systému a uživatelských práv.
+**Linux Mint** je distribuce založená na [Ubuntu](#ubuntu) a [Debianu](#debian). Zatímco jádro Mintu je založeno z větší části na Ubuntu, grafické uspořádání plochy a uživatelské rozhraní je naprosto odlišné. Mint totiž používá grafické prostředí [Cinnamon][Cinnamon], jsou však k dispozici i varianty s prostředími [MATE][MATE] a [Xfce][Xfce]. Mint má také vlastní kolekci systémových nástrojů vyvinutou pro snadnější správu systému a uživatelských práv.
 
 - [Česká komunita Mintu](https://www.linux-mint-czech.cz/)
 - [Fórum podpory](https://forum.linux-mint-czech.cz/)
@@ -144,3 +144,4 @@ Gentoo je trochu specifická komunitní distribuce. Její vývojáři ji založi
 [KDE]: https://www.kde.org/
 [Cinnamon]: https://cs.wikipedia.org/wiki/Cinnamon
 [Xfce]: https://xfce.org/
+[MATE]: https://mate-desktop.org/
