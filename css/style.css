@@ -114,6 +114,7 @@ pre {
 .download {
   text-align: right;
   list-style-type: none;
+  clear: both;
 }
 
 .download li {
