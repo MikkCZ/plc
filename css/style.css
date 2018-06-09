@@ -127,9 +127,10 @@ pre {
   padding-left: 0.25em;
 }
 
-.t_sc { /*TODO*/
+.screen_thumb {
   float: right;
   margin: 0.5em;
+  max-width: 128px;
 }
 
 .mp {
