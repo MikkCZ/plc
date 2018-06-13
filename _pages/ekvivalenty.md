@@ -145,25 +145,11 @@ Alternativ je ale v prostředí Linuxu velmi mnoho, takže pokud si ze seznamu n
 
 | Popis programu | MS Windows | GNU/Linux |
 | --- |
-| Krypto | [PGP](http://www.pgp.com/) <br> [GnuPG](http://www.gnupg.org/) + [Windows Privacy Tools](http://winpt.sourceforge.net/) | [GnuPG (konsole)](http://www.gnupg.org/) + [GPA](http://www.gnupg.org/gpa.html) <br> [KGpg](http://devel-home.kde.org/~kgpg/) <br> [PGP](http://www.pgp.com/) [Prop] |
+| Šifrování | [OpenPGP](https://www.openpgp.org/) <br> [GnuPG](https://www.gnupg.org/) | [OpenPGP](https://www.openpgp.org/) <br> [GnuPG](https://www.gnupg.org/) <br> [KGpg](https://utils.kde.org/projects/kgpg/) |
 | Rozpoznávání textu (OCR) | Recognita <br> FineReader | [ClaraOcr](http://www.claraocr.org/) <br> [Gocr](http://jocr.sourceforge.net/) <br> [Kooka](http://kooka.kde.org/) |
-| Scanování (snímání předloh) | Programy na CD se scannery <br> [VueScan](http://www.hamrick.com/) | [Xsane](http://www.xsane.org/) <br> [Simple Scan](https://launchpad.net/simple-scan) (GNOME) <br> [Kooka](http://www.kde.org/apps/kooka/) <br> [Xvscan](http://www.tummy.com/xvscan/) [Prop] <br> [VueScan](http://www.hamrick.com/) [Prop] |
-| Antiviry | AVG AntiVirus <br> NAV <br> Dr. Web <br> [TrendMicro](http://www.trendmicro.com/) <br> [F-Prot](http://www.f-prot.com/) <br> Kaspersky<br> | [Trend ServerProtect](http://www.trendmicro.com/) [Prop] <br> [OpenAntivirus](http://www.openantivirus.org/) + AMaViS / [VirusHammer](http://www.openantivirus.org/virushammer.php) <br> [F-Prot](http://www.f-prot.com/) [Prop] <br> [Clam Antivirus](http://www.clamav.net/) <br> [Kaspersky](http://www.kaspersky.ru/) [Prop]<br> |
-| Nástroje na rozdělování disku | [Partition Magic](http://www.symantec.com/partitionmagic/) [Prop] <br> [Acronis PartitionExpert](http://www.acronis.com/) [Prop] <br> [Paragon Partition Manager](http://www.partition-manager.com/index.htm) [Prop] <br> [Partition Commander](http://www.v-com.com/product/pc8_ind.html) [Prop] | PartGUI (GUI pro partimage a parted) <br> [GNU Parted](http://www.gnu.org/software/parted/parted.html) (GUI - [KDE Partition Manager](http://sourceforge.net/projects/partitionman/), [QTParted](http://qtparted.sourceforge.net/), [GParted](http://gparted.sourceforge.net/)) <br> [Partition Image](http://www.partimage.org/) <br> fips <br> [Diskdrake](http://www1.mandrivalinux.com/diskdrake/) (Mandrake) <br> [Acronis PartitionExpert](http://www.acronis.com/) [Prop] ([recenze](http://www.ofb.biz/modules.php?name=News&amp;file=article&amp;sid=224)) |
-| Vytváření obrazů disku | DriveImage <br> Ghostpe | [PartitionImage](http://www.partimage.org/) (GUI - PartGUI) <br> dd (konsole, standard) <br> |
-| Konverze textu na řeč | MS text to speech | [KDE Voice Plugins](http://dogma.freebsd-uk.eu.org/~grrussel/index.html) <br> [Festival](http://www.cstr.ed.ac.uk/projects/festival/) <br> [Emacspeak](http://www.cs.cornell.edu/Info/People/raman/emacspeak/emacspeak.html) <br> [VoiceText](http://neospeech.com/) |
-| Rozpoznávání řeči | ViaVoice <br> DragonNaturally Speaking | Neexistuje mnoho dobrých, snad jen: <br> [Sphinx](http://www.speech.cs.cmu.edu/sphinx/) <br> ViaVoice (téměř mrtvé...) |
-| Nástroje pro obnovu dat | R-Studio (podporuje Linuxové particie) | [e2undel](http://e2undel.sourceforge.net/) <br> [myrescue](http://myrescue.sourceforge.net/) <br> [TestDisk](http://www.cgsecurity.org/index.html?testdisk.html) <br> [unrm](http://freshmeat.net/projects/unrm/?topic_id=866) <br> [Channel 16](http://channel16.sourceforge.net/) |
-
-### Monitory systému
-{:#monitory}
-
-| Popis programu | MS Windows | GNU/Linux |
-| --- |
-| Monitorování teploty/napětí/otáček | MBMonitor <br> PCAlert <br> Speedfan | [Gkrellm](http://www.gkrellm.net/) + zásuvné moduly [Ksensors](http://ksensors.sourceforge.net/) <br> [Lm_sensors](http://secure.netroedge.com/~lm78/) <br> [xsensors](http://www.linuxhardware.org/) <br> |
-| S.M.A.R.T-atributy a teplota HDD | Většinou s CD k motherboardu <br> [Active SMART](http://www.ariolic.ru/activesmart/index.html) | smartctl <br> [hddtemp](http://www.guzu.net/linux/hddtemp.php) <br> [IDEload](http://www.guzu.net/linux/various.php) <br> [Smartsuite-2.1](http://www.linux-ide.org/smart.html) <br> [Smartmontools](http://smartmontools.sourceforge.net/) <br> [Ide-smart](http://lightside.eresmas.com/) <br> [Smartsuite](http://sourceforge.net/projects/smartsuite/) |
-| Testování pamětí | SiSoft SANDRA | [Memtest86](http://www.memtest86.com/) |
-| Testování HDD | SiSoft SANDRA <br> [IOzone](http://www.iozone.org/) | hdparm <br> [Bonnie++](http://www.coker.com.au/bonnie%2B%2B/) <br> [IOzone](http://www.iozone.org/) <br> [Dbench](http://freshmeat.net/projects/dbench/?topic_id=836%2C138) <br> [Bonnie](http://www.textuality.com/bonnie/) <br> [Nhfsstone](http://nfs.sourceforge.net/) <br> [SPEC SFS](http://www.spec.org/osg/sfs97r1/) [Prop] |
+| Skenování | [VueScan](https://www.hamrick.com/){:.mp} <br> OCR nástroje dodávané k tiskárnám | [Xsane](http://www.xsane.org/) <br> [Simple Scan](https://launchpad.net/simple-scan) (GNOME) <br> [VueScan](https://www.hamrick.com/){:.mp} [Prop] |
+| Antiviry | AVG <br> Avast <br> ESET <br> Kaspersky | běžně není potřeba <br> [ClamAV](https://www.clamav.net/) |
+| Zálohování dat | zálohování Windows <br> [CrashPlan](https://www.crashplan.com/){:.mp} | [Déjà Dup](https://wiki.gnome.org/Apps/DejaDup) <br> [KBackup](https://www.kde.org/applications/utilities/kbackup/) <br> [CrashPlan](https://www.crashplan.com/){:.mp} [Prop] |
 
 ### Emulátory a virtuální počítače
 {:#emulatory}
