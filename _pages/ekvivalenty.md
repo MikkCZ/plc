@@ -156,33 +156,28 @@ Alternativ je ale v prostředí Linuxu velmi mnoho, takže pokud si ze seznamu n
 
 | Popis programu | MS Windows | GNU/Linux |
 | --- |
-| Virtual machine emulátor | [Oracle VM VirtualBox](http://www.virtualbox.org/){:.mp} <br> [VMWare](http://www.vmware.com/){:.mp} [Prop] <br> Connectix Virtual PC [Prop] | [Oracle VM VirtualBox](http://www.virtualbox.org/){:.mp} <br> [KVM](http://www.linux-kvm.org/) (Kernel-based Virtual Machine) <br> [Xen](http://www.xen.org/) <br> [QEmu](http://fabrice.bellard.free.fr/qemu/) <br> [VMWare](http://www.vmware.com/){:.mp} [Prop] <br> [Win4Lin](http://www.netraverse.com/) [Prop] <br> [Bochs](http://bochs.sourceforge.net/) <br> [Plex86](http://savannah.nongnu.org/projects/plex86) <br> [User Mode Linux](http://user-mode-linux.sourceforge.net/) <br> [Gnome Boxes](https://help.gnome.org/users/gnome-boxes/stable/) (Standard GNOME) |
-| Windows emulátor | - | [Wine](http://www.winehq.org/) <br> [Cedega](http://www.transgaming.com/) [NF] <br> [Crossover Office](http://www.codeweavers.com/) |
-| DOS emulátor | - | [DOSBox](http://sourceforge.net/projects/dosbox/) <br> [Dosemu](http://www.dosemu.org/) |
-| Sony PlayStation emulátor | ePSXe<br> | [ePSXe](http://www.epsxe.com/) <br> [Pcsx](http://www.pcsx.net/) |
-| ZX Spectrum emulátor | X128 <br> Speccyal <br> SpecX <br> SpecEmu <br> UnrealSpeccy <br> [další](http://www.worldofspectrum.org/emulators.html) <br> | [Xzx](http://www.erik-kunze.de/xzx/) <br> [Glukalka](http://glukalka.sourceforge.net/) <br> [Fuse](http://fuse-emulator.sourceforge.net/) <br> [ZXSP-X](http://little-bat.de/zxsp.html) <br> [FBZX](http://www.rastersoft.com/fbzx.html) <br> [SpectEmu](http://www.inf.bme.hu/~mszeredi/spectemu/) |
-| Atari ST emulátor | [Steem](http://steem.atari.st/) <br> | StonX <br> [Steem](http://steem.atari.st/) |
-| Amiga emulátor | [WinUAE](http://www.winuae.net/) <br> | UAE <br> [e-uae](http://rcdrummond.net/uae) <br> |
-| Game boy emulátor | [Visual Boy Advance](http://vba.ngemu.com/) <br> | [Visual Boy Advance](http://vba.ngemu.com/) <br> [VGBA](http://fms.komkon.org/VGBA/) |
-| Atari 2600 Video Computer System emulátor | [Stella](http://stella.sourceforge.net/) | [Stella](http://stella.sourceforge.net/) <br> |
-| NES / SNES emulátor | [Zsnes](http://www.zsnes.com/) <br> [Snes9x](http://www.snes9x.com/) <br> | [Zsnes](http://www.zsnes.com/) <br> [Snes9x](http://www.snes9x.com/) <br> FWNes <br> GTuxNes |
-| M680x0 Arcade emulátor | [Rainemu](http://www.rainemu.com/) | [Rainemu](http://www.rainemu.com/) |
+| Virtualizační nástroje | [Oracle VM VirtualBox](https://www.virtualbox.org/){:.mp} <br> [VMWare](https://www.vmware.com/){:.mp} | [Oracle VM VirtualBox](https://www.virtualbox.org/){:.mp} <br> [VMWare](https://www.vmware.com/){:.mp} [Prop] <br> [KVM](https://www.linux-kvm.org/) <br> [QEMU](https://www.qemu.org/){:.mp} <br> [Gnome Boxy](https://help.gnome.org/users/gnome-boxes/stable/) |
+| Windows emulátor | - | [Wine](https://www.winehq.org/) <br> [PlayOnLinux](https://www.playonlinux.com/) |
+| DOS emulátor | [DOSBox](https://www.dosbox.com/){:.mp} | [DOSBox](https://www.dosbox.com/){:.mp} |
+| Sony PlayStation emulátor | [ePSXe](http://www.epsxe.com/) | [ePSXe](http://www.epsxe.com/) <br> [Pcsx](http://www.pcsx.net/) |
+| ZX Spectrum emulátor | [seznam](https://www.worldofspectrum.org/emulators.html) | [seznam](https://www.worldofspectrum.org/emulators.html) |
+| Atari ST emulátor | [Steem](http://steem.atari.st/) | [Steem](http://steem.atari.st/) <br> [StonX](http://stonx.sourceforge.net/) |
+| Amiga emulátor | [WinUAE](http://www.winuae.net/) | [FS-UAE](https://fs-uae.net/){:.mp} |
+| Game Boy emulátor | - | [VGBA](https://fms.komkon.org/VGBA/) |
+| Atari 2600 Video Computer System emulátor | [Stella](https://stella-emu.github.io/) | [Stella](https://stella-emu.github.io/) |
 
 ### Jednoduché hry
 {:#jednoduchehry}
 
 | Popis programu | MS Windows | GNU/Linux |
 | --- |
-| Součástí OS | Minesweeper (Miny) <br> Solitaire <br> Srdce <br> Freecell <br> Spider <br> Pinball | [Mines (Miny)](http://www.gnome.org/projects/gnome-games/) <br> [Aisleriot (Karetní hry)](http://www.gnome.org/projects/gnome-games/) <br> [Ataxx](http://www.gnome.org/projects/gnome-games/) <br> [Blackjack](http://www.gnome.org/projects/gnome-games/) <br> [Four-in-a-row](http://www.gnome.org/projects/gnome-games/) <br> [Gnometris](http://www.gnome.org/projects/gnome-games/) <br> [Iagno](http://www.gnome.org/projects/gnome-games/) <br> [Klotski](http://www.gnome.org/projects/gnome-games/) <br> [Lines](http://www.gnome.org/projects/gnome-games/) <br> [Mahjongg](http://www.gnome.org/projects/gnome-games/) <br> [Nibbles](http://www.gnome.org/projects/gnome-games/) <br> [Robots](http://www.gnome.org/projects/gnome-games/) <br> [Same Gnome](http://www.gnome.org/projects/gnome-games/) <br> [Stones](http://www.gnome.org/projects/gnome-games/) <br> [Tali](http://www.gnome.org/projects/gnome-games/) <br> [Tetravex](http://www.gnome.org/projects/gnome-games/) <br> [A mnoho dalších pro KDE](http://games.kde.org/) <br> např. Leutnant Skat (síťová karetní hra) <br> [Roll'm Up (Pinball)](http://www.linuxsoft.cz/sw_detail.php?id_item=1747) |
+| Součástí OS | Minesweeper (Miny) <br> Solitaire <br> Srdce <br> Freecell <br> Spider <br> Pinball | [GNOME Games](https://wiki.gnome.org/Apps/Games) (2048, AisleRiot/Solitaire, Miny, Roboti, Sudoku, ...) <br> [KDE Games](https://games.kde.org/) |
 
 ```
 [Prop]      ... proprietární
-[NF]        ... není svobodný software
-(GUI)       ... grafické rozhraní k programu
 (KDE)       ... vhodné pro prostředí KDE
 (GNOME)     ... vhodné pro prostředí GNOME
 (konsole)   ... textové rozhraní
-(standard)  ... nachází se standardně v systému
 ```
 
 ## Kde hledat další aplikace
