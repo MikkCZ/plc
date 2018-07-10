@@ -1,18 +1,13 @@
 language: ruby
-bundler_args: --path $HOME/.bundle
+bundler_args: --path $HOME/.bundle --with test
 cache:
   directories:
     - $HOME/.bundle
 
-before_script:
- - gem install html-proofer -v '~> 3.8'
-
 script:
  - bundle exec jekyll build --baseurl /proc-linux-cz --destination _site/proc-linux-cz
- - cd _site
- - htmlproofer . --disable-external --empty-alt-ignore
+ - bundle exec htmlproofer ./_site --disable-external --empty-alt-ignore
 # - linkchecker --ignore-url=^mailto http://proc.linux.cz/
- - cd -
 
 deploy:
 - provider: pages
