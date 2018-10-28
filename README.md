@@ -20,7 +20,7 @@ Abyste byli schopni spustit níže uvedené příkazy, je nutné mít nainstalov
 
 Před prvním zobrazením (nebo po změně souboru `Gemfile`) je potřeba stáhnout potřebné závislosti.
 ```
-$ bundle install
+$ bundle install --path vendor/bundle
 ```
 
 ### Náhled
