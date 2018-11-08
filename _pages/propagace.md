@@ -6,7 +6,7 @@ redirect_from:
   - propagace.html
 layout: default
 
-weburl: http://proc.linux.cz
+weburl: https://proc.linux.cz
 ---
 Pokud chcete propagovat používání Linuxu, začněte ho sami používat a podělte se se svým okolím o to, jak změna probíhala a co vám přinesla. Sledujte stránku [Linux / CZ na Facebooku](https://www.facebook.com/CzechLinux/) a sdílejte zajímavé příspěvky se svými přáteli. Nebo si [kupte tričko](https://www.linuxmarket.cz/). :)
 
