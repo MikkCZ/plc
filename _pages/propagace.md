@@ -10,10 +10,12 @@ weburl: http://proc.linux.cz
 ---
 Pokud chcete propagovat používání Linuxu, začněte ho sami používat a podělte se se svým okolím o to, jak změna probíhala a co vám přinesla. Sledujte stránku [Linux / CZ na Facebooku](https://www.facebook.com/CzechLinux/) a sdílejte zajímavé příspěvky se svými přáteli. Nebo si [kupte tričko](https://www.linuxmarket.cz/). :)
 
-[![Tux CZ]({{ '/img/tux-cz.png' | relative_url }}){:style="max-height:10em"}](https://www.facebook.com/CzechLinux/)
-{:style="text-align:center"}
-
 Pokud chcete komunitu blíže poznat, přijďte třeba na konference [LinuxDays](https://www.linuxdays.cz/) nebo [OpenAlt](https://www.openalt.cz/).
+
+{:#features}
+- [<i class="fab fa-facebook"></i> Linux / CZ](https://www.facebook.com/CzechLinux/)
+- [![]({{ '/img/tux-cz.png' | relative_url }}) Linux v ČR](https://www.facebook.com/CzechLinux/)
+- [<i class="fas fa-shopping-basket"></i> LinuxMarket](https://www.linuxmarket.cz/)
 
 ### Proč používat Linux
 

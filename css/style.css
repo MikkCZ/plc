@@ -151,10 +151,15 @@ pre {
 }
 
 #features .fas,
-#features .fab {
+#features .fab,
+#features img {
   display: block;
   font-size: 3em;
-  margin: 0.3em;
+  margin: 0.3em auto;
+}
+
+#features img {
+  height: 1em;
 }
 
 #features a {
