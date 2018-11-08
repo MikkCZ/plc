@@ -10,6 +10,10 @@ body {
   margin: 0 auto;
 }
 
+#wrapper.no-title {
+  padding-top: 1em;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -109,6 +113,57 @@ pre {
   padding: 0.5em;
   border: 1px solid grey;
   background-color: lightgrey;
+}
+
+#intro {
+  display: flex;
+  list-style-type: none;
+  margin: 2.5em 0;
+}
+
+#intro li {
+  flex:1;
+  text-align: center;
+}
+
+#intro i {
+  position: relative;
+  font-size: 8em;
+}
+
+#intro img {
+  position: absolute;
+  top: 25%;
+  left: 39%;
+  width: 22%;
+}
+
+#features {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 1.5em 0;
+}
+
+#features li {
+  flex:1;
+  text-align: center;
+}
+
+#features .fas,
+#features .fab {
+  display: block;
+  font-size: 3em;
+  margin: 0.3em;
+}
+
+#features a {
+  color: inherit;
+}
+
+#features a:hover {
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 .download {
