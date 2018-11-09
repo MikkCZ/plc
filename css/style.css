@@ -115,23 +115,23 @@ pre {
   background-color: lightgrey;
 }
 
-.intro {
+#intro {
   display: flex;
   list-style-type: none;
   margin: 2.5em 0;
 }
 
-.intro li {
+#intro li {
   flex:1;
   text-align: center;
 }
 
-.intro i {
+#intro i {
   position: relative;
   font-size: 8em;
 }
 
-.intro img {
+#intro img {
   position: absolute;
   top: 25%;
   left: 39%;
