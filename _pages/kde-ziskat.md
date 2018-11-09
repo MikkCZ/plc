@@ -36,7 +36,7 @@ Verze Ubuntu vychází ve dvou variantách - stabilnější LTS s delším obdob
 - [Česká komunita Ubuntu](https://www.ubuntu.cz/)
 - [Fórum podpory](http://forum.ubuntu.cz/)
 - [Oficiální stránky](https://www.ubuntu.com/)
-- [Stáhnout Ubuntu](https://iubuntu.cz/ziskat-ubuntu/stahnout-desktop)
+- [Stáhnout Ubuntu](https://iubuntu.cz/ziskat-ubuntu/stahnout-desktop){:.fas.fa-download}
 {:.download}
 
 ## ![]({{ 'img/distribuce/fedora-logo.svg' | relative_url }}) Fedora
@@ -51,7 +51,7 @@ Standardní Fedora používá grafické prostředí [GNOME][GNOME]. Existují ta
 - [Česká komunita Fedory](https://mojefedora.cz/)
 - [Fórum podpory](https://forum.mojefedora.cz/)
 - [Oficiální stránky](https://getfedora.org/)
-- [Stáhnout Fedoru](https://mojefedora.cz/jak-stahnout/)
+- [Stáhnout Fedoru](https://mojefedora.cz/jak-stahnout/){:.fas.fa-download}
 {:.download}
 
 ## ![]({{ 'img/distribuce/opensuse-logo.png' | relative_url }}) OpenSUSE
@@ -65,7 +65,7 @@ openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervati
 
 - [Oficiální stránky](https://www.opensuse.org/)
 - [Fórum podpory](https://forums.opensuse.org/)
-- [Stáhnout openSUSE](https://www.opensuse.org/)
+- [Stáhnout openSUSE](https://www.opensuse.org/){:.fas.fa-download}
 {:.download}
 
 ## ![]({{ 'img/distribuce/linux-mint-logo.svg' | relative_url }}) Linux Mint
@@ -76,7 +76,7 @@ openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervati
 - [Česká komunita Linux Mintu](https://www.linux-mint-czech.cz/)
 - [Fórum podpory](https://forum.linux-mint-czech.cz/)
 - [Oficiální stránky](https://www.linuxmint.com/)
-- [Stáhnout Linux Mint](https://www.linux-mint-czech.cz/ke-stazeni/)
+- [Stáhnout Linux Mint](https://www.linux-mint-czech.cz/ke-stazeni/){:.fas.fa-download}
 {:.download}
 
 ## ![]({{ 'img/distribuce/mageia-logo.svg' | relative_url }}) Mageia
@@ -86,7 +86,7 @@ openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervati
 - [Česká komunita Mageia Linuxu](https://mageia.cz/)
 - [Fórum podpory](https://forum.mageia.cz/)
 - [Oficiální stránky](https://www.mageia.org/)
-- [Stáhnout Mageiu](https://mageia.cz/stahnout-mageia/)
+- [Stáhnout Mageiu](https://mageia.cz/stahnout-mageia/){:.fas.fa-download}
 {:.download}
 
 ## ![]({{ 'img/distribuce/debian-logo.svg' | relative_url }}) Debian
@@ -98,7 +98,7 @@ Debian je komunitní distribucí. To znamená, že ho vyvíjejí dobrovolníci. 
 - [Česká komunita Debianu](https://www.debian.cz/)
 - [Oficiální stránky](https://www.debian.org/)
 - [Podpora](https://www.debian.org/support)
-- [Stáhnout Debian](https://www.debian.org/distrib/)
+- [Stáhnout Debian](https://www.debian.org/distrib/){:.fas.fa-download}
 {:.download}
 
 ## ![]({{ 'img/distribuce/manjaro-logo.svg' | relative_url }}) Manjaro
@@ -107,7 +107,7 @@ Debian je komunitní distribucí. To znamená, že ho vyvíjejí dobrovolníci. 
 
 - [Oficiální stránky](https://manjaro.org/)
 - [Fórum podpory](https://forum.manjaro.org/)
-- [Stáhnout Manjaro](https://manjaro.org/get-manjaro/)
+- [Stáhnout Manjaro](https://manjaro.org/get-manjaro/){:.fas.fa-download}
 {:.download}
 
 ## ![]({{ 'img/distribuce/gentoo-logo.svg' | relative_url }}) Gentoo
@@ -118,7 +118,7 @@ Gentoo je trochu specifická komunitní distribuce. Její vývojáři ji založi
 
 - [Oficiální stránky](https://www.gentoo.org/)
 - [Podpora](https://www.gentoo.org/support/)
-- [Stáhnout Gentoo](https://www.gentoo.org/downloads/)
+- [Stáhnout Gentoo](https://www.gentoo.org/downloads/){:.fas.fa-download}
 {:.download}
 
 ## ![]({{ 'img/distribuce/arch-logo.svg' | relative_url }}) Arch Linux
@@ -128,7 +128,7 @@ Gentoo je trochu specifická komunitní distribuce. Její vývojáři ji založi
 - [Česká komunita Arch Linuxu](https://arch-linux.cz/)
 - [Oficiální stránky](https://www.archlinux.org/)
 - [Fórum podpory](https://bbs.archlinux.org/)
-- [Stáhnout Arch Linux](https://www.archlinux.org/download/)
+- [Stáhnout Arch Linux](https://www.archlinux.org/download/){:.fas.fa-download}
 {:.download}
 
 ## ![]({{ 'img/distribuce/slax-logo.svg' | relative_url }}) Slax
@@ -136,7 +136,7 @@ Gentoo je trochu specifická komunitní distribuce. Její vývojáři ji založi
 **Slax** je malou a primárně Live CD distribucí. Funguje tedy primárně jako "kapesní" Linux, který není potřeba instalovat a do počítače neukládá žádná data. Je vhodný pro používání z USB flash disku, kam lze ukládání dat nastavit, ale toto nastavení už vyžaduje pokročilejší znalosti. Slax používá jako základ [Debian](#debian) a vytváří ho Čech Tomáš Matějíček.
 
 - [Oficiální stránky](https://www.slax.org/)
-- [Stáhnout Slax](https://www.slax.org/)
+- [Stáhnout Slax](https://www.slax.org/){:.fas.fa-download}
 {:.download}
 
 

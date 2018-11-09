@@ -12,7 +12,7 @@ layout: no-title
 
 **Linux** je svobodný a volně dostupný operační systém. Pro uživatele je zdarma může plně nahradit jiné placené systémy na vašem počítači. Linux je totiž:
 
-{:#features}
+{:.icons-flex}
 - [<i class="fas fa-running"></i> Rychlý]({{ site.baseurl }}{% link _pages/proc.md %})
 - [<i class="fas fa-shield-alt"></i> Bezpečný]({{ site.baseurl }}{% link _pages/proc.md %}#bezpecny)
 - [<i class="fas fa-battery-full"></i> Úsporný]({{ site.baseurl }}{% link _pages/proc.md %}#moderni)
@@ -20,7 +20,7 @@ layout: no-title
 
 Za Linuxem stojí mnoho vývojářů, firem i spokojených uživatelů. A pokud náhodou něco nepůjde tak hladce, jak by mělo, na webových stránkách a fórech jednotlivých distribucí (verzí) Linuxu najdete podrobné návody i pomoc od ostatních.
 
-{:#features}
+{:.icons-flex}
 - [<i class="fas fa-user-check"></i> Snadné ovládání]({{ site.baseurl }}{% link _pages/proc.md %}#ovladatelny)
 - [<i class="fas fa-wrench"></i> Jednoduché nastavení]({{ site.baseurl }}{% link _pages/proc.md %}#ovladatelny)
 - [<i class="fas fa-users"></i> Vždy dostupná pomoc]({{ site.baseurl }}{% link _pages/proc.md %}#podpora)
@@ -29,5 +29,5 @@ Za Linuxem stojí mnoho vývojářů, firem i spokojených uživatelů. A pokud 
 ### Jak si Linux vyzkoušet
 Pokud ještě nevíte, jestli je pro vás Linux jako operační systém vhodný, můžete si ho rovnou [nezávazně vyzkoušejte]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
 
-{:#features}
+{:.icons-flex}
 - [<i class="fas fa-download"></i> Stáhnout]({{ site.baseurl }}{% link _pages/kde-ziskat.md %})

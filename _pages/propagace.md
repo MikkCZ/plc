@@ -12,7 +12,7 @@ Pokud chcete propagovat používání Linuxu, začněte ho sami používat a pod
 
 Pokud chcete komunitu blíže poznat, přijďte třeba na konference [LinuxDays](https://www.linuxdays.cz/) nebo [OpenAlt](https://www.openalt.cz/).
 
-{:#features}
+{:.icons-flex}
 - [<i class="fab fa-facebook"></i> Linux / CZ](https://www.facebook.com/CzechLinux/)
 - [![]({{ '/img/tux-cz.png' | relative_url }}) Linux v ČR](https://www.facebook.com/CzechLinux/)
 - [<i class="fas fa-shopping-basket"></i> LinuxMarket](https://www.linuxmarket.cz/)

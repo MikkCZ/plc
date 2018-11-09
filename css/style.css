@@ -115,60 +115,64 @@ pre {
   background-color: lightgrey;
 }
 
-#intro {
+.intro {
   display: flex;
   list-style-type: none;
   margin: 2.5em 0;
 }
 
-#intro li {
+.intro li {
   flex:1;
   text-align: center;
 }
 
-#intro i {
+.intro i {
   position: relative;
   font-size: 8em;
 }
 
-#intro img {
+.intro img {
   position: absolute;
   top: 25%;
   left: 39%;
   width: 22%;
 }
 
-#features {
+.icons-flex {
   display: flex;
   list-style-type: none;
   margin: 0;
   padding: 1.5em 0;
 }
 
-#features li {
+.icons-flex li {
   flex:1;
   text-align: center;
 }
 
-#features .fas,
-#features .fab,
-#features img {
+.icons-flex .fas,
+.icons-flex .fab,
+.icons-flex img {
   display: block;
   font-size: 3em;
   margin: 0.3em auto;
 }
 
-#features img {
+.icons-flex img {
   height: 1em;
 }
 
-#features a {
+.icons-flex a {
   color: inherit;
 }
 
-#features a:hover {
+.icons-flex a:hover {
   text-decoration: none;
   font-weight: bolder;
+}
+
+.fa-download {
+  color: green;
 }
 
 .download {
