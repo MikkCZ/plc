@@ -34,7 +34,7 @@ Webový prohlížeč, mediální přehrávač, kancelářský balík, poštovní
 Pokud hledáte vhodnou náhradu aplikací zkuste se podívat do naší [tabulky ekvivalentních aplikací]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}).
 
 ## Internet samozřejmostí
-Přístup k internetu je samozřejmostí a u Linuxu je tomu nejinak. Můžete používat na Linuxu asi nejrozšířenější Firefox nebo další z [dostupných webových prohlížečů]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}#internet), které znáte z Windows a jiných systémů. Není nic jednoduššího, než si svá nastavení, hesla a záložky sesynchronizovat nebo [převést do Linuxu]({{ site.baseurl }}{% link _pages/prevod-dat.md %}).
+Přístup k internetu je samozřejmostí a u Linuxu je tomu nejinak. Můžete používat na Linuxu asi nejrozšířenější Firefox nebo další z [dostupných webových prohlížečů]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}#internet), které znáte z Windows a jiných systémů. Není nic jednoduššího, než si svá nastavení, hesla a záložky sesynchronizovat nebo [převést do Linuxu]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}).
 
 Přístup k vaší poště vám zprostředkuje [Thunderbird](https://www.mozilla.cz/produkty/thunderbird/) a se svými přáteli můžete komunikovat pomocí kecálka [Pidgin](http://www.pidgin.cz/), [Skype](https://www.skype.com/cs/get-skype/) nebo [Facebooku](https://messengerfordesktop.com/).
 

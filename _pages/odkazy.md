@@ -21,7 +21,6 @@ Přímo na tomto webu najdete časté otázky a odpovědi, obsáhlý seznam prog
 
 - [Odpovědi na časté otázky]({{ site.baseurl }}{% link _pages/odpovedi.md %})
 - [Tabulka ekvivalentních aplikací]({{ site.baseurl }}{% link _pages/ekvivalenty.md %})
-- [Převod profilů]({{ site.baseurl }}{% link _pages/prevod-dat.md %})
 
 ### Základní informace pro začínající uživatele
 Článek stručně shrnující informace o instalaci Linuxu, o běžných aplikacích, o tom jak aplikace instalovat, kde hledat pomoc s vašimi problémy a jak vybírat hardware.

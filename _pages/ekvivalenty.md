@@ -4,11 +4,12 @@ description: Proč zvolit jako svůj operační systém Linux a jak zjistit kter
 permalink: /ekvivalenty/
 redirect_from:
  - ekvivalenty.html
+ - prevod-dat.html
 layout: default
 ---
 ### Přesvědčte se, že svobodné multiplatformní softwarové nástroje vám mohou poskytnout to, co potřebujete, a zdarma!
 {:.no_toc}
-Přechod na Linux vám usnadní, pokud už na Windows používáte některé multiplatformní aplikace. To jsou aplikace, které fungují na více operačních systémech a většinou umožňují i snadný [přenos dat a nastavení]({{ site.baseurl }}{% link _pages/prevod-dat.md %}). Také si u nich po změně systému nemusíte zvykat na nové uživatelské rozhraní nebo hledat potřebné funkce.
+Přechod na Linux vám usnadní, pokud už na Windows používáte některé multiplatformní aplikace. To jsou aplikace, které fungují na více operačních systémech a většinou umožňují i snadný přenos dat a nastavení. Také si u nich po změně systému nemusíte zvykat na nové uživatelské rozhraní nebo hledat potřebné funkce.
 
 Zajímavé multiplatformní aplikace jsou v seznamu níže <span class="mp">označeny takto</span>.
 
@@ -186,3 +187,14 @@ Alternativ je ale v prostředí Linuxu velmi mnoho, takže pokud si ze seznamu n
 Kromě využití běžného vyhledávače lze použít i specializované katalogy programů pro GNU/Linux. Např. [FSF/UNESCO Free software directory](https://directory.fsf.org/), [GitHub](https://github.com/), [Freecode](http://freecode.com/), [Launchpad](https://launchpad.net/), [SourceForge](http://sourceforge.net/), [Linux App Finder](http://linuxappfinder.com/), [GTK+ Applications Repository](http://gtk-apps.org/), [Free Qt Applications](http://qt-apps.org/), [Open Source Alternatives](http://www.osalt.com/) nebo [AlternativeTo](https://alternativeto.net/), případně samozřejmě české [AbcLinuxu](https://www.abclinuxu.cz/software) nebo [Linuxsoft](http://www.linuxsoft.cz/).
 
 Než začnete vyhledávat aplikaci přímo na jejích stránkách, přesvědčte se pomocí správce softwaru nebo instalačních nástrojů (apt, yum, dnf, urpmi, yast), že již není připravena přímo ve vaší distribuci.
+
+## Převod dat některých běžných aplikací
+
+### z MS Windows do Linuxu
+
+Při přechodu na Linux můžete snadno převést data profilů některých aplikací. Převod je nejsnadnější u aplikací, které jsou tzv. multiplatformní. To znamená, že fungují na více operačních systémech. Také si u nich nemusíte zvykat na nové uživatelské rozhraní nebo hledat potřebné funkce. Které to jsou můžete zjistit v [tabulce ekvivalentních aplikací]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}).
+
+Příkladem takových multiplatformních aplikací je webový prohlížeč Mozilla Firefox nebo poštovní klient Mozilla Thunderbird. Odkazy na návody k přenosu jejich dat uvádíme níže.
+
+- [Mozilla Firefox](https://support.mozilla.org/cs/kb/jak-zazalohovat-obnovit-profil) (můžete také použít [Firefox Sync](https://www.mozilla.org/cs/firefox/sync/))
+- [Mozilla Thunderbird](https://support.mozilla.org/cs/kb/profily-thunderbirdu) (pokud používáte [IMAP](https://support.mozilla.org/cs/kb/synchronizace-pres-protokol-imap), pro přenos pošty se stačí na Linuxu přihlásit ke své schránce)
