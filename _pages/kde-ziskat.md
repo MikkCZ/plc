@@ -139,6 +139,14 @@ Gentoo je trochu specifická komunitní distribuce. Její vývojáři ji založi
 - [Stáhnout Slax](https://www.slax.org/){:.fas.fa-download}
 {:.download}
 
+## ![]({{ 'img/distribuce/tails-logo.svg' | relative_url }}) Tails
+{:#tails}
+**Tails** je live distribuce s rozhraním [GNOME][GNOME] zaměřená na bezpečnost, soukromí a anonymitu. Všechna síťová spojení procházejí přes síť Tor a jakákoliv neanonymní připojení jsou blokována. Funguje jako "kapesní" Linux z USB flash disku a do počítače neukládá žádná data. Ukládání dat lze nastavit na flash disk včetně jejich šifrování. Jako základ používá [Debian](#debian).
+
+- [Oficiální stránky](https://tails.boum.org/)
+- [Stáhnout Tails](https://tails.boum.org/install/index.en.html){:.fas.fa-download}
+{:.download}
+
 
 [GNOME]: https://www.gnome.org/
 [KDE]: https://www.kde.org/
