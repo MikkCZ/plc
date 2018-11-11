@@ -14,7 +14,8 @@ Pokud chcete komunitu blíže poznat, přijďte třeba na konference [LinuxDays]
 
 {:.icons-flex}
 - [<i class="fab fa-facebook"></i> Linux / CZ](https://www.facebook.com/CzechLinux/)
-- [![]({{ '/img/tux-cz.png' | relative_url }}) Linux v ČR](https://www.facebook.com/CzechLinux/)
+- [![ZOO Praha]({{ '/img/logo-zoo-praha-rgb-color-cz.png' | relative_url }}) Tučňáci v ZOO Praha](https://www.zoopraha.cz/zvirata-a-expozice/kam-v-zoo/pavilony/1450-pavilon-tucnaku)
+- [![]({{ '/img/tux-cz.png' | relative_url }}) Tučňáci v dalších ZOO](https://mapy.cz/zakladni?q=tučňáci%20zoo)
 - [<i class="fas fa-shopping-basket"></i> LinuxMarket](https://www.linuxmarket.cz/)
 
 ### Proč používat Linux
