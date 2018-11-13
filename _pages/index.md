@@ -10,7 +10,7 @@ layout: no-title
 - <i class="fas fa-desktop">![]({{ 'img/layout/tux.svg' | relative_url }})</i> <i class="fas fa-server"></i>
 - <i class="fas fa-laptop">![]({{ 'img/layout/tux.svg' | relative_url }})</i>
 
-**Linux** je svobodný a volně dostupný operační systém. Pro uživatele je zdarma může plně nahradit jiné placené systémy na vašem počítači. Linux je totiž:
+**Linux** je svobodný a volně dostupný operační systém. Pro uživatele je zdarma a může plně nahradit jiné placené systémy na vašem počítači. Linux je totiž:
 
 {:.icons-flex}
 - [<i class="fas fa-running"></i> Rychlý]({{ site.baseurl }}{% link _pages/proc.md %})
