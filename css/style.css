@@ -162,7 +162,8 @@ pre {
 .icons-flex img {
   display: block;
   font-size: 3em;
-  margin: 0.3em auto;
+  margin: 0 auto;
+  padding: 0.3em 0;
 }
 
 .icons-flex img {
