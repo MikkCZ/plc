@@ -162,8 +162,7 @@ pre {
 .icons-flex img {
   display: block;
   font-size: 3em;
-  margin: 0 auto;
-  padding: 0.3em 0;
+  margin: 0.3em auto;
 }
 
 .icons-flex img {
@@ -172,6 +171,7 @@ pre {
 
 .icons-flex a {
   color: inherit;
+  display: inline-block;
 }
 
 .icons-flex a:hover {
