@@ -27,7 +27,7 @@ Za Linuxem stojí mnoho vývojářů, firem i spokojených uživatelů. A pokud 
 - [<i class="fas fa-grin-alt"></i> Prostě pro vás]({{ site.baseurl }}{% link _pages/kde-ziskat.md %})
 
 ### Jak si Linux vyzkoušet
-Pokud ještě nevíte, jestli je pro vás Linux jako operační systém vhodný, můžete si ho rovnou [nezávazně vyzkoušejte]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
+Pokud ještě nevíte, jestli je pro vás Linux jako operační systém vhodný, můžete si ho rovnou [nezávazně vyzkoušet]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
 
 {:.icons-flex}
 - [<i class="fas fa-download"></i> Stáhnout]({{ site.baseurl }}{% link _pages/kde-ziskat.md %})
