@@ -7,20 +7,11 @@ redirect_from:
   - chci-vyzkouset.html
 layout: default
 ---
-### Kde Linux získat a jaký si vybrat
-Operační systém Linux lze získat v tzv. distribucích. **Distribuce** jsou předem připravené balíky kombinující linuxové jádro a grafické prostředí s nejrůznějšími aplikacemi. Obsahují nástroje pro správu počítače, přístup k internetu, práci s dokumenty nebo multimédii. Existuje i mnoho speciálních, účelových distribucí, určených pro servery, malá a vestavěná zařízení atd. Zde uvedené jsou vybrány podle toho, zda se hodí pro začínající uživatele, použití na osobním počítači nebo laptopu a mají aktivní českou komunitu.
+### Jaký Linux vybrat
+Operační systém Linux můžete získat v tzv. distribucích. **Distribuce** je předem připravený balík kombinující linuxové jádro, grafické prostředí, nástroje pro ovládání i nejrůznější uživatelské aplikace. Níže jsou distribuce vybrané podle toho, zda se hodí pro začínající uživatele, použití na osobním počítači nebo laptopu a zda mají aktivní českou komunitu.
 
 ### Jak si mohu Linux vyzkoušet
-Linux si můžete před instalací vyzkoušet i bez instalace. Většina distribucí nabízí tzv. **live (živou) variantu** pro vyzkoušení systému bez instalace. Bývá součástí instalačního média nebo dokonce první krok před začátkem instalačního procesu a celý systém spustí z USB flash disku nebo DVD. Po vyzkoušení se můžete rozhodnout, jestli ho nainstalovat, nebo počítač restartujete a vrátíte se zpět k Windows. Pokud se rozhodnete pro instalaci, nezapomeňte si předem **zazálohovat svá data a nainstalované programy**!
-
-### Jak Linux stáhnout a nainstalovat
-U každé distribuce na této stránce najdete odkaz na stránku s popisem jejího stažení a instalace. Nejlepší je sáhnout po nejnovější verzi označené nejvyšším číslem. Pokud máte počítač s procesorem Intel nebo AMD, hledejte verzi pro **x86_64** (pokud máte opravdu starý počítač, tak **x86**).
-
-Z nabízených adresářů a souborů je většinou potřeba stáhnout soubor s příponou **.iso**. **.iso** soubory jsou obrazy CD/DVD a stačí je správným způsobem vypálit, nebo zapsat na USB flash disk pomocí nástrojů k tomu určených. **Tyto soubory se nevypalují jako běžný soubor**, ale je potřeba zvolit vypalování obrazu (image). Pro zápis na USB flash disk většina distribucí nabízí vhodný nástroj a návod. Pokud si postupem nejste jisti, můžete už připravené médium zakoupit v e-shopu [LinuxMarket](https://www.linuxmarket.cz/instalacni-media).
-
-Jakmile máte CD/DVD vypáleno nebo USB flash disk správně zapsaný, vložte ho do počítače a ten restartujte. Poté při restartu vyvolejte BIOS nebo nabídku pro výběr média stiskem speciální klávesy - tato klávesa by se měla při startu krátce zobrazit na obrazovce. Jestliže máte startování z požadovaného média povoleno, spustí se po restartu Linux nahraný na vašem médiu k vyzkoušení v "živém" režimu a případně instalaci.
-
-Pokud se vám Linux zalíbí a rozhodnete se pro instalaci, nezapomeňte si předem **zazálohovat svá data a nainstalované programy**!
+Linux si můžete vyzkoušet i bez instalace. Většina distribucí nabízí tzv. *živou (live) variantu*, která bývá i prvním krokem před instalací. Celý systém se spustí z USB flash disku nebo DVD a po vyzkoušení se rozhodnete, jestli ho chcete nainstalovat, nebo chcete dál používat Windows. Pokud se po vyzkoušení rozhodnete pro instalaci, nezapomeňte na zálohu svých dat.
 
 ## ![]({{ 'img/distribuce/ubuntu-logo.svg' | relative_url }}) Ubuntu
 {:#ubuntu}
