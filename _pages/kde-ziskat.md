@@ -54,7 +54,7 @@ Standardní Fedora používá grafické prostředí [GNOME][GNOME]. Existují ta
 - [Stáhnout Fedoru](https://mojefedora.cz/jak-stahnout/){:.fas.fa-download}
 {:.download}
 
-## ![]({{ 'img/distribuce/opensuse-logo.png' | relative_url }}) OpenSUSE
+## ![]({{ 'img/distribuce/opensuse-logo.png' | relative_url }}) openSUSE
 {:#suse}
 [![]({{ 'img/screenshots/opensuse_t.png' | relative_url }}){:.t_sc}]({{ 'img/screenshots/opensuse.png' | relative_url }})
 Na vývoji **openSUSE** se podílí firma Novell v rámci jejích linuxových aktivit. Kromě openSUSE je dostupná také komerční varianta SUSE Linux Enterprise. Distribuce openSUSE má některé specifické nástroje, které se snaží distribuci co nejvíce zpřístupnit běžným uživatelům osobních počítačů. Vzhledem k jejímu komerčnímu charakteru je k dispozici i instalační podpora.
