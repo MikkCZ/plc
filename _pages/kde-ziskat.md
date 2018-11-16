@@ -51,7 +51,6 @@ Distribuce **openSUSE** má některé specifické nástroje, které se snaží d
 openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervativnější Leap nabízí pravidelně vydávané "velké" verze, kdežto varianta Tumbleweed je aktualizována průběžně.
 
 - [Oficiální stránky](https://www.opensuse.org/)
-- [Fórum podpory](https://forums.opensuse.org/)
 - [Stáhnout openSUSE](https://www.opensuse.org/){:.fas.fa-download}
 {:.download}
 
@@ -95,7 +94,6 @@ Debian **vyvíjejí dobrovolníci** a tedy vždy a za všech okolností zůstane
 **Manjaro** je mladá distribuce založená na [Arch Linuxu](#arch-linux). Jejím cílem je uživatelská přívětivost a bezproblémové fungování ihned po instalaci.
 
 - [Oficiální stránky](https://manjaro.org/)
-- [Fórum podpory](https://forum.manjaro.org/)
 - [Stáhnout Manjaro](https://manjaro.org/get-manjaro/){:.fas.fa-download}
 {:.download}
 
@@ -105,7 +103,7 @@ Debian **vyvíjejí dobrovolníci** a tedy vždy a za všech okolností zůstane
 
 - [Česká komunita Arch Linuxu](https://arch-linux.cz/)
 - [Oficiální stránky](https://www.archlinux.org/)
-- [Fórum podpory](https://bbs.archlinux.org/)
+- [Fórum podpory](https://forum.arch-linux.cz/)
 - [Stáhnout Arch Linux](https://www.archlinux.org/download/){:.fas.fa-download}
 {:.download}
 
@@ -114,7 +112,6 @@ Debian **vyvíjejí dobrovolníci** a tedy vždy a za všech okolností zůstane
 **Gentoo** je distribuce pro pokročilé uživatele. Umožňuje sestavovat si všechen software ze zdrojových kódů a zcela na míru konkrétního počítače. Gentoo poskytuje pokročilejším uživatelům možnost dalšího rozvoje jejich znalostí o Linuxu.
 
 - [Oficiální stránky](https://www.gentoo.org/)
-- [Podpora](https://www.gentoo.org/support/)
 - [Stáhnout Gentoo](https://www.gentoo.org/downloads/){:.fas.fa-download}
 {:.download}
 
