@@ -29,7 +29,7 @@ Placené distribuce Linuxu obsahují nějakou přidanou hodnotu. U Linuxu je zvy
 Ano, Linux můžete používat ve firmě. Pro firemní server je dobré zakoupit nějakou placenou komerční distribuci se zárukou aktualizací a podporou pro případ problémů, a na počítače zaměstnanců nainstalovat [uživatelsky přívětivou distribuci]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
 
 ### Na kolika počítačích mohu Linux používat?
-Většinu distribucí můžete pouzívat na libovolném množství počítačů. Dokonce mohou být spustěny zároveň. U placených distribucí je potřeba si předem přečíst licenční smlouvu a zeptat se prodejce.
+Většinu distribucí můžete používat na libovolném množství počítačů. Dokonce mohou být spustěny zároveň. U placených distribucí je potřeba si předem přečíst licenční smlouvu a zeptat se prodejce.
 
 ### Jak přejdu na Linux?
 Při přechodu na Linux není třeba za sebou pálit mosty. Zkuste si Linux nainstalovat na volný disk, nebo prostě pro jistotu zkuste jen ["živou" verzi spustitelnou z CD nebo flash disku]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}). Můžete Linux také vyzkoušet ve virtuálním počítači, například pomocí programu [VirtualBox](https://www.virtualbox.org/).
