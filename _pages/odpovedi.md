@@ -16,7 +16,7 @@ Na této stránce shromažďujeme odpovědi na otázky, které se často vyskytu
 Základy Linuxu jsou zcela jiné, než na jakých stojí MS Windows. Linux se vyvinul jako systém [unixového](https://cs.wikipedia.org/wiki/Unix) typu a proto je jeho ovládání a chování v některých směrech odlišné. Podstatou je ale možnost jeho přizpůsobení, a to jak vzhledem, tak chováním. Pokud se vám vaše linuxová distribuce nelíbí, požádejte o pomoc s nastavením na jejím fóru podpory nebo se [podívejte po jiné]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
 
 ### Co je to distribuce?
-Linuxová distribuce je soubor programů vybraných tak, aby spolu tvořily funkční celek. Tedy samotné linuxové jádro a k němu přidané grafické prostředí a nejrůznější aplikace nástroje pro správu počítače, přístup k internetu, práci s dokumenty, hudbou a tak dále. Většinou distribuce obsahují stovky až tisíce programů a bývá dobrým zvykem, že si jako uživatel může vybrat z několika různých programů, které mohou zastat stejnou práci.
+Linuxová distribuce je soubor programů vybraných tak, aby spolu tvořily funkční celek. Tedy samotné linuxové jádro a k němu přidané grafické prostředí a nejrůznější aplikace a nástroje pro správu počítače, přístup k internetu, práci s dokumenty, hudbou a tak dále. Většinou distribuce obsahují stovky až tisíce programů a bývá dobrým zvykem, že si jako uživatel může vybrat z několika různých programů, které mohou zastat stejnou práci.
 
 Existuje i mnoho speciálních, účelových distribucí, určených pro servery, malá a vestavěná zařízení atd.
 

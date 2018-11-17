@@ -35,7 +35,7 @@ Vývoj Ubuntu zajišťuje komerční společnost **Canonical**. V rámci této a
 
 Standardní Fedora používá grafické prostředí [GNOME][GNOME]. Existují také varianty (spiny) s jinými prostředími včetně [KDE][KDE] nebo [Cinnamonu][Cinnamon]. Jejich seznam najdete na [této stránce](https://spins.fedoraproject.org/).
 
-Vývoj Fedory podporuje firma **Red Hat**, která se zabývá i vývojem, prodejem a podporou komerční distribuce Red Hat Enterprise Linux určené pro podniky, který na základě Fedory staví.
+Vývoj Fedory podporuje firma **Red Hat**, která se zabývá i vývojem, prodejem a podporou komerční distribuce Red Hat Enterprise Linux určené pro podniky, která na základě Fedory staví.
 
 - [Česká komunita Fedory](https://mojefedora.cz/)
 - [Fórum podpory](https://forum.mojefedora.cz/)
