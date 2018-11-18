@@ -18,6 +18,7 @@ exclude:
   - vendor
   - CNAME
   - README.md
+  - release.sh
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from

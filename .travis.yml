@@ -9,6 +9,11 @@ script:
  - bundle exec htmlproofer ./_site --disable-external --empty-alt-ignore
 # - linkchecker --ignore-url=^mailto https://proc.linux.cz/
 
+before_deploy:
+ - bundle exec jekyll build --destination _site/production
+ - LAST_GIT_TAG="$(git describe --abbrev=0 --tags)"
+ - tar -cvzf "$LAST_GIT_TAG.tar.gz" -C _site/production/ .
+
 deploy:
 - provider: pages
   skip-cleanup: true
@@ -16,6 +21,13 @@ deploy:
   github-token: $GITHUB_TOKEN
   on:
     branch: master
+- provider: releases
+  skip_cleanup: true
+  file: "$LAST_GIT_TAG.tar.gz"
+  api_key: $GITHUB_TOKEN
+  on:
+    branch: master
+    tags: true
 
 env:
   global:
