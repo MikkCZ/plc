@@ -1,5 +1,5 @@
 ---
-title: Jak Linux získat a vyzkoušet
+title: Stáhnout a vyzkoušet
 description: Proč zvolit jako svůj operační systém Linux, jaký si vybrat a jak se instaluje.
 permalink: /kde-ziskat/
 redirect_from:
@@ -7,16 +7,21 @@ redirect_from:
   - chci-vyzkouset.html
 layout: default
 ---
+* TOC
+{:toc .icons-flex}
+
 ### Jaký Linux vybrat
+{:.no_toc}
 Operační systém Linux můžete získat v tzv. distribucích. **Distribuce** je předem připravený balík kombinující linuxové jádro, grafické prostředí, nástroje pro ovládání i nejrůznější uživatelské aplikace. Níže jsou distribuce vybrané podle toho, zda se hodí pro začínající uživatele, použití na osobním počítači a laptopu a zda mají aktivní českou komunitu.
 
 ### Jak si mohu Linux vyzkoušet
+{:.no_toc}
 Linux si můžete vyzkoušet i bez instalace. Většina distribucí nabízí tzv. *živou (live) variantu*, která bývá i prvním krokem před instalací. Celý systém se spustí z USB flash disku nebo DVD a po vyzkoušení se rozhodnete, jestli ho chcete nainstalovat, nebo chcete dál používat Windows. Pokud se po vyzkoušení rozhodnete pro instalaci, nezapomeňte na zálohu svých dat.
 
 ## ![]({{ 'img/distribuce/ubuntu-logo.svg' | relative_url }}) Ubuntu
 {:#ubuntu}
 [![]({{ 'img/screenshots/ubuntu_t.png' | relative_url }}){:.distro-screenshot}]({{ 'img/screenshots/ubuntu.png' | relative_url }})
-**Ubuntu** je postaveno na spolehlivém základě po mnoho let vyvíjené distribuce [Debian](#debian). Cílem Ubuntu je přiblížit Linux uživatelům pro běžné použití na osobních počítačích. Ubuntu vychází ve dvou verzích - stabilnější LTS s delším obdobím podpory, a běžné verze s rychlejším přidáváním nových funkcí. Novým uživatelům doporučujeme verzi LTS.
+**Ubuntu** je postaveno na spolehlivém základě po mnoho let vyvíjené distribuce [Debian](#debian). Cílem Ubuntu je přiblížit Linux uživatelům **pro běžné použití** na osobních počítačích. Ubuntu vychází ve dvou verzích - stabilnější LTS s delším obdobím podpory, a běžné verze s rychlejším přidáváním nových funkcí. Novým uživatelům doporučujeme verzi LTS.
 
 Výchozí grafické prostředí [GNOME][GNOME] doplňují další varianty (flavours/příchutě) např. s prostředím [KDE][KDE], které udržuje komunita. Jejich seznam najdete na [této stránce](https://www.ubuntu.com/download/flavours).
 
@@ -31,7 +36,7 @@ Vývoj Ubuntu zajišťuje komerční společnost **Canonical**. V rámci této a
 ## ![]({{ 'img/distribuce/fedora-logo.svg' | relative_url }}) Fedora
 {:#fedora}
 [![]({{ 'img/screenshots/fedora_t.png' | relative_url }}){:.distro-screenshot}]({{ 'img/screenshots/fedora.png' | relative_url }})
-**Fedora** je progresivní distribuce, která vznikla jako nekomerční odnož Red Hat Linuxu. Fedora je známa svou pokrokovostí a zpravidla přináší v každé verzi několik zásadních novinek. Je znatelně zaměřená na použití na osobních počítačích a laptopech.
+**Fedora** je progresivní distribuce, která vznikla jako nekomerční odnož Red Hat Linuxu. Fedora je známa svou pokrokovostí a zpravidla přináší v každé verzi několik zásadních novinek. Je znatelně zaměřená na **používání běžnými uživateli** na osobních počítačích a laptopech.
 
 Standardní Fedora používá grafické prostředí [GNOME][GNOME]. Existují také varianty (spiny) s jinými prostředími včetně [KDE][KDE] nebo [Cinnamonu][Cinnamon]. Jejich seznam najdete na [této stránce](https://spins.fedoraproject.org/).
 
@@ -43,10 +48,10 @@ Vývoj Fedory podporuje firma **Red Hat**, která se zabývá i vývojem, prodej
 - [Stáhnout Fedoru](https://mojefedora.cz/jak-stahnout/){:.fas.fa-download}
 {:.download}
 
-## ![]({{ 'img/distribuce/opensuse-logo.png' | relative_url }}) openSUSE
+## ![]({{ 'img/distribuce/opensuse-logo.svg' | relative_url }}) openSUSE
 {:#suse}
 [![]({{ 'img/screenshots/opensuse_t.png' | relative_url }}){:.distro-screenshot}]({{ 'img/screenshots/opensuse.png' | relative_url }})
-Distribuce **openSUSE** má některé specifické nástroje, které se snaží distribuci co nejvíce zpřístupnit běžným uživatelům osobních počítačů. Kromě openSUSE je dostupná také komerční varianta SUSE Linux Enterprise.
+Distribuce **openSUSE** má některé specifické nástroje, které se snaží distribuci co nejvíce zpřístupnit **běžným uživatelům osobních počítačů**. Kromě openSUSE je dostupná také komerční varianta SUSE Linux Enterprise.
 
 openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervativnější Leap nabízí pravidelně vydávané "velké" verze, kdežto varianta Tumbleweed je aktualizována průběžně.
 
@@ -79,7 +84,7 @@ Mint používá prostředí [Cinnamon][Cinnamon], jsou však k dispozici i varia
 
 ## ![]({{ 'img/distribuce/debian-logo.svg' | relative_url }}) Debian
 {:#debian}
-**Debian** je jedna z velmi dlouho vyvíjených distribucí, zcela vycházející z myšlenky <abbr title="GNU is Not Unix">GNU</abbr> a open source. Debian je rozsáhlý a komplexní celek s univerzálním použitím, ale bez dalších znalostí není úplně vhodný pro začátečníky. Má tři větve - otestovanou *stable (stabilní)*, *testing (testovací)* a zcela neodzkoušenou *unstable (nestabilní)*.
+**Debian** je jedna z velmi dlouho vyvíjených distribucí, zcela vycházející z myšlenky <abbr title="GNU is Not Unix">GNU</abbr> a open source. Debian je rozsáhlý a komplexní celek s univerzálním použitím, ale **není úplně vhodný pro začátečníky**. Má tři větve - otestovanou *stable (stabilní)*, *testing (testovací)* a zcela neodzkoušenou *unstable (nestabilní)*.
 
 Debian **vyvíjejí dobrovolníci** a tedy vždy a za všech okolností zůstane svobodným softwarem.
 
@@ -91,7 +96,7 @@ Debian **vyvíjejí dobrovolníci** a tedy vždy a za všech okolností zůstane
 
 ## ![]({{ 'img/distribuce/manjaro-logo.svg' | relative_url }}) Manjaro
 {:#manjaro}
-**Manjaro** je mladá distribuce založená na [Arch Linuxu](#arch-linux). Jejím cílem je uživatelská přívětivost a bezproblémové fungování ihned po instalaci.
+**Manjaro** je mladá distribuce založená na [Arch Linuxu](#arch-linux). Jejím cílem je **uživatelská přívětivost** a bezproblémové fungování ihned po instalaci.
 
 - [Oficiální stránky](https://manjaro.org/)
 - [Stáhnout Manjaro](https://manjaro.org/get-manjaro/){:.fas.fa-download}
@@ -109,7 +114,7 @@ Debian **vyvíjejí dobrovolníci** a tedy vždy a za všech okolností zůstane
 
 ## ![]({{ 'img/distribuce/gentoo-logo.svg' | relative_url }}) Gentoo
 {:#gentoo}
-**Gentoo** je distribuce pro pokročilé uživatele. Umožňuje sestavovat si všechen software ze zdrojových kódů a zcela na míru konkrétního počítače. Gentoo poskytuje pokročilejším uživatelům možnost dalšího rozvoje jejich znalostí o Linuxu.
+**Gentoo** je distribuce pro **pokročilé uživatele**. Umožňuje sestavovat si všechen software ze zdrojových kódů a zcela na míru konkrétního počítače. Gentoo poskytuje pokročilejším uživatelům možnost dalšího rozvoje jejich znalostí o Linuxu.
 
 - [Oficiální stránky](https://www.gentoo.org/)
 - [Stáhnout Gentoo](https://www.gentoo.org/downloads/){:.fas.fa-download}
@@ -117,7 +122,7 @@ Debian **vyvíjejí dobrovolníci** a tedy vždy a za všech okolností zůstane
 
 ## ![]({{ 'img/distribuce/slax-logo.svg' | relative_url }}) Slax
 {:#slax}
-**Slax** je malou a primárně Live CD distribucí. Funguje jako "kapesní" Linux, který není potřeba instalovat a do počítače neukládá žádná data. Je vhodný pro používání z USB flash disku, kam lze ukládání dat nastavit.
+**Slax** je malou a primárně Live CD distribucí. Funguje jako **"kapesní" Linux**, který není potřeba instalovat a do počítače neukládá žádná data. Je vhodný pro používání z USB flash disku, kam lze ukládání dat nastavit.
 
 Autorem Slaxu je Čech **Tomáš Matějíček** a jako základ používá [Debian](#debian).
 
@@ -127,7 +132,7 @@ Autorem Slaxu je Čech **Tomáš Matějíček** a jako základ používá [Debia
 
 ## ![]({{ 'img/distribuce/tails-logo.svg' | relative_url }}) Tails
 {:#tails}
-**Tails** je live distribuce s rozhraním [GNOME][GNOME] zaměřená na bezpečnost, soukromí a anonymitu. Všechna síťová spojení procházejí přes síť Tor a jakákoliv neanonymní připojení jsou blokována. Funguje jako "kapesní" Linux z USB flash disku a do počítače neukládá žádná data. Ukládání dat lze nastavit na flash disk včetně jejich šifrování. Jako základ používá [Debian](#debian).
+**Tails** je live distribuce s rozhraním [GNOME][GNOME] zaměřená na **bezpečnost, soukromí a anonymitu**. Všechna síťová spojení procházejí přes síť Tor a jakákoliv neanonymní připojení jsou blokována. Funguje jako "kapesní" Linux z USB flash disku a do počítače neukládá žádná data. Ukládání dat lze nastavit na flash disk včetně jejich šifrování. Jako základ používá [Debian](#debian).
 
 - [Oficiální stránky](https://tails.boum.org/)
 - [Stáhnout Tails](https://tails.boum.org/install/index.en.html){:.fas.fa-download}
