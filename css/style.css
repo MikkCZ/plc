@@ -171,6 +171,7 @@ pre {
 
 .icons-flex a {
   color: inherit;
+  display: inline-block;
 }
 
 .icons-flex a:hover {
