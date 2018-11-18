@@ -36,3 +36,11 @@ Pro sestavení webu slouží tento příkaz.
 $ bundle exec jekyll build
 ```
 Statická verze stránek je vygenerovaná do adresáře `_site`. Pro nasazení stačí jeho obsah nahrát na server třeba přes FTP.
+
+## Označení verze k vydání
+Pro označení libovolné verze k vydání ji stačí označit tagem. Ve větvi `master` k tomu lze použít skript `release.sh`, který označí poslední commit tagem podle jeho data a času.
+```
+$ ./release.sh
+$ git push --tags origin master
+```
+Z každého commitu s tagem je pomocí Travis CI sestavena statická verze a nahrána do [seznamu vydaných verzí](https://github.com/MikkCZ/proc-linux-cz/releases).
