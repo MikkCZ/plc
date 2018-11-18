@@ -5,8 +5,8 @@ cache:
     - $HOME/.bundle
 
 script:
- - bundle exec jekyll build --baseurl /proc-linux-cz --destination _site/proc-linux-cz
- - bundle exec htmlproofer ./_site --disable-external --empty-alt-ignore
+ - bundle exec jekyll build --baseurl /proc-linux-cz --destination _site/gh-pages/proc-linux-cz
+ - bundle exec htmlproofer _site/gh-pages --disable-external --empty-alt-ignore
 # - linkchecker --ignore-url=^mailto https://proc.linux.cz/
 
 before_deploy:
@@ -17,7 +17,7 @@ before_deploy:
 deploy:
 - provider: pages
   skip-cleanup: true
-  local-dir: _site/proc-linux-cz
+  local-dir: _site/gh-pages/proc-linux-cz
   github-token: $GITHUB_TOKEN
   on:
     branch: master
