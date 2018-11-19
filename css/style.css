@@ -183,17 +183,17 @@ pre {
   color: green;
 }
 
-.download {
+.distro-links {
   text-align: right;
   list-style-type: none;
   clear: both;
 }
 
-.download li {
+.distro-links li {
   display: inline;
 }
 
-.download li:not(:last-child)::after {
+.distro-links li:not(:last-child)::after {
   display: inline;
   content: '|';
   padding-left: 0.25em;

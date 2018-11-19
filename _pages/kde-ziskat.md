@@ -30,8 +30,8 @@ Vývoj Ubuntu zajišťuje komerční společnost **Canonical**. V rámci této a
 - [Česká komunita Ubuntu](https://www.ubuntu.cz/)
 - [Fórum podpory](http://forum.ubuntu.cz/)
 - [Oficiální stránky](https://www.ubuntu.com/)
-- [Stáhnout Ubuntu](https://www.ubuntu.cz/ziskejte/stahnout){:.fas.fa-download}
-{:.download}
+- [<i></i>{:.fas.fa-download} Stáhnout Ubuntu](https://www.ubuntu.cz/ziskejte/stahnout)
+{:.distro-links}
 
 ## ![]({{ 'img/distribuce/fedora-logo.svg' | relative_url }}) Fedora
 {:#fedora}
@@ -45,8 +45,8 @@ Vývoj Fedory podporuje firma **Red Hat**, která se zabývá i vývojem, prodej
 - [Česká komunita Fedory](https://mojefedora.cz/)
 - [Fórum podpory](https://forum.mojefedora.cz/)
 - [Oficiální stránky](https://getfedora.org/)
-- [Stáhnout Fedoru](https://mojefedora.cz/jak-stahnout/){:.fas.fa-download}
-{:.download}
+- [<i></i>{:.fas.fa-download} Stáhnout Fedoru](https://mojefedora.cz/jak-stahnout/)
+{:.distro-links}
 
 ## ![]({{ 'img/distribuce/opensuse-logo.svg' | relative_url }}) openSUSE
 {:#suse}
@@ -56,8 +56,8 @@ Distribuce **openSUSE** má některé specifické nástroje, které se snaží d
 openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervativnější Leap nabízí pravidelně vydávané "velké" verze, kdežto varianta Tumbleweed je aktualizována průběžně.
 
 - [Oficiální stránky](https://www.opensuse.org/)
-- [Stáhnout openSUSE](https://www.opensuse.org/){:.fas.fa-download}
-{:.download}
+- [<i></i>{:.fas.fa-download} Stáhnout openSUSE](https://www.opensuse.org/)
+{:.distro-links}
 
 ## ![]({{ 'img/distribuce/linux-mint-logo.svg' | relative_url }}) Linux Mint
 {:#linux-mint}
@@ -69,8 +69,8 @@ Mint používá prostředí [Cinnamon][Cinnamon], jsou však k dispozici i varia
 - [Česká komunita Linux Mintu](https://www.linux-mint-czech.cz/)
 - [Fórum podpory](https://forum.linux-mint-czech.cz/)
 - [Oficiální stránky](https://www.linuxmint.com/)
-- [Stáhnout Linux Mint](https://www.linux-mint-czech.cz/ke-stazeni/){:.fas.fa-download}
-{:.download}
+- [<i></i>{:.fas.fa-download} Stáhnout Linux Mint](https://www.linux-mint-czech.cz/ke-stazeni/)
+{:.distro-links}
 
 ## ![]({{ 'img/distribuce/mageia-logo.svg' | relative_url }}) Mageia
 {:#mageia}
@@ -79,8 +79,8 @@ Mint používá prostředí [Cinnamon][Cinnamon], jsou však k dispozici i varia
 - [Česká komunita Mageia Linuxu](https://mageia.cz/)
 - [Fórum podpory](https://forum.mageia.cz/)
 - [Oficiální stránky](https://www.mageia.org/)
-- [Stáhnout Mageiu](https://mageia.cz/stahnout-mageia/){:.fas.fa-download}
-{:.download}
+- [<i></i>{:.fas.fa-download} Stáhnout Mageiu](https://mageia.cz/stahnout-mageia/)
+{:.distro-links}
 
 ## ![]({{ 'img/distribuce/debian-logo.svg' | relative_url }}) Debian
 {:#debian}
@@ -91,16 +91,16 @@ Debian **vyvíjejí dobrovolníci** a tedy vždy a za všech okolností zůstane
 - [Česká komunita Debianu](https://www.debian.cz/)
 - [Oficiální stránky](https://www.debian.org/)
 - [Podpora](https://www.debian.org/support)
-- [Stáhnout Debian](https://www.debian.org/distrib/){:.fas.fa-download}
-{:.download}
+- [<i></i>{:.fas.fa-download} Stáhnout Debian](https://www.debian.org/distrib/)
+{:.distro-links}
 
 ## ![]({{ 'img/distribuce/manjaro-logo.svg' | relative_url }}) Manjaro
 {:#manjaro}
 **Manjaro** je mladá distribuce založená na [Arch Linuxu](#arch-linux). Jejím cílem je **uživatelská přívětivost** a bezproblémové fungování ihned po instalaci.
 
 - [Oficiální stránky](https://manjaro.org/)
-- [Stáhnout Manjaro](https://manjaro.org/get-manjaro/){:.fas.fa-download}
-{:.download}
+- [<i></i>{:.fas.fa-download} Stáhnout Manjaro](https://manjaro.org/get-manjaro/)
+{:.distro-links}
 
 ## ![]({{ 'img/distribuce/arch-logo.svg' | relative_url }}) Arch Linux
 {:#arch-linux}
@@ -109,16 +109,16 @@ Debian **vyvíjejí dobrovolníci** a tedy vždy a za všech okolností zůstane
 - [Česká komunita Arch Linuxu](https://arch-linux.cz/)
 - [Oficiální stránky](https://www.archlinux.org/)
 - [Fórum podpory](https://forum.arch-linux.cz/)
-- [Stáhnout Arch Linux](https://www.archlinux.org/download/){:.fas.fa-download}
-{:.download}
+- [<i></i>{:.fas.fa-download} Stáhnout Arch Linux](https://www.archlinux.org/download/)
+{:.distro-links}
 
 ## ![]({{ 'img/distribuce/gentoo-logo.svg' | relative_url }}) Gentoo
 {:#gentoo}
 **Gentoo** je distribuce pro **pokročilé uživatele**. Umožňuje sestavovat si všechen software ze zdrojových kódů a zcela na míru konkrétního počítače. Gentoo poskytuje pokročilejším uživatelům možnost dalšího rozvoje jejich znalostí o Linuxu.
 
 - [Oficiální stránky](https://www.gentoo.org/)
-- [Stáhnout Gentoo](https://www.gentoo.org/downloads/){:.fas.fa-download}
-{:.download}
+- [<i></i>{:.fas.fa-download} Stáhnout Gentoo](https://www.gentoo.org/downloads/)
+{:.distro-links}
 
 ## ![]({{ 'img/distribuce/slax-logo.svg' | relative_url }}) Slax
 {:#slax}
@@ -127,16 +127,16 @@ Debian **vyvíjejí dobrovolníci** a tedy vždy a za všech okolností zůstane
 Autorem Slaxu je Čech **Tomáš Matějíček** a jako základ používá [Debian](#debian).
 
 - [Oficiální stránky](https://www.slax.org/)
-- [Stáhnout Slax](https://www.slax.org/){:.fas.fa-download}
-{:.download}
+- [<i></i>{:.fas.fa-download} Stáhnout Slax](https://www.slax.org/)
+{:.distro-links}
 
 ## ![]({{ 'img/distribuce/tails-logo.svg' | relative_url }}) Tails
 {:#tails}
 **Tails** je live distribuce s rozhraním [GNOME][GNOME] zaměřená na **bezpečnost, soukromí a anonymitu**. Všechna síťová spojení procházejí přes síť Tor a jakákoliv neanonymní připojení jsou blokována. Funguje jako "kapesní" Linux z USB flash disku a do počítače neukládá žádná data. Ukládání dat lze nastavit na flash disk včetně jejich šifrování. Jako základ používá [Debian](#debian).
 
 - [Oficiální stránky](https://tails.boum.org/)
-- [Stáhnout Tails](https://tails.boum.org/install/index.en.html){:.fas.fa-download}
-{:.download}
+- [<i></i>{:.fas.fa-download} Stáhnout Tails](https://tails.boum.org/install/index.en.html)
+{:.distro-links}
 
 
 [GNOME]: https://www.gnome.org/
