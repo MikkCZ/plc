@@ -147,6 +147,7 @@ pre {
 
 .icons-flex {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
   padding: 1.5em 0;
