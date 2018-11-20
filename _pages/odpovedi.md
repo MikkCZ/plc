@@ -12,6 +12,11 @@ Na této stránce shromažďujeme odpovědi na otázky, které se často vyskytu
 * TOC
 {:toc}
 
+### Co je to Linux a co GNU/Linux?
+- *[Linux&reg;](https://www.linuxmark.org/)* je ochranná známka, kterou vlastní Linus Torvalds, který zahájil jeho vývoj.
+- *[GNU](https://cs.wikipedia.org/wiki/GNU)* je rekurzivní zkratka (GNU is Not Unix) a název projektu podporujícího vývoj svobodného softwaru.
+- *[GNU/Linux](https://cs.wikipedia.org/wiki/Linux)* je správné označení pro svobodný operační systém založený na linuxovém jádru a tvořený svobodnými programy s otevřeným zdrojovým kódem. Běžně se ale setkáte s jeho označením jenom jako *Linux*.
+
 ### Kde se Linux nejvíce odlišuje?
 Základy Linuxu jsou zcela jiné, než na jakých stojí MS Windows. Linux se vyvinul jako systém [unixového](https://cs.wikipedia.org/wiki/Unix) typu a proto je jeho ovládání a chování v některých směrech odlišné. Podstatou je ale možnost jeho přizpůsobení, a to jak vzhledem, tak chováním. Pokud se vám vaše linuxová distribuce nelíbí, požádejte o pomoc s nastavením na jejím fóru podpory nebo se [podívejte po jiné]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
 
