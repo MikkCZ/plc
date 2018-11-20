@@ -24,7 +24,7 @@ a:hover {
 
 a[href^="http://"]:not([href*="proc.linux.cz"]):after,
 a[href^="https://"]:not([href*="proc.linux.cz"]):after {
-  content: "\2B67";
+  content: "\21D7";
   vertical-align: super;
   font-size: 0.8em;
 }
