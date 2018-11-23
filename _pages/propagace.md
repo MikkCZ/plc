@@ -23,7 +23,7 @@ Pokud chcete komunitu blíže poznat, přijďte třeba na konference [LinuxDays]
 #### [![Proč používat Linux]({{ '/img/pcl-88x15-box.png' | relative_url }})]({{ '/img/pcl-88x15-box.png' | relative_url }})
 `<a href="{{ page.weburl }}"><img alt="Proč používat Linux" title="Proč používat Linux" src="{{ page.weburl }}{{ '/img/pcl-88x15-box.png' | relative_url }}"></a>`
 
-#### [![Proč používat Linux]({{ '/img/plc-88x31-box.png' | relative_url }})]({{ '/img/pcl-88x15-box.png' | relative_url }})
+#### [![Proč používat Linux]({{ '/img/plc-88x31-box.png' | relative_url }})]({{ '/img/plc-88x31-box.png' | relative_url }})
 `<a href="{{ page.weburl }}"><img alt="Proč používat Linux" title="Proč používat Linux" src="{{ page.weburl }}{{ '/img/plc-88x31-box.png' | relative_url }}"></a>`
 
 ### Plakát Linux - profesionální operační systém
