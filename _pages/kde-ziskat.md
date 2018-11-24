@@ -18,6 +18,16 @@ Operační systém Linux můžete získat v tzv. distribucích. **Distribuce** j
 {:.no_toc}
 Linux si můžete vyzkoušet i bez instalace. Většina distribucí nabízí tzv. *živou (live) variantu*, která bývá i prvním krokem před instalací. Celý systém se spustí z USB flash disku nebo DVD a po vyzkoušení se rozhodnete, jestli ho chcete nainstalovat, nebo chcete dál používat Windows. Pokud se po vyzkoušení rozhodnete pro instalaci, nezapomeňte na zálohu svých dat.
 
+<!-- Jak psát informace o distribucích
+Nadpis: SVG logo + název distribuce
+Snímek (*): v malé verzi na stránce a ve větším rozlišení po kliknutí
+První odstavec: stručně max. na 4 řádky něco o distribuci, vytučněná jedna nebo dvě přednosti pro začátečníky
+Druhý odstavec (*): různé verze, např. grafická prostředí nebo delší podpora
+Třetí odstavec: kdo je autorem a vývojářem distribuce
+Seznam odkazů: web české komunity, české fórum, oficiální stránky, stránka ke stažení (nejlépe v češtině)
+(*) - pro prvních pár nejaktivnější distribucí
+-->
+
 ## ![]({{ 'img/distribuce/ubuntu-logo.svg' | relative_url }}) Ubuntu
 {:#ubuntu}
 [![]({{ 'img/screenshots/ubuntu_t.png' | relative_url }}){:.distro-screenshot}]({{ 'img/screenshots/ubuntu.png' | relative_url }})
