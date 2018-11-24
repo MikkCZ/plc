@@ -96,28 +96,11 @@ Debian **vyvíjejí dobrovolníci** a tedy vždy a za všech okolností zůstane
 
 ## ![]({{ 'img/distribuce/manjaro-logo.svg' | relative_url }}) Manjaro
 {:#manjaro}
-**Manjaro** je mladá distribuce založená na [Arch Linuxu](#arch-linux). Jejím cílem je **uživatelská přívětivost** a bezproblémové fungování ihned po instalaci.
-
-- [Oficiální stránky](https://manjaro.org/)
-- [<i></i>{:.fas.fa-download} Stáhnout Manjaro](https://manjaro.org/get-manjaro/)
-{:.distro-links}
-
-## ![]({{ 'img/distribuce/arch-logo.svg' | relative_url }}) Arch Linux
-{:#arch-linux}
-**Arch Linux** je distribuce dodržující pravidlo <abbr title="Keep it simple, stupid">KISS</abbr>. Je obzvlášť známá pro svou vyčerpávající dokumentaci [ArchWiki](https://wiki.archlinux.org/), která je mnohdy použitelná i pro ostatní linuxové distribuce.
+**Manjaro** je distribuce založená na Arch Linuxu, který je známý pro svou vyčerpávající dokumentaci [ArchWiki](https://wiki.archlinux.org/) mnohdy použitelnou i pro ostatní linuxové distribuce. Oproti Archu je ale cílem Manjara hlavně **uživatelská přívětivost** a bezproblémové fungování ihned po instalaci.
 
 - [Česká komunita Arch Linuxu](https://arch-linux.cz/)
-- [Oficiální stránky](https://www.archlinux.org/)
-- [Fórum podpory](https://forum.arch-linux.cz/)
-- [<i></i>{:.fas.fa-download} Stáhnout Arch Linux](https://www.archlinux.org/download/)
-{:.distro-links}
-
-## ![]({{ 'img/distribuce/gentoo-logo.svg' | relative_url }}) Gentoo
-{:#gentoo}
-**Gentoo** je distribuce pro **pokročilé uživatele**. Umožňuje sestavovat si všechen software ze zdrojových kódů a zcela na míru konkrétního počítače. Gentoo poskytuje pokročilejším uživatelům možnost dalšího rozvoje jejich znalostí o Linuxu.
-
-- [Oficiální stránky](https://www.gentoo.org/)
-- [<i></i>{:.fas.fa-download} Stáhnout Gentoo](https://www.gentoo.org/downloads/)
+- [Oficiální stránky Manjara](https://manjaro.org/)
+- [<i></i>{:.fas.fa-download} Stáhnout Manjaro](https://manjaro.org/get-manjaro/)
 {:.distro-links}
 
 ## ![]({{ 'img/distribuce/slax-logo.svg' | relative_url }}) Slax
