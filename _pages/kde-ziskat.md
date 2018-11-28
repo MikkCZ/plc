@@ -25,7 +25,7 @@ První odstavec: stručně max. na 4 řádky něco o distribuci, vytučněná je
 Druhý odstavec (*): různé verze, např. grafická prostředí nebo delší podpora
 Třetí odstavec: kdo je autorem a vývojářem distribuce
 Seznam odkazů: web české komunity, české fórum, oficiální stránky, stránka ke stažení (nejlépe v češtině)
-(*) - pro prvních pár nejaktivnější distribucí
+(*) - pro prvních pár nejaktivnějších distribucí
 -->
 
 ## ![]({{ 'img/distribuce/ubuntu-logo.svg' | relative_url }}) Ubuntu
