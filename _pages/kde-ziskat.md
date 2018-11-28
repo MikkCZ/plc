@@ -65,6 +65,8 @@ Distribuce **openSUSE** má některé specifické nástroje, které se snaží d
 
 openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervativnější Leap nabízí pravidelně vydávané "velké" verze, kdežto varianta Tumbleweed je aktualizována průběžně.
 
+- [Česká komunita openSUSE](http://www.suseportal.cz/)
+- [Fórum podpory](http://www.suseportal.cz/forum)
 - [Oficiální stránky](https://www.opensuse.org/)
 - [<i></i>{:.fas.fa-download} Stáhnout openSUSE](https://www.opensuse.org/)
 {:.distro-links}
