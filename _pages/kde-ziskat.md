@@ -108,9 +108,17 @@ Debian **vyvíjejí dobrovolníci** a tedy vždy a za všech okolností zůstane
 {:#manjaro}
 **Manjaro** je distribuce založená na Arch Linuxu, který je známý pro svou vyčerpávající dokumentaci [ArchWiki](https://wiki.archlinux.org/) mnohdy použitelnou i pro ostatní linuxové distribuce. Oproti Archu je ale cílem Manjara hlavně **uživatelská přívětivost** a bezproblémové fungování ihned po instalaci.
 
-- [Česká komunita Arch Linuxu](https://arch-linux.cz/)
+- [Česká komunita Manjara](https://www.manjaro.cz/)
 - [Oficiální stránky Manjara](https://manjaro.org/)
 - [<i></i>{:.fas.fa-download} Stáhnout Manjaro](https://manjaro.org/get-manjaro/)
+{:.distro-links}
+
+## ![]({{ 'img/distribuce/sabayon-logo.svg' | relative_url }}) Sabayon
+{:#sabayon}
+**Sabayon** je distribuce založená na Gentoo, na rozdíl od něj je však zaměřená na **uživatelskou přívětivost** a jednoduchou instalaci nového softwaru. Je dostupná ve variantách s prostředími [GNOME][GNOME], [KDE][KDE], [Xfce][Xfce], [MATE][MATE] a [Fluxbox][Fluxbox].
+
+- [Oficiální stránky Sabayonu](https://www.sabayon.org/)
+- [<i></i>{:.fas.fa-download} Stáhnout Sabayon](https://www.sabayon.org/download/)
 {:.distro-links}
 
 ## ![]({{ 'img/distribuce/slax-logo.svg' | relative_url }}) Slax
@@ -137,3 +145,4 @@ Autorem Slaxu je Čech **Tomáš Matějíček** a jako základ používá [Debia
 [Cinnamon]: https://cs.wikipedia.org/wiki/Cinnamon
 [Xfce]: https://xfce.org/
 [MATE]: https://mate-desktop.org/
+[Fluxbox]: http://fluxbox.org/
