@@ -1,6 +1,6 @@
 # Proč.Linux.cz
 
-[![Build Status](https://travis-ci.org/MikkCZ/proc-linux-cz.svg?branch=master)](https://travis-ci.org/MikkCZ/proc-linux-cz)
+[![Build Status](https://travis-ci.com/MikkCZ/proc-linux-cz.svg?branch=master)](https://travis-ci.com/MikkCZ/proc-linux-cz)
 
 Repositář pro web proc.linux.cz. Web používá generátor statických stránek [Jekyll](https://jekyllrb.com/).
 
