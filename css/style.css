@@ -180,6 +180,42 @@ pre {
   font-weight: bolder;
 }
 
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary :first-child::before {
+  display: inline;
+  padding-right: 0.5em;
+  color: black;
+}
+
+details:not([open]) > summary :first-child::before {
+  content: '+';
+}
+
+details[open] > summary :first-child::before {
+  content: '−';
+}
+
+details[open] {
+  animation-name: highlightDetails;
+  animation-duration: 0.6s;
+}
+
+@keyframes highlightDetails {
+  50% {
+    background-color: #f3cc0b;
+  }
+  to {
+    background-color: initial;
+  }
+}
+
 .fa-download {
   color: green;
 }

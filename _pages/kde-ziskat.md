@@ -6,6 +6,8 @@ redirect_from:
   - kde-ziskat.html
   - chci-vyzkouset.html
 layout: default
+scripts:
+  - distro-details.js
 ---
 * TOC
 {:toc .icons-flex}
@@ -95,7 +97,7 @@ openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervati
 %}
 
 {% include distro.html
-  id=''
+  id='linux-mint'
   name='Linux Mint'
   logo='linux-mint-logo.svg'
   screenshot_preview='linuxmint_t.png' screenshot_full='linuxmint.png'

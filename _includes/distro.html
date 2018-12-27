@@ -1,7 +1,9 @@
-<section id="{{ include.id }}" markdown="1">
+<details>
 
+<summary markdown="1">
 ## ![]({{ 'img/distribuce/' | append: include.logo | relative_url }}) {{ include.name }}
 {:#{{ include.id }}}
+</summary>
 
 <div>
   {% if include.screenshot_preview %}
@@ -18,4 +20,4 @@
   </ul>
 </div>
 
-</section>
+</details>
