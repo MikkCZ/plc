@@ -85,8 +85,15 @@ h3 {
   color: black;
 }
 
-h2 {
+h2,
+details:not([open]) > summary,
+details[open] {
   border-bottom: 1px solid black;
+}
+
+details > summary h2 {
+  margin: 0;
+  border: 0;
 }
 
 h2 img {
@@ -188,18 +195,44 @@ details > summary::-webkit-details-marker {
   display: none;
 }
 
-details > summary :first-child::before {
+details > summary h2::before {
   display: inline;
   padding-right: 0.5em;
   color: black;
 }
 
-details:not([open]) > summary :first-child::before {
+details:not([open]) > summary h2::before {
   content: '+';
 }
 
-details[open] > summary :first-child::before {
+details[open] > summary h2::before {
   content: '−';
+}
+
+details > summary {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+details > summary .badges {
+  list-style-type: none;
+  margin: 0;
+}
+
+details > summary .badges li {
+  display: inline;
+}
+
+details > summary .badges li:not(:last-child) {
+  margin-right: 0.2em;
+}
+
+details > summary .badges li * {
+  max-height: 1em;
+  font-size: 1em;
+  vertical-align: middle;
 }
 
 details[open] {
@@ -234,6 +267,11 @@ details[open] {
   display: inline;
   content: '|';
   padding-left: 0.25em;
+}
+
+.distro-links .fas:not(.fa-download),
+.distro-links .far:not(.fa-download) {
+  color: #555;
 }
 
 .distro-screenshot {

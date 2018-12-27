@@ -1,8 +1,15 @@
 <details>
 
-<summary markdown="1">
+<summary>
+<div class="headline" markdown="1">
 ## ![]({{ 'img/distribuce/' | append: include.logo | relative_url }}) {{ include.name }}
 {:#{{ include.id }}}
+</div>
+
+<ul class="badges">
+  {% if include.beginner == 'true' %}<li><i class="fas fa-user-check badge" title="vhodné i pro běžné uživatele začátečníky"></i></li>{% endif %}
+  {% if include.czech == 'true' %}<li><img src="{{ 'img/layout/czech-flag.svg' | relative_url }}" style="border: 1px solid black" class="badge" title="v češtině" alt="cs" /></li>{% endif %}
+</ul>
 </summary>
 
 <div>
@@ -13,9 +20,9 @@
   {% endif %}
   {{ include.text | markdownify }}
   <ul class="distro-links">
-    {% if include.community %}<li><a href="{{ include.community_link }}">{{ include.community }}</a></li>{% endif %}
-    {% if include.support %}<li><a href="{{ include.support_link }}">{{ include.support }}</a></li>{% endif %}
-    {% if include.website %}<li><a href="{{ include.website_link }}">{{ include.website }}</a></li>{% endif %}
+    {% if include.community %}<li><a href="{{ include.community_link }}"><i class="fas fa-users"></i> {{ include.community }}</a></li>{% endif %}
+    {% if include.support %}<li><a href="{{ include.support_link }}"><i class="far fa-life-ring"></i> {{ include.support }}</a></li>{% endif %}
+    {% if include.website %}<li><a href="{{ include.website_link }}"><i class="fas fa-globe"></i> {{ include.website }}</a></li>{% endif %}
     {% if include.download %}<li><a href="{{ include.download_link }}"><i class="fas fa-download"></i> {{ include.download }}</a></li>{% endif %}
   </ul>
 </div>
