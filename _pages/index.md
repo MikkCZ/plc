@@ -23,7 +23,7 @@ Za Linuxem stojí mnoho vývojářů, firem i spokojených uživatelů. A pokud 
 {:.icons-flex}
 - [<i class="fas fa-user-check"></i> Snadné ovládání]({{ site.baseurl }}{% link _pages/proc.md %}#ovladatelny)
 - [<i class="fas fa-wrench"></i> Jednoduché nastavení]({{ site.baseurl }}{% link _pages/proc.md %}#ovladatelny)
-- [<i class="fas fa-users"></i> Vždy dostupná pomoc]({{ site.baseurl }}{% link _pages/proc.md %}#podpora)
+- [<i class="far fa-life-ring"></i> Vždy dostupná pomoc]({{ site.baseurl }}{% link _pages/proc.md %}#podpora)
 - [<i class="fas fa-grin-alt"></i> Prostě pro vás]({{ site.baseurl }}{% link _pages/kde-ziskat.md %})
 
 ### Jak si Linux vyzkoušet

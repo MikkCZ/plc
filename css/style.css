@@ -189,7 +189,13 @@ pre {
   padding: 1.5em 0;
 }
 
+.icons-flex.wider li {
+  min-width: 114px;
+  margin: 0 3px;
+}
+
 .icons-flex .fas,
+.icons-flex .far,
 .icons-flex .fab,
 .icons-flex img {
   display: block;
