@@ -35,6 +35,8 @@ Seznam odkazů: web české komunity, české fórum, oficiální stránky, str�
   id=''
   name=''
   logo=''
+  czech=''
+  beginner=''
   screenshot_preview='' screenshot_full=''
   text='
 
@@ -50,6 +52,8 @@ Seznam odkazů: web české komunity, české fórum, oficiální stránky, str�
   id='ubuntu'
   name='Ubuntu'
   logo='ubuntu-logo.svg'
+  czech='true'
+  beginner='true'
   screenshot_preview='ubuntu_t.png' screenshot_full='ubuntu.png'
   text='
 **Ubuntu** je postaveno na spolehlivém základě po mnoho let vyvíjené distribuce [Debian](#debian). Cílem Ubuntu je přiblížit Linux uživatelům **pro běžné použití** na osobních počítačích. Ubuntu vychází ve dvou verzích - stabilnější LTS s delším obdobím podpory, a běžné verze s rychlejším přidáváním nových funkcí. Novým uživatelům doporučujeme verzi LTS.
@@ -68,6 +72,8 @@ Vývoj Ubuntu zajišťuje komerční společnost **Canonical**. V rámci této a
   id='fedora'
   name='Fedora'
   logo='fedora-logo.svg'
+  czech='true'
+  beginner='true'
   screenshot_preview='fedora_t.png' screenshot_full='fedora.png'
   text='
   **Fedora** je progresivní distribuce, která vznikla jako nekomerční odnož Red Hat Linuxu. Fedora je známa svou pokrokovostí a zpravidla přináší v každé verzi několik zásadních novinek. Je znatelně zaměřená na **používání běžnými uživateli** na osobních počítačích a laptopech.
@@ -86,6 +92,8 @@ Vývoj Ubuntu zajišťuje komerční společnost **Canonical**. V rámci této a
   id='suse'
   name='openSUSE'
   logo='opensuse-logo.svg'
+  czech='true'
+  beginner='true'
   screenshot_preview='opensuse_t.png' screenshot_full='opensuse.png'
   text='
 Distribuce **openSUSE** má některé specifické nástroje, které se snaží distribuci co nejvíce zpřístupnit **běžným uživatelům osobních počítačů**. Kromě openSUSE je dostupná také komerční varianta SUSE Linux Enterprise.
@@ -100,6 +108,8 @@ openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervati
   id='linux-mint'
   name='Linux Mint'
   logo='linux-mint-logo.svg'
+  czech='true'
+  beginner='true'
   screenshot_preview='linuxmint_t.png' screenshot_full='linuxmint.png'
   text='
 **Linux Mint** je distribuce založená na [Ubuntu](#ubuntu). Liší se grafickým uspořádáním plochy a uživatelského rozhraní a má také vlastní sadu systémových nástrojů a aplikací.
@@ -116,6 +126,7 @@ Mint používá prostředí [Cinnamon](https://cs.wikipedia.org/wiki/Cinnamon), 
   id='mageia'
   name='Mageia'
   logo='mageia-logo.svg'
+  czech='true'
   text='
 **Mageia** je pokračováním distribuce Mandriva, dříve Mandrake Linux. Je vyvíjena komunitou vývojářů za podpory vlastní neziskové organizace.
   '
@@ -129,6 +140,7 @@ Mint používá prostředí [Cinnamon](https://cs.wikipedia.org/wiki/Cinnamon), 
   id='debian'
   name='Debian'
   logo='debian-logo.svg'
+  czech='true'
   text='
 **Debian** je jedna z velmi dlouho vyvíjených distribucí, zcela vycházející z myšlenky <abbr title="GNU is Not Unix">GNU</abbr> a open source. Debian je rozsáhlý a komplexní celek s univerzálním použitím, ale **není úplně vhodný pro začátečníky**. Má tři větve - otestovanou *stable (stabilní)*, *testing (testovací)* a zcela neodzkoušenou *unstable (nestabilní)*.
 
@@ -144,6 +156,7 @@ Debian **vyvíjejí dobrovolníci** a tedy vždy a za všech okolností zůstane
   id='manjaro'
   name='Manjaro'
   logo='manjaro-logo.svg'
+  czech='true'
   text='
 **Manjaro** je distribuce založená na Arch Linuxu, který je známý pro svou vyčerpávající dokumentaci [ArchWiki](https://wiki.archlinux.org/) mnohdy použitelnou i pro ostatní linuxové distribuce. Oproti Archu je ale cílem Manjara hlavně **uživatelská přívětivost** a bezproblémové fungování ihned po instalaci.
   '
@@ -156,6 +169,7 @@ Debian **vyvíjejí dobrovolníci** a tedy vždy a za všech okolností zůstane
   id='sabayon'
   name='Sabayon'
   logo='sabayon-logo.svg'
+  czech='true'
   text='
 **Sabayon** je distribuce založená na Gentoo, na rozdíl od něj je však zaměřená na **uživatelskou přívětivost** a jednoduchou instalaci nového softwaru. Je dostupná ve variantách s prostředími [GNOME](https://www.gnome.org/), [KDE](https://www.kde.org/), [Xfce](https://xfce.org/), [MATE](https://mate-desktop.org/) a [Fluxbox](http://fluxbox.org/).
   '
@@ -180,6 +194,7 @@ Autorem Slaxu je Čech **Tomáš Matějíček** a jako základ používá [Debia
   id='tails'
   name='Tails'
   logo='tails-logo.svg'
+  czech='true'
   text='
 **Tails** je live distribuce s rozhraním [GNOME](https://www.gnome.org/) zaměřená na **bezpečnost, soukromí a anonymitu**. Všechna síťová spojení procházejí přes síť Tor a jakákoliv neanonymní připojení jsou blokována. Funguje jako "kapesní" Linux z USB flash disku a do počítače neukládá žádná data. Ukládání dat lze nastavit na flash disk včetně jejich šifrování. Jako základ používá [Debian](#debian).
   '
