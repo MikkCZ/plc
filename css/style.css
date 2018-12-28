@@ -259,12 +259,13 @@ details > summary .badges li * {
   vertical-align: middle;
 }
 
-details[open] {
-  animation-name: highlightDetails;
+details[open],
+.highlight {
+  animation-name: highlightTarget;
   animation-duration: 0.6s;
 }
 
-@keyframes highlightDetails {
+@keyframes highlightTarget {
   50% {
     background-color: #f3cc0b;
   }

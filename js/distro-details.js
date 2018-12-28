@@ -22,7 +22,7 @@ function openThisOrParentDetails(element) {
 function openFragmentDetails() {
   const fragment = window.location.hash;
   if (fragment.length > 0) {
-    return openThisOrParentDetails(document.querySelector(window.location.hash));
+    return openThisOrParentDetails(document.querySelector(decodeURIComponent(window.location.hash)));
   } else {
     return false;
   }
