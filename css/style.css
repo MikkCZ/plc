@@ -10,6 +10,12 @@ body {
   margin: 0 auto;
 }
 
+@media (max-width: 1000px) {
+  #wrapper {
+    padding: 0 1em;
+  }
+}
+
 #wrapper.no-title {
   padding-top: 1em;
 }
@@ -45,13 +51,19 @@ header > div {
   align-items: center;
 }
 
-header h1 a::before {
+header h1::before {
   content: '';
   display: inline-block;
   width: 2em;
   height: 1em;
   background-image: url('../img/layout/tux.svg');
   background-size: cover;
+}
+
+@media (max-width: 760px) {
+  header h1::before {
+    display: none;
+  }
 }
 
 header ul {
@@ -131,13 +143,17 @@ pre {
 
 #intro {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
-  margin: 2.5em 0;
+  margin: 0;
+  padding: 0;
 }
 
 #intro li {
-  flex:1;
+  flex: 1;
   text-align: center;
+  min-width: 18em;
+  padding: 2.5em 0;
 }
 
 #intro i {
@@ -152,17 +168,25 @@ pre {
   width: 22%;
 }
 
+@media (max-width: 760px) {
+  #intro {
+    display: none;
+  }
+}
+
 .icons-flex {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
-  padding: 1.5em 0;
+  padding: 0;
 }
 
 .icons-flex li {
-  flex:1;
+  flex: 1;
   text-align: center;
+  min-width: 96px;
+  padding: 1.5em 0;
 }
 
 .icons-flex .fas,
