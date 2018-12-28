@@ -2,8 +2,8 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   [...document.querySelectorAll(`
-    a[href^="http://"]:not([href*="linux.cz"]),
-    a[href^="https://"]:not([href*="linux.cz"])
+    a[href^="http://"]:not([href*="proc.linux.cz"]),
+    a[href^="https://"]:not([href*="proc.linux.cz"])
   `)]
     .forEach(link => {
       link.setAttribute('target', '_blank');
