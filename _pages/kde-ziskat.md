@@ -14,7 +14,7 @@ scripts:
 
 ### Jaký Linux vybrat
 {:.no_toc}
-Operační systém Linux můžete získat v tzv. distribucích. **Distribuce** je předem připravený balík kombinující linuxové jádro, grafické prostředí, nástroje pro ovládání i nejrůznější uživatelské aplikace. Níže jsou distribuce vybrané podle toho, zda se hodí pro začínající uživatele, použití na osobním počítači a laptopu a zda mají aktivní českou komunitu.
+Operační systém Linux můžete získat v tzv. distribucích. **Distribuce** je předem připravený balík kombinující linuxové jádro, grafické prostředí, nástroje pro ovládání i nejrůznější uživatelské aplikace. Níže jsou distribuce vybrané podle toho, jestli se hodí pro začínající uživatele (<i class="fas fa-user-check badge"></i>) použití na osobním počítači a laptopu, zda mají český překlad (<img src="{{ 'img/layout/czech-flag.svg' | relative_url }}" style="border: 1px solid #ddd" class="badge" alt="cs" />) a aktivní českou komunitu.
 
 ### Jak si mohu Linux vyzkoušet
 {:.no_toc}

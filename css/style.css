@@ -259,7 +259,8 @@ details > summary .badges li:not(:last-child) {
   margin-right: 0.2em;
 }
 
-details > summary .badges li * {
+details > summary .badges li *,
+.badge {
   max-height: 1em;
   font-size: 1em;
   vertical-align: middle;
