@@ -129,7 +129,9 @@ Mint používá prostředí [Cinnamon](https://cs.wikipedia.org/wiki/Cinnamon), 
   czech='true'
   beginner='true'
   text='
-**Solus** je distribuce zaměřená na **běžné uživatele** a **jednoduchost použití**. Jako výchozí používá grafické prostředí [Budgie](https://budgie-desktop.org/), jsou však k dispozici i varianty s prostředími [GNOME](https://www.gnome.org/) a [MATE](https://mate-desktop.org/).
+**Solus** je distribuce zaměřená na **běžné uživatele** a **jednoduchost použití**. Přináší například jedinečnou integraci herní platformy [Steam](https://store.steampowered.com/about/), jejíž cílem je zlepšení výkonu ve hrách.
+
+Jako výchozí používá Solus grafické prostředí [Budgie](https://budgie-desktop.org/), jsou však k dispozici i varianty s prostředími [GNOME](https://www.gnome.org/) a [MATE](https://mate-desktop.org/).
   '
   website='Oficiální stránky' website_link='https://getsol.us'
   download='Stáhnout Solus' download_link='https://getsol.us/download/'
