@@ -123,6 +123,21 @@ Mint používá prostředí [Cinnamon](https://cs.wikipedia.org/wiki/Cinnamon), 
 %}
 
 {% include distro.html
+  id='solus'
+  name='Solus'
+  logo='solus-logo.svg'
+  czech='true'
+  beginner='true'
+  text='
+**Solus** je distribuce zaměřená na **běžné uživatele** a **jednoduchost použití**. Přináší například jedinečnou integraci herní platformy [Steam](https://store.steampowered.com/about/), jejíž cílem je zlepšení výkonu ve hrách.
+
+Jako výchozí používá Solus grafické prostředí [Budgie](https://budgie-desktop.org/), jsou však k dispozici i varianty s prostředími [GNOME](https://www.gnome.org/) a [MATE](https://mate-desktop.org/).
+  '
+  website='Oficiální stránky' website_link='https://getsol.us'
+  download='Stáhnout Solus' download_link='https://getsol.us/download/'
+%}
+
+{% include distro.html
   id='mageia'
   name='Mageia'
   logo='mageia-logo.svg'
@@ -163,18 +178,6 @@ Debian **vyvíjejí dobrovolníci** a tedy vždy a za všech okolností zůstane
   community='Česká komunita Manjara' community_link='https://www.manjaro.cz/'
   website='Oficiální stránky' website_link='https://manjaro.org/'
   download='Stáhnout Manjaro' download_link='https://manjaro.org/get-manjaro/'
-%}
-
-{% include distro.html
-  id='sabayon'
-  name='Sabayon'
-  logo='sabayon-logo.svg'
-  czech='true'
-  text='
-**Sabayon** je distribuce založená na Gentoo, na rozdíl od něj je však zaměřená na **uživatelskou přívětivost** a jednoduchou instalaci nového softwaru. Je dostupná ve variantách s prostředími [GNOME](https://www.gnome.org/), [KDE](https://www.kde.org/), [Xfce](https://xfce.org/), [MATE](https://mate-desktop.org/) a [Fluxbox](http://fluxbox.org/).
-  '
-  website='Oficiální stránky' website_link='https://www.sabayon.org/'
-  download='Stáhnout Sabayon' download_link='https://www.sabayon.org/download/'
 %}
 
 {% include distro.html
