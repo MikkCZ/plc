@@ -142,8 +142,12 @@ Jako výchozí používá Solus grafické prostředí [Budgie](https://budgie-de
   name='Mageia'
   logo='mageia-logo.svg'
   czech='true'
+  beginner='true'
+  screenshot_preview='mageia_t.png' screenshot_full='mageia.png'
   text='
-**Mageia** je pokračováním distribuce Mandriva, dříve Mandrake Linux. Je vyvíjena komunitou vývojářů za podpory vlastní neziskové organizace.
+**Mageia** je úspěšným pokračováním distribuce Mandriva, dříve Mandrake Linux. Je vyvíjena komunitou vývojářů za podpory vlastní neziskové organizace. Je vhodná jak pro Linuxové **začátečníky**, tak **zkušené** profesionály.
+
+  **Náš úkol:** tvořit pro lidi úžasné nástroje.
   '
   community='Česká komunita Mageia Linuxu' community_link='https://mageia.cz/'
   support='Fórum podpory' support_link='https://forum.mageia.cz/'
