@@ -65,7 +65,7 @@ Vývoj Ubuntu zajišťuje komerční společnost **Canonical**. V rámci této a
   community='Česká komunita Ubuntu' community_link='https://www.ubuntu.cz/'
   support='Fórum podpory' support_link='http://forum.ubuntu.cz/'
   website='Oficiální stránky' website_link='https://www.ubuntu.com/'
-  download='Stáhnout Ubuntu' download_link='https://www.ubuntu.cz/ziskejte/stahnout'
+  download='Stáhnout Ubuntu' download_link='https://www.ubuntu.cz/ziskat-ubuntu/'
 %}
 
 {% include distro.html
