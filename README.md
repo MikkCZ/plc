@@ -16,7 +16,7 @@ Obsah všech stránek je v adresáři `_pages` a je psaný v Markdownu. Jako jeh
 - [Syntax | kramdown](https://kramdown.gettalong.org/syntax.html)
 
 ### Příprava
-Abyste byli schopni spustit níže uvedené příkazy, je nutné mít nainstalovaný [Ruby](https://www.ruby-lang.org/en/documentation/installation/) a [Bundler](https://bundler.io/#getting-started).
+Abyste byli schopni spustit níže uvedené příkazy, je nutné mít nainstalované [Ruby](https://www.ruby-lang.org/en/documentation/installation/) a [Bundler](https://bundler.io/#getting-started).
 
 Před prvním zobrazením (nebo po změně souboru `Gemfile`) je potřeba stáhnout potřebné závislosti.
 ```
