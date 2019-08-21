@@ -18,7 +18,7 @@ Na této stránce shromažďujeme odpovědi na otázky, které se často vyskytu
 - *[GNU/Linux](https://cs.wikipedia.org/wiki/Linux)* je správné označení pro svobodný operační systém založený na linuxovém jádru a tvořený svobodnými programy s otevřeným zdrojovým kódem. Běžně se ale setkáte s jeho označením jenom jako *Linux*.
 
 ### Kde se Linux nejvíce odlišuje?
-Základy Linuxu jsou zcela jiné, než na jakých stojí MS Windows. Linux se vyvinul jako systém [unixového](https://cs.wikipedia.org/wiki/Unix) typu a proto je jeho ovládání a chování v některých směrech odlišné. Podstatou je ale možnost jeho přizpůsobení, a to jak vzhledem, tak chováním. Pokud se vám vaše linuxová distribuce nelíbí, požádejte o pomoc s nastavením na jejím fóru podpory nebo se [podívejte po jiné]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
+Základy Linuxu jsou zcela jiné, než na jakých stojí MS Windows. Linux se vyvinul jako systém [unixového](https://cs.wikipedia.org/wiki/Unix) typu a proto je jeho ovládání a chování v některých směrech odlišné. Podstatou je ale možnost jeho přizpůsobení, a to jak vzhledem, tak chováním. Pokud se vám vaše linuxová distribuce nelíbí, požádejte o pomoc s nastavením na jejím fóru podpory nebo se [podívejte po jiné]({% link _pages/kde-ziskat.md %}).
 
 ### Co je to distribuce?
 Linuxová distribuce je soubor programů vybraných tak, aby spolu tvořily funkční celek. Tedy samotné linuxové jádro a k němu přidané grafické prostředí a nejrůznější aplikace a nástroje pro správu počítače, přístup k internetu, práci s dokumenty, hudbou a tak dále. Většinou distribuce obsahují stovky až tisíce programů a bývá dobrým zvykem, že si jako uživatel může vybrat z několika různých programů, které mohou zastat stejnou práci.
@@ -37,10 +37,10 @@ Placené distribuce Linuxu obsahují nějakou přidanou hodnotu. U Linuxu je zvy
 Většinu distribucí můžete používat na libovolném množství počítačů. Dokonce mohou být spuštěny zároveň. U placených distribucí je potřeba si předem přečíst licenční smlouvu a zeptat se prodejce.
 
 ### Mohu Linux používat ve firmě?
-Ano, Linux můžete používat ve firmě. Pro firemní server je dobré zakoupit nějakou placenou komerční distribuci se zárukou aktualizací a podporou pro případ problémů, a na počítače zaměstnanců nainstalovat [uživatelsky přívětivou distribuci]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}).
+Ano, Linux můžete používat ve firmě. Pro firemní server je dobré zakoupit nějakou placenou komerční distribuci se zárukou aktualizací a podporou pro případ problémů, a na počítače zaměstnanců nainstalovat [uživatelsky přívětivou distribuci]({% link _pages/kde-ziskat.md %}).
 
 ### Jak mám Linux stáhnout a nainstalovat?
-U každé z [vybraných distribucí]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}) najdete odkaz na stránku s popisem jejího stažení a instalace. Nejlepší je sáhnout po nejnovější verzi označené nejvyšším číslem. Pokud máte počítač s procesorem Intel nebo AMD, hledejte verzi pro *x86_64* (pokud máte opravdu starý počítač, tak *x86*).
+U každé z [vybraných distribucí]({% link _pages/kde-ziskat.md %}) najdete odkaz na stránku s popisem jejího stažení a instalace. Nejlepší je sáhnout po nejnovější verzi označené nejvyšším číslem. Pokud máte počítač s procesorem Intel nebo AMD, hledejte verzi pro *x86_64* (pokud máte opravdu starý počítač, tak *x86*).
 
 Z nabízených souborů je potřeba stáhnout ten s příponou *.iso*. *.iso* soubory jsou obrazy CD/DVD a stačí je správným způsobem vypálit, nebo pomocí nástrojů k tomu určených zapsat na USB flash disk. Na CD/DVD se *.iso* nevypalují jako běžný soubor, ale jako celý obraz (image). Pokud si postupem nejste jisti, můžete připravené médium zakoupit v e-shopu [LinuxMarket](https://www.linuxmarket.cz/instalacni-media).
 
@@ -49,12 +49,12 @@ Jakmile máte CD/DVD vypáleno nebo USB flash disk zapsaný, vložte ho do poč�
 Pokud se vám Linux zalíbí a rozhodnete se pro instalaci, nezapomeňte si předem **zazálohovat svá data a nainstalované programy**. Pokud ne, počítač vypněte, vyjměte z něj DVD nebo USB disk, a znovu ho zapněte jako to děláte normálně.
 
 ### Jak přejdu na Linux?
-Při přechodu na Linux není třeba za sebou pálit mosty. Zkuste si Linux nainstalovat na volný disk, nebo prostě pro jistotu zkuste jen ["živou" verzi spustitelnou z CD nebo flash disku]({{ site.baseurl }}{% link _pages/kde-ziskat.md %}). Můžete Linux také vyzkoušet ve virtuálním počítači, například pomocí programu [VirtualBox](https://www.virtualbox.org/).
+Při přechodu na Linux není třeba za sebou pálit mosty. Zkuste si Linux nainstalovat na volný disk, nebo prostě pro jistotu zkuste jen ["živou" verzi spustitelnou z CD nebo flash disku]({% link _pages/kde-ziskat.md %}). Můžete Linux také vyzkoušet ve virtuálním počítači, například pomocí programu [VirtualBox](https://www.virtualbox.org/).
 
 Vyzkoušejte si, zda vám aplikace v Linuxu vyhovují. Podívejte se i po aplikacích, které vám třeba pro stávající systém chybí nebo jsou jen placené.
 
 ### Jak najdu náhradu za své programy?
-Pokud postrádáte v Linuxu některé aplikace ze stávajícího systému a ještě jste nenašli [odpovídající náhradu v našem seznamu]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}), zeptejte se na nějakém fóru své distribuce. Pokud ani tam nepochodíte, můžete zkusit použít program [Wine](https://www.winehq.org/). Wine umožňuje **spouštět některé aplikace z MS Windows** i pod Linuxem.
+Pokud postrádáte v Linuxu některé aplikace ze stávajícího systému a ještě jste nenašli [odpovídající náhradu v našem seznamu]({% link _pages/ekvivalenty.md %}), zeptejte se na nějakém fóru své distribuce. Pokud ani tam nepochodíte, můžete zkusit použít program [Wine](https://www.winehq.org/). Wine umožňuje **spouštět některé aplikace z MS Windows** i pod Linuxem.
 
 Další možností je použít tzv. **virtuální počítač**. Můžete k tomu použít např. [Qemu](https://www.qemu.org/) nebo [VirtualBox](https://www.virtualbox.org/) a v něm si váš dosavadní systém nainstalovat a provozovat aplikace, pro které nemáte náhradu.
 

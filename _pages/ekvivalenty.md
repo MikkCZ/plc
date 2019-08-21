@@ -192,7 +192,7 @@ Než začnete vyhledávat aplikaci přímo na jejích stránkách, přesvědčte
 
 ### z MS Windows do Linuxu
 
-Při přechodu na Linux můžete snadno převést data profilů některých aplikací. Převod je nejsnadnější u aplikací, které jsou tzv. multiplatformní. To znamená, že fungují na více operačních systémech. Také si u nich nemusíte zvykat na nové uživatelské rozhraní nebo hledat potřebné funkce. Které to jsou můžete zjistit v [tabulce ekvivalentních aplikací]({{ site.baseurl }}{% link _pages/ekvivalenty.md %}).
+Při přechodu na Linux můžete snadno převést data profilů některých aplikací. Převod je nejsnadnější u aplikací, které jsou tzv. multiplatformní. To znamená, že fungují na více operačních systémech. Také si u nich nemusíte zvykat na nové uživatelské rozhraní nebo hledat potřebné funkce. Které to jsou můžete zjistit v [tabulce ekvivalentních aplikací]({% link _pages/ekvivalenty.md %}).
 
 Příkladem takových multiplatformních aplikací je webový prohlížeč Mozilla Firefox nebo poštovní klient Mozilla Thunderbird. Odkazy na návody k přenosu jejich dat uvádíme níže.
 

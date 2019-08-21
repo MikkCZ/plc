@@ -13,8 +13,6 @@ include: [
     '/_pages',
 ]
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - vendor
   - CNAME
   - README.md

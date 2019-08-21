@@ -4,6 +4,7 @@ bundler_args: --path $HOME/.bundle --with test
 cache:
   directories:
     - $HOME/.bundle
+    - .jekyll-cache
 
 before_script:
  - repo_name=$(echo "$TRAVIS_REPO_SLUG" | cut -d '/' -f 2)
