@@ -128,6 +128,7 @@ Mint používá prostředí [Cinnamon](https://cs.wikipedia.org/wiki/Cinnamon), 
   logo='solus-logo.svg'
   czech='true'
   beginner='true'
+  screenshot_preview='solus_t.png' screenshot_full='solus.png'
   text='
 **Solus** je distribuce zaměřená na **běžné uživatele** a **jednoduchost použití**. Přináší například jedinečnou integraci herní platformy [Steam](https://store.steampowered.com/about/), jejíž cílem je zlepšení výkonu ve hrách.
 
