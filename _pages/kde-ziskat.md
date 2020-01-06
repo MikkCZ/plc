@@ -123,19 +123,19 @@ Mint používá prostředí [Cinnamon](https://cs.wikipedia.org/wiki/Cinnamon), 
 %}
 
 {% include distro.html
-  id='solus'
-  name='Solus'
-  logo='solus-logo.svg'
+  id='elementary'
+  name='elementary OS'
+  logo='elementary-logo.svg'
   czech='true'
   beginner='true'
-  screenshot_preview='solus_t.png' screenshot_full='solus.png'
+  screenshot_preview='elementary_t.png' screenshot_full='elementary.png'
   text='
-**Solus** je distribuce zaměřená na **běžné uživatele** a **jednoduchost použití**. Přináší například jedinečnou integraci herní platformy [Steam](https://store.steampowered.com/about/), jejíž cílem je zlepšení výkonu ve hrách.
+**elementary OS** je distribuce založená na [Ubuntu](#ubuntu) a zaměřená na **běžné uživatele** a **jednoduchost použití**. Cílem této distribuce je intuitivní a nenáročné uživatelské rozhraní, které je vhodné i pro začátečníky.
 
-Jako výchozí používá Solus grafické prostředí [Budgie](https://budgie-desktop.org/), jsou však k dispozici i varianty s prostředími [GNOME](https://www.gnome.org/) a [MATE](https://mate-desktop.org/).
+elementary OS používá vlastní grafické prostředí Pantheon.
   '
-  website='Oficiální stránky' website_link='https://getsol.us'
-  download='Stáhnout Solus' download_link='https://getsol.us/download/'
+  website='Oficiální stránky' website_link='https://elementary.io/'
+  download='Stáhnout elementary OS' download_link='https://elementary.io/'
 %}
 
 {% include distro.html
