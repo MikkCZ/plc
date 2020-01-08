@@ -158,7 +158,7 @@ Alternativ je ale v prostředí Linuxu velmi mnoho, takže pokud si ze seznamu n
 | Popis programu | MS Windows | GNU/Linux |
 | --- |
 | Virtualizační nástroje | [Oracle VM VirtualBox](https://www.virtualbox.org/){:.mp} <br> [VMWare](https://www.vmware.com/){:.mp} | [Oracle VM VirtualBox](https://www.virtualbox.org/){:.mp} <br> [VMWare](https://www.vmware.com/){:.mp} [Prop] <br> [KVM](https://www.linux-kvm.org/) <br> [QEMU](https://www.qemu.org/){:.mp} <br> [Gnome Boxy](https://help.gnome.org/users/gnome-boxes/stable/) |
-| Windows emulátor | - | [Wine](https://www.winehq.org/) <br> [PlayOnLinux](https://www.playonlinux.com/) |
+| Windows emulátor | - | [Wine](https://www.winehq.org/) <br> [PlayOnLinux](https://www.playonlinux.com/) <br> [Lutris](https://lutris.net/) |
 | DOS emulátor | [DOSBox](https://www.dosbox.com/){:.mp} | [DOSBox](https://www.dosbox.com/){:.mp} |
 | Sony PlayStation emulátor | [ePSXe](http://www.epsxe.com/) | [ePSXe](http://www.epsxe.com/) <br> [Pcsx](http://www.pcsx.net/) |
 | ZX Spectrum emulátor | [seznam](https://www.worldofspectrum.org/emulators.html) | [seznam](https://www.worldofspectrum.org/emulators.html) |
