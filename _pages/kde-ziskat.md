@@ -69,6 +69,24 @@ Vývoj Ubuntu zajišťuje komerční společnost **Canonical**. V rámci této a
 %}
 
 {% include distro.html
+  id='linux-mint'
+  name='Linux Mint'
+  logo='linux-mint-logo.svg'
+  czech='true'
+  beginner='true'
+  screenshot_preview='linuxmint_t.png' screenshot_full='linuxmint.png'
+  text='
+**Linux Mint** je distribuce založená na [Ubuntu](#ubuntu). Liší se grafickým uspořádáním plochy a uživatelského rozhraní a má také vlastní sadu systémových nástrojů a aplikací.
+
+Mint používá prostředí [Cinnamon](https://cs.wikipedia.org/wiki/Cinnamon), jsou však k dispozici i varianty s prostředími [MATE](https://mate-desktop.org/) a [Xfce](https://xfce.org/).
+  '
+  community='Česká komunita Mintu' community_link='https://www.linux-mint-czech.cz/'
+  support='Fórum podpory' support_link='https://forum.linux-mint-czech.cz/'
+  website='Oficiální stránky' website_link='https://www.linuxmint.com/'
+  download='Stáhnout Linux Mint' download_link='https://www.linux-mint-czech.cz/ke-stazeni/'
+%}
+
+{% include distro.html
   id='fedora'
   name='Fedora'
   logo='fedora-logo.svg'
@@ -102,24 +120,6 @@ openSUSE je dostupné ve dvou variantách vydávání nových verzí. Konzervati
   '
   website='Oficiální stránky' website_link='https://www.opensuse.org/'
   download='Stáhnout openSUSE' download_link='https://www.opensuse.org/'
-%}
-
-{% include distro.html
-  id='linux-mint'
-  name='Linux Mint'
-  logo='linux-mint-logo.svg'
-  czech='true'
-  beginner='true'
-  screenshot_preview='linuxmint_t.png' screenshot_full='linuxmint.png'
-  text='
-**Linux Mint** je distribuce založená na [Ubuntu](#ubuntu). Liší se grafickým uspořádáním plochy a uživatelského rozhraní a má také vlastní sadu systémových nástrojů a aplikací.
-
-Mint používá prostředí [Cinnamon](https://cs.wikipedia.org/wiki/Cinnamon), jsou však k dispozici i varianty s prostředími [MATE](https://mate-desktop.org/) a [Xfce](https://xfce.org/).
-  '
-  community='Česká komunita Mintu' community_link='https://www.linux-mint-czech.cz/'
-  support='Fórum podpory' support_link='https://forum.linux-mint-czech.cz/'
-  website='Oficiální stránky' website_link='https://www.linuxmint.com/'
-  download='Stáhnout Linux Mint' download_link='https://www.linux-mint-czech.cz/ke-stazeni/'
 %}
 
 {% include distro.html
