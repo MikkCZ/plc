@@ -166,7 +166,7 @@ elementary OS používá vlastní grafické prostředí Pantheon.
 
 Debian **vyvíjejí dobrovolníci** a tedy vždy a za všech okolností zůstane svobodným softwarem.
   '
-  community='Česká komunita Debianu' community_link='https://www.debian.cz/'
+  community='Česká komunita Debianu' community_link='https://www.debian-linux.cz/'
   support='Podpora' support_link='https://www.debian.org/support'
   website='Oficiální stránky' website_link='https://www.debian.org/'
   download='Stáhnout Debian' download_link='https://www.debian.org/distrib/'
