@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+      <loc>/proc-linux-cz/ekvivalenty/</loc>
+      <lastmod>2020-01-12T09:42:34+00:00</lastmod>
+    </url>
+    <url>
+      <loc>/proc-linux-cz/</loc>
+      <lastmod>2019-08-21T17:03:41+00:00</lastmod>
+    </url>
+    <url>
+      <loc>/proc-linux-cz/kde-ziskat/</loc>
+      <lastmod>2020-05-08T16:59:48+00:00</lastmod>
+    </url>
+    <url>
+      <loc>/proc-linux-cz/odpovedi/</loc>
+      <lastmod>2019-08-21T17:03:41+00:00</lastmod>
+    </url>
+    <url>
+      <loc>/proc-linux-cz/proc/</loc>
+      <lastmod>2019-08-21T17:03:41+00:00</lastmod>
+    </url>
+    <url>
+      <loc>/proc-linux-cz/propagace/</loc>
+      <lastmod>2018-11-23T19:24:56+00:00</lastmod>
+    </url>
+  </urlset>

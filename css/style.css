@@ -1,0 +1,344 @@
+body {
+  margin: 0px;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  position: relative;
+}
+
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+  #wrapper {
+    padding: 0 1em;
+  }
+}
+
+#wrapper.no-title {
+  padding-top: 1em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a[href^="http://"]:not([href*="proc.linux.cz"]):after,
+a[href^="https://"]:not([href*="proc.linux.cz"]):after {
+  content: "\21D7";
+  vertical-align: super;
+  font-size: 0.8em;
+}
+
+/** HEADER **/
+
+header {
+  background-color: #f3cc0b;
+}
+
+header {
+  border-bottom: 1px solid black;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1::before {
+  content: '';
+  display: inline-block;
+  width: 2em;
+  height: 1em;
+  background-image: url('../img/layout/tux.svg');
+  background-size: cover;
+}
+
+@media (max-width: 760px) {
+  header h1::before {
+    display: none;
+  }
+}
+
+header ul {
+  list-style-type: none;
+  font-size: 1.3em;
+}
+
+header li {
+  display: inline;
+}
+
+header a {
+  color: #ac0000;
+}
+
+header li:not(:last-child)::after {
+  display: inline;
+  content: '|';
+  padding-left: 0.25em;
+}
+
+/** MAIN content **/
+
+main {
+  color: #555;
+}
+
+h1,
+h2,
+h3 {
+  color: black;
+}
+
+h2,
+details:not([open]) > summary,
+details[open] {
+  border-bottom: 1px solid black;
+}
+
+details > summary h2 {
+  margin: 0;
+  border: 0;
+}
+
+h2 img {
+  max-width: 1em;
+  max-height: 0.8em;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+table,
+th,
+tr {
+  border: 1px solid lightgrey;
+}
+
+th {
+  background-color: #f3cc0b;
+  font-size: 1.1em;
+}
+
+td {
+  padding: 0.3em;
+  vertical-align: top;
+}
+
+pre {
+  padding: 0.5em;
+  border: 1px solid grey;
+  background-color: lightgrey;
+}
+
+#intro {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#intro li {
+  flex: 1;
+  text-align: center;
+  min-width: 18em;
+  padding: 2.5em 0;
+}
+
+#intro i {
+  position: relative;
+  font-size: 8em;
+}
+
+#intro img {
+  position: absolute;
+  top: 25%;
+  left: 39%;
+  width: 22%;
+}
+
+@media (max-width: 760px) {
+  #intro {
+    display: none;
+  }
+}
+
+.icons-flex {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.icons-flex li {
+  flex: 1;
+  text-align: center;
+  min-width: 96px;
+  padding: 1.5em 0;
+}
+
+.icons-flex.wider li {
+  min-width: 114px;
+  margin: 0 3px;
+}
+
+.icons-flex .fas,
+.icons-flex .far,
+.icons-flex .fab,
+.icons-flex img {
+  display: block;
+  font-size: 3em;
+  margin: 0.3em auto;
+}
+
+.icons-flex img {
+  height: 1em;
+}
+
+.icons-flex a {
+  color: inherit;
+  display: inline-block;
+}
+
+.icons-flex a:hover {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary h2::before {
+  display: inline;
+  padding-right: 0.5em;
+  color: black;
+}
+
+details:not([open]) > summary h2::before {
+  content: '+';
+}
+
+details[open] > summary h2::before {
+  content: '−';
+}
+
+details > summary {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+details > summary .badges {
+  list-style-type: none;
+  margin: 0;
+}
+
+details > summary .badges li {
+  display: inline;
+}
+
+details > summary .badges li:not(:last-child) {
+  margin-right: 0.2em;
+}
+
+details > summary .badges li *,
+.badge {
+  max-height: 1em;
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+details[open],
+.highlight {
+  animation-name: highlightTarget;
+  animation-duration: 0.6s;
+}
+
+@keyframes highlightTarget {
+  50% {
+    background-color: #f3cc0b;
+  }
+  to {
+    background-color: initial;
+  }
+}
+
+.fa-download {
+  color: green;
+}
+
+.distro-links {
+  text-align: right;
+  list-style-type: none;
+  clear: both;
+}
+
+.distro-links li {
+  display: inline;
+}
+
+.distro-links li:not(:last-child)::after {
+  display: inline;
+  content: '|';
+  padding-left: 0.25em;
+}
+
+.distro-links .fas:not(.fa-download),
+.distro-links .far:not(.fa-download) {
+  color: #555;
+}
+
+.distro-screenshot {
+  float: right;
+  margin: 0 0 0.5em 0.5em;
+}
+
+.mp {
+  background-color: lightgrey;
+}
+
+.inline-nav {
+  list-style-type: none;
+  padding: 0.5em;
+  background-color: #f3cc0b;
+  border: 1px solid black;
+}
+
+.inline-nav > li:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.inline-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/** FOOTER **/
+
+footer {
+  margin-top: 2em;
+  padding: 1em 0;
+  border-top: 3px solid #f3cc0b;
+  text-align: center;
+  font-size: 0.8em;
+  color: #888;
+}
